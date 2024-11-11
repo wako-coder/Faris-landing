@@ -29,7 +29,7 @@
                 <div class="container">
                     <div class="row align-items-center">
                      
-                        <div class="col-md-7 col-lg-7">
+                        <div class="col-md-8 col-lg-8">
                             <div class="hero-content">
                                 <h6 class="hero-sub-title" data-animation="fadeInUp" data-delay=".25s">Think out of Earth</h6>
                                 <h1 class="hero-title" data-animation="fadeInUp" data-delay=".50s">
@@ -47,11 +47,11 @@
             </div>
             
             <!-- Slide 2 -->
-            <div class="hero-single">
-                <video autoplay loop muted playsinline class="video-background">
+            <div class="hero-single" style="background: url('{{ asset('assets/img/A20I3685.JPG') }}')">
+                {{-- <video autoplay loop muted playsinline class="video-background">
                     <source src="https://videos.pexels.com/video-files/6156511/6156511-hd_1920_1080_24fps.mp4" type="video/mp4">
                     Your browser does not support the video tag.
-                </video>
+                </video> --}}
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-7 col-lg-7">
@@ -74,7 +74,7 @@
             </div>
     
             <!-- Slide 3 -->
-            <div class="hero-single" style="background: url('{{ asset('assets/img/farisrocket.jpg') }}')">
+            <div class="hero-single" style="background: url('{{ asset('assets/img/pixelcut-export.jpeg') }}')">
                 <div class="container">
                     <div class="row align-items-center">
                   <div class="col"></div>
