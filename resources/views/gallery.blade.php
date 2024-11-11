@@ -39,7 +39,7 @@
                 <div class="col-md-4 filter-item cat3 cat4 cat5">
                     <div class="gallery-item">
                         <div class="gallery-img">
-                            <img src="{{ asset('assets/img/Office Photo/A20I3190.JPG') }}" alt>
+                            <img src="{{ asset('assets/img/office Photo/A20I3190.JPG') }}" alt>
                         </div>
                         <div class="gallery-content">
                             <a class="popup-img gallery-link" href="{{ asset('assets/img/Education division/20240903_113119.jpg') }}"><i class="far fa-plus"></i></a>
@@ -52,7 +52,7 @@
                             <img src="{{ asset('assets/img/Education division/photo_2024-08-30_14-39-48.jpg') }}" alt>
                         </div>
                         <div class="gallery-content">
-                            <a class="popup-img gallery-link" href="{{ asset('assets/img/Office Photo/A20I3190 (2).JPG') }}"><i class="far fa-plus"></i></a>
+                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office/photo_2024-08-30_14-39-48.jpg') }}"><i class="far fa-plus"></i></a>
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@
                             <img src="{{ asset('assets/img/Office Photo/A20I3056.JPG') }}" alt>
                         </div>
                         <div class="gallery-content">
-                            <a class="popup-img gallery-link" href="{{ asset('assets/img/Office Photo/Faris .jpg') }}"><i class="far fa-plus"></i></a>
+                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office Photo/Faris .jpg') }}"><i class="far fa-plus"></i></a>
                         </div>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
                             <img src="{{ asset('assets/img/Education division/5.jpg') }}" alt>
                         </div>
                         <div class="gallery-content">
-                            <a class="popup-img gallery-link" href="{{ asset('assets/img/Office Photo/A20I3243 (2).JPG') }}"><i class="far fa-plus"></i></a>
+                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office Photo/A20I3243 (2).JPG') }}"><i class="far fa-plus"></i></a>
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                             <img src="{{ asset('assets/img/Education division/photo_2024-09-09_12-27-55.jpg') }}" alt>
                         </div>
                         <div class="gallery-content">
-                            <a class="popup-img gallery-link" href="{{ asset('assets/img/Office Photo/A20I2614.JPG') }}"><i class="far fa-plus"></i></a>
+                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office Photo/A20I2614.JPG') }}"><i class="far fa-plus"></i></a>
                         </div>
                     </div>
                 </div>
