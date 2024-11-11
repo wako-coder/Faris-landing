@@ -16,8 +16,8 @@
                 <div class="col-md-6 col-lg-6">
                     <div class="site-heading">
                         <span class="site-title-tagline"><i class="fas fa-bring-forward"></i> Services</span>
-                        <h2 class="site-title text-white">Explore Our Best <span>Technology</span> Solutions</h2>
-                        <p class="text-white">
+                        <h2 class="site-title service-text">Explore Our Best <span>Technology</span> Solutions</h2>
+                        <p class="service-text">
                             We offer a wide range of innovative services in web development, app development, AI solutions, and space technology, designed to empower businesses and industries.
                         </p>
                     </div>
