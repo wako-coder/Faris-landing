@@ -18,10 +18,11 @@
     <div class="hero-section">
         <div class="hero-slider owl-carousel owl-theme">
             <!-- Slide 1 -->
-            <div class="hero-single" style="background: url(assets/img/shag.jpg)">
+            <div class="hero-single" style="background: url(assets/img/rocket.jpeg)">
+            {{-- <div class="hero-single" style="background: url(assets/img/shag.jpg)"> --}}
                 <!-- Video background -->
                 {{-- <video autoplay loop muted playsinline class="video-background">
-                    <source src="https://videos.pexels.com/video-files/11041434/11041434-hd_1920_1080_30fps.mp4" type="video/mp4">
+                    <source src="https://videos.pexels.com/video-files/11041434/c:\Users\waqo1\Downloads\Telegram Desktop\Faris Photo\Office Photo\A20I2980.JPG-hd_1920_1080_30fps.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video> --}}
                 
@@ -29,7 +30,7 @@
                 <div class="container">
                     <div class="row align-items-center">
                      
-                        <div class="col-md-8 col-lg-8">
+                        <div class="col-md-7 col-lg-7">
                             <div class="hero-content">
                                 <h6 class="hero-sub-title" data-animation="fadeInUp" data-delay=".25s">Think out of Earth</h6>
                                 <h1 class="hero-title" data-animation="fadeInUp" data-delay=".50s">
@@ -47,7 +48,8 @@
             </div>
             
             <!-- Slide 2 -->
-            <div class="hero-single" style="background: url('{{ asset('assets/img/A20I3685.JPG') }}')">
+            <div class="hero-single" style="background: url('{{ asset('assets/img/A20I3407.JPG') }}')">
+            {{-- <div class="hero-single" style="background: url('{{ asset('assets/img/A20I3685.JPG') }}')"> --}}
                 {{-- <video autoplay loop muted playsinline class="video-background">
                     <source src="https://videos.pexels.com/video-files/6156511/6156511-hd_1920_1080_24fps.mp4" type="video/mp4">
                     Your browser does not support the video tag.
