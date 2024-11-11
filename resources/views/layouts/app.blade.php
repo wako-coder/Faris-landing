@@ -77,7 +77,7 @@
 }
 .hero-single::before{
     /* background: linear-gradient(to bottom right, rgba(0, 39, 57, 0.95) 100%, rgba(0, 0, 0, 0.1) 100%); */
-    /* background: linear-gradient(to bottom right, rgba(0, 39, 57, 0) 0%, rgba(0, 0, 0, 0) 100%); */
+    background: linear-gradient(to bottom right, rgba(0, 39, 57, 0) 0%, rgba(0, 0, 0, 0) 100%);
 
     /* background: #fff; */
 }

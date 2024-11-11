@@ -48,7 +48,9 @@
             </div>
             
             <!-- Slide 2 -->
-            <div class="hero-single" style="background: url('{{ asset('assets/img/A20I3407.JPG') }}')">
+            <div class="hero-single" style="position: relative; background: url('{{ asset('assets/img/A20I3407.JPG') }}') no-repeat center center; background-size: cover;">
+                <div style="content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(to bottom right, rgba(0, 39, 57, 0.95) 0%, rgba(0, 0, 0, 0.1) 100%); z-index: 1;"></div>
+            
             {{-- <div class="hero-single" style="background: url('{{ asset('assets/img/A20I3685.JPG') }}')"> --}}
                 {{-- <video autoplay loop muted playsinline class="video-background">
                     <source src="https://videos.pexels.com/video-files/6156511/6156511-hd_1920_1080_24fps.mp4" type="video/mp4">
