@@ -59,7 +59,7 @@
                 <div class="col-md-4 filter-item cat2 cat3">
                     <div class="gallery-item">
                         <div class="gallery-img">
-                            <img src="{{ asset('assets/img/office/meeting2.JPG') }}" alt>
+                            <img src="{{ asset('assets/img/office/robot.JPG') }}" alt>
                         </div>
                         <div class="gallery-content">
                             <a class="popup-img gallery-link" href="{{ asset('assets/img/office/Faris .jpg') }}"><i class="far fa-plus"></i></a>
