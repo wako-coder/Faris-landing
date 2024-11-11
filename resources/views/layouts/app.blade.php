@@ -9,7 +9,7 @@
     <meta name="description" content>
     <meta name="keywords" content>
 
-    <title>Reparo - Computer And Mobile Repair HTML5 Template</title>
+    <title>FARIS Technology – Better Technology, Better Business.</title>
 
     <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo/WhiteMinilogo.png.webp') }}">
 
@@ -57,11 +57,30 @@
         .owl-carousel .owl-stage-outer {
             overflow: hidden; /* Ensures smooth sliding effect */
         }
+
         :root {
     --theme-color: #27a9dd;
-    --theme-color2: #1D4D72; /* A dark blue that complements the lighter primary blue */
+    --theme-color2: #1D4D72;
+    --color-dark: #00000 /* A dark blue that complements the lighter primary blue */
 }
+.hero-single .hero-content .theme-btn2, {
+    color: black;
+    box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.3);
+}
+ .theme-btn {
+     box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.1);
+    }
+    .hero-content, {
+        
+        color: black;
+    box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.1);
+}
+.hero-single::before{
+    /* background: linear-gradient(to bottom right, rgba(0, 39, 57, 0.95) 100%, rgba(0, 0, 0, 0.1) 100%); */
+    background: linear-gradient(to bottom right, rgba(0, 39, 57, 0) 0%, rgba(0, 0, 0, 0) 100%);
 
+    /* background: #fff; */
+}
     </style>
 </head>
 

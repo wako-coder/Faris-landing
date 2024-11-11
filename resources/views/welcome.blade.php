@@ -18,16 +18,17 @@
     <div class="hero-section">
         <div class="hero-slider owl-carousel owl-theme">
             <!-- Slide 1 -->
-            <div class="hero-single">
+            <div class="hero-single" style="background: url(assets/img/shag.jpg)">
                 <!-- Video background -->
-                <video autoplay loop muted playsinline class="video-background">
+                {{-- <video autoplay loop muted playsinline class="video-background">
                     <source src="https://videos.pexels.com/video-files/11041434/11041434-hd_1920_1080_30fps.mp4" type="video/mp4">
                     Your browser does not support the video tag.
-                </video>
+                </video> --}}
                 
                 <!-- Content container -->
                 <div class="container">
                     <div class="row align-items-center">
+                     
                         <div class="col-md-7 col-lg-7">
                             <div class="hero-content">
                                 <h6 class="hero-sub-title" data-animation="fadeInUp" data-delay=".25s">Think out of Earth</h6>
@@ -37,7 +38,7 @@
                                 <p data-animation="fadeInUp" data-delay=".75s"></p>
                                 <div class="hero-btn" data-animation="fadeInUp" data-delay="1s">
                                     <a href="#" class="theme-btn">About More<i class="fas fa-arrow-right"></i></a>
-                                    <a href="#" class="theme-btn theme-btn2">Learn More<i class="fas fa-arrow-right"></i></a>
+                                    <a href="#" class="theme-btn theme-btn2" style="color: black; box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.1); hover{color:white}">Learn More<i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -73,10 +74,11 @@
             </div>
     
             <!-- Slide 3 -->
-            <div class="hero-single" style="background: url('{{ asset('assets/img/slider/banner.jpg') }}')">
+            <div class="hero-single" style="background: url('{{ asset('assets/img/farisrocket.jpg') }}')">
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="col-md-7 col-lg-7">
+                  <div class="col"></div>
+                        <div class="col-md-8 col-lg-8">
                             <div class="hero-content">
                                 <h6 class="hero-sub-title" data-animation="fadeInUp" data-delay=".25s">Think out of Earth</h6>
                                 <h1 class="hero-title" data-animation="fadeInUp" data-delay=".50s">
@@ -506,11 +508,11 @@
                 <div class="filter-controls wow fadeInUp" data-wow-duration="1s" data-wow-delay=".50s">
                     <ul class="filter-btns">
                         <li class="active" data-filter="*"><i class="far fa-computer-speaker"></i> All</li>
-                        <li data-filter=".cat1"><i class="far fa-mobile"></i> Phone</li>
-                        <li data-filter=".cat2"><i class="far fa-laptop"></i> Computer</li>
-                        <li data-filter=".cat3"><i class="far fa-tv"></i> Tv</li>
-                        <li data-filter=".cat4"><i class="far fa-tablet"></i> Tablet</li>
-                        <li data-filter=".cat5"><i class="far fa-microchip"></i> Gadget</li>
+                        <li data-filter=".cat1"><i class="far fa-mobile"></i> Staff</li>
+                        <li data-filter=".cat2"><i class="far fa-laptop"></i> Services</li>
+                        <li data-filter=".cat3"><i class="far fa-tv"></i> Product</li>
+                        <li data-filter=".cat4"><i class="far fa-tablet"></i> customers</li>
+                        <li data-filter=".cat5"><i class="far fa-microchip"></i> Partners</li>
                     </ul>
                 </div>
             </div>
