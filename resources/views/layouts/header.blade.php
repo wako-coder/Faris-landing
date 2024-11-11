@@ -65,54 +65,11 @@
                     </div>
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">Home</a>
-                                <ul class="dropdown-menu fade-down">
-                                    <li><a class="dropdown-item" href="{{ url('/') }}">Home One</a></li>
-                                    <li><a class="dropdown-item" href="{{ url('/index-2') }}">Home Two</a></li>
-                                    <li><a class="dropdown-item" href="{{ url('/index-3') }}">Home Three</a></li>
-                                </ul>
-                            </li>
+                            <li class="nav-item"><a class="nav-link" href="{{ url('/') }}">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ url('/about') }}">About</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Pages</a>
-                                <ul class="dropdown-menu fade-down">
-                                    <li><a class="dropdown-item" href="{{ url('/about') }}">About Us</a></li>
-                                    <li><a class="dropdown-item" href="{{ url('/team') }}">Our Team</a></li>
-                                    <li><a class="dropdown-item" href="{{ url('/pricing') }}">Pricing Plan</a></li>
-                                    <li><a class="dropdown-item" href="{{ url('/faq') }}">FAQ's</a></li>
-                                    <li><a class="dropdown-item" href="{{ url('/contact') }}">Contact Us</a></li>
-                                    <li><a class="dropdown-item" href="{{ url('/testimonial') }}">Testimonials</a></li>
-                                    <li class="dropdown-submenu">
-                                        <a class="dropdown-item dropdown-toggle" href="#">Account</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="{{ url('/login') }}">Login</a></li>
-                                            <li><a class="dropdown-item" href="{{ url('/register') }}">Register</a></li>
-                                            <li><a class="dropdown-item" href="{{ url('/forgot-password') }}">Forgot Password</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="dropdown-item" href="{{ url('/404') }}">404 Error</a></li>
-                                    <li><a class="dropdown-item" href="{{ url('/coming-soon') }}">Coming Soon</a></li>
-                                    <li><a class="dropdown-item" href="{{ url('/terms') }}">Terms Of Service</a></li>
-                                    <li><a class="dropdown-item" href="{{ url('/privacy') }}">Privacy Policy</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
-                                <ul class="dropdown-menu fade-down">
-                                    <li><a class="dropdown-item" href="{{ url('/service') }}">Services One</a></li>
-                                    <li><a class="dropdown-item" href="{{ url('/service-2') }}">Services Two</a></li>
-                                    <li><a class="dropdown-item" href="{{ url('/service-single') }}">Service Single</a></li>
-                                </ul>
-                            </li>
+                            <li class="nav-item"><a class="nav-link" href="{{ url('/service') }}">Services</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ url('/gallery') }}">Gallery</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Blog</a>
-                                <ul class="dropdown-menu fade-down">
-                                    <li><a class="dropdown-item" href="{{ url('/blog') }}">Blog</a></li>
-                                    <li><a class="dropdown-item" href="{{ url('/blog-single') }}">Blog Single</a></li>
-                                </ul>
-                            </li>
+                            <li class="nav-item"><a class="nav-link" href="{{ url('/gallery') }}">Blog</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ url('/contact') }}">Contact</a></li>
                         </ul>
 
