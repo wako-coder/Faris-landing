@@ -74,9 +74,6 @@
                         </ul>
 
                         <div class="nav-right">
-                            <div class="search-btn">
-                                <button type="button" class="nav-right-link search-box-outer"><i class="far fa-search"></i></button>
-                            </div>
                             <div class="nav-btn">
                                 <a href="{{ url('/contact') }}" class="theme-btn">Let's Talk <i class="fas fa-arrow-right"></i></a>
                             </div>
