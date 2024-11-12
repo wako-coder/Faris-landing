@@ -213,6 +213,7 @@
         </div>
     </div>
 </div>
+
 <div class="service-area sa-bg pt-100 pb-70">
     <div class="container">
         <div class="row">
@@ -232,10 +233,10 @@
                     </div>
                     <div class="service-content">
                         <h3 class="service-title">
-                            <a href="{{ url('/service-single') }}">Custom Web Development</a>
+                            <a href="{{ url('/service-single') }}">ICT & Software Development</a>
                         </h3>
                         <p class="service-text">
-                            We build robust and scalable web solutions to meet the needs of modern businesses.
+                            We deliver robust, innovative web and software solutions to drive business success.
                         </p>
                         <div class="service-arrow">
                             <a href="{{ url('/service-single') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
@@ -250,10 +251,10 @@
                     </div>
                     <div class="service-content">
                         <h3 class="service-title">
-                            <a href="{{ url('/service-single') }}">Mobile App Development</a>
+                            <a href="{{ url('/service-single') }}">Business Process Outsourcing</a>
                         </h3>
                         <p class="service-text">
-                            Transform your ideas into user-friendly mobile apps that engage customers on all platforms.
+                            Streamline your business processes with our expert outsourcing solutions.
                         </p>
                         <div class="service-arrow">
                             <a href="{{ url('/service-single') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
@@ -268,10 +269,10 @@
                     </div>
                     <div class="service-content">
                         <h3 class="service-title">
-                            <a href="{{ url('/service-single') }}">AI-Driven Solutions</a>
+                            <a href="{{ url('/service-single') }}">Research & Development</a>
                         </h3>
                         <p class="service-text">
-                            Harness the power of artificial intelligence to automate and optimize your business operations.
+                            Advance your business with our cutting-edge research and development services.
                         </p>
                         <div class="service-arrow">
                             <a href="{{ url('/service-single') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
@@ -286,10 +287,10 @@
                     </div>
                     <div class="service-content">
                         <h3 class="service-title">
-                            <a href="{{ url('/service-single') }}">Cloud Computing & Infrastructure</a>
+                            <a href="{{ url('/service-single') }}">Cloud Solutions & Infrastructure</a>
                         </h3>
                         <p class="service-text">
-                            Secure and scalable cloud solutions to streamline your digital infrastructure and improve efficiency.
+                            Secure, scalable cloud solutions to enhance your digital infrastructure.
                         </p>
                         <div class="service-arrow">
                             <a href="{{ url('/service-single') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
@@ -307,7 +308,7 @@
                             <a href="{{ url('/service-single') }}">Space Science Technology</a>
                         </h3>
                         <p class="service-text">
-                            Pioneering space science innovations to push the boundaries of exploration and discovery.
+                            Pioneering space science innovations to push the boundaries of exploration.
                         </p>
                         <div class="service-arrow">
                             <a href="{{ url('/service-single') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
@@ -322,10 +323,10 @@
                     </div>
                     <div class="service-content">
                         <h3 class="service-title">
-                            <a href="{{ url('/service-single') }}">Innovative Hardware Solutions</a>
+                            <a href="{{ url('/service-single') }}">Talent Development & Capacity Building</a>
                         </h3>
                         <p class="service-text">
-                            Stay ahead of the curve with the latest hardware updates and solutions tailored to your business.
+                            Equip your team with skills for growth and future-readiness.
                         </p>
                         <div class="service-arrow">
                             <a href="{{ url('/service-single') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
@@ -336,6 +337,8 @@
         </div>
     </div>
 </div>
+
+
 
 <div class="video-area py-100">
     <div class="container">

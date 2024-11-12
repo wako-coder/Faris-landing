@@ -26,11 +26,10 @@
                     <div class="filter-controls wow fadeInUp" data-wow-duration="1s" data-wow-delay=".50s">
                         <ul class="filter-btns">
                             <li class="active" data-filter="*"><i class="far fa-computer-speaker"></i> All</li>
-                            <li data-filter=".cat1"><i class="far fa-mobile"></i> Phone</li>
-                            <li data-filter=".cat2"><i class="far fa-laptop"></i> Computer</li>
-                            <li data-filter=".cat3"><i class="far fa-tv"></i> Tv</li>
-                            <li data-filter=".cat4"><i class="far fa-tablet"></i> Tablet</li>
-                            <li data-filter=".cat5"><i class="far fa-microchip"></i> Gadget</li>
+                            <li data-filter=".cat1"><i class="far fa-mobile"></i> Our teams</li>
+                            <li data-filter=".cat2"><i class="far fa-laptop"></i> our bootcamp</li>
+                            <li data-filter=".cat3"><i class="far fa-tv"></i> Our Clients</li>
+                            <li data-filter=".cat4"><i class="far fa-tablet"></i> meetings</li>
                         </ul>
                     </div>
                 </div>
@@ -46,7 +45,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 filter-item cat1 cat2">
+                <div class="col-md-4 filter-item cat1 ">
                     <div class="gallery-item">
                         <div class="gallery-img">
                             <img src="{{ asset('assets/img/office/Faris.jpg') }}" alt>

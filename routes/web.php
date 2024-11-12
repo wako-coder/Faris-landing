@@ -21,3 +21,6 @@ Route::get('/service', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+Route::get('/software', function () {
+    return view('ourservice.softwareservice');
+});
