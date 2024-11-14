@@ -3,17 +3,92 @@
 @section('content')
 <main class="main">
 
-    <div class="site-breadcrumb" style="background: url('assets/img/about/portfolio_04.jpeg')">
-        <div class="container">
-            <h2 class="breadcrumb-title">ICT & Software Development</h2>
-            <ul class="breadcrumb-menu">
-                <li><a href="index.html">Home</a></li>
-                <li class="active">ICT & Software Development</li>
-            </ul>
+    <!-- Breadcrumb Section with Video Background -->
+    <div class="hero-section">
+        <div class="hero-slider owl-carousel owl-theme">
+            <!-- Slide 1 -->
+            <div class="hero-single">
+                <!-- Video background -->
+                <video autoplay loop muted playsinline class="video-background">
+                    <source src="{{ asset('assets/img/video/Untitled design(1).mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                
+                <!-- Content container -->
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-7 col-lg-7">
+                            <div class="hero-content">
+                               
+                                <h1 class="hero-title" data-animation="fadeInUp" data-delay=".50s">
+                                    Ict <span>and</span> Software Development
+                                </h1>
+                                <p data-animation="fadeInUp" data-delay=".75s"></p>
+                                <div class="hero-btn" data-animation="fadeInUp" data-delay="1s">
+                                    <a href="#" class="theme-btn">Contact us<i class="fas fa-arrow-right"></i></a>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Slide 2 -->
+            <div class="hero-single">
+                <!-- Video background -->
+                <video autoplay loop muted playsinline class="video-background">
+                    <source src="{{ asset('assets/img/video/Untitled design(1).mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-7 col-lg-7">
+                            <div class="hero-content">
+                               
+                                <h1 class="hero-title" data-animation="fadeInUp" data-delay=".50s">
+                                    Ict <span>and</span> Software Development
+                                </h1>
+                                <p data-animation="fadeInUp" data-delay=".75s"></p>
+                                <div class="hero-btn" data-animation="fadeInUp" data-delay="1s">
+                                    <a href="#" class="theme-btn">Contact us<i class="fas fa-arrow-right"></i></a>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Slide 3 -->
+            <div class="hero-single">
+                <!-- Video background -->
+                <video autoplay loop muted playsinline class="video-background">
+                    <source src="{{ asset('assets/img/video/Untitled design.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-8 col-lg-8">
+                            <div class="hero-content">
+                               
+                                <h1 class="hero-title" data-animation="fadeInUp" data-delay=".50s">
+                                    Ict <span>and</span> Software Development
+                                </h1>
+                                <p data-animation="fadeInUp" data-delay=".75s"></p>
+                                <div class="hero-btn" data-animation="fadeInUp" data-delay="1s">
+                                    <a href="#" class="theme-btn">Contact us<i class="fas fa-arrow-right"></i></a>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="service-single-area py-120">
+    <div class="service-single-area py-80">
         <div class="container">
             <div class="service-single-wrapper">
                 <div class="row">
@@ -72,12 +147,11 @@
                                         <li><i class="far fa-check"></i>Agile development with regular progress updates.</li>
                                         <li><i class="far fa-check"></i>Thorough testing and quality assurance.</li>
                                         <li><i class="far fa-check"></i>Dedicated post-launch support and maintenance.</li>
-                                        <li><i class="far fa-check"></i>Focus on scalability, security, and performance.</li>
+                                        <li><i class="far fa-check"></i>Adaptable to changing business requirements.</li>
                                     </ul>
-                                </div>
-                                <div class="my-4">
-                                    <h3 class="mb-3">Service Features</h3>
-                                    <p>Our ICT and software development services come with several distinctive features, including dedicated project management, expert technical support, and a results-oriented approach. We strive to help your business leverage technology for competitive advantage.</p>
+                                    <div class="text-center">
+                                        <a href="contact.html" class="theme-btn theme-btn2">Get in Touch</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
