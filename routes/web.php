@@ -16,6 +16,9 @@ Route::get('/gallery', function () {
 Route::get('/about', function () {
     return view('about');
 });
+Route::get('/vacancy', function () {
+    return view('vacancy');
+});
 Route::get('/service', function () {
     return view('service');
 });
