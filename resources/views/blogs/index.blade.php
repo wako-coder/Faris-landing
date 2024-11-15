@@ -21,7 +21,7 @@
     <div class="blog-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
     <span class="blog-date"><i class="far fa-calendar-alt"></i> Aug 16, 2024</span>
     <div class="blog-item-img">
-    <img src="assets/img/blog/01.jpg" alt="Thumb">
+    <img src="{{ asset('assets/img/gallery/pexels-kevin-ku-92347-577585 (1) (1).jpg') }}"" alt="Thumb">
     </div>
     <div class="blog-item-info">
     <h4 class="blog-title">
@@ -67,7 +67,7 @@
     <div class="blog-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".75s">
     <span class="blog-date"><i class="far fa-calendar-alt"></i> Aug 20, 2024</span>
     <div class="blog-item-img">
-    <img src="assets/img/blog/03.jpg" alt="Thumb">
+        <img src="{{ asset('assets/img/gallery/rocket-launch-67643_1280 (1).jpg') }}" alt>
     </div>
     <div class="blog-item-info">
     <h4 class="blog-title">
@@ -86,76 +86,10 @@
     </div>
     </div>
     </div>
-    <div class="col-md-6 col-lg-4">
-    <div class="blog-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
-    <span class="blog-date"><i class="far fa-calendar-alt"></i> Aug 16, 2024</span>
-    <div class="blog-item-img">
-    <img src="assets/img/blog/01.jpg" alt="Thumb">
-    </div>
-    <div class="blog-item-info">
-    <h4 class="blog-title">
-    <a href="{{ url('/blogsingle') }}">There are many variation of passage available suffer</a>
-    </h4>
-    <div class="blog-item-meta">
-    <ul>
-    <li><a href="#"><i class="far fa-user-circle"></i> By Alicia Davis</a></li>
-    <li><a href="#"><i class="far fa-comments"></i> 2.5k Comments</a></li>
-    </ul>
-    </div>
-    <p>
-    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
-    </p>
-    <a class="theme-btn" href="{{ url('/blogsingle') }}">Read More<i class="fas fa-arrow-right"></i></a>
-    </div>
-    </div>
-    </div>
-    <div class="col-md-6 col-lg-4">
-    <div class="blog-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".50s">
-    <span class="blog-date"><i class="far fa-calendar-alt"></i> Aug 18, 2024</span>
-    <div class="blog-item-img">
-    <img src="assets/img/blog/02.jpg" alt="Thumb">
-    </div>
-    <div class="blog-item-info">
-    <h4 class="blog-title">
-    <a href="{{ url('/blogsingle') }}">It is a long established fact that will be distracted</a>
-    </h4>
-    <div class="blog-item-meta">
-    <ul>
-    <li><a href="#"><i class="far fa-user-circle"></i> By Alicia Davis</a></li>
-    <li><a href="#"><i class="far fa-comments"></i> 2.5k Comments</a></li>
-    </ul>
-    </div>
-    <p>
-    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
-    </p>
-    <a class="theme-btn" href="{{ url('/blogsingle') }}">Read More<i class="fas fa-arrow-right"></i></a>
-    </div>
-    </div>
-    </div>
-    <div class="col-md-6 col-lg-4">
-    <div class="blog-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".75s">
-    <span class="blog-date"><i class="far fa-calendar-alt"></i> Aug 20, 2024</span>
-    <div class="blog-item-img">
-    <img src="assets/img/blog/03.jpg" alt="Thumb">
-    </div>
-    <div class="blog-item-info">
-    <h4 class="blog-title">
-    <a href="{{ url('/blogsingle') }}">All the generators on the tend to repeat predefined chunks</a>
-    </h4>
-    <div class="blog-item-meta">
-    <ul>
-    <li><a href="#"><i class="far fa-user-circle"></i> By Alicia Davis</a></li>
-    <li><a href="#"><i class="far fa-comments"></i> 2.5k Comments</a></li>
-    </ul>
-    </div>
-    <p>
-    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
-    </p>
-    <a class="theme-btn" href="{{ url('/blogsingle') }}">Read More<i class="fas fa-arrow-right"></i></a>
-    </div>
-    </div>
-    </div>
-    </div>
+    
+   
+   
+  
     
     <div class="pagination-area">
     <div aria-label="Page navigation example">
