@@ -69,7 +69,7 @@
                             <li class="nav-item"><a class="nav-link" href="{{ url('/about') }}">About</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ url('/service') }}">Services</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ url('/gallery') }}">Gallery</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ url('/gallery') }}">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ url('/blogs') }}">Blog</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ url('/contact') }}">Contact</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ url('/vacancy') }}">Vacancy</a></li>
                         </ul>
