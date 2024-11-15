@@ -43,7 +43,7 @@
                             <img src="{{ asset('assets/img/office/meeting.JPG') }}" alt>
                         </div>
                         <div class="gallery-content">
-                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office/meeting.JPG') }}"><i class="far fa-eye"></i></a>
+                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office/meeting.JPG') }}"><i class="far fa-camera"></i></a>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
                             <img src="{{ asset('assets/img/office/A20I3298.JPG') }}" alt>
                         </div>
                         <div class="gallery-content">
-                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office/A20I3298.JPG') }}"><i class="far fa-eye"></i></a>
+                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office/A20I3298.JPG') }}"><i class="far fa-camera"></i></a>
                         </div>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                             <img src="{{ asset('assets/img/office/Faris.jpg') }}" alt>
                         </div>
                         <div class="gallery-content">
-                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office/Faris.jpg') }}"><i class="far fa-eye"></i></a>
+                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office/Faris.jpg') }}"><i class="far fa-camera"></i></a>
                         </div>
                     </div>
                 </div>
@@ -79,7 +79,7 @@
                             <img src="{{ asset('assets/img/office/A20I3317.jpg') }}" alt>
                         </div>
                         <div class="gallery-content">
-                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office/A20I3317.jpg') }}"><i class="far fa-eye"></i></a>
+                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office/A20I3317.jpg') }}"><i class="far fa-camera"></i></a>
                         </div>
                     </div>
                 </div>
@@ -91,7 +91,7 @@
                             <img src="{{ asset('assets/img/office/robot.JPG') }}" alt>
                         </div>
                         <div class="gallery-content">
-                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office/robot.JPG') }}"><i class="far fa-eye"></i></a>
+                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office/robot.JPG') }}"><i class="far fa-camera"></i></a>
                         </div>
                     </div>
                 </div>
@@ -103,7 +103,7 @@
                             <img src="{{ asset('assets/img/office/robot2.JPG') }}" alt>
                         </div>
                         <div class="gallery-content">
-                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office/robot2.JPG') }}"><i class="far fa-eye"></i></a>
+                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office/robot2.JPG') }}"><i class="far fa-camera"></i></a>
                         </div>
                     </div>
                 </div>
@@ -115,7 +115,7 @@
                             <img src="{{ asset('assets/img/office/robot3.JPG') }}" alt>
                         </div>
                         <div class="gallery-content">
-                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office/robot3.JPG') }}"><i class="far fa-eye"></i></a>
+                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office/robot3.JPG') }}"><i class="far fa-camera"></i></a>
                         </div>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                             <img src="{{ asset('assets/img/office/kids.JPG') }}" alt>
                         </div>
                         <div class="gallery-content">
-                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office/kids.JPG') }}"><i class="far fa-eye"></i></a>
+                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office/kids.JPG') }}"><i class="far fa-camera"></i></a>
                         </div>
                     </div>
                 </div>
@@ -139,11 +139,22 @@
                             <img src="{{ asset('assets/img/office/A20I2667.JPG') }}" alt>
                         </div>
                         <div class="gallery-content">
-                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office/A20I2667.JPG') }}"><i class="far fa-eye"></i></a>
+                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office/A20I2667.JPG') }}"><i class="far fa-camera"></i></a>
                         </div>
                     </div>
                 </div>
-    
+                 
+                <div class="col-md-4 filter-item cat1 cat4 cat5 cat3">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img src="{{ asset('assets/img/office/A20I3118.jpg') }}" alt>
+                        </div>
+                        <div class="gallery-content">
+                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office/A20I3118.jpg') }}"><i class="far fa-camera"></i></a>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Gallery Item 10 -->
                 <div class="col-md-4 filter-item cat1 cat3 cat4 cat5">
                     <div class="gallery-item">
@@ -151,7 +162,7 @@
                             <img src="{{ asset('assets/img/office/A20I3163.jpg') }}" alt>
                         </div>
                         <div class="gallery-content">
-                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office/A20I3163.jpg') }}"><i class="far fa-eye"></i></a>
+                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office/A20I3163.jpg') }}"><i class="far fa-camera"></i></a>
                         </div>
                     </div>
                 </div>
@@ -163,10 +174,12 @@
                             <img src="{{ asset('assets/img/office/report.jpg') }}" alt>
                         </div>
                         <div class="gallery-content">
-                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office/report.jpg') }}"><i class="far fa-eye"></i></a>
+                            <a class="popup-img gallery-link" href="{{ asset('assets/img/office/report.jpg') }}"><i class="far fa-camera"></i></a>
                         </div>
                     </div>
                 </div>
+
+                
     
             </div>
         </div>
