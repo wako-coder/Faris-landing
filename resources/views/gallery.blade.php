@@ -65,7 +65,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 filter-item cat2 cat3">
+                <div class="col-md-4 filter-item cat2 ">
                     <div class="gallery-item">
                         <div class="gallery-img">
                             <img src="{{ asset('assets/img/office/robot.JPG') }}" alt>
@@ -75,7 +75,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 filter-item cat2 cat3">
+                <div class="col-md-4 filter-item cat2 ">
                     <div class="gallery-item">
                         <div class="gallery-img">
                             <img src="{{ asset('assets/img/office/robot2.JPG') }}" alt>
@@ -85,10 +85,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 filter-item cat2 cat3">
+                <div class="col-md-4 filter-item cat2 ">
                     <div class="gallery-item">
                         <div class="gallery-img">
-                            <img src="{{ asset('assets/img/office/robot.JPG') }}" alt>
+                            <img src="{{ asset('assets/img/office/robot3.JPG') }}" alt>
                         </div>
                         <div class="gallery-content">
                             <a class="popup-img gallery-link" href="{{ asset('assets/img/office/Faris .jpg') }}"><i class="far fa-plus"></i></a>
@@ -105,7 +105,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 filter-item cat2 cat4">
+                <div class="col-md-4 filter-item cat2 cat4 cat3">
                     <div class="gallery-item">
                         <div class="gallery-img">
                             <img src="{{ asset('assets/img/office/A20I2667.JPG') }}" alt>
@@ -115,7 +115,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 filter-item cat1 cat4 cat5">
+                <div class="col-md-4 filter-item cat1 cat3 cat4 cat5">
                     <div class="gallery-item">
                         <div class="gallery-img">
                             <img src="{{ asset('assets/img/office/A20I3163.jpg') }}" alt>
@@ -125,7 +125,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 filter-item cat1 cat4 cat5">
+                <div class="col-md-4 filter-item cat1 cat4 cat5 cat3">
                     <div class="gallery-item">
                         <div class="gallery-img">
                             <img src="{{ asset('assets/img/office/report.jpg') }}" alt>
