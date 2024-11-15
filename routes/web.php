@@ -28,6 +28,9 @@ Route::get('/contact', function () {
 Route::get('/blogs', function () {
     return view('blog.index');
 });
+Route::get('/blogsingle', function () {
+    return view('blogs.blogsingle');
+});
 Route::get('/software', function () {
     return view('ourservice.softwareservice');
 });
