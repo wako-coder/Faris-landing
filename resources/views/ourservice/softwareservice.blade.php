@@ -38,8 +38,8 @@
         <div class="container">
             <div class="service-single-wrapper">
                 <div class="row">
-                    <div class="col-xl-4 col-lg-4">
-                        <div class="service-sidebar">
+                    <div class="col-xl-2 col-lg-2">
+                        {{-- <div class="service-sidebar">
                             <div class="widget category">
                                 <h4 class="widget-title">Our Services</h4>
                                 <div class="category-list">
@@ -57,7 +57,7 @@
                                 <a href="#"><i class="far fa-file-pdf"></i> Download Service Overview</a>
                                 <a href="#"><i class="far fa-file-alt"></i> Download Case Study</a>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                     <div class="col-xl-8 col-lg-8">
                         <div class="service-details">

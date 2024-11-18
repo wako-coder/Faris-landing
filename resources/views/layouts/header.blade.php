@@ -41,7 +41,7 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container position-relative">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <img src="{{ asset('assets/img/logo/FARISLogo-header.png.webp') }}" style="height: 90px;" alt="logo">
+                    <img src="{{ asset('assets/img/logo/FARISLogo-header.png.webp') }}" style="height: 120px;" alt="logo">
                 </a>
                 <div class="mobile-menu-right">
                     <div class="mobile-menu-btn">
