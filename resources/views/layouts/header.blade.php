@@ -69,14 +69,13 @@
                             <li class="nav-item"><a class="nav-link" href="{{ url('/about') }}">About</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ url('/service') }}">Services</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ url('/gallery') }}">Gallery</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ url('/blogs') }}">Blog</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ url('/contact') }}">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ url('/blogs') }}">News</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ url('/vacancy') }}">Vacancy</a></li>
                         </ul>
 
                         <div class="nav-right">
                             <div class="nav-btn">
-                                <a href="{{ url('/contact') }}" class="theme-btn">Let's Talk <i class="fas fa-arrow-right"></i></a>
+                                <a href="{{ url('/contact') }}" class="theme-btn">Contact Us<i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>

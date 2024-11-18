@@ -59,7 +59,7 @@
                             </div>
                         </div> --}}
                     </div>
-                    <div class="col-xl-8 col-lg-8">
+                    <div class="col-xl-12 col-lg-8">
                         <div class="service-details">
                             <div class="service-details-img mb-30">
                                 <img src="assets/img/about/portfolio_04.jpeg" alt="thumb">
@@ -157,7 +157,7 @@
                                 </div>
                         </div>
                         <div class="text-center">
-                            <a href="contact.html" class="theme-btn theme-btn2">Get in Touch</a>
+                            <a href="{{ url('/contact') }} "class="theme-btn theme-btn2">Get in Touch</a>
                         </div>
                     </div>
                 </div>
