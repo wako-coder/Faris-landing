@@ -38,7 +38,7 @@
     </div>
 
     <div class="main-navigation">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg" style="z-index: 99999">
             <div class="container position-relative">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <img src="{{ asset('assets/img/logo/FARISLogo-header.png.webp') }}" style="height: 120px;" alt="logo">
@@ -59,7 +59,7 @@
                     aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
                         <a href="{{ url('/') }}" class="offcanvas-brand" id="offcanvasNavbarLabel">
-                            <img src="{{ asset('assets/img/logo/logo.png') }}" alt="Logo">
+                            <img src="{{ asset('assets/img/logo/FARISLogo-header.png.webp') }}" alt="Logo">
                         </a>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
@@ -70,6 +70,7 @@
                             <li class="nav-item"><a class="nav-link" href="{{ url('/service') }}">Services</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ url('/gallery') }}">Gallery</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ url('/blogs') }}">News</a></li>
+                            <li class="nav-item d-lg-none"><a class="nav-link" href="{{ url('/contact') }}">Contact</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ url('/vacancy') }}">Vacancy</a></li>
                         </ul>
 
