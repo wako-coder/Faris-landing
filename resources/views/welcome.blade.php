@@ -108,13 +108,13 @@
 </div>
 
 <div class="feature-area pt-120">
-    <div class="container">
-        <div class="row g-4">
-            <div class="col-md-6 col-lg-4">
+        <div class="testimonial-slider owl-carousel " data-wow-duration="1s"
+        data-wow-delay=".25s">
+            <div class="testimonial-single" style="padding: 0px;">
                 <div class="feature-item">
                     <span class="count">01</span>
                     <div class="feature-icon">
-                        <img src="{{ asset('assets/img/icon/repair.svg') }}" alt>
+                        <img src="{{ asset('assets/img/icon/BPO-01.svg') }}" alt>
                     </div>
                     <div class="feature-content">
                         <h4>Innovative Web Development</h4>
@@ -122,11 +122,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4">
+            <div class="testimonial-single" style="padding: 0px;">
                 <div class="feature-item">
                     <span class="count">02</span>
                     <div class="feature-icon">
-                        <img src="{{ asset('assets/img/icon/team.svg') }}" alt>
+                        <img src="{{ asset('assets/img/icon/Digital.svg') }}" alt>
                     </div>
                     <div class="feature-content">
                         <h4>Expert App Development Team</h4>
@@ -134,11 +134,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4">
+            <div class="testimonial-single" style="padding:0px;">
                 <div class="feature-item">
                     <span class="count">03</span>
                     <div class="feature-icon">
-                        <img src="{{ asset('assets/img/icon/secure.svg') }}" alt>
+                        <img src="{{ asset('assets/img/icon/Knowldege.svg') }}" alt>
                     </div>
                     <div class="feature-content">
                         <h4>AI & Space Technology Solutions</h4>
@@ -146,7 +146,18 @@
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="testimonial-single" style="padding: 0px;">
+                <div class="feature-item">
+                    <span class="count">04</span>
+                    <div class="feature-icon">
+                        <img src="{{ asset('assets/img/icon/Research.svg') }}"  alt>
+                    </div>
+                    <div class="feature-content">
+                        <h4>AI & Space Technology Solutions</h4>
+                        <p>Leveraging AI and space science, we bring innovative solutions to transform industries.</p>
+                    </div>
+                </div>
+            </div>
     </div>
 </div>
 
