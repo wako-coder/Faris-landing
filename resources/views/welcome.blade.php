@@ -108,6 +108,8 @@
 </div>
 
 <div class="feature-area pt-120">
+    <div class="container">
+        <div class="row align-items-center">
         <div class="testimonial-slider owl-carousel " data-wow-duration="1s"
         data-wow-delay=".25s">
             <div class="testimonial-single" style="padding: 0px;">
@@ -224,7 +226,23 @@
         </div>
     </div>
 </div>
-
+<div>
+<h3 class="text-center pb-20">Our partners</h3>
+<div class="partner-area bg pt-20 pb-50">
+    <div class="container">
+    <div class="partner-wrapper partner-slider owl-carousel owl-theme">
+    <img src="{{asset('assets/img/our_partners/aastu-01.png')}}" alt="thumb">
+    <img src="{{asset('assets/img/our_partners/aau-02.png')}}" alt="thumb">
+    <img src="{{asset('assets/img/our_partners/astu-04.png')}}" alt="thumb">
+    <img src="{{asset('assets/img/our_partners/aws-25.png')}}" alt="thumb">
+    <img src="{{asset('assets/img/our_partners/bdu-05.png')}}" alt="thumb">
+    <img src="{{asset('assets/img/our_partners/boeing-26.png')}}" alt="thumb">
+    <img src="{{asset('assets/img/our_partners/insa-09.png')}}" alt="thumb">
+    <img src="{{asset('assets/img/our_partners/microsoft-19.png')}}" alt="thumb">
+    <img src="{{asset('assets/img/our_partners/nvidia-28.png')}}" alt="thumb">
+    </div>
+    </div>
+    </div>
 <div class="service-area sa-bg pt-100 pb-70">
     <div class="container">
         <div class="row">
@@ -515,7 +533,7 @@
     </div>
 </div>
 
-<div class="gallery-area py-120">
+<div class="gallery-area pt-120 pb-60">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
@@ -591,5 +609,20 @@
     </div>
 </div>
 </main>
+
+<h3 class="text-center pb-20">Our Clients</h3>
+<div class="partner-area bg pt-20 pb-50">
+    <div class="container">
+    <div class="partner-wrapper partner-slider owl-carousel owl-theme">
+    <img src="{{asset('assets/img/our_clients/dbe-30.png')}}" alt="thumb">
+    <img src="{{asset('assets/img/our_clients/emfa-06.png')}}" alt="thumb">
+    <img src="{{asset('assets/img/our_clients/italy-embassy.png')}}" alt="thumb">
+    <img src="{{asset('assets/img/our_clients/koica-33.png')}}" alt="thumb">
+    <img src="{{asset('assets/img/our_clients/Mint-10.png')}}" alt="thumb">
+    <img src="{{asset('assets/img/our_clients/wasasa-29.png')}}" alt="thumb">
+    <img src="{{asset('assets/img/our_clients/world-bank-32.png')}}" alt="thumb">
+    </div>
+    </div>
+    </div>
         @endsection
 

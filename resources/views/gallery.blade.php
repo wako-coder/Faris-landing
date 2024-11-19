@@ -144,7 +144,7 @@
                     </div>
                 </div>
                  
-                <div class="col-md-4 filter-item cat1 cat4 cat5 cat3">
+                <div class="col-md-4 filter-item cat1 cat4 cat5">
                     <div class="gallery-item">
                         <div class="gallery-img">
                             <img src="{{ asset('assets/img/office/A20I3118.jpg') }}" alt>
