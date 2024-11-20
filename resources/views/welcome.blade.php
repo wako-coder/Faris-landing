@@ -107,9 +107,7 @@
     </div>
 </div>
 
-<div class="feature-area pt-120">
-    <div class="container">
-        <div class="row align-items-center">
+<div class="feature-area pt-120 col-10 mx-auto">
         <div class="testimonial-slider owl-carousel " data-wow-duration="1s"
         data-wow-delay=".25s">
             <div class="testimonial-single" style="padding: 0px;">
@@ -226,23 +224,7 @@
         </div>
     </div>
 </div>
-<div>
-<h3 class="text-center pb-20">Our partners</h3>
-<div class="partner-area bg pt-20 pb-50">
-    <div class="container">
-    <div class="partner-wrapper partner-slider owl-carousel owl-theme">
-    <img src="{{asset('assets/img/our_partners/aastu-01.png')}}" alt="thumb">
-    <img src="{{asset('assets/img/our_partners/aau-02.png')}}" alt="thumb">
-    <img src="{{asset('assets/img/our_partners/astu-04.png')}}" alt="thumb">
-    <img src="{{asset('assets/img/our_partners/aws-25.png')}}" alt="thumb">
-    <img src="{{asset('assets/img/our_partners/bdu-05.png')}}" alt="thumb">
-    <img src="{{asset('assets/img/our_partners/boeing-26.png')}}" alt="thumb">
-    <img src="{{asset('assets/img/our_partners/insa-09.png')}}" alt="thumb">
-    <img src="{{asset('assets/img/our_partners/microsoft-19.png')}}" alt="thumb">
-    <img src="{{asset('assets/img/our_partners/nvidia-28.png')}}" alt="thumb">
-    </div>
-    </div>
-    </div>
+
 <div class="service-area sa-bg pt-100 pb-70">
     <div class="container">
         <div class="row">
@@ -462,6 +444,29 @@
     </div>
 </div>
 
+<h3 class="text-center pb-20">Our Partners</h3>
+<div class="partner-area bg pt-20 pb-50 col-8 mx-auto" style="background-color: white">
+    <div class="container">
+    <div class="partner-wrapper partner-slider owl-carousel owl-theme">
+    <img src="{{asset('assets/img/our_partners/aastu-01.png')}}" style="width: 90px" alt="thumb">
+    <img src="{{asset('assets/img/our_partners/ibm-17.png')}}" style="width: 90px" alt="thumb">
+    <img src="{{asset('assets/img/our_partners/mint-10.png')}}" style="width: 90px" alt="thumb">
+    <img src="{{asset('assets/img/our_partners/oracle-21.png')}}" style="width: 90px" alt="thumb">
+    <img src="{{asset('assets/img/our_partners/bdu-05.png')}}" style="width: 90px" alt="thumb">
+    <img src="{{asset('assets/img/our_partners/nvidia-28.png')}}" style="width: 90px" alt="thumb">
+    <img src="{{asset('assets/img/our_partners/sdnx-14.png')}}" style="width: 90px" alt="thumb">
+    <img src="{{asset('assets/img/our_partners/plus id-23.png')}}" style="width: 90px" alt="thumb">
+    <img src="{{asset('assets/img/our_partners/Hawasa-08.png')}}" style="width: 90px"  alt="thumb">
+    <img src="{{asset('assets/img/our_partners/aau-02.png')}}" style="width: 90px" alt="thumb">
+    <img src="{{asset('assets/img/our_partners/ambo unv-03.png')}}" style="width: 90px" alt="thumb">
+    <img src="{{asset('assets/img/our_partners/esss-07.png')}}" style="width: 90px" alt="thumb">
+    <img src="{{asset('assets/img/our_partners/hp-22.png')}}" style="width: 90px" alt="thumb">
+    <img src="{{asset('assets/img/our_partners/xtranet-18.png')}}" style="width: 90px" alt="thumb">
+    <img src="{{asset('assets/img/our_partners/Insa-09.png')}}" style="width: 90px" alt="thumb">
+    </div>
+    </div>
+    </div>
+
 <div class="cta-area">
     <div class="container">
         <div class="row">
@@ -611,16 +616,16 @@
 </main>
 
 <h3 class="text-center pb-20">Our Clients</h3>
-<div class="partner-area bg pt-20 pb-50">
+<div class="partner-area bg pt-20 pb-50 col-8 mx-auto" style="background-color: white">
     <div class="container">
-    <div class="partner-wrapper partner-slider owl-carousel owl-theme">
-    <img src="{{asset('assets/img/our_clients/dbe-30.png')}}" alt="thumb">
-    <img src="{{asset('assets/img/our_clients/emfa-06.png')}}" alt="thumb">
-    <img src="{{asset('assets/img/our_clients/italy-embassy.png')}}" alt="thumb">
-    <img src="{{asset('assets/img/our_clients/koica-33.png')}}" alt="thumb">
-    <img src="{{asset('assets/img/our_clients/Mint-10.png')}}" alt="thumb">
-    <img src="{{asset('assets/img/our_clients/wasasa-29.png')}}" alt="thumb">
-    <img src="{{asset('assets/img/our_clients/world-bank-32.png')}}" alt="thumb">
+    <div class="partner-wrapper partner-slider owl-carousel ">
+    <img src="{{asset('assets/img/our_clients/dbe-30.png')}}" style="width: 100px;" alt="thumb">
+    <img src="{{asset('assets/img/our_clients/emfa-06.png')}}" style="width: 100px" alt="thumb">
+    <img src="{{asset('assets/img/our_clients/italy-embassy.png')}}" style="width: 100px" alt="thumb">
+    <img src="{{asset('assets/img/our_clients/koica-33.png')}}" style="width: 100px" alt="thumb">
+    <img src="{{asset('assets/img/our_clients/Mint-10.png')}}" style="width: 100px" alt="thumb">
+    <img src="{{asset('assets/img/our_clients/wasasa-29.png')}}" style="width: 100px" alt="thumb">
+    <img src="{{asset('assets/img/our_clients/world-bank-32.png')}}" style="width: 100px" alt="thumb">
     </div>
     </div>
     </div>
