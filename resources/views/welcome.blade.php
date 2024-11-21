@@ -130,7 +130,7 @@
                     </div>
                     <div class="feature-content">
                         <h4>Expert App Development Team</h4>
-                        <p>Our team builds intuitive mobile applications that enhance user engagement and experience.</p>
+                        <p>We create cutting-edge web solutions tailored to help businesses thrive in the digital world.</p>
                     </div>
                 </div>
             </div>
@@ -244,13 +244,13 @@
                     </div>
                     <div class="service-content">
                         <h3 class="service-title">
-                            <a href="{{ url('/service-single') }}">ICT & Software Development</a>
+                            <a href="{{ url('/software') }}">ICT & Software Development</a>
                         </h3>
                         <p class="service-text">
                             We deliver robust, innovative web and software solutions to drive business success.
                         </p>
                         <div class="service-arrow">
-                            <a href="{{ url('/service-single') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
+                            <a href="{{ url('/software') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
