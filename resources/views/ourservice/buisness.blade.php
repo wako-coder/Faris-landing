@@ -52,7 +52,7 @@
                                     <li><i class="far fa-check"></i> Government Support: The Ethiopian government has implemented various policies and incentives to promote the BPO industry, including tax breaks, streamlined regulations, and infrastructure development.</li>
                                 </ul>
                                 <div class="service-details-img mb-30 mt-30">
-                                    <img src="assets/img/about/photo_2024-10-14_16-00-34-transformed.jpeg" style="width: 800px; height:400px;" alt="thumb">
+                                    <img src="assets/img/about/transformed.jpeg" style="width: 800px; height:400px;" alt="thumb">
                                 </div>
                                 <h3 class="mb-30 mt-20">How Ethiopia benefits from BPO:</h3>
                                 <ul>

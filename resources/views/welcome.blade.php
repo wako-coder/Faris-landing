@@ -18,7 +18,7 @@
     <div class="hero-section">
         <div class="hero-slider owl-carousel owl-theme">
             <!-- Slide 1 -->
-            <div class="hero-single" style="background: url(assets/img/rocket.jpeg)">
+            <div class="hero-single" style="background: url(assets/img/about/Landing.jpg)">
             {{-- <div class="hero-single" style="background: url(assets/img/shag.jpg)"> --}}
                 <!-- Video background -->
                 {{-- <video autoplay loop muted playsinline class="video-background">
