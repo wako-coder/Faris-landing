@@ -7,9 +7,6 @@
     <div class="hero-section">
         <div class="hero-slider owl-carousel owl-theme">
             <!-- Slide 1 -->
-     
-    
-            <!-- Slide 3 -->
             <div class="hero-single">
                 <!-- Video background -->
                 <video autoplay loop muted playsinline class="video-background">
@@ -20,12 +17,10 @@
                     <div class="row align-items-center">
                         <div class="col-md-8 col-lg-8">
                             <div class="hero-content">
-                               
                                 <h1 class="hero-title" data-animation="fadeInUp" data-delay=".50s">
-                                    Ict <span>and</span> Software Development
+                                    Digital Transformation <span>Services</span>
                                 </h1>
-                                <p data-animation="fadeInUp" data-delay=".75s"></p>
-                                
+                                <p data-animation="fadeInUp" data-delay=".75s">Unlock the Future with FARIS Technologies' Digital Ascendancy Services</p>
                             </div>
                         </div>
                     </div>
@@ -39,125 +34,51 @@
             <div class="service-single-wrapper">
                 <div class="row">
                     <div class="col-xl-2 col-lg-2">
-                        {{-- <div class="service-sidebar">
-                            <div class="widget category">
-                                <h4 class="widget-title">Our Services</h4>
-                                <div class="category-list">
-                                    <a href="#"><i class="far fa-angle-double-right"></i>Software Development</a>
-                                    <a href="#"><i class="far fa-angle-double-right"></i>Web & Mobile App Development</a>
-                                    <a href="#"><i class="far fa-angle-double-right"></i>IT Consulting</a>
-                                    <a href="#"><i class="far fa-angle-double-right"></i>Cybersecurity</a>
-                                    <a href="#"><i class="far fa-angle-double-right"></i>Cloud Computing</a>
-                                    <a href="#"><i class="far fa-angle-double-right"></i>Data Analytics</a>
-                                    <a href="#"><i class="far fa-angle-double-right"></i>Network Solutions</a>
-                                </div>
-                            </div>
-                            <div class="widget service-download">
-                                <h4 class="widget-title">Download</h4>
-                                <a href="#"><i class="far fa-file-pdf"></i> Download Service Overview</a>
-                                <a href="#"><i class="far fa-file-alt"></i> Download Case Study</a>
-                            </div>
-                        </div> --}}
                     </div>
                     <div class="col-xl-12 col-lg-8">
                         <div class="service-details">
                             <div class="service-details-img mb-30">
-                                <img src="assets/img/about/portfolio_04.jpeg" alt="thumb">
+                                <img src="assets/img/about/20241119_103910.jpg" alt="thumb">
                             </div>
                             <div class="service-details">
-                                <h3 class="mb-30">Ict and Software Development</h3>
+                                <h3 class="mb-20 mt-20">Digital Transformation Services</h3>
                                 <p class="mb-20">
-                                    Our software development services are tailored to meet the specific needs of businesses, ensuring high-quality, reliable software solutions that drive efficiency and growth. From application design to deployment, we focus on delivering seamless user experiences.
+                                    At FARIS Technologies, we offer a future-proof approach - Digital Ascendancy Services. We leverage cutting-edge technologies to propel your business to the next level. This comprehensive suite of services seamlessly integrates digital solutions across your entire organization, fundamentally disrupting your current operations and unlocking exponential improvements in performance and customer experience.
                                 </p>
-                                <p class="mb-20">
-                                    With our expertise in ICT and software solutions, we aim to provide sustainable and scalable products that are easily adaptable to future technological advancements. We prioritize security, scalability, and performance at every step of development.
-                                </p>
-                                <div class="row">
-                                    <div class="col-md-6 mb-20">
-                                        <img src="{{ asset('assets/img/about/emile-perron-xrVDYZRGdw4-unsplash-scaled-e1654596346828.jpg.webp') }}" >
-                                    </div>
-                                    <div class="col-md-6 mb-20">
-                                        <img src="{{ asset('assets/img/gallery/A20I3216-1-scaled (1).jpg') }}" alt>
-                                    </div>
-                                </div>
-                                <p class="mb-20">
-                                    Our software development process follows the best practices of agile methodologies, ensuring that we deliver solutions that align with your business objectives. Every feature is crafted to provide value and enhance operational effectiveness.
-                                </p>
-                                <div class="my-4">
-                                    <div class="mb-3">
-                                        <h3 class="mb-3">Our Work Process</h3>
-                                        <p>We follow a structured approach to ICT and software development that ensures transparency, timely delivery, and continuous improvements. Our process includes planning, design, development, testing, and post-launch support to guarantee the success of your project.</p>
-                                    </div>
-                                    <ul class="service-single-list">
-                                        <li><i class="far fa-check"></i>Comprehensive project analysis and planning.</li>
-                                        <li><i class="far fa-check"></i>Agile development with regular progress updates.</li>
-                                        <li><i class="far fa-check"></i>Thorough testing and quality assurance.</li>
-                                        <li><i class="far fa-check"></i>Dedicated post-launch support and maintenance.</li>
-                                        <li><i class="far fa-check"></i>Adaptable to changing business requirements.</li>
-                                    </ul>
-                                
-                                </div>
-                            </div>
-                            <div class="service-details">
-                                <h3 class="mb-30">Data Recovery</h3>
-                                <p class="mb-20">
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                                voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                                consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
-                                porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-                                velit, sed quia non numquam eius modi tempora incidunt ut labore et.
-                                </p>
-                                <p class="mb-20">
-                                But I must explain to you how all this mistaken idea of denouncing pleasure and
-                                praising pain was born and I will give you a complete account of the system, and
-                                expound the actual teachings of the great explorer of the truth, the
-                                master-builder of human happiness. No one rejects, dislikes, or avoids pleasure
-                                itself, because it is pleasure, but because those who do not know how to pursue
-                                pleasure rationally encounter consequences that are extremely painful. Nor again
-                                is there anyone who loves or pursues or desires to obtain pain of itself,
-                                because it is pain, but because occasionally circumstances occur in which toil
-                                and pain can procure him some great pleasure. To take a trivial example
-                                </p>
-                               
-                                <p class="mb-20">
-                                Power of choice is untrammelled and when nothing prevents our being able to do
-                                what we like best, every pleasure is to be welcomed and every pain avoided. But
-                                in certain circumstances and owing to the claims of duty or the obligations of
-                                business it will frequently occur that pleasures have to be repudiated and
-                                annoyances accepted. The wise man therefore always holds in these matters to
-                                this principle of selection.
-                                </p>
-                                <div class="my-4">
-                                <div class="mb-3">
-                                <h3 class="mb-3">Our Work Process</h3>
-                                <p>Aliquam facilisis rhoncus nunc, non vestibulum mauris volutpat non.
-                                Vivamus tincidunt accumsan urna, vel aliquet nunc commodo tristique.
-                                Nulla facilisi. Phasellus vel ex nulla. Nunc tristique sapien id mauris
-                                efficitur, porta scelerisque nisl dignissim. Vestibulum ante ipsum
-                                primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed at
-                                mollis tellus. Proin consequat, orci nec bibendum viverra, ante orci
-                                suscipit dolor, et condimentum felis dolor ac lectus.</p>
-                                </div>
-                                <ul class="service-single-list">
-                                <li><i class="far fa-check"></i>Fusce justo risus placerat in risus eget
-                                tincidunt consequat elit.</li>
-                                <li><i class="far fa-check"></i>Nunc fermentum sem sit amet dolor laoreet
-                                placerat.</li>
-                                <li><i class="far fa-check"></i>Nullam rhoncus dictum diam quis ultrices.
-                                </li>
-                                <li><i class="far fa-check"></i>Integer quis lorem est uspendisse eu augue
-                                porta ullamcorper dictum.</li>
-                                <li><i class="far fa-check"></i>Quisque tristique neque arcu ut venenatis
-                                felis malesuada et.</li>
+
+                                <h4 class="mb-30 mt-20">Key Ascendancy Pillars:</h4>
+                                <ul>
+                                    <li><i class="far fa-check"></i> AI-Powered Solution: Harness the power of Artificial Intelligence to glean actionable insights from your data, driving data-driven decision making and unlocking hidden opportunities.</li>
+                                    <li><i class="far fa-check"></i> Hyper-Connected Ecosystem: Forge a seamlessly integrated ecosystem of interconnected devices, applications, and platforms through the Internet of Things (IoT) for real-time visibility and automation.</li>
+                                    <li><i class="far fa-check"></i> Next-Gen Customer Engagement: Craft immersive customer experiences through cutting-edge technologies like augmented reality and virtual reality, fostering brand loyalty and advocacy.</li>
+                                    <li><i class="far fa-check"></i> Cybersecurity Fortress: Implement a robust and constantly evolving cybersecurity architecture to safeguard your data and assets in the ever-evolving digital landscape.</li>
+                                    <li><i class="far fa-check"></i> Cloud Supremacy: Migrate your infrastructure to the cloud, achieving unparalleled scalability, agility, and cost optimization.</li>
+                                    <li><i class="far fa-check"></i> Internet of Things (IoT): Connecting devices and systems to gather and analyze data for better decision-making.</li>
+                                    <li><i class="far fa-check"></i> Mobile App Development: Creating mobile applications to enhance customer engagement and business operations.</li>
+                                    <li><i class="far fa-check"></i> Web Development and Design: Designing and developing user-friendly websites and web applications.</li>
+                                    <li><i class="far fa-check"></i> E-commerce: Setting up online stores and implementing digital marketing strategies.</li>
                                 </ul>
+
+                                <h3 class="mb-30 mt-20">Embrace the Digital Ascendancy.</h3>
+                                <p>
+                                    Collaborate with FARIS Technologies and future-proof your business today!
+                                </p>
+                                <div class="service-details-img mb-30">
+                                    <img src="assets/img/about/15022851879.png" alt="thumb">
                                 </div>
-                              
+                                <h3 class="mb-30 mt-20">By embracing digital transformation services, your business can:</h3>
+                                <ul>
+                                    <li><i class="far fa-check"></i> Improve efficiency: Automate tasks, streamline processes, and reduce costs.</li>
+                                    <li><i class="far fa-check"></i> Enhance customer experience: Deliver personalized experiences and improve customer satisfaction.</li>
+                                    <li><i class="far fa-check"></i> Innovate products and services: Create new products and services to stay ahead of the competition.</li>
+                                    <li><i class="far fa-check"></i> Make data-driven decisions: Utilize data analytics to identify trends and opportunities.</li>
+                                    <li><i class="far fa-check"></i> Increase revenue: Expand market reach and generate new revenue streams.</li>
+                                </ul>
+
+                                <div class="text-center mt-20">
+                                    <a href="{{ url('/contact') }}" class="theme-btn theme-btn2">Get in Touch</a>
                                 </div>
-                        </div>
-                        <div class="text-center">
-                            <a href="{{ url('/contact') }} "class="theme-btn theme-btn2">Get in Touch</a>
+                            </div>
                         </div>
                     </div>
                 </div>

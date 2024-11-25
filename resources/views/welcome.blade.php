@@ -240,11 +240,11 @@
             <div class="col-md-6 col-lg-3">
                 <div class="service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
                     <div class="service-icon">
-                        <img src="{{ asset('assets/img/icon/tab.svg') }}" alt>
+                        <img src="{{ asset('assets/img/icon/Digital.svg') }}" alt>
                     </div>
                     <div class="service-content">
                         <h3 class="service-title">
-                            <a href="{{ url('/software') }}">ICT & Software Development</a>
+                            <a href="{{ url('/software') }}">Digital Transformation Services</a>
                         </h3>
                         <p class="service-text">
                             We deliver robust, innovative web and software solutions to drive business success.
@@ -258,17 +258,17 @@
             <div class="col-md-6 col-lg-3">
                 <div class="service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".50s">
                     <div class="service-icon">
-                        <img src="{{ asset('assets/img/icon/phone.svg') }}" alt>
+                        <img src="{{ asset('assets/img/icon/BPO-01.svg') }}" alt>
                     </div>
                     <div class="service-content">
                         <h3 class="service-title">
-                            <a href="{{ url('/service-single') }}">Business Process Outsourcing</a>
+                            <a href="{{ url('/buisness') }}">Business Process Outsourcing</a>
                         </h3>
                         <p class="service-text">
                             Streamline your business processes with our expert outsourcing solutions.
                         </p>
                         <div class="service-arrow">
-                            <a href="{{ url('/service-single') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
+                            <a href="{{ url('/buisness') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -276,17 +276,17 @@
             <div class="col-md-6 col-lg-3">
                 <div class="service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".75s">
                     <div class="service-icon">
-                        <img src="{{ asset('assets/img/icon/gadget.svg') }}" alt>
+                        <img src="{{ asset('assets/img/icon/Research.svg') }}" alt>
                     </div>
                     <div class="service-content">
                         <h3 class="service-title">
-                            <a href="{{ url('/service-single') }}">Research & Development</a>
+                            <a href="{{ url('/digital') }}">Research & Development</a>
                         </h3>
                         <p class="service-text">
                             Advance your business with our cutting-edge research and development services.
                         </p>
                         <div class="service-arrow">
-                            <a href="{{ url('/service-single') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
+                            <a href="{{ url('/digital') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -294,11 +294,11 @@
             <div class="col-md-6 col-lg-3">
                 <div class="service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
                     <div class="service-icon">
-                        <img src="{{ asset('assets/img/icon/laptop.svg') }}" alt>
+                        <img src="{{ asset('assets/img/icon/knowldege.svg') }}" alt>
                     </div>
                     <div class="service-content">
                         <h3 class="service-title">
-                            <a href="{{ url('/service-single') }}">Cloud Solutions & Infrastructure</a>
+                            <a href="{{ url('/service-single') }}">knowledge and Capacity Building</a>
                         </h3>
                         <p class="service-text">
                             Secure, scalable cloud solutions to enhance your digital infrastructure.
@@ -309,42 +309,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".50s">
-                    <div class="service-icon">
-                        <img src="{{ asset('assets/img/icon/recovery.svg') }}" alt>
-                    </div>
-                    <div class="service-content">
-                        <h3 class="service-title">
-                            <a href="{{ url('/service-single') }}">Space Science Technology</a>
-                        </h3>
-                        <p class="service-text">
-                            Pioneering space science innovations to push the boundaries of exploration.
-                        </p>
-                        <div class="service-arrow">
-                            <a href="{{ url('/service-single') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".50s">
-                    <div class="service-icon">
-                        <img src="{{ asset('assets/img/icon/tab.svg') }}" alt>
-                    </div>
-                    <div class="service-content">
-                        <h3 class="service-title">
-                            <a href="{{ url('/service-single') }}">Talent Development & Capacity Building</a>
-                        </h3>
-                        <p class="service-text">
-                            Equip your team with skills for growth and future-readiness.
-                        </p>
-                        <div class="service-arrow">
-                            <a href="{{ url('/service-single') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          
         </div>
     </div>
 </div>

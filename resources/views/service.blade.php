@@ -10,7 +10,7 @@
             </ul>
         </div>
     </div>
-    <div class="service-area sa-bg pt-60 pb-70">
+    <div class="service-area sa-bg pt-100 pb-70">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-lg-6">
@@ -22,18 +22,17 @@
                         </p>
                     </div>
                 </div>
-
                 <div class="col-md-6 col-lg-3">
                     <div class="service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
                         <div class="service-icon">
-                            <img src="{{ asset('assets/img/icon/tab.svg') }}" alt>
+                            <img src="{{ asset('assets/img/icon/Digital.svg') }}" alt>
                         </div>
                         <div class="service-content">
                             <h3 class="service-title">
-                                <a href="{{ url('/software') }}">ICT & Software Development</a>
+                                <a href="{{ url('/software') }}">Digital Transformation Services</a>
                             </h3>
                             <p class="service-text">
-                                We build robust and scalable software solutions tailored to modern business needs.
+                                We deliver robust, innovative web and software solutions to drive business success.
                             </p>
                             <div class="service-arrow">
                                 <a href="{{ url('/software') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
@@ -41,56 +40,53 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-md-6 col-lg-3">
                     <div class="service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".50s">
                         <div class="service-icon">
-                            <img src="{{ asset('assets/img/icon/phone.svg') }}" alt>
+                            <img src="{{ asset('assets/img/icon/BPO-01.svg') }}" alt>
                         </div>
                         <div class="service-content">
                             <h3 class="service-title">
-                                <a href="{{ url('/service-single') }}">Business Process Outsourcing</a>
+                                <a href="{{ url('/buisness') }}">Business Process Outsourcing</a>
                             </h3>
                             <p class="service-text">
-                                Enhance efficiency by outsourcing key business processes to our expert team.
+                                Streamline your business processes with our expert outsourcing solutions.
                             </p>
                             <div class="service-arrow">
-                                <a href="{{ url('/service-single') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
+                                <a href="{{ url('/buisness') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <div class="col-md-6 col-lg-3">
                     <div class="service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".75s">
                         <div class="service-icon">
-                            <img src="{{ asset('assets/img/icon/gadget.svg') }}" alt>
+                            <img src="{{ asset('assets/img/icon/Research.svg') }}" alt>
                         </div>
                         <div class="service-content">
                             <h3 class="service-title">
-                                <a href="{{ url('/service-single') }}">Research & Development</a>
+                                <a href="{{ url('/digital') }}">Research & Development</a>
                             </h3>
                             <p class="service-text">
-                                Drive innovation with our R&D services, focused on new technologies and solutions.
+                                Advance your business with our cutting-edge research and development services.
                             </p>
                             <div class="service-arrow">
-                                <a href="{{ url('/service-single') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
+                                <a href="{{ url('/digital') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <div class="col-md-6 col-lg-3">
                     <div class="service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
                         <div class="service-icon">
-                            <img src="{{ asset('assets/img/icon/laptop.svg') }}" alt>
+                            <img src="{{ asset('assets/img/icon/knowldege.svg') }}" alt>
                         </div>
                         <div class="service-content">
                             <h3 class="service-title">
-                                <a href="{{ url('/service-single') }}">Cloud Solutions & Infrastructure</a>
+                                <a href="{{ url('/service-single') }}">knowledge and Capacity Building</a>
                             </h3>
                             <p class="service-text">
-                                Leverage cloud technology to enhance your infrastructure's scalability and security.
+                                Secure, scalable cloud solutions to enhance your digital infrastructure.
                             </p>
                             <div class="service-arrow">
                                 <a href="{{ url('/service-single') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
@@ -98,44 +94,7 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".50s">
-                        <div class="service-icon">
-                            <img src="{{ asset('assets/img/icon/recovery.svg') }}" alt>
-                        </div>
-                        <div class="service-content">
-                            <h3 class="service-title">
-                                <a href="{{ url('/service-single') }}">Space Science & Technology</a>
-                            </h3>
-                            <p class="service-text">
-                                Pioneer new discoveries with our advanced space technology solutions.
-                            </p>
-                            <div class="service-arrow">
-                                <a href="{{ url('/service-single') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".50s">
-                        <div class="service-icon">
-                            <img src="{{ asset('assets/img/icon/tab.svg') }}" alt>
-                        </div>
-                        <div class="service-content">
-                            <h3 class="service-title">
-                                <a href="{{ url('/service-single') }}">Talent Development & Capacity Building</a>
-                            </h3>
-                            <p class="service-text">
-                                Empower your workforce with training and skills for future readiness.
-                            </p>
-                            <div class="service-arrow">
-                                <a href="{{ url('/service-single') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              
             </div>
         </div>
     </div>

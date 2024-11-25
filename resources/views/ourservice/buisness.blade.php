@@ -3,81 +3,67 @@
 @section('content')
 <main class="main">
 
-    <div class="site-breadcrumb" style="background: url('assets/img/about/portfolio_04.jpeg')">
-        <div class="container">
-            <h2 class="breadcrumb-title">Business Process Outsourcing</h2>
-            <ul class="breadcrumb-menu">
-                <li><a href="index.html">Home</a></li>
-                <li class="active">Business Process Outsourcing</li>
-            </ul>
-        </div>
-    </div>
+    <!-- Breadcrumb Section with Video Background -->
+   
 
-    <div class="service-single-area py-120">
+    <div class="service-single-area py-80">
         <div class="container">
             <div class="service-single-wrapper">
                 <div class="row">
-                    <div class="col-xl-4 col-lg-4">
-                        <div class="service-sidebar">
-                            <div class="widget category">
-                                <h4 class="widget-title">Our Services</h4>
-                                <div class="category-list">
-                                    <a href="#"><i class="far fa-angle-double-right"></i>Business Process Outsourcing</a>
-                                    <a href="#"><i class="far fa-angle-double-right"></i>Software Development</a>
-                                    <a href="#"><i class="far fa-angle-double-right"></i>IT Consulting</a>
-                                    <a href="#"><i class="far fa-angle-double-right"></i>Cybersecurity</a>
-                                    <a href="#"><i class="far fa-angle-double-right"></i>Cloud Computing</a>
-                                    <a href="#"><i class="far fa-angle-double-right"></i>Data Analytics</a>
-                                    <a href="#"><i class="far fa-angle-double-right"></i>Network Solutions</a>
-                                </div>
-                            </div>
-                            <div class="widget service-download">
-                                <h4 class="widget-title">Download</h4>
-                                <a href="#"><i class="far fa-file-pdf"></i> Download Service Overview</a>
-                                <a href="#"><i class="far fa-file-alt"></i> Download Case Study</a>
-                            </div>
-                        </div>
+                    <div class="col-xl-2 col-lg-2">
                     </div>
-                    <div class="col-xl-8 col-lg-8">
+                    <div class="col-xl-12 col-lg-8">
                         <div class="service-details">
                             <div class="service-details-img mb-30">
-                                <img src="assets/img/about/portfolio_04.jpeg" alt="thumb">
+                                <img src="assets/img/about/A20I2701.jpg" alt="thumb">
                             </div>
                             <div class="service-details">
-                                <h3 class="mb-30">Business Process Outsourcing</h3>
+                                <h3 class="mb-20 mt-20">Business Process Outsourcing (BPO)</h3>
                                 <p class="mb-20">
-                                    Our Business Process Outsourcing (BPO) services allow organizations to focus on their core competencies while we handle essential yet non-core tasks. From customer support to back-office functions, we deliver solutions that enhance efficiency and reduce costs.
+                                    At FARIS technologies, we elevate your business with our comprehensive BPO solutions, from providing exceptional customer service and support to delivering innovative IT services and captivating content creation and management. Our dedicated team is committed to optimizing your operations, enhancing customer satisfaction, and driving business growth.
                                 </p>
-                                <p class="mb-20">
-                                    With expertise in BPO, we help businesses streamline operations and improve service quality. Our teams are committed to maintaining high standards in every aspect of outsourced processes, ensuring consistent, reliable, and scalable support for your business needs.
+                                <p class="mb-30 ">
+                                    Ethiopia, with its growing pool of skilled talent and favorable economic climate, is well positioned to offer a range of BPO services. Here are some key areas where we excel:
                                 </p>
-                                <div class="row">
-                                    <div class="col-md-6 mb-20">
-                                        <img src="{{ asset('assets/img/about/emile-perron-xrVDYZRGdw4-unsplash-scaled-e1654596346828.jpg.webp') }}" alt="Service Image 1">
-                                    </div>
-                                    <div class="col-md-6 mb-20">
-                                        <img src="{{ asset('assets/img/gallery/A20I3216-1-scaled (1).jpg') }}" alt="Service Image 2">
-                                    </div>
+                                <h4 class="mb-30 mt-20">1. Customer Service and Support:</h4>
+                                <ul>
+                                    <li><i class="far fa-check"></i> Call Centers: Handling inbound and outbound calls for customer inquiries, technical support, and sales.</li>
+                                    <li><i class="far fa-check"></i> Email Support: Responding to customer emails and resolving queries.</li>
+                                    <li><i class="far fa-check"></i> Live Chat Support: Providing real-time customer support through online chat.</li>
+                                </ul>
+                                <h4 class="mb-30 mt-20">2. IT Services:</h4>
+                                <ul>
+                                    <li><i class="far fa-check"></i> Software Development: Developing custom software solutions for various industries.</li>
+                                    <li><i class="far fa-check"></i> IT Support: Providing technical support to clients, including troubleshooting and network maintenance.</li>
+                                    <li><i class="far fa-check"></i> Data Entry and Processing: Inputting and processing large volumes of data accurately and efficiently.</li>
+                                </ul>
+                                <h4 class="mb-30 mt-20">3. Content Creation and Management:</h4>
+                                <ul>
+                                    <li><i class="far fa-check"></i> Content Writing: Creating high-quality content for websites, blogs, and social media.</li>
+                                    <li><i class="far fa-check"></i> Translation and Localization: Translating content into different languages and adapting it to local cultures.</li>
+                                    <li><i class="far fa-check"></i> SEO and Digital Marketing: Optimizing websites for search engines and implementing digital marketing campaigns.</li>
+                                </ul>
+                                <h3 class="mb-30 mt-20">Why BPO is attractive to foreign companies?</h3>
+                                <ul>
+                                    <li><i class="far fa-check"></i> Cost-Effective Labor: Ethiopia offers a relatively low cost of labor compared to other outsourcing destinations, making it an attractive option for cost-conscious businesses.</li>
+                                    <li><i class="far fa-check"></i> Linguistic Advantage: Many Ethiopians, especially the younger generation, are fluent in English, facilitating effective communication with international clients.</li>
+                                    <li><i class="far fa-check"></i> Dedicated Workforce: Ethiopian workers are known for their strong work ethic, discipline, and willingness to learn.</li>
+                                    <li><i class="far fa-check"></i> Time Zone Advantage: Ethiopia's time zone is favorable for businesses operating in Europe and the Middle East, enabling seamless 24/7 operations.</li>
+                                    <li><i class="far fa-check"></i> Government Support: The Ethiopian government has implemented various policies and incentives to promote the BPO industry, including tax breaks, streamlined regulations, and infrastructure development.</li>
+                                </ul>
+                                <div class="service-details-img mb-30 mt-30">
+                                    <img src="assets/img/about/photo_2024-10-14_16-00-34-transformed.jpeg" style="width: 800px; height:400px;" alt="thumb">
                                 </div>
-                                <p class="mb-20">
-                                    Our BPO services follow best practices to ensure efficiency and productivity, with a focus on quality and customer satisfaction. We bring expertise in managing outsourced processes seamlessly, allowing your business to scale and adapt to dynamic market needs.
-                                </p>
-                                <div class="my-4">
-                                    <div class="mb-3">
-                                        <h3 class="mb-3">Our Work Process</h3>
-                                        <p>We utilize a structured approach to business process outsourcing, ensuring transparency and optimal performance. Our process includes needs assessment, tailored solutions, onboarding, and continuous support to enhance your business outcomes.</p>
-                                    </div>
-                                    <ul class="service-single-list">
-                                        <li><i class="far fa-check"></i>Detailed needs assessment and solution design.</li>
-                                        <li><i class="far fa-check"></i>Streamlined onboarding and integration process.</li>
-                                        <li><i class="far fa-check"></i>Regular quality checks and performance monitoring.</li>
-                                        <li><i class="far fa-check"></i>Dedicated post-implementation support and management.</li>
-                                        <li><i class="far fa-check"></i>Focus on efficiency, accuracy, and customer satisfaction.</li>
-                                    </ul>
-                                </div>
-                                <div class="my-4">
-                                    <h3 class="mb-3">Service Features</h3>
-                                    <p>Our BPO services come with various unique features, including dedicated account management, streamlined workflows, and advanced technology integration. We aim to help your business achieve operational efficiency and drive growth through outsourcing.</p>
+                                <h3 class="mb-30 mt-20">How Ethiopia benefits from BPO:</h3>
+                                <ul>
+                                    <li><i class="far fa-check"></i> Job Creation: We at FARIS technologies create numerous jobs, particularly in customer service, Software Development, IT support, and data entry. This can help reduce unemployment rates and boost economic growth.</li>
+                                    <li><i class="far fa-check"></i> Skill Development: Provide extensive training to our employees, leading to skill enhancement in areas like communication, problem-solving, and technical expertise. This can benefit the overall workforce.</li>
+                                    <li><i class="far fa-check"></i> Foreign Exchange Earnings: Bring in foreign currency, which can contribute to the country's economic stability.</li>
+                                    <li><i class="far fa-check"></i> Technology Transfer: Introduce advanced technologies and best practices, which can help modernize the local IT sector.</li>
+                                </ul>
+
+                                <div class="text-center mt-20">
+                                    <a href="{{ url('/contact') }}" class="theme-btn theme-btn2">Get in Touch</a>
                                 </div>
                             </div>
                         </div>

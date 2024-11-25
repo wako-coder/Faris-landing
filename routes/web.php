@@ -34,6 +34,12 @@ Route::get('/blogsingle', function () {
 Route::get('/software', function () {
     return view('ourservice.softwareservice');
 });
+Route::get('/buisness', function () {
+    return view('ourservice.buisness');
+});
+Route::get('/digital', function () {
+    return view('ourservice.Digitalservice');
+});
 
 
 
