@@ -15,7 +15,7 @@
                     <div class="col-xl-12 col-lg-8">
                         <div class="service-details">
                             <div class="service-details-img mb-30">
-                                <img src="assets/img/about/A20I2701.jpg" alt="thumb">
+                                <img src="assets/img/about/A20I2701.JPG" alt="thumb">
                             </div>
                             <div class="service-details">
                                 <h3 class="mb-20 mt-20">Business Process Outsourcing (BPO)</h3>
