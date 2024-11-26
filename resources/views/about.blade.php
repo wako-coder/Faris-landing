@@ -176,7 +176,7 @@
                             <ul class="about-list list-unstyled">
                                 <li>
                                     <div class="icon">
-                                        <img src="{{ asset('assets/img/icon/innovation.svg') }}" alt>
+                                        <img src="{{ asset('assets/img/icon/Research.svg') }}" alt>
                                     </div>
                                     <div class="content">
                                         <h4>Innovative Strategies</h4>
@@ -185,7 +185,7 @@
                                 </li>
                                 <li>
                                     <div class="icon">
-                                        <img src="{{ asset('assets/img/icon/expertise.svg') }}" alt>
+                                        <img src="{{ asset('assets/img/icon/repair.svg') }}" alt>
                                     </div>
                                     <div class="content">
                                         <h4>Proven Expertise</h4>

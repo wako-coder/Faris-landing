@@ -117,8 +117,8 @@
                         <img src="{{ asset('assets/img/icon/BPO-01.svg') }}" alt>
                     </div>
                     <div class="feature-content">
-                        <h4>Innovative Web Development</h4>
-                        <p>We create cutting-edge web solutions tailored to help businesses thrive in the digital world.</p>
+                        <h4>Digital Transformation Services</h4>
+                        <p> At FARIS Technologies, we offer a future-proof approach - Digital Ascendancy Services. We leverage cutting-edge technologies to propel your business to the next level</p>
                     </div>
                 </div>
             </div>
@@ -129,8 +129,8 @@
                         <img src="{{ asset('assets/img/icon/Digital.svg') }}" alt>
                     </div>
                     <div class="feature-content">
-                        <h4>Expert App Development Team</h4>
-                        <p>We create cutting-edge web solutions tailored to help businesses thrive in the digital world.</p>
+                        <h4>Business Process Outsourcing</h4>
+                        <p>At FARIS technologies, we elevate your business with our comprehensive BPO solutions, from providing exceptional customer service and support to delivering innovative IT services  </p>
                     </div>
                 </div>
             </div>
@@ -141,8 +141,8 @@
                         <img src="{{ asset('assets/img/icon/Knowldege.svg') }}" alt>
                     </div>
                     <div class="feature-content">
-                        <h4>AI & Space Technology Solutions</h4>
-                        <p>Leveraging AI and space science, we bring innovative solutions to transform industries.</p>
+                        <h4>Research & Development</h4>
+                        <p>Leveraging AI and space science, we bring innovative solutions to transform industries.   We deliver robust, innovative web and software solutions to drive business success.</p>
                     </div>
                 </div>
             </div>
@@ -153,8 +153,8 @@
                         <img src="{{ asset('assets/img/icon/Research.svg') }}"  alt>
                     </div>
                     <div class="feature-content">
-                        <h4>AI & Space Technology Solutions</h4>
-                        <p>Leveraging AI and space science, we bring innovative solutions to transform industries.</p>
+                        <h4>knowledge and Capacity Building</h4>
+                        <p>Leveraging AI and space science, we bring innovative solutions to transform industries. We deliver robust and Streamline your business processes with our expert outsourcing solutions.</p>
                     </div>
                 </div>
             </div>
@@ -442,10 +442,10 @@
                         As a leading tech startup, we specialize in cutting-edge web and app development, artificial intelligence, and space science technology. Our mission is to drive innovation and deliver tailored solutions that push the boundaries of what's possible.
                     </p>
                 </div>
-                <div class="mb-20 mt-10">
+                {{-- <div class="mb-20 mt-10">
                     <a href="#" class="cta-border-btn"><i class="fal fa-headset"></i>+251-902122222</a>
                 </div>
-                <a href="{{ url('/contact') }}" class="theme-btn">Contact Us <i class="fas fa-arrow-right"></i></a>
+                <a href="{{ url('/contact') }}" class="theme-btn">Contact Us <i class="fas fa-arrow-right"></i></a> --}}
             </div>
         </div>
     </div>

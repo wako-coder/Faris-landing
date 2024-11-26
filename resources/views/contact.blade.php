@@ -28,7 +28,7 @@
                                 </div>
                                 <div class="contact-info-content">
                                     <h5>Offce Address</h5>
-                                    <p>2nd Floor, Holy City Center, Gurd Shola, Addis Ababa, Ethiopia</p>
+                                    <p>6th Floor, Sur Construction, Bole, Addis Ababa, Ethiopia</p>
                                 </div>
                             </div>
                             <div class="contact-info">

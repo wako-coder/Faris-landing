@@ -17,12 +17,12 @@
                         <ul>
                             <li>
                                 <div class="header-top-contact-info">
-                                    <a href="tel:+21236547898"><i class="far fa-phone-volume"></i> +2 123 654 7898</a>
+                                    <a href="tel:+25136547898"><i class="far fa-phone-volume"></i> +2 513 654 7898</a>
                                 </div>
                             </li>
                             <li>
                                 <div class="header-top-contact-info">
-                                    <a href="mailto:info@example.com"><i class="far fa-envelope"></i>info@example.com</a>
+                                    <a href="mailto:info@faris.com"><i class="far fa-envelope"></i>info@faristechnologies.com</a>
                                 </div>
                             </li>
                             <li>

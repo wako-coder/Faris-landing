@@ -155,13 +155,12 @@
                                 <img src="{{ asset('assets/img/logo/WhiteMinilogo.png.webp') }}" alt="Farist Technologies Logo">
                             </a>
                             <p class="mb-4">
-                                At Farist Technologies, we innovate and develop cutting-edge solutions in web and app
+                                At Faris Technologies, we innovate and develop cutting-edge solutions in web and app
                                 development, AI, and space science.
                             </p>
                             <ul class="footer-contact">
                                 <li><a href="tel:+251902122222"><i class="far fa-phone"></i>+251-902122222</a></li>
-                                <li><i class="far fa-map-marker-alt"></i> 2nd Floor, Holy City Center, Gurd Shola, Addis
-                                    Ababa, Ethiopia</li>
+                                <li><i class="far fa-map-marker-alt"></i>Sur Construction 6th Floor</li>
                                 <li><a href="mailto:info@faristechnologies.com"><i
                                             class="far fa-envelope"></i>info@faristechnologies.com</a></li>
                             </ul>
