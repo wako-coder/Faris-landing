@@ -32,7 +32,7 @@
                                 <a href="{{ url('/software') }}">Digital Transformation Services</a>
                             </h3>
                             <p class="service-text">
-                                We deliver robust, innovative web and software solutions to drive business success.
+                                Revolutionize your business with Faris Technologies' AI-driven digital transformation services.
                             </p>
                             <div class="service-arrow">
                                 <a href="{{ url('/software') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
@@ -50,7 +50,7 @@
                                 <a href="{{ url('/buisness') }}">Business Process Outsourcing</a>
                             </h3>
                             <p class="service-text">
-                                Streamline your business processes with our expert outsourcing solutions.
+                                Efficiency meets intelligence in our BPO services. Powered by AI, we deliver solutions that reduce costs.
                             </p>
                             <div class="service-arrow">
                                 <a href="{{ url('/buisness') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
@@ -68,7 +68,7 @@
                                 <a href="{{ url('/digital') }}">Research & Development</a>
                             </h3>
                             <p class="service-text">
-                                Advance your business with our cutting-edge research and development services.
+                                At the heart of our mission lies innovation. Faris Technologies’ Research & Reengineering Division explores transformative fields like AI, aerospaces.
                             </p>
                             <div class="service-arrow">
                                 <a href="{{ url('/digital') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>

@@ -65,8 +65,8 @@
                     <div class="col-lg-8">
                         <div class="contact-form">
                             <div class="contact-form-header">
-                                <h2>Get In Touch</h2>
-                                <p>We value your feedback. Feel free to send us a message!</p>
+                                <h2>Start Your Journey with Faris</h2>
+                                <p>Collaborate with Ethiopia’s AI Leaders</p>
                             </div>
                             <form method="POST" action="" id="contact-form">
                                 @csrf
@@ -99,6 +99,7 @@
             </div>
         </div>
     </div>
+
 
     <!-- Google Map Embed Section -->
     <div class="contact-map">

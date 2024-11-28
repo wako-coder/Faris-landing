@@ -160,7 +160,7 @@
                             </p>
                             <ul class="footer-contact">
                                 <li><a href="tel:+251902122222"><i class="far fa-phone"></i>+251-902122222</a></li>
-                                <li><i class="far fa-map-marker-alt"></i>Sur Construction 6th Floor</li>
+                                <li><i class="far fa-map-marker-alt"></i>6th Floor, Sur Construction, Bole, Addis Ababa, Ethiopia</li>
                                 <li><a href="mailto:info@faristechnologies.com"><i
                                             class="far fa-envelope"></i>info@faristechnologies.com</a></li>
                             </ul>

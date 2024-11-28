@@ -8,11 +8,7 @@
         <div class="hero-slider owl-carousel owl-theme">
             <!-- Slide 1 -->
             <div class="hero-single">
-                <!-- Video background -->
-                <video autoplay loop muted playsinline class="video-background">
-                    <source src="{{ asset('assets/img/video/Untitled design.mp4') }}" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                <img src="{{ asset('assets/img/video/capacity.gif') }}" alt="Capacity Animation" class="video-background">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-lg-8">
@@ -20,14 +16,18 @@
                                 <h1 class="hero-title" data-animation="fadeInUp" data-delay=".50s">
                                     Digital Transformation <span>Services</span>
                                 </h1>
-                                <p data-animation="fadeInUp" data-delay=".75s">Unlock the Future with FARIS Technologies' Digital Ascendancy Services</p>
+                                <p data-animation="fadeInUp" data-delay=".75s">
+                                    Unlock the Future with FARIS Technologies' Digital Ascendancy Services
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            
         </div>
     </div>
+    
 
     <div class="service-single-area py-80">
         <div class="container">

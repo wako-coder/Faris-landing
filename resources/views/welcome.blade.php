@@ -62,7 +62,7 @@
                             <div class="hero-content">
                                 <h6 class="hero-sub-title" data-animation="fadeInUp" data-delay=".25s">Think out of Earth</h6>
                                 <h1 class="hero-title" data-animation="fadeInUp" data-delay=".50s">
-                                    The Hub of <span>Emerging</span> Technology in Africa
+                                    "Empowering Africa <span>Through Innovation in AI</span> and Emerging Technologies"
                                 </h1>
                                 <p data-animation="fadeInUp" data-delay=".75s">
                                     We create cutting-edge web solutions tailored to help businesses thrive in the digital world.
@@ -86,7 +86,7 @@
                             <div class="hero-content">
                                 <h6 class="hero-sub-title" data-animation="fadeInUp" data-delay=".25s">Think out of Earth</h6>
                                 <h1 class="hero-title" data-animation="fadeInUp" data-delay=".50s">
-                                    The Hub of <span>Emerging</span> Technology in Africa
+                                    Technology Meets <span> Expertise at </span>FARIS Technologies
                                 </h1>
                                 <p data-animation="fadeInUp" data-delay=".75s">
                                     There are many variations of passages orem psum available but the majority have suffered alteration in some form by injected humour or randomised.
@@ -106,7 +106,6 @@
     <div class="col-lg-8">
     </div>
 </div>
-
 <div class="feature-area pt-120 col-10 mx-auto">
         <div class="testimonial-slider owl-carousel " data-wow-duration="1s"
         data-wow-delay=".25s">
@@ -194,7 +193,7 @@
                         </h2>
                     </div>
                     <p class="about-text">
-                        We specialize in web and app development, AI, and space science technology, pushing the boundaries of innovation to deliver transformative solutions.
+                        Welcome to FARIS Technology Knowledge & Capacity Building Division, where we are committed to shaping Ethiopia's future through cutting-edge felids in digital emerging technologies Space Science, Robotics, Rocketry, Artificial Intelligence (AI), Data Science and Analytics, the Internet of Things (IoT), Blockchain Technology, Virtual Reality (VR) and Augmented Reality (AR), Cloud Computing, Cybersecurity, 5G Technology, Quantum Computing, Edge Computing, Biotechnology, and Automation and Robotics are key fields driving innovation and transformation across various industries.
                     </p>
                     <div class="about-list-wrap">
                         <ul class="about-list list-unstyled">
