@@ -137,7 +137,7 @@
                 <div class="feature-item">
                     <span class="count">03</span>
                     <div class="feature-icon">
-                        <img src="{{ asset('assets/img/icon/Knowldege.svg') }}" alt>
+                        <img src="{{ asset('assets/img/icon/knowldege.svg') }}" alt>
                     </div>
                     <div class="feature-content">
                         <h4>Research & Development</h4>
@@ -422,7 +422,7 @@
     <img src="{{asset('assets/img/our_partners/plus id-23.png')}}" style="width: 90px" alt="thumb">
     <img src="{{asset('assets/img/our_partners/Hawasa-08.png')}}" style="width: 90px"  alt="thumb">
     <img src="{{asset('assets/img/our_partners/aau-02.png')}}" style="width: 90px" alt="thumb">
-    <img src="{{asset('assets/img/our_partners/ambo unv-03.png')}}" style="width: 90px" alt="thumb">
+    <img src="{{asset('assets/img/our_partners/Ambo.png')}}" style="width: 90px" alt="thumb">
     <img src="{{asset('assets/img/our_partners/esss-07.png')}}" style="width: 90px" alt="thumb">
     <img src="{{asset('assets/img/our_partners/hp-22.png')}}" style="width: 90px" alt="thumb">
     <img src="{{asset('assets/img/our_partners/xtranet-18.png')}}" style="width: 90px" alt="thumb">
@@ -459,7 +459,7 @@
                             <img src="{{ asset('assets/img/icon/repair-2.svg') }}" alt>
                         </div>
                         <div>
-                            <span class="counter" data-count="+" data-to="1200" data-speed="3000">1200</span>
+                            <span class="counter" data-count="+" data-to="100" data-speed="3000">100</span>
                             <h6 class="title">+ Projects Done</h6>
                         </div>
                     </div>
@@ -470,7 +470,7 @@
                             <img src="{{ asset('assets/img/icon/happy.svg') }}" alt>
                         </div>
                         <div>
-                            <span class="counter" data-count="+" data-to="1500" data-speed="3000">1500</span>
+                            <span class="counter" data-count="+" data-to="95" data-speed="3000">95</span>
                             <h6 class="title">+ Happy Clients</h6>
                         </div>
                     </div>
@@ -481,7 +481,7 @@
                             <img src="{{ asset('assets/img/icon/team-2.svg') }}" alt>
                         </div>
                         <div>
-                            <span class="counter" data-count="+" data-to="400" data-speed="3000">400</span>
+                            <span class="counter" data-count="+" data-to="45" data-speed="3000">45</span>
                             <h6 class="title">+ Experts Staffs</h6>
                         </div>
                     </div>
@@ -502,7 +502,7 @@
     </div>
 </div>
 
-<div class="gallery-area pt-120 pb-60">
+<div class="gallery-area py-120">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
@@ -514,66 +514,96 @@
                 <div class="filter-controls wow fadeInUp" data-wow-duration="1s" data-wow-delay=".50s">
                     <ul class="filter-btns">
                         <li class="active" data-filter="*"><i class="far fa-computer-speaker"></i> All</li>
-                        <li data-filter=".cat1"><i class="far fa-mobile"></i> Staff</li>
-                        <li data-filter=".cat2"><i class="far fa-laptop"></i> Services</li>
-                        <li data-filter=".cat3"><i class="far fa-tv"></i> Product</li>
-                        <li data-filter=".cat4"><i class="far fa-tablet"></i> customers</li>
-                        <li data-filter=".cat5"><i class="far fa-microchip"></i> Partners</li>
+                        <li data-filter=".cat1"><i class="far fa-mobile"></i> Our Teams</li>
+                        <li data-filter=".cat2"><i class="far fa-laptop"></i> Our Bootcamp</li>
+                        <li data-filter=".cat3"><i class="far fa-tv"></i> Our Clients</li>
+                        <li data-filter=".cat4"><i class="far fa-tablet"></i> Meetings</li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="row mt-3 filter-box popup-gallery wow fadeInUp" data-wow-duration="1s" data-wow-delay=".75s">
-            <div class="col-md-4 filter-item cat3 cat4 cat5">
+
+            <!-- Gallery Item 1 -->
+            <div class="col-md-4 filter-item cat3 cat5">
                 <div class="gallery-item">
                     <div class="gallery-img">
-                        <img src="{{ asset('assets/img/slider/A20I3456-scaled.jpeg') }}" alt>
+                        <img src="{{ asset('assets/img/office/meeting.JPG') }}" alt>
                     </div>
                     <div class="gallery-content">
-                        <a class="popup-img gallery-link" href="{{ asset('assets/img/gallery/A20I3216-1-scaled (1).jpg') }}"><i class="far fa-plus"></i></a>
+                        <a class="popup-img gallery-link" href="{{ asset('assets/img/office/meeting.JPG') }}"><i class="far fa-camera"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 filter-item cat1 cat2">
+
+
+
+            <!-- Gallery Item 6 -->
+            <div class="col-md-4 filter-item cat2">
                 <div class="gallery-item">
                     <div class="gallery-img">
-                        <img src="{{ asset('assets/img/gallery/mars-67522_1280 (1).jpg') }}" alt>
+                        <img src="{{ asset('assets/img/office/robot2.JPG') }}" alt>
                     </div>
                     <div class="gallery-content">
-                        <a class="popup-img gallery-link" href="{{ asset('assets/img/gallery/pexels-kevin-ku-92347-577585 (1) (1).jpg') }}"><i class="far fa-plus"></i></a>
+                        <a class="popup-img gallery-link" href="{{ asset('assets/img/office/robot2.JPG') }}"><i class="far fa-camera"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 filter-item cat2 cat3">
+
+            <!-- Gallery Item 7 -->
+            <div class="col-md-4 filter-item cat2">
                 <div class="gallery-item">
                     <div class="gallery-img">
-                        <img src="{{ asset('assets/img/gallery/Mobile-app-for-your-business.png (1).webp') }}" alt>
+                        <img src="{{ asset('assets/img/office/robot3.JPG') }}" alt>
                     </div>
                     <div class="gallery-content">
-                        <a class="popup-img gallery-link" href="{{ asset('assets/img/gallery/pexels-kevin-ku-92347-577585 (1) (1).jpg') }}"><i class="far fa-plus"></i></a>
+                        <a class="popup-img gallery-link" href="{{ asset('assets/img/office/robot3.JPG') }}"><i class="far fa-camera"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 filter-item cat2 cat4">
+
+            <!-- Gallery Item 8 -->
+            <div class="col-md-4 filter-item cat2 ">
                 <div class="gallery-item">
                     <div class="gallery-img">
-                        <img src="{{ asset('assets/img/gallery/rocket-launch-67643_1280 (1).jpg') }}" alt>
+                        <img src="{{ asset('assets/img/office/kids.JPG') }}" alt>
                     </div>
                     <div class="gallery-content">
-                        <a class="popup-img gallery-link" href="{{ asset('assets/img/gallery/rocket-launch-67643_1280 (1).jpg') }}"><i class="far fa-plus"></i></a>
+                        <a class="popup-img gallery-link" href="{{ asset('assets/img/office/kids.JPG') }}"><i class="far fa-camera"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 filter-item cat1 cat4 cat5">
+
+            <!-- Gallery Item 9 -->
+            <div class="col-md-4 filter-item cat4 cat3">
                 <div class="gallery-item">
                     <div class="gallery-img">
-                        <img src="{{ asset('assets/img/gallery/A20I3216-1-scaled (1).jpg') }}" alt>
+                        <img src="{{ asset('assets/img/office/A20I2667.JPG') }}" alt>
                     </div>
                     <div class="gallery-content">
-                        <a class="popup-img gallery-link" href="{{ asset('assets/img/gallery/A20I3216-1-scaled (1).jpg') }}"><i class="far fa-plus"></i></a>
+                        <a class="popup-img gallery-link" href="{{ asset('assets/img/office/A20I2667.JPG') }}"><i class="far fa-camera"></i></a>
                     </div>
                 </div>
             </div>
+             
+          
+
+            <!-- Gallery Item 10 -->
+            <div class="col-md-4 filter-item cat1 cat3 cat4 cat5">
+                <div class="gallery-item">
+                    <div class="gallery-img">
+                        <img src="{{ asset('assets/img/office/A20I3163.jpg') }}" alt>
+                    </div>
+                    <div class="gallery-content">
+                        <a class="popup-img gallery-link" href="{{ asset('assets/img/office/A20I3163.jpg') }}"><i class="far fa-camera"></i></a>
+                    </div>
+                </div>
+            </div>
+
+         
+
+            
+
         </div>
     </div>
 </div>
