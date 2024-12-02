@@ -26,9 +26,9 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="header-top-contact-info">
+                                {{-- <div class="header-top-contact-info">
                                     <a href="#"><i class="far fa-clock"></i> Sun - Fri (08AM - 10PM)</a>
-                                </div>
+                                </div> --}}
                             </li>
                         </ul>
                     </div>

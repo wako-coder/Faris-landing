@@ -39,7 +39,7 @@
                                 <p data-animation="fadeInUp" data-delay=".75s"></p>
                                 <div class="hero-btn" data-animation="fadeInUp" data-delay="1s">
                                     <a href="#" class="theme-btn">About More<i class="fas fa-arrow-right"></i></a>
-                                    <a href="#" class="theme-btn theme-btn2" style="color: black; box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.1); hover{color:white}">Learn More<i class="fas fa-arrow-right"></i></a>
+                                    {{-- <a href="#" class="theme-btn theme-btn2" style="color: black; box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.1); hover{color:white}">Learn More<i class="fas fa-arrow-right"></i></a> --}}
                                 </div>
                             </div>
                         </div>
@@ -93,7 +93,7 @@
                                 </p>
                                 <div class="hero-btn" data-animation="fadeInUp" data-delay="1s">
                                     <a href="#" class="theme-btn">About More<i class="fas fa-arrow-right"></i></a>
-                                    <a href="#" class="theme-btn theme-btn2">Learn More<i class="fas fa-arrow-right"></i></a>
+                                    {{-- <a href="#" class="theme-btn theme-btn2">Learn More<i class="fas fa-arrow-right"></i></a> --}}
                                 </div>
                             </div>
                         </div>
@@ -152,7 +152,7 @@
                         <img src="{{ asset('assets/img/icon/Research.svg') }}"  alt>
                     </div>
                     <div class="feature-content">
-                        <h4>knowledge and Capacity Building</h4>
+                        <h4>Knowledge and Capacity Building</h4>
                         <p>Leveraging AI and space science, we bring innovative solutions to transform industries. We deliver robust and Streamline your business processes with our expert outsourcing solutions.</p>
                     </div>
                 </div>
