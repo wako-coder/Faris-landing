@@ -20,7 +20,7 @@
             <div class="hero-single">
                 <!-- Video background -->
                 <video autoplay loop muted playsinline class="video-background" style="filter: brightness(0.5);">
-                    <source src="{{ asset('assets/img/video/company.mp4') }}" type="video/mp4">
+                    <source src="{{ asset('assets/img/video/Company.mp4') }}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
                 
