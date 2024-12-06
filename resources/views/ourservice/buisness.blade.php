@@ -6,10 +6,10 @@
     <!-- Breadcrumb Section with Video Background -->
    
 
-    <div class="service-single-area py-80">
+    <div class="service-single-area py-80" style="position: relative; top:50px;">
         <div class="container">
             <div class="service-single-wrapper">
-                <div class="row">
+                <div class="row" >
                     <div class="col-xl-2 col-lg-2">
                     </div>
                     <div class="col-xl-12 col-lg-8">

@@ -3,81 +3,63 @@
 @section('content')
 <main class="main">
 
-    <div class="site-breadcrumb" style="background: url('assets/img/about/portfolio_04.jpeg')">
-        <div class="container">
-            <h2 class="breadcrumb-title">Research & Development</h2>
-            <ul class="breadcrumb-menu">
-                <li><a href="index.html">Home</a></li>
-                <li class="active">Research & Development</li>
-            </ul>
-        </div>
-    </div>
+    <!-- Breadcrumb Section with Video Background -->
+   
 
-    <div class="service-single-area py-120">
+    <div class="service-single-area py-80">
         <div class="container">
             <div class="service-single-wrapper">
                 <div class="row">
-                    <div class="col-xl-4 col-lg-4">
-                        <div class="service-sidebar">
-                            <div class="widget category">
-                                <h4 class="widget-title">Our Services</h4>
-                                <div class="category-list">
-                                    <a href="#"><i class="far fa-angle-double-right"></i>Research & Development</a>
-                                    <a href="#"><i class="far fa-angle-double-right"></i>Software Development</a>
-                                    <a href="#"><i class="far fa-angle-double-right"></i>IT Consulting</a>
-                                    <a href="#"><i class="far fa-angle-double-right"></i>Cybersecurity</a>
-                                    <a href="#"><i class="far fa-angle-double-right"></i>Cloud Computing</a>
-                                    <a href="#"><i class="far fa-angle-double-right"></i>Data Analytics</a>
-                                    <a href="#"><i class="far fa-angle-double-right"></i>Network Solutions</a>
-                                </div>
-                            </div>
-                            <div class="widget service-download">
-                                <h4 class="widget-title">Download</h4>
-                                <a href="#"><i class="far fa-file-pdf"></i> Download Research Overview</a>
-                                <a href="#"><i class="far fa-file-alt"></i> Download Case Study</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-8 col-lg-8">
+                    <div class="col-xl-2 col-lg-2"></div>
+                    <div class="col-xl-12 col-lg-8">
                         <div class="service-details">
                             <div class="service-details-img mb-30">
-                                <img src="assets/img/about/portfolio_04.jpeg" alt="thumb">
+                                <img src="assets/img/about/A20I2701.JPG" alt="thumb">
                             </div>
                             <div class="service-details">
-                                <h3 class="mb-30">Research & Development</h3>
+                                <h3 class="mb-20 mt-20">Research and Re-Engineering</h3>
                                 <p class="mb-20">
-                                    Our Research & Development (R&D) services focus on creating innovative solutions tailored to evolving industry needs. We specialize in conducting in-depth research to bring forward-thinking technologies and methodologies to your business.
+                                    At FARIS technologies, we empower our clients by identifying, developing, and implementing best-fit services and engineering solutions that adapt to their evolving needs. Our commitment lies in exploring and advancing future and emerging technologies to drive innovation and shape the next generation of solutions.
                                 </p>
-                                <p class="mb-20">
-                                    With a commitment to advancing technological solutions, our R&D team explores emerging trends, optimizes processes, and develops prototypes. We aim to drive innovation and equip your organization with cutting-edge resources for future growth.
+                                <p class="mb-30">
+                                    Our dedication to research and re-engineering is reflected in our strategic participation in groundbreaking projects. A key highlight of this effort is our contribution to Ethiopia’s first remote sensing satellite, ETRSS-1. Below are some areas where we excel:
                                 </p>
-                                <div class="row">
-                                    <div class="col-md-6 mb-20">
-                                        <img src="{{ asset('assets/img/about/emile-perron-xrVDYZRGdw4-unsplash-scaled-e1654596346828.jpg.webp') }}" alt="R&D Image 1">
-                                    </div>
-                                    <div class="col-md-6 mb-20">
-                                        <img src="{{ asset('assets/img/gallery/A20I3216-1-scaled (1).jpg') }}" alt="R&D Image 2">
-                                    </div>
+                                <h4 class="mb-30 mt-20">1. Advanced Technology Development:</h4>
+                                <ul>
+                                    <li><i class="far fa-check"></i> Collaborated on satellite payload systems for environmental monitoring and agricultural applications.</li>
+                                    <li><i class="far fa-check"></i> Contributed to the development of real-time data transmission systems for remote sensing.</li>
+                                    <li><i class="far fa-check"></i> Integrated innovative technologies for optimized navigation and sensing capabilities.</li>
+                                </ul>
+                                <h4 class="mb-30 mt-20">2. Engineering Solutions:</h4>
+                                <ul>
+                                    <li><i class="far fa-check"></i> Delivered custom-designed systems tailored to complex requirements.</li>
+                                    <li><i class="far fa-check"></i> Provided scalable solutions to meet environmental and socio-economic challenges.</li>
+                                    <li><i class="far fa-check"></i> Supported operations through training programs and technical expertise.</li>
+                                </ul>
+                                <h4 class="mb-30 mt-20">3. Capacity Building and Impact:</h4>
+                                <ul>
+                                    <li><i class="far fa-check"></i> Trained a new generation of engineers and scientists for sustained development in aerospace technology.</li>
+                                    <li><i class="far fa-check"></i> Fostered international collaborations to bring advanced skills and insights to local projects.</li>
+                                    <li><i class="far fa-check"></i> Enabled the transfer of critical technology to modernize local industries.</li>
+                                </ul>
+                                <h3 class="mb-30 mt-20">Participation in ETRSS-1: A Landmark Achievement</h3>
+                                <ul>
+                                    <li><i class="far fa-check"></i> Designed systems to monitor climate, disasters, and agricultural needs with precision.</li>
+                                    <li><i class="far fa-check"></i> Enhanced Ethiopia’s ability to collect and process satellite data efficiently.</li>
+                                    <li><i class="far fa-check"></i> Contributed to a project that paves the way for future aerospace endeavors.</li>
+                                </ul>
+                                <div class="service-details-img mb-30 mt-30">
+                                    <img src="assets/img/office/etress.jpg" style="width: 800px; height:400px;" alt="thumb">
                                 </div>
-                                <p class="mb-20">
-                                    Our R&D approach is agile and adaptable, ensuring each project is customized to address specific industry challenges and opportunities. We emphasize innovative, sustainable solutions to propel your business forward.
-                                </p>
-                                <div class="my-4">
-                                    <div class="mb-3">
-                                        <h3 class="mb-3">Our Research Process</h3>
-                                        <p>Our R&D process is structured to maximize innovation and collaboration. It includes phases of exploration, prototype development, testing, and analysis to deliver solutions that align with your strategic goals.</p>
-                                    </div>
-                                    <ul class="service-single-list">
-                                        <li><i class="far fa-check"></i>Comprehensive research and industry analysis.</li>
-                                        <li><i class="far fa-check"></i>Prototype development and iterative testing.</li>
-                                        <li><i class="far fa-check"></i>Collaboration with industry experts and stakeholders.</li>
-                                        <li><i class="far fa-check"></i>Continuous innovation and refinement.</li>
-                                        <li><i class="far fa-check"></i>Focus on sustainability and future readiness.</li>
-                                    </ul>
-                                </div>
-                                <div class="my-4">
-                                    <h3 class="mb-3">Service Features</h3>
-                                    <p>Our R&D services offer a unique blend of creativity, technical expertise, and a future-focused approach, providing your business with the tools to excel in a rapidly evolving marketplace.</p>
+                                <h3 class="mb-30 mt-20">Benefits of Research and Re-Engineering:</h3>
+                                <ul>
+                                    <li><i class="far fa-check"></i> Drives innovation through the adoption of cutting-edge technologies.</li>
+                                    <li><i class="far fa-check"></i> Supports economic growth by enhancing industry capabilities and workforce expertise.</li>
+                                    <li><i class="far fa-check"></i> Contributes to sustainable development with solutions tailored to societal needs.</li>
+                                    <li><i class="far fa-check"></i> Positions Ethiopia as a hub for advanced research and engineering projects.</li>
+                                </ul>
+                                <div class="text-center mt-20">
+                                    <a href="{{ url('/contact') }}" class="theme-btn theme-btn2">Get in Touch</a>
                                 </div>
                             </div>
                         </div>
@@ -86,6 +68,8 @@
             </div>
         </div>
     </div>
+    
 
 </main>
+
 @endsection

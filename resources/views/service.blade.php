@@ -1,16 +1,8 @@
 @extends('layouts.app')
 @section('content')
 <main class="main">
-    <div class="site-breadcrumb" style="background: url({{ asset('assets/img/breadcrumb/01.jpg') }})">
-        <div class="container">
-            <h2 class="breadcrumb-title">Our Services</h2>
-            <ul class="breadcrumb-menu">
-                <li><a href="{{ url('/') }}">Home</a></li>
-                <li class="active">Services</li>
-            </ul>
-        </div>
-    </div>
-    <div class="service-area sa-bg pt-100 pb-70">
+    
+    <div class="service-area sa-bg pt-100 pb-70 mt-200" style="position: relative; top:60px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-lg-6">
@@ -65,10 +57,10 @@
                         </div>
                         <div class="service-content">
                             <h3 class="service-title">
-                                <a href="{{ url('/digital') }}">Research & Development</a>
+                                <a href="{{ url('/digital') }}">Research & Re Engineering</a>
                             </h3>
                             <p class="service-text">
-                                At the heart of our mission lies innovation. Faris Technologies’ Research & Reengineering Division explores transformative fields like AI, aerospaces.
+                                Secure, scalable cloud solutions to enhance your digital infrastructure
                             </p>
                             <div class="service-arrow">
                                 <a href="{{ url('/digital') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>

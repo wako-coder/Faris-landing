@@ -1,18 +1,10 @@
 @extends('layouts.app')
 @section('content')
 <main class="main">
-    <div class="site-breadcrumb" style="background: url({{ asset('assets/img/breadcrumb/01.jpg') }})">
-        <div class="container">
-            <h2 class="breadcrumb-title">About Us</h2>
-            <ul class="breadcrumb-menu">
-                <li><a href="{{ url('/') }}">Home</a></li>
-                <li class="active">About Us</li>
-            </ul>
-        </div>
-    </div>
+  
 
 
-    <div class="about-area py-120">
+    <div class="about-area py-120" style="position: relative; top:50px;">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -45,7 +37,7 @@
                             </h2>
                         </div>
                         <p class="about-text">
-                            Welcome to FARIS Technology Knowledge & Capacity Building Division, where we are committed to shaping Ethiopia's future through cutting-edge felids in digital emerging technologies Space Science, Robotics, Rocketry, Artificial Intelligence (AI), Data Science and Analytics, the Internet of Things (IoT), Blockchain Technology, Virtual Reality (VR) and Augmented Reality (AR), Cloud Computing, Cybersecurity, 5G Technology, Quantum Computing, Edge Computing, Biotechnology, and Automation and Robotics are key fields driving innovation and transformation across various industries. As a trailblazer in these transformative fields, we believe that empowering individuals and communities is vital for creating a brighter tomorrow. With over six years of industry expertise, we have positioned ourselves as a leading force in redefining Ethiopia's technological landscape.
+                            FARIS Technology Knowledge & Capacity Building Division is dedicated to advancing Ethiopia's technological horizon by delving into transformative fields such as Space Science, Artificial Intelligence, Robotics, and more. Our mission is to empower the next generation of innovators by combining world-class expertise with local insights to create impactful solutions. With over six years of industry excellence, we lead in integrating digital technologies like Quantum Computing, IoT, Cybersecurity, and Biotechnology into diverse industries, helping Ethiopia embrace the global digital revolution.
                         </p>
                         <div class="about-list-wrap">
                             <ul class="about-list list-unstyled">
@@ -57,21 +49,9 @@
                                         <h4>Cost-Effective Solutions</h4>
                                         <p>Our services are designed to provide maximum value, combining innovation with affordability.</p>
                                     </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <img src="{{ asset('assets/img/icon/trusted.svg') }}" alt>
-                                    </div>
-                                    <div class="content">
-                                        <h4>Trusted by Innovators</h4>
-                                        <p>We are the trusted partner of forward-thinking businesses ready to embrace the future.</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <a href="{{ url('/about') }}" class="theme-btn mt-4">Discover More <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
+                               
+                
+                
             </div>
         </div>
     </div>

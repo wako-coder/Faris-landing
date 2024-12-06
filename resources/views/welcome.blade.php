@@ -3,7 +3,6 @@
     
 
 
-
 <div class="search-popup">
     <button class="close-search"><span class="far fa-times"></span></button>
     <form action="#">
@@ -18,82 +17,27 @@
     <div class="hero-section">
         <div class="hero-slider owl-carousel owl-theme">
             <!-- Slide 1 -->
-            <div class="hero-single" style="background: url(assets/img/about/Landing.jpg)">
-            {{-- <div class="hero-single" style="background: url(assets/img/shag.jpg)"> --}}
+            <div class="hero-single">
                 <!-- Video background -->
-                {{-- <video autoplay loop muted playsinline class="video-background">
-                    <source src="https://videos.pexels.com/video-files/11041434/c:\Users\waqo1\Downloads\Telegram Desktop\Faris Photo\Office Photo\A20I2980.JPG-hd_1920_1080_30fps.mp4" type="video/mp4">
+                <video autoplay loop muted playsinline class="video-background" style="filter: brightness(0.5);">
+                    <source src="{{ asset('assets/img/video/company.mp4') }}" type="video/mp4">
                     Your browser does not support the video tag.
-                </video> --}}
+                </video>
                 
                 <!-- Content container -->
                 <div class="container">
                     <div class="row align-items-center">
-                     
-                        <div class="col-md-7 col-lg-7">
-                            <div class="hero-content">
+                        <div class="col-md-7 col-lg-10">
+                            <div class="hero-content" style="position: relative; top:150px;">
                                 <h6 class="hero-sub-title" data-animation="fadeInUp" data-delay=".25s">Think out of Earth</h6>
-                                <h1 class="hero-title" data-animation="fadeInUp" data-delay=".50s">
+                                <h2 class="hero-title" data-animation="fadeInUp" data-delay=".50s">
                                     The Hub of <span>Emerging</span> Technology in Africa
-                                </h1>
+                                </h2>
                                 <p data-animation="fadeInUp" data-delay=".75s"></p>
-                                <div class="hero-btn" data-animation="fadeInUp" data-delay="1s">
-                                    <a href="#" class="theme-btn">About More<i class="fas fa-arrow-right"></i></a>
-                                    <a href="#" class="theme-btn theme-btn2" style="color: black; box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.1); hover{color:white}">Learn More<i class="fas fa-arrow-right"></i></a>
-                                </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Slide 2 -->
-            <div class="hero-single" style="position: relative; background: url('{{ asset('assets/img/A20I3407.JPG') }}') no-repeat center center; background-size: cover;">
-                <div style="content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(to bottom right, rgba(0, 39, 57, 0.95) 0%, rgba(0, 0, 0, 0.1) 100%); z-index: 1;"></div>
-            
-            {{-- <div class="hero-single" style="background: url('{{ asset('assets/img/A20I3685.JPG') }}')"> --}}
-                {{-- <video autoplay loop muted playsinline class="video-background">
-                    <source src="https://videos.pexels.com/video-files/6156511/6156511-hd_1920_1080_24fps.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video> --}}
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-7 col-lg-7">
-                            <div class="hero-content">
-                                <h6 class="hero-sub-title" data-animation="fadeInUp" data-delay=".25s">Think out of Earth</h6>
-                                <h1 class="hero-title" data-animation="fadeInUp" data-delay=".50s">
-                                    "Empowering Africa <span>Through Innovation in AI</span> and Emerging Technologies"
-                                </h1>
-                                <p data-animation="fadeInUp" data-delay=".75s">
-                                    We create cutting-edge web solutions tailored to help businesses thrive in the digital world.
-                                </p>
-                                <div class="hero-btn" data-animation="fadeInUp" data-delay="1s">
-                                    <a href="#" class="theme-btn">About More<i class="fas fa-arrow-right"></i></a>
-                                    <a href="#" class="theme-btn theme-btn2">Learn More<i class="fas fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    
-            <!-- Slide 3 -->
-            <div class="hero-single" style="background: url('{{ asset('assets/img/pixelcut-export.jpeg') }}')">
-                <div class="container">
-                    <div class="row align-items-center">
-                  <div class="col"></div>
-                        <div class="col-md-8 col-lg-8">
-                            <div class="hero-content">
-                                <h6 class="hero-sub-title" data-animation="fadeInUp" data-delay=".25s">Think out of Earth</h6>
-                                <h1 class="hero-title" data-animation="fadeInUp" data-delay=".50s">
-                                    Technology Meets <span> Expertise at </span>FARIS Technologies
-                                </h1>
-                                <p data-animation="fadeInUp" data-delay=".75s">
-                                    There are many variations of passages orem psum available but the majority have suffered alteration in some form by injected humour or randomised.
-                                </p>
-                                <div class="hero-btn" data-animation="fadeInUp" data-delay="1s">
-                                    <a href="#" class="theme-btn">About More<i class="fas fa-arrow-right"></i></a>
-                                    <a href="#" class="theme-btn theme-btn2">Learn More<i class="fas fa-arrow-right"></i></a>
+                            <div>
+                                <div style="position: relative; top:150px;">
+                                    <a href="{{ url('/contact') }}" class="theme-btn">Contact Us<i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -101,6 +45,7 @@
                 </div>
             </div>
         </div>
+        
     </div>
     <div class="appointment">
     <div class="col-lg-8">
@@ -193,7 +138,15 @@
                         </h2>
                     </div>
                     <p class="about-text">
-                        Welcome to FARIS Technology Knowledge & Capacity Building Division, where we are committed to shaping Ethiopia's future through cutting-edge felids in digital emerging technologies Space Science, Robotics, Rocketry, Artificial Intelligence (AI), Data Science and Analytics, the Internet of Things (IoT), Blockchain Technology, Virtual Reality (VR) and Augmented Reality (AR), Cloud Computing, Cybersecurity, 5G Technology, Quantum Computing, Edge Computing, Biotechnology, and Automation and Robotics are key fields driving innovation and transformation across various industries.
+                        We are committed to the 'Think Big, Start Small, Scale Fast' principle, which has fueled our rapid growth, transforming us into a prominent Ethiopian holding company since 2018.
+                    </p>
+                    <p class="about-text">
+                        <strong>Our Vision</strong><br>
+                        To be the most diversified and reputable company in Africa, in 2030!
+                    </p>
+                    <p class="about-text">
+                        <strong>Our Mission</strong><br>
+                        By cultivating talent, embracing digital transformation, delivering BPO services, and solving complex challenges, we empower humanity through AI, space, and emerging technologies.
                     </p>
                     <div class="about-list-wrap">
                         <ul class="about-list list-unstyled">
@@ -220,6 +173,7 @@
                     <a href="{{ url('/about') }}" class="theme-btn mt-4">Discover More <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
+            
         </div>
     </div>
 </div>
@@ -279,13 +233,13 @@
                     </div>
                     <div class="service-content">
                         <h3 class="service-title">
-                            <a href="{{ url('/digital') }}">Research & Development</a>
+                            <a href="{{ url('/research') }}">Research and Re-Engineering</a>
                         </h3>
                         <p class="service-text">
                             Advance your business with our cutting-edge research and development services.
                         </p>
                         <div class="service-arrow">
-                            <a href="{{ url('/digital') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
+                            <a href="{{ url('/research') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -297,13 +251,13 @@
                     </div>
                     <div class="service-content">
                         <h3 class="service-title">
-                            <a href="{{ url('/service-single') }}">knowledge and Capacity Building</a>
+                            <a href="{{ url('/knowledge') }}">knowledge and Capacity Building</a>
                         </h3>
                         <p class="service-text">
                             Secure, scalable cloud solutions to enhance your digital infrastructure.
                         </p>
                         <div class="service-arrow">
-                            <a href="{{ url('/service-single') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
+                            <a href="{{ url('/knowledge') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>

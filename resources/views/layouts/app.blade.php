@@ -12,6 +12,7 @@
     <title>FARIS Technology – Better Technology, Better Business.</title>
 
     <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/logo/WhiteMinilogo.png.webp') }}">
+    {{-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet"> --}}
 
     <!-- CSS Assets -->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
@@ -22,6 +23,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     
     <style>
+     
         .hero-section {
             position: relative;
             overflow: hidden;
@@ -85,7 +87,13 @@
 </head>
 
 <body>
-@include('layouts.header')
+    @if (Request::is('/')) 
+
+    @include('layouts.header')
+@else
+    {{-- Other Pages Header --}}
+    @include('layouts.headerother')
+@endif
     {{-- <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">

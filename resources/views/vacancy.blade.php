@@ -4,15 +4,7 @@
 <main class="main">
 
     <!-- Breadcrumb Section -->
-    <div class="site-breadcrumb" style="background: url({{ asset('assets/img/breadcrumb/01.jpg') }})">
-        <div class="container">
-            <h2 class="breadcrumb-title">Vacancies</h2>
-            <ul class="breadcrumb-menu">
-                <li><a href="{{ route('home') }}">Home</a></li>
-                <li class="active">Vacancies</li>
-            </ul>
-        </div>
-    </div>
+ 
 
     <!-- Vacancy Section -->
     <div class="vacancy-area py-120">

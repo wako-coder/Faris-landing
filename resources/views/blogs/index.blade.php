@@ -3,18 +3,10 @@
 @section('content')
 <main class="main">
 
-    <div class="site-breadcrumb" style="background: url(assets/img/breadcrumb/01.jpg)">
-    <div class="container">
-    <h2 class="breadcrumb-title">Our Blog</h2>
-    <ul class="breadcrumb-menu">
-    <li><a href="index.html">Home</a></li>
-    <li class="active">Our Blog</li>
-    </ul>
-    </div>
-    </div>
+  
     
     
-    <div class="blog-area py-120">
+    <div class="blog-area py-120" style="position: relative; top:50px;">
     <div class="container">
     <div class="row">
     <div class="col-md-6 col-lg-4">

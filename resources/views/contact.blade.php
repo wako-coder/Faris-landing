@@ -4,18 +4,10 @@
 <main class="main">
 
     <!-- Breadcrumb Section -->
-    <div class="site-breadcrumb" style="background: url({{ asset('assets/img/breadcrumb/01.jpg') }})">
-        <div class="container">
-            <h2 class="breadcrumb-title">Contact Us</h2>
-            <ul class="breadcrumb-menu">
-                <li><a href="{{ route('home') }}">Home</a></li>
-                <li class="active">Contact Us</li>
-            </ul>
-        </div>
-    </div>
+   
 
     <!-- Contact Information Section -->
-    <div class="contact-area py-120">
+    <div class="contact-area py-120" style="position: relative; top:100px;">
         <div class="container">
             <div class="contact-wrap">
                 <div class="row">
@@ -37,7 +29,7 @@
                                 </div>
                                 <div class="contact-info-content">
                                     <h5>Call Us</h5>
-                                    <p><a href="tel:+251902122222">+251-902122222</a></p>
+                                    <p><a href="tel:+251902122222">+2 513 654 7898</a></p>
                                 </div>
                             </div>
                             <div class="contact-info">

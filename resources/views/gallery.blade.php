@@ -4,17 +4,9 @@
 
 <main class="main">
 
-    <div class="site-breadcrumb" style="background: url({{ asset('assets/img/breadcrumb/01.jpg') }})">
-        <div class="container">
-            <h2 class="breadcrumb-title">Photo Gallery</h2>
-            <ul class="breadcrumb-menu">
-                <li><a href="index.html">Home</a></li>
-                <li class="active">Photo Gallery</li>
-            </ul>
-        </div>
-    </div>
+   
 
-    <div class="gallery-area py-120">
+    <div class="gallery-area py-120" style="position: relative; top:50px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
