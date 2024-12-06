@@ -97,7 +97,7 @@
                         <img src="{{ asset('assets/img/icon/Research.svg') }}"  alt>
                     </div>
                     <div class="feature-content">
-                        <h4>knowledge and Capacity Building</h4>
+                        <h4>Knowledge and Capacity Building</h4>
                         <p>Leveraging AI and space science, we bring innovative solutions to transform industries. We deliver robust and Streamline your business processes with our expert outsourcing solutions.</p>
                     </div>
                 </div>
