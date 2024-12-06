@@ -482,10 +482,10 @@
             <div class="col-md-4 filter-item cat3 cat5">
                 <div class="gallery-item">
                     <div class="gallery-img">
-                        <img src="{{ asset('assets/img/office/meeting.jpg') }}" alt>
+                        <img src="{{ asset('assets/img/office/meeting.JPG') }}" alt>
                     </div>
                     <div class="gallery-content">
-                        <a class="popup-img gallery-link" href="{{ asset('assets/img/office/meeting.jpg') }}"><i class="far fa-camera"></i></a>
+                        <a class="popup-img gallery-link" href="{{ asset('assets/img/office/meeting.JPG') }}"><i class="far fa-camera"></i></a>
                     </div>
                 </div>
             </div>
@@ -532,10 +532,10 @@
             <div class="col-md-4 filter-item cat4 cat3">
                 <div class="gallery-item">
                     <div class="gallery-img">
-                        <img src="{{ asset('assets/img/office/A20I2667.jpg') }}" alt>
+                        <img src="{{ asset('assets/img/office/A20I2667.JPG') }}" alt>
                     </div>
                     <div class="gallery-content">
-                        <a class="popup-img gallery-link" href="{{ asset('assets/img/office/A20I2667.jpg') }}"><i class="far fa-camera"></i></a>
+                        <a class="popup-img gallery-link" href="{{ asset('assets/img/office/A20I2667.JPG') }}"><i class="far fa-camera"></i></a>
                     </div>
                 </div>
             </div>
@@ -546,10 +546,10 @@
             <div class="col-md-4 filter-item cat1 cat3 cat4 cat5">
                 <div class="gallery-item">
                     <div class="gallery-img">
-                        <img src="{{ asset('assets/img/office/A20I3163.jpg') }}" alt>
+                        <img src="{{ asset('assets/img/office/A20I3163.JPG') }}" alt>
                     </div>
                     <div class="gallery-content">
-                        <a class="popup-img gallery-link" href="{{ asset('assets/img/office/A20I3163.jpg') }}"><i class="far fa-camera"></i></a>
+                        <a class="popup-img gallery-link" href="{{ asset('assets/img/office/A20I3163.JPG') }}"><i class="far fa-camera"></i></a>
                     </div>
                 </div>
             </div>
