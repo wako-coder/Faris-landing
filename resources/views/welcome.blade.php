@@ -82,7 +82,7 @@
                 <div class="feature-item">
                     <span class="count">03</span>
                     <div class="feature-icon">
-                        <img src="{{ asset('assets/img/icon/knowldege.svg') }}" alt>
+                        <img src="{{ asset('assets/img/icon/Knowldege.svg') }}" alt>
                     </div>
                     <div class="feature-content">
                         <h4>Research & Development</h4>
