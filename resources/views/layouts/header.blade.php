@@ -63,6 +63,11 @@
                             <li class="nav-item"><a class="nav-link" href="{{ url('/blogs') }}">News</a></li>
                             <li class="nav-item d-lg-none"><a class="nav-link" href="{{ url('/contact') }}">Contact Us</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ url('/vacancy') }}">Vacancy</a></li>
+                            <div class="nav-right">
+                                <div class="nav-btn">
+                                    <a href="{{ url('/contact') }}" class="theme-btn">Contact Us<i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
                         </ul>
 
                     </div>

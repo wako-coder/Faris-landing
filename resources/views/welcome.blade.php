@@ -1,8 +1,63 @@
+
 @extends('layouts.app')
 @section('content')
+<style>
+    .card {
+      position: relative;
+      border: none;
+      overflow: hidden;
+      border-radius: 15px;
+      transition: background 0.5s ease, transform 0.5s ease;
+      max-height: 270px; /* Minimum height */
+    }
+    .card > img {
+      width: 100%;
+      height: 100%;
+      object-fit:cover;
+      transition: opacity 1s ease;
+    }
+    .card:hover {
+        border: 1px solid #757F95;
+      background: white;
+      transform: scale(1.02); /* Slight zoom on hover */
+    }
+    .card:hover > #card-img {
+      opacity: 0; /* Hide the image */
+    }
+    .card .card-body {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: transparent;
+      color: black;
+      opacity: 0;
+      z-index: 2;
+      transition: opacity 0.5s ease;
+    }
+    .card:hover .card-body {
+      opacity: 1; /* Show content */
+    }
+    .card-body h4 {
+        font-weight: bold;
+        color: #757F95;
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .card-body p {
+        color: #757F95;
+      font-size: 0.9rem;
+   
+      text-align: center;
+    }
     
-
-
+   
+  </style>
 <div class="search-popup">
     <button class="close-search"><span class="far fa-times"></span></button>
     <form action="#">
@@ -29,15 +84,15 @@
                     <div class="row align-items-center">
                         <div class="col-md-7 col-lg-10">
                             <div class="hero-content" style="position: relative; top:150px;">
-                                <h6 class="hero-sub-title" data-animation="fadeInUp" data-delay=".25s">Think out of Earth</h6>
+                                <h6 class="hero-sub-title" data-animation="fadeInUp" data-delay=".25s">Think out of Earth<span class="d-none d-lg-inline"><img src="{{ asset('assets/img/gallery/anime-unscreen.gif') }}"  style="width:150px; display:inline; position: relative; right:40px; bottom:10px;" alt="giff"></span></h6> 
                                 <h2 class="hero-title" data-animation="fadeInUp" data-delay=".50s">
-                                    The Hub of <span>Emerging</span> Technology in Africa
+                                    The Hub of <span>Emerging</span> Technology in Africa 
                                 </h2>
                                 <p data-animation="fadeInUp" data-delay=".75s"></p>
                             </div>
                             <div>
-                                <div style="position: relative; top:150px;">
-                                    <a href="{{ url('/contact') }}" class="theme-btn">Contact Us<i class="fas fa-arrow-right"></i></a>
+                                <div class="d-none d-sm-block" style="position: relative; top:150px; margin-bottom:50px;">
+                                    <a href="{{ url('/contact') }}" class="theme-btn">Learn More<i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -51,61 +106,75 @@
     <div class="col-lg-8">
     </div>
 </div>
-<div class="feature-area pt-120 col-10 mx-auto">
-        <div class="testimonial-slider owl-carousel " data-wow-duration="1s"
-        data-wow-delay=".25s">
-            <div class="testimonial-single" style="padding: 0px;">
-                <div class="feature-item">
-                    <span class="count">01</span>
-                    <div class="feature-icon">
-                        <img src="{{ asset('assets/img/icon/BPO-01.svg') }}" alt>
-                    </div>
-                    <div class="feature-content">
-                        <h4>Digital Transformation Services</h4>
-                        <p> At FARIS Technologies, we offer a future-proof approach - Digital Ascendancy Services. We leverage cutting-edge technologies to propel your business to the next level</p>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-single" style="padding: 0px;">
-                <div class="feature-item">
-                    <span class="count">02</span>
-                    <div class="feature-icon">
-                        <img src="{{ asset('assets/img/icon/Digital.svg') }}" alt>
-                    </div>
-                    <div class="feature-content">
-                        <h4>Business Process Outsourcing</h4>
-                        <p>At FARIS technologies, we elevate your business with our comprehensive BPO solutions, from providing exceptional customer service and support to delivering innovative IT services  </p>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-single" style="padding:0px;">
-                <div class="feature-item">
-                    <span class="count">03</span>
-                    <div class="feature-icon">
-                        <img src="{{ asset('assets/img/icon/Knowldege.svg') }}" alt>
-                    </div>
-                    <div class="feature-content">
-                        <h4>Research & Development</h4>
-                        <p>Leveraging AI and space science, we bring innovative solutions to transform industries.   We deliver robust, innovative web and software solutions to drive business success.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-single" style="padding: 0px;">
-                <div class="feature-item">
-                    <span class="count">04</span>
-                    <div class="feature-icon">
-                        <img src="{{ asset('assets/img/icon/Research.svg') }}"  alt>
-                    </div>
-                    <div class="feature-content">
-                        <h4>Knowledge and Capacity Building</h4>
-                        <p>Leveraging AI and space science, we bring innovative solutions to transform industries. We deliver robust and Streamline your business processes with our expert outsourcing solutions.</p>
-                    </div>
-                </div>
-            </div>
-    </div>
-</div>
 
-<div class="about-area py-120">
+<div class="container py-5" style="position: relative; top:100px; margin-bottom:50px;">
+    <div class="site-heading text-center">
+        <span class="site-title-tagline"><i class="fas fa-bring-forward"></i>OUR BUSINESSES</span>
+        <h2 class="site-title">The <span> industries we</span> are in </h2>
+        <div class="heading-divider"></div>
+        </div>
+
+    <div class="row g-4 pt-4">
+      <!-- Card 1 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+            <img id="card-img" src="{{ asset('assets/img/gallery/A20I3216-1-scaled (1).jpg') }}" alt>
+          <div class="card-body text-center">
+            <div class="feature-icon">
+                <img src="{{ asset('assets/img/icon/BPO-01.svg') }}" alt>
+            </div>
+            <h4 class=" pb-2">Business Process Outsourcing</h4>
+            <p>At FARIS technologies, we elevate your business with our comprehensive BPO solutions. </p>
+           
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+            <img id="card-img" src="{{ asset('assets/img/gallery/Mobile-app-for-your-business.png (1).webp') }}" alt>
+          <div class="card-body text-center">
+            <div class="feature-icon">
+                <img src="{{ asset('assets/img/icon/Digital.svg') }}" alt>
+            </div>
+            <h4 class="pb-2">Digital Transformation Services</h4>
+            <p> At FARIS Technologies, we offer a future-proof approach - Digital Ascendancy Services.</p>
+           
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+            <img class="img-1" id="card-img" src="{{ asset('assets/img/gallery/rocket-launch-67643_1280 (1).jpg') }}" alt>
+          <div class="card-body text-center">
+            <div class="feature-icon">
+                <img src="{{ asset('assets/img/icon/Knowldege.svg') }}" alt>
+            </div>
+            <h4 class="pb-2">Knowledge and Capacity Building</h4>
+            <p>Leveraging AI and space science, we bring innovative solutions to transform industries. </p>
+           
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+            <img class="img-1" id="card-img" src="{{ asset('assets/img/gallery/mars-67522_1280 (1).jpg') }}" alt>
+          <div class="card-body text-center">
+            <div class="feature-icon">
+                <img src="{{ asset('assets/img/icon/Research.svg') }}"  alt>
+            </div>
+            <h4 class="pb-2">Research and Re-Engineering</h4>
+            <p> Advance your business with our cutting-edge research and development services.</p>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="about-area py-120" style="padding-bottom: 50px">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
@@ -369,17 +438,17 @@
     <img src="{{asset('assets/img/our_partners/aastu-01.png')}}" style="width: 90px" alt="thumb">
     <img src="{{asset('assets/img/our_partners/ibm-17.png')}}" style="width: 90px" alt="thumb">
     <img src="{{asset('assets/img/our_partners/mint-10.png')}}" style="width: 90px" alt="thumb">
-    <img src="{{asset('assets/img/our_partners/oracle-21.png')}}" style="width: 90px" alt="thumb">
+  
     <img src="{{asset('assets/img/our_partners/bdu-05.png')}}" style="width: 90px" alt="thumb">
     <img src="{{asset('assets/img/our_partners/nvidia-28.png')}}" style="width: 90px" alt="thumb">
-    <img src="{{asset('assets/img/our_partners/sdnx-14.png')}}" style="width: 90px" alt="thumb">
-    <img src="{{asset('assets/img/our_partners/plus id-23.png')}}" style="width: 90px" alt="thumb">
+   
+    
     <img src="{{asset('assets/img/our_partners/Hawasa-08.png')}}" style="width: 90px"  alt="thumb">
     <img src="{{asset('assets/img/our_partners/aau-02.png')}}" style="width: 90px" alt="thumb">
     <img src="{{asset('assets/img/our_partners/Ambo.png')}}" style="width: 90px" alt="thumb">
     <img src="{{asset('assets/img/our_partners/esss-07.png')}}" style="width: 90px" alt="thumb">
     <img src="{{asset('assets/img/our_partners/hp-22.png')}}" style="width: 90px" alt="thumb">
-    <img src="{{asset('assets/img/our_partners/xtranet-18.png')}}" style="width: 90px" alt="thumb">
+
     <img src="{{asset('assets/img/our_partners/Insa-09.png')}}" style="width: 90px" alt="thumb">
     </div>
     </div>
@@ -567,15 +636,14 @@
 <div class="partner-area bg pt-20 pb-50 col-8 mx-auto" style="background-color: white">
     <div class="container">
     <div class="partner-wrapper partner-slider owl-carousel ">
-    <img src="{{asset('assets/img/our_clients/dbe-30.png')}}" style="width: 100px;" alt="thumb">
+  
     <img src="{{asset('assets/img/our_clients/emfa-06.png')}}" style="width: 100px" alt="thumb">
     <img src="{{asset('assets/img/our_clients/italy-embassy.png')}}" style="width: 100px" alt="thumb">
     <img src="{{asset('assets/img/our_clients/koica-33.png')}}" style="width: 100px" alt="thumb">
     <img src="{{asset('assets/img/our_clients/Mint-10.png')}}" style="width: 100px" alt="thumb">
-    <img src="{{asset('assets/img/our_clients/wasasa-29.png')}}" style="width: 100px" alt="thumb">
-    <img src="{{asset('assets/img/our_clients/world-bank-32.png')}}" style="width: 100px" alt="thumb">
+   
+
     </div>
     </div>
     </div>
         @endsection
-
