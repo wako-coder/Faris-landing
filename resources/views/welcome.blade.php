@@ -8,7 +8,7 @@
       overflow: hidden;
       border-radius: 15px;
       transition: background 0.5s ease, transform 0.5s ease;
-      max-height: 270px; /* Minimum height */
+      min-height: 300px; /* Minimum height */
     }
     .card > img {
       width: 100%;
