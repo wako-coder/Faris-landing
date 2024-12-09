@@ -116,7 +116,7 @@
 
     <div class="row g-4 pt-4 justify-content-center gap-4">
       <!-- Card 1 -->
-      <div class="col-12 col-md-6 col-lg-5">
+      <div class="col-12 col-md-5 ">
         <div class="card">
             <img id="card-img" src="{{ asset('assets/img/gallery/A20I3216-1-scaled (1).jpg') }}" alt>
           <div class="card-body text-center">
@@ -130,7 +130,7 @@
         </div>
       </div>
       <!-- Card 2 -->
-      <div class="col-12 col-md-6 col-lg-5">
+      <div class="col-12 col-md-5 ">
         <div class="card">
             <img id="card-img" src="{{ asset('assets/img/gallery/Mobile-app-for-your-business.png (1).webp') }}" alt>
           <div class="card-body text-center">
@@ -144,7 +144,7 @@
         </div>
       </div>
       <!-- Card 3 -->
-      <div class="col-12 col-md-6 col-lg-5">
+      <div class="col-12 col-md-5 ">
         <div class="card">
             <img class="img-1" id="card-img" src="{{ asset('assets/img/gallery/rocket-launch-67643_1280 (1).jpg') }}" alt>
           <div class="card-body text-center">
@@ -158,7 +158,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-5">
+      <div class="col-12 col-md-5 ">
         <div class="card">
             <img class="img-1" id="card-img" src="{{ asset('assets/img/gallery/mars-67522_1280 (1).jpg') }}" alt>
           <div class="card-body text-center">
