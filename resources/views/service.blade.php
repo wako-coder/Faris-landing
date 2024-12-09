@@ -57,13 +57,13 @@
                         </div>
                         <div class="service-content">
                             <h3 class="service-title">
-                                <a href="{{ url('/digital') }}">Research & Re Engineering</a>
+                                <a href="{{ url('//research') }}">Research & Re Engineering</a>
                             </h3>
                             <p class="service-text">
                                 Secure, scalable cloud solutions to enhance your digital infrastructure
                             </p>
                             <div class="service-arrow">
-                                <a href="{{ url('/digital') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
+                                <a href="{{ url('/research') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -75,13 +75,13 @@
                         </div>
                         <div class="service-content">
                             <h3 class="service-title">
-                                <a href="{{ url('/service-single') }}">knowledge and Capacity Building</a>
+                                <a href="{{ url('/knowledge') }}">knowledge and Capacity Building</a>
                             </h3>
                             <p class="service-text">
                                 Secure, scalable cloud solutions to enhance your digital infrastructure.
                             </p>
                             <div class="service-arrow">
-                                <a href="{{ url('/service-single') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
+                                <a href="{{ url('/knowledge') }}" class="service-btn"><i class="far fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>

@@ -13,7 +13,7 @@
     .card > img {
       width: 100%;
       height: 100%;
-      object-fit:cover;
+      object-fit:contain;
       transition: opacity 1s ease;
     }
     .card:hover {
@@ -114,9 +114,9 @@
         <div class="heading-divider"></div>
         </div>
 
-    <div class="row g-4 pt-4">
+    <div class="row g-4 pt-4 justify-content-center gap-4">
       <!-- Card 1 -->
-      <div class="col-12 col-md-6 col-lg-4">
+      <div class="col-12 col-md-6 col-lg-5">
         <div class="card">
             <img id="card-img" src="{{ asset('assets/img/gallery/A20I3216-1-scaled (1).jpg') }}" alt>
           <div class="card-body text-center">
@@ -124,13 +124,13 @@
                 <img src="{{ asset('assets/img/icon/BPO-01.svg') }}" alt>
             </div>
             <h4 class=" pb-2">Business Process Outsourcing</h4>
-            <p>At FARIS technologies, we elevate your business with our comprehensive BPO solutions. </p>
+            <p>we provide exceptional Business Process Outsourcing services that empower businesses to streamline their operations and focus on core competencies.</p>
            
           </div>
         </div>
       </div>
       <!-- Card 2 -->
-      <div class="col-12 col-md-6 col-lg-4">
+      <div class="col-12 col-md-6 col-lg-5">
         <div class="card">
             <img id="card-img" src="{{ asset('assets/img/gallery/Mobile-app-for-your-business.png (1).webp') }}" alt>
           <div class="card-body text-center">
@@ -144,7 +144,7 @@
         </div>
       </div>
       <!-- Card 3 -->
-      <div class="col-12 col-md-6 col-lg-4">
+      <div class="col-12 col-md-6 col-lg-5">
         <div class="card">
             <img class="img-1" id="card-img" src="{{ asset('assets/img/gallery/rocket-launch-67643_1280 (1).jpg') }}" alt>
           <div class="card-body text-center">
@@ -152,13 +152,13 @@
                 <img src="{{ asset('assets/img/icon/Knowldege.svg') }}" alt>
             </div>
             <h4 class="pb-2">Knowledge and Capacity Building</h4>
-            <p>Leveraging AI and space science, we bring innovative solutions to transform industries. </p>
+            <p>With our vision to be the center of emerging technologies, we started to raise a generation of scientist of tomorrow for our country and continent!</p>
            
           </div>
         </div>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-4">
+      <div class="col-12 col-md-6 col-lg-5">
         <div class="card">
             <img class="img-1" id="card-img" src="{{ asset('assets/img/gallery/mars-67522_1280 (1).jpg') }}" alt>
           <div class="card-body text-center">
