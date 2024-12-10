@@ -6,24 +6,38 @@
       position: relative;
       border: none;
       overflow: hidden;
-      border-radius: 15px;
       transition: background 0.5s ease, transform 0.5s ease;
       min-height: 300px; /* Minimum height */
     }
+    
     .card > img {
       width: 100%;
       height: 100%;
-      object-fit:contain;
+      filter: brightness(0.6);
+      object-fit: contain;
       transition: opacity 1s ease;
+      z-index:1;
+    }
+    .card > h4{
+        position:relative;
+        top:50px;
+        font: bold;
+        color:white;
+        z-index: 2;
     }
     .card:hover {
-        border: 1px solid #757F95;
+      border: 1px solid #757F95;
       background: white;
-      transform: scale(1.02); /* Slight zoom on hover */
+      border-radius: 15px;
+      transform: scale(1.05); /* Slight zoom on hover */
+    }
+    .card:hover > h4{
+        display: none;
     }
     .card:hover > #card-img {
       opacity: 0; /* Hide the image */
     }
+  
     .card .card-body {
       position: absolute;
       top: 0;
@@ -40,23 +54,51 @@
       z-index: 2;
       transition: opacity 0.5s ease;
     }
+  
     .card:hover .card-body {
       opacity: 1; /* Show content */
     }
+  
     .card-body h4 {
-        font-weight: bold;
-        color: #757F95;
+      font-weight: bold;
+      color: #757F95;
       font-size: 1.5rem;
       margin-bottom: 0.5rem;
+      transform: translateY(30px);
+      opacity: 0;
+      transition: transform 0.5s ease, opacity 0.5s ease;
     }
+  
+    .card:hover .card-body h4 {
+      transform: translateY(0); /* Slide in from below */
+      opacity: 1; /* Fade in */
+    }
+  
     .card-body p {
-        color: #757F95;
+      color: #757F95;
       font-size: 0.9rem;
-   
       text-align: center;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.5s ease, transform 0.5s ease;
     }
-    
-   
+  
+    .card:hover .card-body p {
+      opacity: 1; /* Fade in */
+      transform: translateY(0); /* Slide in */
+    }
+  
+    /* Icon Animation */
+    .card-body .feature-icon {
+      opacity: 0;
+      transform: scale(0.5);
+      transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+  
+    .card:hover .card-body .feature-icon {
+      opacity: 1;
+      transform: scale(1); /* Icon grows into view */
+    }
   </style>
 <div class="search-popup">
     <button class="close-search"><span class="far fa-times"></span></button>
@@ -114,64 +156,67 @@
         <div class="heading-divider"></div>
         </div>
 
-    <div class="row g-4 pt-4 justify-content-center gap-4">
-      <!-- Card 1 -->
-      <div class="col-12 col-md-5 ">
-        <div class="card">
-            <img id="card-img" src="{{ asset('assets/img/gallery/A20I3216-1-scaled (1).jpg') }}" alt>
-          <div class="card-body text-center">
-            <div class="feature-icon">
-                <img src="{{ asset('assets/img/icon/BPO-01.svg') }}" alt>
+        <div class="row g-4 pt-4 justify-content-center gap-4">
+            <!-- Card 1 -->
+            <div class="col-12 col-md-5"> 
+              <div class="card">
+                <h4 class="pb-2 mx-auto">Business Process Outsourcing</h4>
+                <img id="card-img" src="{{ asset('assets/img/gallery/A20I3216-1-scaled (1).jpg') }}" alt>
+                <div class="card-body text-center">
+                  <div class="feature-icon">
+                    <img src="{{ asset('assets/img/icon/BPO-01.svg') }}" alt>
+                  </div>
+                  <h4 class="pb-2">Business Process Outsourcing</h4>
+                  <p>We provide exceptional Business Process Outsourcing services that empower businesses to streamline their operations and focus on core competencies.</p>
+                </div>
+              </div>
             </div>
-            <h4 class=" pb-2">Business Process Outsourcing</h4>
-            <p>we provide exceptional Business Process Outsourcing services that empower businesses to streamline their operations and focus on core competencies.</p>
-           
-          </div>
-        </div>
-      </div>
-      <!-- Card 2 -->
-      <div class="col-12 col-md-5 ">
-        <div class="card">
-            <img id="card-img" src="{{ asset('assets/img/gallery/Mobile-app-for-your-business.png (1).webp') }}" alt>
-          <div class="card-body text-center">
-            <div class="feature-icon">
-                <img src="{{ asset('assets/img/icon/Digital.svg') }}" alt>
+          
+            <!-- Card 2 -->
+            <div class="col-12 col-md-5">
+              <div class="card">
+                <h4 class="pb-2 mx-auto">Digital Transformation Services</h4>
+                <img id="card-img" src="{{ asset('assets/img/gallery/Mobile-app-for-your-business.png (1).webp') }}" alt>
+                <div class="card-body text-center">
+                  <div class="feature-icon">
+                    <img src="{{ asset('assets/img/icon/Digital.svg') }}" alt>
+                  </div>
+                  <h4 class="pb-2">Digital Transformation Services</h4>
+                  <p>At FARIS Technologies, we offer a future-proof approach - Digital Ascendancy Services.</p>
+                </div>
+              </div>
             </div>
-            <h4 class="pb-2">Digital Transformation Services</h4>
-            <p> At FARIS Technologies, we offer a future-proof approach - Digital Ascendancy Services.</p>
-           
-          </div>
-        </div>
-      </div>
-      <!-- Card 3 -->
-      <div class="col-12 col-md-5 ">
-        <div class="card">
-            <img class="img-1" id="card-img" src="{{ asset('assets/img/gallery/rocket-launch-67643_1280 (1).jpg') }}" alt>
-          <div class="card-body text-center">
-            <div class="feature-icon">
-                <img src="{{ asset('assets/img/icon/Knowldege.svg') }}" alt>
+          
+            <!-- Card 3 -->
+            <div class="col-12 col-md-5">
+              <div class="card">
+                <h4 class="pb-2 mx-auto">Knowledge and Capacity Building</h4>
+                <img class="img-1" id="card-img" src="{{ asset('assets/img/gallery/rocket-launch-67643_1280 (1).jpg') }}" alt>
+                <div class="card-body text-center">
+                  <div class="feature-icon">
+                    <img src="{{ asset('assets/img/icon/Knowldege.svg') }}" alt>
+                  </div>
+                  <h4 class="pb-2">Knowledge and Capacity Building</h4>
+                  <p>With our vision to be the center of emerging technologies, we started to raise a generation of scientists of tomorrow for our country and continent!</p>
+                </div>
+              </div>
             </div>
-            <h4 class="pb-2">Knowledge and Capacity Building</h4>
-            <p>With our vision to be the center of emerging technologies, we started to raise a generation of scientist of tomorrow for our country and continent!</p>
-           
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-5 ">
-        <div class="card">
-            <img class="img-1" id="card-img" src="{{ asset('assets/img/gallery/mars-67522_1280 (1).jpg') }}" alt>
-          <div class="card-body text-center">
-            <div class="feature-icon">
-                <img src="{{ asset('assets/img/icon/Research.svg') }}"  alt>
+          
+            <div class="col-12 col-md-5">
+              <div class="card">
+                <h4 class="pb-2 mx-auto">Research and Re-Engineering</h4>
+                <img class="img-1" id="card-img" src="{{ asset('assets/img/gallery/mars-67522_1280 (1).jpg') }}" alt>
+                <div class="card-body text-center">
+                  <div class="feature-icon">
+                    <img src="{{ asset('assets/img/icon/Research.svg') }}" alt>
+                  </div>
+                  <h4 class="pb-2 mx-auto">Research and Re-Engineering</h4>
+                  <p>Advance your business with our cutting-edge research and development services.</p>
+                </div>
+              </div>
             </div>
-            <h4 class="pb-2">Research and Re-Engineering</h4>
-            <p> Advance your business with our cutting-edge research and development services.</p>
-           
           </div>
-        </div>
-      </div>
-    </div>
+          
   </div>
 
 <div class="about-area py-120" style="padding-bottom: 50px">

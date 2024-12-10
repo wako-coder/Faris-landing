@@ -8,7 +8,7 @@
         <div class="hero-slider owl-carousel owl-theme">
             <!-- Slide 1 -->
             <div class="hero-single">
-                <img src="{{ asset('assets/img/video/capacity.gif') }}" alt="Capacity Animation" class="video-background">
+                <img src="{{ asset('assets/img/about/20241119_103910.jpg') }}" alt="Capacity Animation" class="video-background" style="filter: brightness(0.5);">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-lg-8">
@@ -37,9 +37,6 @@
                     </div>
                     <div class="col-xl-12 col-lg-8">
                         <div class="service-details">
-                            <div class="service-details-img mb-30">
-                                <img src="assets/img/about/20241119_103910.jpg" alt="thumb">
-                            </div>
                             <div class="service-details">
                                 <h3 class="mb-20 mt-20">Digital Transformation Services</h3>
                                 <p class="mb-20">

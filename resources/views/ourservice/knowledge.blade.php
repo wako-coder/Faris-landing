@@ -2,9 +2,31 @@
 
 @section('content')
 <main class="main">
-
+    <div class="hero-section" style="position: relative; top:40px;">
+        <div class="hero-slider owl-carousel owl-theme">
+            <!-- Slide 1 -->
+            <div class="hero-single">
+                <img src="{{ asset('assets/img/office/A20I3252.JPG') }}" style="filter: brightness(0.5); alt="Capacity Animation" class="video-background">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-8 col-lg-8">
+                            <div class="hero-content">
+                                <h1 class="hero-title" data-animation="fadeInUp" data-delay=".50s">
+                                    Knowledge and<span>Capacity Building</span>
+                                </h1>
+                                <p data-animation="fadeInUp" data-delay=".75s">
+                                    Unlock the Future with FARIS Technologies' Digital Ascendancy Services
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
     <!-- Breadcrumb Section with Video Background -->
-    <div class="service-single-area py-80" style="position: relative; top:50px;">
+    <div class="service-single-area" style="position: relative; top:50px;">
         <div class="container">
             <div class="service-single-wrapper">
                 <div class="row">
@@ -12,9 +34,7 @@
                     </div>
                     <div class="col-xl-12 col-lg-8">
                         <div class="service-details">
-                            <div class="service-details-img mb-30">
-                                <img src="assets/img/office/A20I3252.JPG" alt="thumb">
-                            </div>
+                          
                             <div class="service-details">
                                 <h3 class="mb-20 mt-20">Empowering Minds Through Knowledge & Capacity Building:  
                                 Bridging Opportunities Across Ethiopia & Africa</h3>
