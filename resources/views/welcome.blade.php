@@ -361,7 +361,7 @@
             <div class="col-md-6 col-lg-3">
                 <div class="service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
                     <div class="service-icon">
-                        <img src="{{ asset('assets/img/icon/knowldege.svg') }}" alt>
+                        <img src="{{ asset('assets/img/icon/Knowldege.svg') }}" alt>
                     </div>
                     <div class="service-content">
                         <h3 class="service-title">
