@@ -2,7 +2,7 @@
 
 @section('content')
 <main class="main">
-    <div class="hero-section" style="position: relative; top:40px;">
+    <div class="hero-section" >
         <div class="hero-slider owl-carousel owl-theme">
             <!-- Slide 1 -->
             <div class="hero-single">
@@ -10,7 +10,7 @@
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-lg-8">
-                            <div class="hero-content">
+                            <div class="hero-content" style="position: relative; top:80px;">
                                 <h1 class="hero-title" data-animation="fadeInUp" data-delay=".50s">
                                     Knowledge and<span>Capacity Building</span>
                                 </h1>
@@ -26,7 +26,7 @@
         </div>
     </div>
     <!-- Breadcrumb Section with Video Background -->
-    <div class="service-single-area" style="position: relative; top:50px;">
+    <div class="service-single-area mb-20">
         <div class="container">
             <div class="service-single-wrapper">
                 <div class="row">

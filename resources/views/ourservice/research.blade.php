@@ -8,13 +8,13 @@
         <div class="hero-slider owl-carousel owl-theme">
             <!-- Slide 1 -->
             <div class="hero-single">
-                <img src="{{ asset('assets/img/office/A20I2667.JPG') }}" alt="Capacity Animation" class="video-background" style="filter: brightness(0.5);>
+                <img src="{{ asset('assets/img/office/A20I2667.JPG') }}" alt="Capacity Animation" class="video-background" style="filter: brightness(0.5); ">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-lg-8">
-                            <div class="hero-content">
+                            <div class="hero-content" style="position: relative; top:80px;">
                                 <h1 class="hero-title" data-animation="fadeInUp" data-delay=".50s">
-                                    Research and<span>Re-Engineering</span>
+                                    Research and <span>Re-Engineering</span>
                                 </h1>
                                 <p data-animation="fadeInUp" data-delay=".75s">
                                     Unlock the Future with FARIS Technologies' Digital Ascendancy Services

@@ -8,6 +8,7 @@
       overflow: hidden;
       transition: background 0.5s ease, transform 0.5s ease;
       min-height: 300px; /* Minimum height */
+      max-height: 350px;
     }
     
     .card > img {
@@ -116,7 +117,7 @@
             <!-- Slide 1 -->
             <div class="hero-single">
                 <!-- Video background -->
-                <video autoplay loop muted playsinline class="video-background" style="filter: brightness(0.5);">
+                <video autoplay poster="{{asset('assets/img/office/A20I3269-1-1-scaled-e1697205751873.jpg')}}" loading="lazy" loop muted playsinline class="video-background"  style="filter: brightness(0.5);" >
                     <source src="{{ asset('assets/img/video/Company.mp4') }}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -161,12 +162,12 @@
             <div class="col-12 col-md-5"> 
               <div class="card">
                 <h4 class="pb-2 mx-auto">Business Process Outsourcing</h4>
-                <img id="card-img" src="{{ asset('assets/img/gallery/A20I3216-1-scaled (1).jpg') }}" alt>
+               <img id="card-img" src="{{('assets/img/about/transformed.jpeg')}}" alt="thumb">
                 <div class="card-body text-center">
                   <div class="feature-icon">
-                    <img src="{{ asset('assets/img/icon/BPO-01.svg') }}" alt>
+                 <img src="{{ asset('assets/img/icon/BPO-01.svg') }}" alt>
                   </div>
-                  <h4 class="pb-2">Business Process Outsourcing</h4>
+                  <h4 class="pb-2">  <a href="{{ url('/buisness') }}">Business Process Outsourcing</a></h4>
                   <p>We provide exceptional Business Process Outsourcing services that empower businesses to streamline their operations and focus on core competencies.</p>
                 </div>
               </div>
@@ -176,12 +177,12 @@
             <div class="col-12 col-md-5">
               <div class="card">
                 <h4 class="pb-2 mx-auto">Digital Transformation Services</h4>
-                <img id="card-img" src="{{ asset('assets/img/gallery/Mobile-app-for-your-business.png (1).webp') }}" alt>
+                <img id="card-img" src="{{ asset('assets/img/gallery/pexels-kevin-ku-92347-577585 (1) (1).jpg') }}" alt>
                 <div class="card-body text-center">
                   <div class="feature-icon">
                     <img src="{{ asset('assets/img/icon/Digital.svg') }}" alt>
                   </div>
-                  <h4 class="pb-2">Digital Transformation Services</h4>
+                  <h4 class="pb-2">  <a href="{{ url('/software') }}">Digital Transformation Services</a></h4>
                   <p>At FARIS Technologies, we offer a future-proof approach - Digital Ascendancy Services.</p>
                 </div>
               </div>
@@ -191,12 +192,12 @@
             <div class="col-12 col-md-5">
               <div class="card">
                 <h4 class="pb-2 mx-auto">Knowledge and Capacity Building</h4>
-                <img class="img-1" id="card-img" src="{{ asset('assets/img/gallery/rocket-launch-67643_1280 (1).jpg') }}" alt>
+                <img class="img-1" id="card-img" src="{{ asset('assets/img/gallery/Knowledge capacity division.jpg') }}" alt>
                 <div class="card-body text-center">
                   <div class="feature-icon">
                     <img src="{{ asset('assets/img/icon/Knowldege.svg') }}" alt>
                   </div>
-                  <h4 class="pb-2">Knowledge and Capacity Building</h4>
+                  <h4 class="pb-2">   <a href="{{ url('/knowledge') }}">Knowledge and Capacity Building </a></h4>
                   <p>With our vision to be the center of emerging technologies, we started to raise a generation of scientists of tomorrow for our country and continent!</p>
                 </div>
               </div>
@@ -205,12 +206,12 @@
             <div class="col-12 col-md-5">
               <div class="card">
                 <h4 class="pb-2 mx-auto">Research and Re-Engineering</h4>
-                <img class="img-1" id="card-img" src="{{ asset('assets/img/gallery/mars-67522_1280 (1).jpg') }}" alt>
+                <img class="img-1" id="card-img" src="{{ asset('assets/img/gallery/Research n re  (2).jpg') }}" alt>
                 <div class="card-body text-center">
                   <div class="feature-icon">
                     <img src="{{ asset('assets/img/icon/Research.svg') }}" alt>
                   </div>
-                  <h4 class="pb-2 mx-auto">Research and Re-Engineering</h4>
+                  <h4 class="pb-2 mx-auto">   <a href="{{ url('/research') }}">Research and Re-Engineering</a></h4>
                   <p>Advance your business with our cutting-edge research and development services.</p>
                 </div>
               </div>

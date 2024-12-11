@@ -12,7 +12,7 @@
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-lg-8">
-                            <div class="hero-content">
+                            <div class="hero-content" style="position: relative; top:80px;">
                                 <h1 class="hero-title" data-animation="fadeInUp" data-delay=".50s">
                                     Buisness Process <span>Outsourcing</span>
                                 </h1>
@@ -28,7 +28,7 @@
         </div>
     </div>
 
-    <div class="service-single-area" style="position: relative; top:50px;">
+    <div class="service-single-area mb-20" >
         <div class="container">
             <div class="service-single-wrapper">
                 <div class="row" >
