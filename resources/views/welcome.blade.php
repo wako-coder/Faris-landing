@@ -284,7 +284,7 @@
             <div class="col-12 col-lg-5"> 
               <div class="card">
                 <h4 class="pb-2 mx-auto d-none d-sm-block ">Business Process Outsourcing</h4>
-               <img id="card-img" src="{{('assets/img/about/transformed.jpeg')}}" alt="thumb">
+               <img id="card-img" src="{{ asset('assets/img/about/transformed.jpeg') }}" alt="thumb">
                 <div class="card-body text-center">
                   <div class="feature-icon">
                  <img src="{{ asset('assets/img/icon/BPO-01.svg') }}" alt>
