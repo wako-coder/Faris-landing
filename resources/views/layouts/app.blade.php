@@ -348,8 +348,10 @@
       // JavaScript for Intersection Observer
 // JavaScript for Intersection Observer
 document.addEventListener('DOMContentLoaded', () => {
-    const navbar = document.querySelector('.navbar');
-    const navLinks = document.querySelectorAll('.navbar .nav-link');
+    const navbar = document.querySelector('.header-main .navbar');
+    if (!navbar) return;
+
+    const navLinks = document.querySelectorAll('.header-main .navbar .nav-link');
     const sections = document.querySelectorAll('.section');
 
     // Section styles
