@@ -281,64 +281,66 @@
 
         <div class="row g-4 pt-4 justify-content-center gap-4">
             <!-- Card 1 -->
-            <div class="col-12 col-lg-5"> 
-              <div class="card">
-                <h4 class="pb-2 mx-auto d-none d-sm-block ">Business Process Outsourcing</h4>
-               <img id="card-img" src="{{ asset('assets/img/about/transformed.jpeg') }}" alt="thumb">
+            <div class="col-12 col-lg-5">
+              <a href="{{ url('/buisness') }}" class="card text-decoration-none text-dark">
+                <h4 class="pb-2 mx-auto d-none d-sm-block">Business Process Outsourcing</h4>
+                <img id="card-img" src="{{ asset('assets/img/about/transformed.jpeg') }}" alt="thumb">
                 <div class="card-body text-center">
                   <div class="feature-icon">
-                 <img src="{{ asset('assets/img/icon/BPO-01.svg') }}" alt>
+                    <img src="{{ asset('assets/img/icon/BPO-01.svg') }}" alt>
                   </div>
-                  <h4 class="pb-2 d-none d-sm-block">  <a href="{{ url('/buisness') }}">Business Process Outsourcing</a></h4>
+                  <h4 class="pb-2 d-none d-sm-block">Business Process Outsourcing</h4>
                   <p>We provide exceptional Business Process Outsourcing services that empower businesses to streamline their operations and focus on core competencies.</p>
                 </div>
-              </div>
+              </a>
             </div>
           
             <!-- Card 2 -->
             <div class="col-12 col-lg-5">
-              <div class="card">
+              <a href="{{ url('/software') }}" class="card text-decoration-none text-dark">
                 <h4 class="pb-2 mx-auto d-none d-sm-block">Digital Transformation Services</h4>
                 <img id="card-img" src="{{ asset('assets/img/gallery/pexels-kevin-ku-92347-577585 (1) (1).jpg') }}" alt>
                 <div class="card-body text-center">
                   <div class="feature-icon">
                     <img src="{{ asset('assets/img/icon/Digital.svg') }}" alt>
                   </div>
-                  <h4 class="pb-2">  <a href="{{ url('/software') }}">Digital Transformation Services</a></h4>
+                  <h4 class="pb-2">Digital Transformation Services</h4>
                   <p>At FARIS Technologies, we offer a future-proof approach - Digital Ascendancy Services.</p>
                 </div>
-              </div>
+              </a>
             </div>
           
             <!-- Card 3 -->
             <div class="col-12 col-lg-5">
-              <div class="card">
+              <a href="{{ url('/knowledge') }}" class="card text-decoration-none text-dark">
                 <h4 class="pb-2 mx-auto d-none d-sm-block">Knowledge and Capacity Building</h4>
                 <img class="img-1" id="card-img" src="{{ asset('assets/img/gallery/Knowledge capacity division.jpg') }}" alt>
                 <div class="card-body text-center">
                   <div class="feature-icon">
                     <img src="{{ asset('assets/img/icon/Knowldege.svg') }}" alt>
                   </div>
-                  <h4 class="pb-2">   <a href="{{ url('/knowledge') }}">Knowledge and Capacity Building </a></h4>
+                  <h4 class="pb-2">Knowledge and Capacity Building</h4>
                   <p>With our vision to be the center of emerging technologies, we started to raise a generation of scientists of tomorrow for our country and continent!</p>
                 </div>
-              </div>
+              </a>
             </div>
           
+            <!-- Card 4 -->
             <div class="col-12 col-lg-5">
-              <div class="card">
+              <a href="{{ url('/research') }}" class="card text-decoration-none text-dark">
                 <h4 class="pb-2 mx-auto d-none d-sm-block">Research and Re-Engineering</h4>
                 <img class="img-1" id="card-img" src="{{ asset('assets/img/gallery/Research n re  (2).jpg') }}" alt>
                 <div class="card-body text-center">
                   <div class="feature-icon">
                     <img src="{{ asset('assets/img/icon/Research.svg') }}" alt>
                   </div>
-                  <h4 class="pb-2 mx-auto">   <a href="{{ url('/research') }}">Research and Re-Engineering</a></h4>
+                  <h4 class="pb-2 mx-auto">Research and Re-Engineering</h4>
                   <p>Advance your business with our cutting-edge research and development services.</p>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
+          
           
   </div>
 
@@ -530,14 +532,15 @@
 <h3 class="text-center pb-20">Our Partners and Clients</h3>
 <div class="wrapper">
     <img class="item item1" src="{{asset('assets/img/our_partners/aastu-01.png')}}" style="width: 90px" alt="thumb">
-    <img class="item item2" src="{{asset('assets/img/our_clients/Mint-10.png')}}" style="width: 100px" alt="thumb">
+    <img class="item item2" src="{{asset('assets/img/our_clients/wasasa-29.png')}}" style="width: 100px" alt="thumb">
     <img class="item item3" src="{{asset('assets/img/our_partners/ibm-17.png')}}" style="width: 90px" alt="thumb">
     <img class="item item4" src="{{asset('assets/img/our_partners/Hawasa-08.png')}}" style="width: 90px" alt="thumb">
   
     <img class="item item5" src="{{asset('assets/img/our_partners/bdu-05.png')}}" style="width: 90px" alt="thumb">
     <img class="item item6" src="{{asset('assets/img/our_partners/nvidia-28.png')}}" style="width: 90px" alt="thumb">
    
-    <img class="item item7" src="{{asset('assets/img/our_clients/emfa-06.png')}}" style="width: 100px" alt="thumb">
+    <img class="item item7" src="{{asset('assets/img/our_partners/wollega unv-16.png')}}" style="width: 100px" alt="thumb">
+    <img class="item item7" src="{{asset('assets/img/our_partners/Insa-09.png')}}" style="width: 100px" alt="thumb">
     <img class="item item8" src="{{asset('assets/img/our_clients/italy-embassy.png')}}" style="width: 100px" alt="thumb">
     <img class="item item9" src="{{asset('assets/img/our_clients/koica-33.png')}}" style="width: 100px" alt="thumb">
    
