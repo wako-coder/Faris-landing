@@ -19,7 +19,7 @@
 
 </style>
 
-<header class="header">
+<header class="header section" id="section1">
 
  
 
@@ -50,7 +50,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1"  style="color:#021218; font:xx-large;">
+                        <ul class="navbar-nav justify-content-end flex-grow-1"  style=" font:xx-large;">
                             <li class="nav-item"><a class="nav-link" href="{{ url('/') }}">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ url('/about') }}">About</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ url('/service') }}">Services</a></li>

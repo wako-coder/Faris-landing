@@ -160,18 +160,23 @@
 .item8 {
   animation-delay: calc(30s / 8 * (8 - 8) * -1);
 }
+ 
 
     </style>
 </head>
 
 <body>
-    @if (Request::is('/')) 
 
-    @include('layouts.header')
+    @if (Request::is('/')) 
+    <header class="header-main">
+        @include('layouts.header')
+    </header>
 @else
-    {{-- Other Pages Header --}}
-    @include('layouts.headerother')
+    <header class="header-other">
+        @include('layouts.headerother')
+    </header>
 @endif
+
     {{-- <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
@@ -339,29 +344,97 @@
     <script src="{{ asset('assets/js/wow.min.js') }}"></script>
     <script src="{{ asset('assets/js/main.js') }}"></script>
     <script>
-        // JavaScript for Intersection Observer
-        const navbar = document.querySelector('.navbar');
-        const sections = document.querySelectorAll('.section');
-    
-        // Map sections to colors
-        const sectionColors = ['#123544', 'white', '#123544', 'white','#00283a'];
-    
-        // Create Intersection Observer
-        const observer = new IntersectionObserver(
-          (entries) => {
-            entries.forEach((entry) => {
-              if (entry.isIntersecting) {
-                // Change navbar color based on section
-                const sectionIndex = Array.from(sections).indexOf(entry.target);
-                navbar.style.backgroundColor = sectionColors[sectionIndex];
-              }
-            });
-          },
-          { threshold: 0.4 } // Trigger when 60% of the section is visible
+   
+      // JavaScript for Intersection Observer
+// JavaScript for Intersection Observer
+document.addEventListener('DOMContentLoaded', () => {
+    const navbar = document.querySelector('.navbar');
+    const navLinks = document.querySelectorAll('.navbar .nav-link');
+    const sections = document.querySelectorAll('.section');
+
+    // Section styles
+    const sectionStyles = [
+        { bgColor: 'transparent', textColor: '#ffffff', hoverColor: '#00BFFF' },
+        { bgColor: '#123544', textColor: '#ffffff', hoverColor: '#00BFFF' },
+        { bgColor: 'white', textColor: '#000000', hoverColor: '#00BFFF' },
+        { bgColor: '#123544', textColor: '#ffffff', hoverColor: '#00BFFF' },
+        { bgColor: 'white', textColor: '#000000', hoverColor: '#00BFFF' },
+        { bgColor: '#00283a', textColor: '#ffffff', hoverColor: '#00BFFF' }
+    ];
+
+    // Function to create an observer
+    const createObserver = (threshold) => {
+        return new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        const sectionIndex = Array.from(sections).indexOf(entry.target);
+                        const { bgColor, textColor, hoverColor } = sectionStyles[sectionIndex];
+
+                        // Update navbar background color
+                        navbar.style.backgroundColor = bgColor;
+
+                        // Update navbar link text colors and hover colors
+                        navLinks.forEach((link) => {
+                            link.style.color = textColor;
+                            link.addEventListener('mouseover', () => {
+                                link.style.color = hoverColor;
+                            });
+                            link.addEventListener('mouseout', () => {
+                                link.style.color = textColor;
+                            });
+                        });
+                    }
+                });
+            },
+            { threshold } // Dynamic threshold
         );
-    
-        // Observe all sections
+    };
+
+    // Initial observer setup with a default threshold
+    let observer = createObserver(0.5);
+
+    // Function to get threshold based on screen size
+    const getThresholdForScreenSize = () => {
+        const width = window.innerWidth;
+
+        if (width > 1280) {
+            return 0.15; // XL screens
+        } else if (width > 768) {
+            return 0.4; // Laptop screens
+        } else {
+            return 0.1; // Mobile screens
+        }
+    };
+
+    // Function to update observer with a new threshold
+    const updateThreshold = () => {
+        const newThreshold = getThresholdForScreenSize();
+
+        // Disconnect the current observer
+        observer.disconnect();
+
+        // Create a new observer with the new threshold
+        observer = createObserver(newThreshold);
+
+        // Re-observe sections
         sections.forEach((section) => observer.observe(section));
+    };
+
+    // Observe all sections initially
+    sections.forEach((section) => observer.observe(section));
+
+    // Update threshold on window resize
+    window.addEventListener('resize', updateThreshold);
+
+    // Initial threshold setup
+    updateThreshold();
+});
+
+
+
+
+        
       </script>
 </body>
 </html>
