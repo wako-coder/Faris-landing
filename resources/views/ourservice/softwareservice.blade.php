@@ -12,7 +12,7 @@
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-lg-8">
-                            <div class="hero-content">
+                            <div class="hero-content" style=" position: relative; top:80px;">
                                 <h1 class="hero-title" data-animation="fadeInUp" data-delay=".50s">
                                     Digital Transformation <span>Services</span>
                                 </h1>

@@ -23,8 +23,10 @@
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     
     <style>
-     
-        .hero-section {
+     :root {
+    --body-font: 'Roboto', sans-serif;
+    --heading-font: 'Montserrat', sans-serif; /* Clean and structured, similar to Europa Grotesk */
+}       .hero-section {
             position: relative;
             overflow: hidden;
         }
@@ -83,6 +85,82 @@
 
     /* background: #fff; */
 }
+.navbar .nav-item .nav-link{
+    font-size: 1.25rem;
+}
+
+.hero-slider.owl-theme .owl-nav [class*=owl-] {
+    background: transparent;
+    color: white;
+}
+.wrapper {
+  width: 90%;
+  max-width: 1536px;
+  margin-inline: auto;
+  position: relative;
+  height: 100px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+@keyframes scrollLeft {
+  to {
+    left: -200px;
+  }
+}
+
+.item {
+  width: 200px;
+  height: 100px;
+  border-radius: 6px;
+  position: absolute;
+  left: max(calc(200px * 8), 100%);
+  animation-name: scrollLeft;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.item1 {
+  animation-delay: calc(30s / 8 * (8 - 1) * -1);
+}
+
+.item2 {
+  animation-delay: calc(30s / 8 * (8 - 2) * -1);
+}
+
+.item3 {
+  animation-delay: calc(30s / 8 * (8 - 3) * -1);
+}
+
+.item4 {
+  animation-delay: calc(30s / 8 * (8 - 4) * -1);
+}
+
+.item5 {
+  animation-delay: calc(30s / 8 * (8 - 5) * -1);
+}
+
+.item6 {
+  animation-delay: calc(30s / 8 * (8 - 6) * -1);
+}
+
+.item7 {
+  animation-delay: calc(30s / 8 * (8 - 7) * -1);
+}
+
+.item8 {
+  animation-delay: calc(30s / 8 * (8 - 8) * -1);
+}
+
     </style>
 </head>
 
@@ -153,7 +231,7 @@
         </main>
     </div> --}}
     @yield('content')
-    <footer class="footer-area footer-bg">
+    <footer class="footer-area footer-bg section" id="section5">
         <div class="footer-widget">
             <div class="container">
                 <div class="row footer-widget-wrap pt-100 pb-70">
@@ -168,7 +246,9 @@
                             </p>
                             <ul class="footer-contact">
                                 <li><a href="tel:+251902122222"><i class="far fa-phone"></i>+251-902122222</a></li>
-                                <li><i class="far fa-map-marker-alt"></i>6th Floor, Sur Construction, Bole, Addis Ababa, Ethiopia</li>
+                                <li><i class="far fa-map-marker-alt"></i>Head office 6th Floor, Sur Construction, Bole, Addis Ababa, Ethiopia</li>
+                                <li><i class="far fa-map-marker-alt"></i>UAE, Dubai , Business Bay Area  +971 508515282</li>
+                                <li><i class="far fa-map-marker-alt"></i> +1(415)-8604855 USA , California, San Francisco</li>
                                 <li><a href="mailto:info@faristechnologies.com"><i
                                             class="far fa-envelope"></i>info@faristechnologies.com</a></li>
                             </ul>
@@ -258,6 +338,30 @@
     <script src="{{ asset('assets/js/masonry.pkgd.min.js') }}"></script>
     <script src="{{ asset('assets/js/wow.min.js') }}"></script>
     <script src="{{ asset('assets/js/main.js') }}"></script>
+    <script>
+        // JavaScript for Intersection Observer
+        const navbar = document.querySelector('.navbar');
+        const sections = document.querySelectorAll('.section');
     
+        // Map sections to colors
+        const sectionColors = ['#123544', 'white', '#123544', 'white','#00283a'];
+    
+        // Create Intersection Observer
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                // Change navbar color based on section
+                const sectionIndex = Array.from(sections).indexOf(entry.target);
+                navbar.style.backgroundColor = sectionColors[sectionIndex];
+              }
+            });
+          },
+          { threshold: 0.4 } // Trigger when 60% of the section is visible
+        );
+    
+        // Observe all sections
+        sections.forEach((section) => observer.observe(section));
+      </script>
 </body>
 </html>
