@@ -439,7 +439,7 @@
         <div class="row g-4 align-items-center">
             <div class="col-lg-4">
                 <div class="site-heading mb-0 wow fadeInLeft" data-wow-delay=".25s">
-                    <span class="site-title-tagline"><i class="fas fa-bring-forward"></i> Latest Video</span>
+                    
                     <h2 class="site-title"><span>Discover</span> Our Insights on AI & Space</h2>
                     <p>
                         Join our CEO as they share insights on the transformative power of AI technology and its impact on space science. This engaging discussion explores the future of innovation and exploration.
