@@ -157,16 +157,16 @@
                 <!-- Content container -->
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="col-md-7 col-lg-10">
+                        <div class="col-md-6">
                             <div class="hero-content" style="position: relative; top:150px;">
-                                <h6 class="hero-sub-title" data-animation="fadeInUp" data-delay=".25s">Think out of Earth<span class="d-none d-lg-inline"><img src="{{ asset('assets/img/gallery/anime-unscreen.gif') }}"  style="width:150px; display:inline; position: relative; right:40px; bottom:10px;" alt="giff"></span></h6> 
-                                <h2 class="hero-title" data-animation="fadeInUp" data-delay=".50s">
+                                <h6 class="hero-sub-title" data-animation="fadeInUp" data-delay=".25s" style="">Think out of Earth<span class="d-none d-lg-inline"><img src="{{ asset('assets/img/gallery/anime-unscreen.gif') }}"  style="width:150px; display:inline; position: relative; right:40px; bottom:10px;" alt="giff"></span></h6> 
+                                <h4 class="site-title" data-animation="fadeInUp" data-delay=".50s" style="opacity: 0.6;">
                                     The Hub of <span>Emerging</span> Technology in Africa 
-                                </h2>
+                                </h4>
                                 <p data-animation="fadeInUp" data-delay=".75s"></p>
                             </div>
                             <div>
-                                <div class="d-none d-sm-block" style="position: relative; top:150px; margin-bottom:50px;">
+                                <div class="d-none d-sm-block" style="position: relative; top:150px; margin-bottom:50px; opacity:0.6;">
                                     <a href="{{ url('/contact') }}" class="theme-btn">Learn More<i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -177,16 +177,16 @@
             <div class="hero-single" style="background: url({{asset('assets/img/office/A20I3269-1-1-scaled-e1697205751873.jpg')}})">
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="col-md-7 col-lg-10">
+                        <div class="col-md-6">
                             <div class="hero-content" style="position: relative; top:150px;">
-                                <h6 class="hero-sub-title" data-animation="fadeInUp" data-delay=".25s">Think out of Earth<span class="d-none d-lg-inline"><img src="{{ asset('assets/img/gallery/anime-unscreen.gif') }}"  style="width:150px; display:inline; position: relative; right:40px; bottom:10px;" alt="giff"></span></h6> 
-                                <h2 class="hero-title" data-animation="fadeInUp" data-delay=".50s">
+                                <h6 class="hero-sub-title" data-animation="fadeInUp" data-delay=".25s" style="">Think out of Earth<span class="d-none d-lg-inline"><img src="{{ asset('assets/img/gallery/anime-unscreen.gif') }}"  style="width:150px; display:inline; position: relative; right:40px; bottom:10px;" alt="giff"></span></h6> 
+                                <h4 class="site-title" data-animation="fadeInUp" data-delay=".50s" style="opacity: 0.6;">
                                     The Hub of <span>Emerging</span> Technology in Africa 
-                                </h2>
+                                </h4>
                                 <p data-animation="fadeInUp" data-delay=".75s"></p>
                             </div>
                             <div>
-                                <div class="d-none d-sm-block" style="position: relative; top:150px; margin-bottom:50px;">
+                                <div class="d-none d-sm-block" style="position: relative; top:150px; margin-bottom:50px; opacity:0.6;">
                                     <a href="{{ url('/contact') }}" class="theme-btn">Learn More<i class="fas fa-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -272,7 +272,7 @@
         </div>
     </div>
     </div>
-<div class="container section py-5" id="section2" style="position: relative; top:80px; margin-bottom:50px;">
+<div class="container section py-5" id="section2" style="position: relative; top:80px; margin-bottom:100px;">
     <div class="site-heading text-center">
         <span class="site-title-tagline"><i class="fas fa-bring-forward"></i>OUR BUSINESSES</span>
         <h2 class="site-title">The <span> industries we</span> are in </h2>
@@ -436,13 +436,13 @@
 
 
 
-<div class="video-area py-100">
+<div class="video-area py-100 cta-area2 section" style="background-image: url('{{ asset('assets/img/video/01.jpg') }}');" id="section3">
     <div class="container">
         <div class="row g-4 align-items-center">
             <div class="col-lg-4">
                 <div class="site-heading mb-0 wow fadeInLeft" data-wow-delay=".25s">
                     
-                    <h2 class="site-title"><span>Discover</span> Our Insights on AI & Space</h2>
+                    <h2 class="site-title text-white"><span>Discover</span> Our Insights on AI & Space</h2>
                     <p>
                         Join our CEO as they share insights on the transformative power of AI technology and its impact on space science. This engaging discussion explores the future of innovation and exploration.
                     </p>
@@ -468,94 +468,70 @@
         </div>
     </div>
 </div>
-<div class="choose-area py-120">
-    <div class="container">
-        <div class="row align-items-center g-4">
-            <div class="col-lg-6">
-                <div class="choose-content wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
-                    <div class="site-heading mb-3">
-                        <span class="site-title-tagline"><i class="fas fa-bring-forward"></i> Why Choose Us</span>
-                        <h2 class="site-title">
-                            When You Need Innovation, <span>We Are</span> Always Here
-                        </h2>
-                    </div>
-                    <p>
-                        Our team specializes in cutting-edge web and app development, AI solutions, and advancements in space science technology. We are dedicated to delivering reliable and transformative services.
-                    </p>
-                    <div class="choose-wrapper mt-4">
-                        <div class="choose-item">
-                            <div class="choose-icon">
-                                <img src="{{ asset('assets/img/icon/team-2.svg') }}" alt>
-                            </div>
-                            <div class="choose-item-content">
-                                <h4>Expert Developers</h4>
-                                <p>Our skilled developers are committed to crafting innovative solutions that meet your unique needs.</p>
-                            </div>
+
+
+<div class="cta-area section" id="section4">
+    <div class="choose-area py-60">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-6">
+                    <div class="choose-content wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
+                        <div class="site-heading mb-3">
+                            <span class="site-title-tagline"><i class="fas fa-bring-forward"></i> Why Choose Us</span>
+                            <h2 class="site-title text-white">
+                                When You Need Innovation, <span>We Are</span> Always Here
+                            </h2>
                         </div>
-                        <div class="choose-item active">
-                            <div class="choose-icon">
-                                <img src="{{ asset('assets/img/icon/quality.svg') }}" alt>
+                        <p class="text-white">
+                            Our team specializes in cutting-edge web and app development, AI solutions, and advancements in space science technology. We are dedicated to delivering reliable and transformative services.
+                        </p>
+                        <div class="choose-wrapper mt-4">
+                            <div class="choose-item">
+                                <div class="choose-icon">
+                                    <img src="{{ asset('assets/img/icon/team-2.svg') }}" alt>
+                                </div>
+                                <div class="choose-item-content">
+                                    <h4 class="text-white">Expert Developers</h4>
+                                    <p class="text-white">Our skilled developers are committed to crafting innovative solutions that meet your unique needs.</p>
+                                </div>
                             </div>
-                            <div class="choose-item-content">
-                                <h4>Quality Assurance</h4>
-                                <p>We implement rigorous testing protocols to ensure that our products are of the highest quality and reliability.</p>
+                            <div class="choose-item">
+                                <div class="choose-icon">
+                                    <img src="{{ asset('assets/img/icon/quality.svg') }}" alt>
+                                </div>
+                                <div class="choose-item-content">
+                                    <h4 class="text-white">Quality Assurance</h4>
+                                    <p class="text-white">We implement rigorous testing protocols to ensure that our products are of the highest quality and reliability.</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="choose-item">
-                            <div class="choose-icon">
-                                <img src="{{ asset('assets/img/icon/trusted.svg') }}" alt>
-                            </div>
-                            <div class="choose-item-content">
-                                <h4>Your Trusted Technology Partner</h4>
-                                <p>We build lasting relationships with our clients, offering support and guidance every step of the way.</p>
+                            <div class="choose-item">
+                                <div class="choose-icon">
+                                    <img src="{{ asset('assets/img/icon/trusted.svg') }}" alt>
+                                </div>
+                                <div class="choose-item-content">
+                                    <h4 class="text-white">Your Trusted Technology Partner</h4>
+                                    <p class="text-white">We build lasting relationships with our clients, offering support and guidance every step of the way.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="choose-img wow fadeInRight" data-wow-duration="1s" data-wow-delay=".25s">
-                    <div class="row g-4">
-                        <div class="col-6">
-                            <img class="img-1" src="{{ asset('assets/img/choose/pexels-captainfrank_-696992066-1.jpg') }}" alt>
-                        </div>
-                        <div class="col-6">
-                            <img class="img-2" src="{{ asset('assets/img/choose/emile-perron-xrVDYZRGdw4-unsplas.webp') }}" alt>
+                <div class="col-lg-6">
+                    <div class="choose-img wow fadeInRight" data-wow-duration="1s" data-wow-delay=".25s">
+                        <div class="row g-4">
+                            <div class="col-6">
+                                <img class="img-1" src="{{ asset('assets/img/choose/pexels-captainfrank_-696992066-1.jpg') }}" alt>
+                            </div>
+                            <div class="col-6">
+                                <img class="img-2" src="{{ asset('assets/img/choose/emile-perron-xrVDYZRGdw4-unsplas.webp') }}" alt>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-<h3 class="text-center pb-20">Our Partners and Clients</h3>
-<div class="wrapper">
-    <img class="item item1" src="{{asset('assets/img/our_partners/aastu-01.png')}}" style="width: 90px" alt="thumb">
-    <img class="item item2" src="{{asset('assets/img/our_clients/wasasa-29.png')}}" style="width: 100px" alt="thumb">
-    <img class="item item3" src="{{asset('assets/img/our_partners/ibm-17.png')}}" style="width: 90px" alt="thumb">
-    <img class="item item4" src="{{asset('assets/img/our_partners/Hawasa-08.png')}}" style="width: 90px" alt="thumb">
-  
-    <img class="item item5" src="{{asset('assets/img/our_partners/bdu-05.png')}}" style="width: 90px" alt="thumb">
-    <img class="item item6" src="{{asset('assets/img/our_partners/nvidia-28.png')}}" style="width: 90px" alt="thumb">
-   
-    <img class="item item7" src="{{asset('assets/img/our_partners/wollega unv-16.png')}}" style="width: 100px" alt="thumb">
-    <img class="item item7" src="{{asset('assets/img/our_partners/Insa-09.png')}}" style="width: 100px" alt="thumb">
-    <img class="item item8" src="{{asset('assets/img/our_clients/italy-embassy.png')}}" style="width: 100px" alt="thumb">
-    <img class="item item9" src="{{asset('assets/img/our_clients/koica-33.png')}}" style="width: 100px" alt="thumb">
-   
-    
-    <img class="item item10" src="{{asset('assets/img/our_partners/Hawasa-08.png')}}" style="width: 90px"  alt="thumb">
-    <img class="item item11" src="{{asset('assets/img/our_partners/aau-02.png')}}" style="width: 90px" alt="thumb">
-    <img class="item item12" src="{{asset('assets/img/our_partners/Ambo.png')}}" style="width: 90px" alt="thumb">
-    <img class="item item13" src="{{asset('assets/img/our_partners/esss-07.png')}}" style="width: 90px" alt="thumb">
-    <img class="item item14" src="{{asset('assets/img/our_partners/hp-22.png')}}" style="width: 90px" alt="thumb">
-
-    <img class="item item15" src="{{asset('assets/img/our_partners/Insa-09.png')}}" style="width: 90px" alt="thumb">
-  </div>
-
-<div class="cta-area section" id="section3">
-    <div class="container">
+    {{-- <div class="container">
         <div class="row">
             <div class="col-lg-7 mx-auto text-center">
                 <div class="cta-text">
@@ -564,15 +540,18 @@
                         As a leading tech startup, we specialize in cutting-edge web and app development, artificial intelligence, and space science technology. Our mission is to drive innovation and deliver tailored solutions that push the boundaries of what's possible.
                     </p>
                 </div>
-                {{-- <div class="mb-20 mt-10">
+                <div class="mb-20 mt-10">
                     <a href="#" class="cta-border-btn"><i class="fal fa-headset"></i>+251-902122222</a>
                 </div>
-                <a href="{{ url('/contact') }}" class="theme-btn">Contact Us <i class="fas fa-arrow-right"></i></a> --}}
+                <a href="{{ url('/contact') }}" class="theme-btn">Contact Us <i class="fas fa-arrow-right"></i></a>
             </div>
         </div>
-    </div>
+    </div> --}}
 </div>
-<div class="counter-area">
+
+
+
+{{-- <div class="counter-area">
     <div class="container">
         <div class="counter-wrap">
             <div class="row">
@@ -623,7 +602,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 
 {{-- <div class="gallery-area py-120">
     <div class="container">
@@ -731,7 +710,7 @@
         
     </div>
 </div>
-<div class="col-lg-5 section" id="section4">
+<div class="col-lg-5 cta-area3 section" id="section5" style="background-image: url('{{ asset('assets/img/cta/world.jpg') }}');">
     <div class="about-right wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
         <div class="site-heading ">
             <h2 class="site-title">
@@ -749,7 +728,32 @@
     </div>
 </div>
 ``
+<div class="container" style="margin-top: 60px;">
+<h3 class="text-center">Our Partners and Clients</h3>
+<div class="wrapper">
+    <img class="item item1" src="{{asset('assets/img/our_partners/aastu-01.png')}}" style="width: 90px" alt="thumb">
+    <img class="item item2" src="{{asset('assets/img/our_clients/wasasa-29.png')}}" style="width: 100px" alt="thumb">
+    <img class="item item3" src="{{asset('assets/img/our_partners/ibm-17.png')}}" style="width: 90px" alt="thumb">
+    <img class="item item4" src="{{asset('assets/img/our_partners/Hawasa-08.png')}}" style="width: 90px" alt="thumb">
+  
+    <img class="item item5" src="{{asset('assets/img/our_partners/bdu-05.png')}}" style="width: 90px" alt="thumb">
+    <img class="item item6" src="{{asset('assets/img/our_partners/nvidia-28.png')}}" style="width: 90px" alt="thumb">
+   
+    <img class="item item7" src="{{asset('assets/img/our_partners/wollega unv-16.png')}}" style="width: 100px" alt="thumb">
+    <img class="item item7" src="{{asset('assets/img/our_partners/Insa-09.png')}}" style="width: 100px" alt="thumb">
+    <img class="item item8" src="{{asset('assets/img/our_clients/italy-embassy.png')}}" style="width: 100px" alt="thumb">
+    <img class="item item9" src="{{asset('assets/img/our_clients/koica-33.png')}}" style="width: 100px" alt="thumb">
+   
+    
+    <img class="item item10" src="{{asset('assets/img/our_partners/Hawasa-08.png')}}" style="width: 90px"  alt="thumb">
+    <img class="item item11" src="{{asset('assets/img/our_partners/aau-02.png')}}" style="width: 90px" alt="thumb">
+    <img class="item item12" src="{{asset('assets/img/our_partners/Ambo.png')}}" style="width: 90px" alt="thumb">
+    <img class="item item13" src="{{asset('assets/img/our_partners/esss-07.png')}}" style="width: 90px" alt="thumb">
+    <img class="item item14" src="{{asset('assets/img/our_partners/hp-22.png')}}" style="width: 90px" alt="thumb">
 
+    <img class="item item15" src="{{asset('assets/img/our_partners/Insa-09.png')}}" style="width: 90px" alt="thumb">
+  </div>
+</div>
 </div>
 </div>
 

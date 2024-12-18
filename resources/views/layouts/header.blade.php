@@ -53,7 +53,17 @@
                         <ul class="navbar-nav justify-content-end flex-grow-1"  style=" font:xx-large;">
                             <li class="nav-item"><a class="nav-link" href="{{ url('/') }}">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ url('/about') }}">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ url('/service') }}">Services</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="servicesDropdown" style="background:transparent; color:white;">
+                                    <li><a class="dropdown-item" href="">Web Development</a></li>
+                                    <li><a class="dropdown-item" href="">UI/UX Design</a></li>
+                                    <li><a class="dropdown-item" href="">SEO Services</a></li>
+                                    <li><a class="dropdown-item" href="">Digital Marketing</a></li>
+                                </ul>
+                            </li>
                             <li class="nav-item"><a class="nav-link" href="{{ url('/gallery') }}">Gallery</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ url('/blogs') }}">News</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ url('/vacancy') }}">Vacancy</a></li>
@@ -66,4 +76,3 @@
         </nav>
     </div>
 </header>
-

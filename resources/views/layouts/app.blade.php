@@ -26,7 +26,49 @@
      :root {
     --body-font: 'Roboto', sans-serif;
     --heading-font: 'Montserrat', sans-serif; /* Clean and structured, similar to Europa Grotesk */
-}       .hero-section {
+}      
+.cta-area2 {
+    padding-top: 80px;
+    padding-bottom: 180px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1
+}
+
+.cta-area2::before {
+    content: "";
+    position: absolute;
+    background: rgba(9, 15, 39, 0.6);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1
+}
+.cta-area3 {
+    padding-top: 80px;
+    padding-bottom: 180px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1
+}
+
+.cta-area3::before {
+    content: "";
+    position: absolute;
+    background: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1
+}
+
+  .hero-section {
             position: relative;
             overflow: hidden;
         }
@@ -159,6 +201,10 @@
 
 .item8 {
   animation-delay: calc(30s / 8 * (8 - 8) * -1);
+}
+
+.choose-item:nth-child(2) {
+    margin-left: 0px;
 }
  
 
@@ -324,6 +370,20 @@
                 </div>
             </div>
         </div>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6761383a49e2fd8dfef955e7/1if9s796l';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
     </footer>
     
     <a href="#" id="scroll-top"><i class="far fa-angle-up"></i></a>
@@ -359,10 +419,14 @@ document.addEventListener('DOMContentLoaded', () => {
         { bgColor: 'transparent', textColor: '#ffffff', hoverColor: '#00BFFF' },
         { bgColor: '#123544', textColor: '#ffffff', hoverColor: '#00BFFF' },
         { bgColor: 'white', textColor: '#000000', hoverColor: '#00BFFF' },
+        { bgColor: '#090f27', textColor: '#ffffff', hoverColor: '#00BFFF' },
         { bgColor: '#123544', textColor: '#ffffff', hoverColor: '#00BFFF' },
         { bgColor: 'white', textColor: '#000000', hoverColor: '#00BFFF' },
         { bgColor: '#00283a', textColor: '#ffffff', hoverColor: '#00BFFF' }
     ];
+
+    // Function to check screen size
+    const isSmallScreen = () => window.innerWidth < 954;
 
     // Function to create an observer
     const createObserver = (threshold) => {
@@ -373,17 +437,21 @@ document.addEventListener('DOMContentLoaded', () => {
                         const sectionIndex = Array.from(sections).indexOf(entry.target);
                         const { bgColor, textColor, hoverColor } = sectionStyles[sectionIndex];
 
+                        // Adjust text color for small screens
+                        const effectiveTextColor = isSmallScreen()   ? '#000000' : textColor;  // Black text for transparent background on small screens
+                           
+
                         // Update navbar background color
                         navbar.style.backgroundColor = bgColor;
 
                         // Update navbar link text colors and hover colors
                         navLinks.forEach((link) => {
-                            link.style.color = textColor;
+                            link.style.color = effectiveTextColor;
                             link.addEventListener('mouseover', () => {
                                 link.style.color = hoverColor;
                             });
                             link.addEventListener('mouseout', () => {
-                                link.style.color = textColor;
+                                link.style.color = effectiveTextColor;
                             });
                         });
                     }
@@ -400,9 +468,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const getThresholdForScreenSize = () => {
         const width = window.innerWidth;
 
-        if (width > 1280) {
-            return 0.15; // XL screens
-        } else if (width > 768) {
+        if (width > 1500) {
+            return 0.6; // XL screens
+        } 
+        else if (width > 1280) {
+            return 0.1; // Large screens
+        } 
+        else if (width > 768) {
             return 0.4; // Laptop screens
         } else {
             return 0.1; // Mobile screens
@@ -427,16 +499,21 @@ document.addEventListener('DOMContentLoaded', () => {
     sections.forEach((section) => observer.observe(section));
 
     // Update threshold on window resize
-    window.addEventListener('resize', updateThreshold);
+    window.addEventListener('resize', () => {
+        updateThreshold();
+
+        // Force update the text color for small screens
+        navLinks.forEach((link) => {
+            if (isSmallScreen) {
+                link.style.color = '#000000'; // Ensure black text for small screens
+            }
+        });
+    });
 
     // Initial threshold setup
     updateThreshold();
 });
-
-
-
-
-        
+       
       </script>
 </body>
 </html>
