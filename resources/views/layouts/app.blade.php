@@ -298,10 +298,10 @@
                             <ul class="footer-contact">
                                 <li><a href="tel:+251902122222"><i class="far fa-phone"></i>+251-902122222</a></li>
                                 <li><i class="far fa-map-marker-alt"></i>Head office 6th Floor, Sur Construction, Bole, Addis Ababa, Ethiopia</li>
+                                <li><i class="far fa-map-marker-alt"></i> Ict park, Goro, Addis Ababa, Ethiopia</li>
                                 <li><i class="far fa-map-marker-alt"></i>UAE, Dubai , Business Bay Area  +971 508515282</li>
                                 <li><i class="far fa-map-marker-alt"></i> +1(415)-8604855 USA , California, San Francisco</li>
-                                <li><a href="mailto:info@faristechnologies.com"><i
-                                            class="far fa-envelope"></i>info@faristechnologies.com</a></li>
+                                <li><a href="mailto:info@faristechnologies.com"><i class="far fa-envelope"></i>info@faristechnologies.com</a></li>
                             </ul>
                         </div>
                     </div>
