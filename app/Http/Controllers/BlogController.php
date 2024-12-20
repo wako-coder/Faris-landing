@@ -74,6 +74,7 @@ class BlogController extends Controller
 
         return redirect()->route('blogs.index')->with('success', 'Blog updated successfully!');
     }
+    
 
     // Remove the specified blog from storage
     public function destroy($id)

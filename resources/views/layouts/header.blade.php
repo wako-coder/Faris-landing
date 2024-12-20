@@ -54,10 +54,11 @@
                             <li class="nav-item"><a class="nav-link" href="{{ url('/') }}">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ url('/about') }}">About</a></li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle" href="{{ url('/service') }}" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Services
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="servicesDropdown" style="width: 300px;">
+                                    
                                     <li><a class="dropdown-item" href="{{ url('/software') }}">Digital Transformation Services</li>
                                     <li><a class="dropdown-item" href="{{ url('/buisness') }}">Business Process Outsourcing</li>
                                     <li><a class="dropdown-item" href="{{ url('//research') }}">Research & Re Engineering</li>

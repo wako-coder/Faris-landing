@@ -159,41 +159,33 @@
                     <div class="row align-items-center">
                         <div class="col-md-6">
                             <div class="hero-content" style="position: relative; top:150px;">
-                                <h6 class="hero-sub-title" data-animation="fadeInUp" data-delay=".25s" style="">Think out of Earth<span class="d-none d-lg-inline"><img src="{{ asset('assets/img/gallery/anime-unscreen.gif') }}"  style="width:150px; display:inline; position: relative; right:40px; bottom:10px;" alt="giff"></span></h6> 
-                                <h4 class="site-title" data-animation="fadeInUp" data-delay=".50s" style="opacity: 0.6;">
-                                    The Hub of <span>Emerging</span> Technology in Africa 
+                                <h6 class="site-title" data-animation="fadeInUp" data-delay=".25s" style="color: white;">Think out of Earth !!</h6> 
+                                <h4 class="pt-4" data-animation="fadeInUp" data-delay=".50s">
+                                    The Hub of <span style="color: white">Emerging</span> Technology in Africa 
                                 </h4>
                                 <p data-animation="fadeInUp" data-delay=".75s"></p>
                             </div>
-                            <div>
-                                <div class="d-none d-sm-block" style="position: relative; top:150px; margin-bottom:50px; opacity:0.6;">
-                                    <a href="{{ url('/contact') }}" class="theme-btn">Learn More<i class="fas fa-arrow-right"></i></a>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="hero-single" style="background: url({{asset('assets/img/office/A20I3269-1-1-scaled-e1697205751873.jpg')}})">
+            {{-- <div class="hero-single" style="background: url({{asset('assets/img/office/A20I3269-1-1-scaled-e1697205751873.jpg')}});">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-6">
                             <div class="hero-content" style="position: relative; top:150px;">
-                                <h6 class="hero-sub-title" data-animation="fadeInUp" data-delay=".25s" style="">Think out of Earth<span class="d-none d-lg-inline"><img src="{{ asset('assets/img/gallery/anime-unscreen.gif') }}"  style="width:150px; display:inline; position: relative; right:40px; bottom:10px;" alt="giff"></span></h6> 
-                                <h4 class="site-title" data-animation="fadeInUp" data-delay=".50s" style="opacity: 0.6;">
-                                    The Hub of <span>Emerging</span> Technology in Africa 
+                                <h6 class="hero-sub-title" data-animation="fadeInUp" data-delay=".25s" style="color: white;" >Think out of Earth</h6> 
+                                <h4 class="site-title" data-animation="fadeInUp" data-delay=".50s">
+                                    The Hub of <span style="color: white">Emerging</span> Technology in Africa 
                                 </h4>
                                 <p data-animation="fadeInUp" data-delay=".75s"></p>
                             </div>
-                            <div>
-                                <div class="d-none d-sm-block" style="position: relative; top:150px; margin-bottom:50px; opacity:0.6;">
-                                    <a href="{{ url('/contact') }}" class="theme-btn">Learn More<i class="fas fa-arrow-right"></i></a>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
     
@@ -202,7 +194,7 @@
     </div>
 </div>
 <div class="cta-area section"  id="section1" style="position: relative; top:100px; margin-bottom:50px;">
-    <div class="about-area  " >
+    <div class="about-area">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -218,29 +210,22 @@
                         <div class="about-shape">
                             <img src="{{ asset('assets/img/shape/01.png') }}" alt>
                         </div>
-                        {{-- <div class="about-experience">
-                            <h1>5+</h1>
-                            <div class="about-experience-text">
-                                Years Of <br> Innovation
-                            </div>
-                        </div> --}}
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 cta-area4">
                     <div class="about-right wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
                         <div class="site-heading mb-3">
                             <span class="site-title-tagline"><i class="fas fa-bring-forward"></i> About Us</span>
-                           
                         </div>
-                        <p class="about-text" style="color: white;">
+                        <p class="about-text" style="color: white; font-family: 'Arial', sans-serif; font-weight: 300; font-size: 1.125rem; line-height: 1.6;">
                             At FARIS Technologies, we embody the principle "Think Big, Start Small, Scale Fast." Since 2018, this mindset has driven our evolution into one of Ethiopia's most dynamic holding companies, impacting industries across Africa and beyond.
                         </p>
-                        <p class="about-text"style="color: white;">
-                            <strong>Our Vision</strong><br>
+                        <p class="about-text" style="color: white; font-family: 'Arial', sans-serif; font-weight: 300; font-size: 1.125rem; line-height: 1.6;">
+                            <strong style="color: #27a9dd">Our Vision</strong><br>
                             To be the most diversified and reputable company in Africa, in 2030!
                         </p>
-                        <p class="about-text" style="color: white;">
-                            <strong>Our Mission</strong><br>
+                        <p class="about-text" style="color: white; font-family: 'Arial', sans-serif; font-weight: 300; font-size: 1.125rem; line-height: 1.6;">
+                            <strong style="color: #27a9dd">Our Mission</strong><br>
                             By cultivating talent, embracing digital transformation, delivering BPO services, and solving complex challenges, we empower humanity through AI, space, and emerging technologies.
                         </p>
                         <div class="about-list-wrap">
@@ -251,7 +236,9 @@
                                     </div>
                                     <div class="content" style="color: white;">
                                         <h4>Cost-Effective Solutions</h4>
-                                        <p>Our services are designed to provide maximum value, combining innovation with affordability.</p>
+                                        <p style="font-family: 'Arial', sans-serif; font-weight: 300; font-size: 1rem; line-height: 1.5;">
+                                            Our services are designed to provide maximum value, combining innovation with affordability.
+                                        </p>
                                     </div>
                                 </li>
                                 <li>
@@ -260,7 +247,9 @@
                                     </div>
                                     <div class="content" style="color: white;">
                                         <h4>Trusted by Innovators</h4>
-                                        <p>We are the trusted partner of forward-thinking businesses ready to embrace the future.</p>
+                                        <p style="font-family: 'Arial', sans-serif; font-weight: 300; font-size: 1rem; line-height: 1.5;">
+                                            We are the trusted partner of forward-thinking businesses ready to embrace the future.
+                                        </p>
                                     </div>
                                 </li>
                             </ul>
@@ -271,6 +260,7 @@
             </div>
         </div>
     </div>
+    
     </div>
 <div class="container section py-5" id="section2" style="position: relative; top:80px; margin-bottom:100px;">
     <div class="site-heading text-center">
@@ -280,6 +270,8 @@
         </div>
 
         <div class="row g-4 pt-4 justify-content-center gap-4">
+
+
             <!-- Card 1 -->
             <div class="col-12 col-lg-5">
               <a href="{{ url('/buisness') }}" class="card text-decoration-none text-dark">
@@ -311,19 +303,20 @@
             </div>
           
             <!-- Card 3 -->
+
             <div class="col-12 col-lg-5">
-              <a href="{{ url('/knowledge') }}" class="card text-decoration-none text-dark">
-                <h4 class="pb-2 mx-auto d-none d-sm-block">Knowledge and Capacity Building</h4>
-                <img class="img-1" id="card-img" src="{{ asset('assets/img/gallery/Knowledge capacity division.jpg') }}" alt>
-                <div class="card-body text-center">
-                  <div class="feature-icon">
-                    <img src="{{ asset('assets/img/icon/Knowldege.svg') }}" alt>
+                <a href="{{ url('/knowledge') }}" class="card text-decoration-none text-dark">
+                  <h4 class="pb-2 mx-auto d-none d-sm-block">Knowledge and Capacity Building</h4>
+                  <img class="img-1" id="card-img" src="{{ asset('assets/img/gallery/Knowledge capacity division.jpg') }}" alt>
+                  <div class="card-body text-center">
+                    <div class="feature-icon">
+                      <img src="{{ asset('assets/img/icon/Knowldege.svg') }}" alt>
+                    </div>
+                    <h4 class="pb-2">Knowledge and Capacity Building</h4>
+                    <p>With our vision to be the center of emerging technologies, we started to raise a generation of scientists of tomorrow for our country and continent!</p>
                   </div>
-                  <h4 class="pb-2">Knowledge and Capacity Building</h4>
-                  <p>With our vision to be the center of emerging technologies, we started to raise a generation of scientists of tomorrow for our country and continent!</p>
-                </div>
-              </a>
-            </div>
+                </a>
+              </div>
           
             <!-- Card 4 -->
             <div class="col-12 col-lg-5">
@@ -478,9 +471,9 @@
                     <div class="choose-content wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
                         <div class="site-heading mb-3">
                             <span class="site-title-tagline"><i class="fas fa-bring-forward"></i> Why Choose Us</span>
-                            <h2 class="site-title text-white">
+                            <h3 class="header-title text-white">
                                 When You Need Innovation, <span>We Are</span> Always Here
-                            </h2>
+                            </h3>
                         </div>
                         <p class="text-white">
                             Our team specializes in cutting-edge web and app development, AI solutions, and advancements in space science technology. We are dedicated to delivering reliable and transformative services.
@@ -713,23 +706,25 @@
 <div class="col-lg-5 cta-area3 section" id="section5" style="background-image: url('{{ asset('assets/img/cta/world.jpg') }}');">
     <div class="about-right wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
         <div class="site-heading ">
-            <h2 class="site-title">
-                Our Global <span>Presence</span>
-            </h2>
-            <p class="about-text">
-                FARIS Technologies is proud to have a strong presence across key regions globally, driving innovation and transformation:
-            </p>
-            <ul>
-                <li><strong>North America:</strong> From our head office in San Francisco, California, USA, we lead advancements in cutting-edge AI, aerospace, and digital transformation projects.</li>
-                <li><strong>Asia:</strong> Based in Dubai, UAE, at the Business Bay Area, we capitalize on dynamic opportunities through strategic partnerships and emerging markets.</li>
-                <li><strong>Africa:</strong> With deep roots in Africa, we lead impactful initiatives such as Ethiopia’s first Amharic AI platform and satellite technology projects, operating from our head office on the 6th Floor, Sur Construction, Bole, Addis Ababa, Ethiopia.</li>
-            </ul>
-        </div>
+            <div class="site-heading">
+                <h2 class="site-title">
+                    Our Global <span>Presence</span>
+                </h2>
+                <p class="about-text">
+                    FARIS Technologies operates globally, driving innovation and transformation in key regions:
+                </p>
+                <ul>
+                    <li><strong>America:</strong> Headquartered in San Francisco, USA, advancing AI and digital transformation.</li>
+                    <li><strong>Asia:</strong> Based in Dubai, UAE, leveraging strategic partnerships in emerging markets.</li>
+                    <li><strong>Africa:</strong> Operating from Addis Ababa, Ethiopia, leading projects in AI and satellite technology.</li>
+                </ul>
+            </div>            
     </div>
 </div>
-``
+``</div>
 <div class="container" style="margin-top: 60px;">
 <h3 class="text-center">Our Partners and Clients</h3>
+
 <div class="wrapper">
     <img class="item item1" src="{{asset('assets/img/our_partners/aastu-01.png')}}" style="width: 90px" alt="thumb">
     <img class="item item2" src="{{asset('assets/img/our_clients/wasasa-29.png')}}" style="width: 100px" alt="thumb">
@@ -753,7 +748,6 @@
 
     <img class="item item15" src="{{asset('assets/img/our_partners/Insa-09.png')}}" style="width: 90px" alt="thumb">
   </div>
-</div>
 </div>
 </div>
 

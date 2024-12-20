@@ -55,7 +55,19 @@
                           <ul class="navbar-nav justify-content-end flex-grow-1" style="color: white;">
                               <li class="nav-item"><a class="nav-link" href="{{ url('/') }}">Home</a></li>
                               <li class="nav-item"><a class="nav-link" href="{{ url('/about') }}">About</a></li>
-                              <li class="nav-item"><a class="nav-link" href="{{ url('/service') }}">Services</a></li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="{{ route('service') }}" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Services
+                                </a>                                
+                                <ul class="dropdown-menu" aria-labelledby="servicesDropdown" style="width: 300px;">
+                                    
+                                    <li><a class="dropdown-item" href="{{ url('/software') }}">Digital Transformation Services</li>
+                                    <li><a class="dropdown-item" href="{{ url('/buisness') }}">Business Process Outsourcing</li>
+                                    <li><a class="dropdown-item" href="{{ url('//research') }}">Research & Re Engineering</li>
+                                    <li><a class="dropdown-item" href="{{ url('/knowledge') }}">knowledge and Capacity Building</a></li>
+                                    
+                                </ul>
+                            </li>
                               <li class="nav-item"><a class="nav-link" href="{{ url('/gallery') }}">Gallery</a></li>
                               <li class="nav-item"><a class="nav-link" href="{{ url('/blogs') }}">News</a></li>
                               <li class="nav-item d-lg-none"><a class="nav-link" href="{{ url('/contact') }}">Contact Us</a></li>
