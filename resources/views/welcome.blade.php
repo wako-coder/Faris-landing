@@ -450,15 +450,17 @@
                         <div class="col-lg-12">
                             <div class="video-wrap"
                                 style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
+                                <!-- Updated iframe with autoplay, mute, and no controls -->
                                 <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-                                src="https://www.youtube.com/embed/e1chb0Ga_oQ?autoplay=0&mute=1&rel=0"
+                                src="https://www.youtube.com/embed/GSYtvsf95EI?autoplay=1&mute=1&rel=0&controls=0"
                                 frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                        
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+                       
+            
         </div>
     </div>
 </div>
@@ -542,7 +544,7 @@
                     <div class="about-img">
                         <div class="about-img-1 col-10">
                             <video autoplay muted loop class="video-background">
-                                <source src="{{ asset('assets/img/video/presence.mp4') }}" type="video/mp4">
+                                <source src="{{ asset('assets/img/video/presence2.mp4') }}" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
@@ -558,28 +560,28 @@
 <h3 class="text-center">Our Partners and Clients</h3>
 
 <div class="wrapper">
-    <img class="item item1" src="{{asset('assets/img/our_partners/aau-02.png')}}" style="width: 80px" alt="thumb">
-    <img class="item item2" src="{{asset('assets/img/our_partners/aastu-01.png')}}" style="width: 80px" alt="thumb">
-    <img class="item item3" src="{{asset('assets/img/our_partners/bdu-05.png')}}" style="width: 80px" alt="thumb">
-    <img class="item item4" src="{{asset('assets/img/our_partners/Hawasa-08.png')}}" style="width: 80px"  alt="thumb">
-    <img class="item item5" src="{{asset('assets/img/our_partners/Insa-09.png')}}" style="width: 80px" alt="thumb">
-    <img class="item item6" src="{{asset('assets/img/our_clients/wasasa-29.png')}}" style="width: 80px" alt="thumb">
-    <img class="item item7" src="{{asset('assets/img/our_partners/ibm-17.png')}}" style="width: 80px" alt="thumb">
-    <img class="item item8" src="{{asset('assets/img/our_partners/Hawasa-08.png')}}" style="width: 80px" alt="thumb">
-    <img class="item item9" src="{{asset('assets/img/our_partners/Ambo.png')}}" style="width: 80px" alt="thumb">
+    <img class="item item1" src="{{asset('assets/img/our_partners/aau-02.png')}}" style="width: 90px" alt="thumb">
+    <img class="item item2" src="{{asset('assets/img/our_partners/aastu-01.png')}}" style="width: 90px" alt="thumb">
+    <img class="item item3" src="{{asset('assets/img/our_partners/bdu-05.png')}}" style="width: 90px" alt="thumb">
+    <img class="item item4" src="{{asset('assets/img/our_partners/Hawasa-08.png')}}" style="width: 90px"  alt="thumb">
+    <img class="item item5" src="{{asset('assets/img/our_partners/Insa-09.png')}}" style="width: 90px" alt="thumb">
+    <img class="item item6" src="{{asset('assets/img/our_clients/wasasa-29.png')}}" style="width: 90px" alt="thumb">
+    <img class="item item7" src="{{asset('assets/img/our_partners/ibm-17.png')}}" style="width: 90px" alt="thumb">
+    <img class="item item8" src="{{asset('assets/img/our_partners/Hawasa-08.png')}}" style="width: 90px" alt="thumb">
+    <img class="item item9" src="{{asset('assets/img/our_partners/Ambo.png')}}" style="width: 90px" alt="thumb">
   
     
-    <img class="item item10" src="{{asset('assets/img/our_partners/nvidia-28.png')}}" style="width: 80px" alt="thumb">
+    <img class="item item10" src="{{asset('assets/img/our_partners/nvidia-28.png')}}" style="width: 90px" alt="thumb">
    
-    <img class="item item11" src="{{asset('assets/img/our_partners/wollega unv-16.png')}}" style="width: 80px" alt="thumb">
+    <img class="item item11" src="{{asset('assets/img/our_partners/wollega unv-16.png')}}" style="width: 90px" alt="thumb">
 
    
     
    
    
 
-    <img class="item item12" src="{{asset('assets/img/our_partners/esss-07.png')}}" style="width: 80px" alt="thumb">
-    <img class="item item13" src="{{asset('assets/img/our_partners/hp-22.png')}}" style="width: 80px" alt="thumb">
+    <img class="item item12" src="{{asset('assets/img/our_partners/esss-07.png')}}" style="width: 90px" alt="thumb">
+    <img class="item item13" src="{{asset('assets/img/our_partners/hp-22.png')}}" style="width: 90px" alt="thumb">
 
   </div>
   
