@@ -150,7 +150,7 @@
             <div class="hero-single">
                 <!-- Video background -->
                 <video autoplay poster="{{asset('assets/img/office/A20I3269-1-1-scaled-e1697205751873.jpg')}}" loading="lazy" loop muted playsinline class="video-background"  style="filter: brightness(0.5);" >
-                    <source src="{{ asset('assets/img/video/Company.mp4') }}" type="video/mp4">
+                    <source src="{{ asset('assets/img/video/faris.mp4') }}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
                 
@@ -286,11 +286,26 @@
                 </a>
               </div>
 
+               <!-- Card 2 -->
+            <div class="col-12 col-lg-5">
+                <a href="{{ url('/software') }}" class="card text-decoration-none text-dark">
+                  <h4 class="pb-2 mx-auto d-none d-sm-block">Digital Transformation Services</h4>
+                  <img id="card-img" src="{{ asset('assets/img/gallery/pexels-kevin-ku-92347-577585 (1) (1).jpg') }}" alt>
+                  <div class="card-body text-center">
+                    <div class="feature-icon">
+                      <img src="{{ asset('assets/img/icon/Digital.svg') }}" alt>
+                    </div>
+                    <h4 class="pb-2">Digital Transformation Services</h4>
+                    <p>At FARIS Technologies, we offer a future-proof approach - Digital Ascendancy Services.</p>
+                  </div>
+                </a>
+              </div>
+
             <!-- Card 1 -->
             <div class="col-12 col-lg-5">
               <a href="{{ url('/buisness') }}" class="card text-decoration-none text-dark">
                 <h4 class="pb-2 mx-auto d-none d-sm-block">Business Process Outsourcing</h4>
-                <img id="card-img" src="{{ asset('assets/img/about/transformed.jpeg') }}" alt="thumb">
+                <img id="card-img" src="{{ asset('assets/img/gallery/A20I3015.JPG') }}" alt="thumb">
                 <div class="card-body text-center">
                   <div class="feature-icon">
                     <img src="{{ asset('assets/img/icon/BPO-01.svg') }}" alt>
@@ -301,20 +316,7 @@
               </a>
             </div>
           
-            <!-- Card 2 -->
-            <div class="col-12 col-lg-5">
-              <a href="{{ url('/software') }}" class="card text-decoration-none text-dark">
-                <h4 class="pb-2 mx-auto d-none d-sm-block">Digital Transformation Services</h4>
-                <img id="card-img" src="{{ asset('assets/img/gallery/pexels-kevin-ku-92347-577585 (1) (1).jpg') }}" alt>
-                <div class="card-body text-center">
-                  <div class="feature-icon">
-                    <img src="{{ asset('assets/img/icon/Digital.svg') }}" alt>
-                  </div>
-                  <h4 class="pb-2">Digital Transformation Services</h4>
-                  <p>At FARIS Technologies, we offer a future-proof approach - Digital Ascendancy Services.</p>
-                </div>
-              </a>
-            </div>
+           
           
             <!-- Card 3 -->
 

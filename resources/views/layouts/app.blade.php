@@ -70,6 +70,26 @@
     top: 0;
     z-index: -1
 }
+.cta-area4 {
+    padding-top: 80px;
+    padding-bottom: 180px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1
+}
+
+.cta-area4::before {
+    content: "";
+    position: absolute;
+    background: rgba(0, 40, 58, .6);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1
+}
 
   .hero-section {
             position: relative;
