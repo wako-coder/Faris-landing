@@ -537,19 +537,15 @@
     <h2 class="site-title text-center" style="padding-bottom: 40px;">
         Our Global <span>Presence</span>
     </h2>
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-12">
-                <div class="about-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
-                    <div class="about-img">
-                        <div class="about-img-1 col-10">
-                            <video autoplay muted loop class="video-background">
-                                <source src="{{ asset('assets/img/video/presence2.mp4') }}" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
-                    </div>
-                </div>
+    <div class="hero-section">
+        <div class="hero-slider owl-carousel owl-theme">
+            <div class="hero-single">
+                <!-- Video background -->
+                <video autoplay muted loop class="video-background">
+                    <source src="{{ asset('assets/img/video/presence2.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+              
             </div>
         </div>
     </div>
