@@ -61,7 +61,7 @@
                                     
                                     <li><a class="dropdown-item" href="{{ url('/software') }}">Digital Transformation Services</li>
                                     <li><a class="dropdown-item" href="{{ url('/buisness') }}">Business Process Outsourcing</li>
-                                    <li><a class="dropdown-item" href="{{ url('//research') }}">Research & Re Engineering</li>
+                                    <li><a class="dropdown-item" href="{{ url('/research') }}">Research & Re Engineering</li>
                                     <li><a class="dropdown-item" href="{{ url('/knowledge') }}">knowledge and Capacity Building</a></li>
                                     
                                 </ul>

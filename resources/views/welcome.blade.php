@@ -271,6 +271,20 @@
 
         <div class="row g-4 pt-4 justify-content-center gap-4">
 
+            
+            <div class="col-12 col-lg-5">
+                <a href="{{ url('/knowledge') }}" class="card text-decoration-none text-dark">
+                  <h4 class="pb-2 mx-auto d-none d-sm-block">Knowledge and Capacity Building</h4>
+                  <img class="img-1" id="card-img" src="{{ asset('assets/img/gallery/Knowledge capacity division.jpg') }}" alt>
+                  <div class="card-body text-center">
+                    <div class="feature-icon">
+                      <img src="{{ asset('assets/img/icon/Knowldege.svg') }}" alt>
+                    </div>
+                    <h4 class="pb-2">Knowledge and Capacity Building</h4>
+                    <p>With our vision to be the center of emerging technologies, we started to raise a generation of scientists of tomorrow for our country and continent!</p>
+                  </div>
+                </a>
+              </div>
 
             <!-- Card 1 -->
             <div class="col-12 col-lg-5">
@@ -304,19 +318,6 @@
           
             <!-- Card 3 -->
 
-            <div class="col-12 col-lg-5">
-                <a href="{{ url('/knowledge') }}" class="card text-decoration-none text-dark">
-                  <h4 class="pb-2 mx-auto d-none d-sm-block">Knowledge and Capacity Building</h4>
-                  <img class="img-1" id="card-img" src="{{ asset('assets/img/gallery/Knowledge capacity division.jpg') }}" alt>
-                  <div class="card-body text-center">
-                    <div class="feature-icon">
-                      <img src="{{ asset('assets/img/icon/Knowldege.svg') }}" alt>
-                    </div>
-                    <h4 class="pb-2">Knowledge and Capacity Building</h4>
-                    <p>With our vision to be the center of emerging technologies, we started to raise a generation of scientists of tomorrow for our country and continent!</p>
-                  </div>
-                </a>
-              </div>
           
             <!-- Card 4 -->
             <div class="col-12 col-lg-5">
@@ -524,230 +525,64 @@
             </div>
         </div>
     </div>
-    {{-- <div class="container">
-        <div class="row">
-            <div class="col-lg-7 mx-auto text-center">
-                <div class="cta-text">
-                    <h1>Innovative <span>Technology</span> Solutions</h1>
-                    <p>
-                        As a leading tech startup, we specialize in cutting-edge web and app development, artificial intelligence, and space science technology. Our mission is to drive innovation and deliver tailored solutions that push the boundaries of what's possible.
-                    </p>
-                </div>
-                <div class="mb-20 mt-10">
-                    <a href="#" class="cta-border-btn"><i class="fal fa-headset"></i>+251-902122222</a>
-                </div>
-                <a href="{{ url('/contact') }}" class="theme-btn">Contact Us <i class="fas fa-arrow-right"></i></a>
-            </div>
-        </div>
-    </div> --}}
 </div>
 
 
 
-{{-- <div class="counter-area">
-    <div class="container">
-        <div class="counter-wrap">
-            <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="counter-box">
-                        <div class="icon">
-                            <img src="{{ asset('assets/img/icon/repair-2.svg') }}" alt>
-                        </div>
-                        <div>
-                            <span class="counter" data-count="+" data-to="100" data-speed="3000">100</span>
-                            <h6 class="title">+ Projects Done</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="counter-box">
-                        <div class="icon">
-                            <img src="{{ asset('assets/img/icon/happy.svg') }}" alt>
-                        </div>
-                        <div>
-                            <span class="counter" data-count="+" data-to="95" data-speed="3000">95</span>
-                            <h6 class="title">+ Happy Clients</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="counter-box">
-                        <div class="icon">
-                            <img src="{{ asset('assets/img/icon/team-2.svg') }}" alt>
-                        </div>
-                        <div>
-                            <span class="counter" data-count="+" data-to="45" data-speed="3000">45</span>
-                            <h6 class="title">+ Experts Staffs</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="counter-box">
-                        <div class="icon">
-                            <img src="{{ asset('assets/img/icon/award.svg') }}" alt>
-                        </div>
-                        <div>
-                            <span class="counter" data-count="+" data-to="50" data-speed="3000">50</span>
-                            <h6 class="title">+ Win Awards</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> --}}
-
-{{-- <div class="gallery-area py-120">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 mx-auto">
-                <div class="site-heading text-center wow fadeInDown" data-wow-duration="1s" data-wow-delay=".25s">
-                    <span class="site-title-tagline"><i class="fas fa-bring-forward"></i> Photo Gallery</span>
-                    <h2 class="site-title">Explore Photo <span>Gallery</span></h2>
-                    <div class="heading-divider"></div>
-                </div>
-                <div class="filter-controls wow fadeInUp" data-wow-duration="1s" data-wow-delay=".50s">
-                    <ul class="filter-btns">
-                        <li class="active" data-filter="*"><i class="far fa-computer-speaker"></i> All</li>
-                        <li data-filter=".cat2"><i class="far fa-laptop"></i> Our Bootcamp</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="row mt-3 filter-box popup-gallery wow fadeInUp" data-wow-duration="1s" data-wow-delay=".75s">
-
-            <!-- Gallery Item 1 -->
-            <div class="col-md-4 filter-item cat3 cat5">
-                <div class="gallery-item">
-                    <div class="gallery-img">
-                        <img src="{{ asset('assets/img/office/meeting.JPG') }}" alt>
-                    </div>
-                    <div class="gallery-content">
-                        <a class="popup-img gallery-link" href="{{ asset('assets/img/office/meeting.JPG') }}"><i class="far fa-camera"></i></a>
-                    </div>
-                </div>
-            </div>
 
 
-
-            <!-- Gallery Item 6 -->
-            <div class="col-md-4 filter-item cat2">
-                <div class="gallery-item">
-                    <div class="gallery-img">
-                        <img src="{{ asset('assets/img/office/robot2.jpg') }}" alt>
-                    </div>
-                    <div class="gallery-content">
-                        <a class="popup-img gallery-link" href="{{ asset('assets/img/office/robot2.jpg') }}"><i class="far fa-camera"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Gallery Item 7 -->
-            <div class="col-md-4 filter-item cat2">
-                <div class="gallery-item">
-                    <div class="gallery-img">
-                        <img src="{{ asset('assets/img/office/robot3.jpg') }}" alt>
-                    </div>
-                    <div class="gallery-content">
-                        <a class="popup-img gallery-link" href="{{ asset('assets/img/office/robot3.jpg') }}"><i class="far fa-camera"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Gallery Item 8 -->
-            <div class="col-md-4 filter-item cat2 ">
-                <div class="gallery-item">
-                    <div class="gallery-img">
-                        <img src="{{ asset('assets/img/office/kids.jpg') }}" alt>
-                    </div>
-                    <div class="gallery-content">
-                        <a class="popup-img gallery-link" href="{{ asset('assets/img/office/kids.jpg') }}"><i class="far fa-camera"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Gallery Item 9 -->
-            <div class="col-md-4 filter-item cat4 cat3">
-                <div class="gallery-item">
-                    <div class="gallery-img">
-                        <img src="{{ asset('assets/img/office/A20I2667.JPG') }}" alt>
-                    </div>
-                    <div class="gallery-content">
-                        <a class="popup-img gallery-link" href="{{ asset('assets/img/office/A20I2667.JPG') }}"><i class="far fa-camera"></i></a>
-                    </div>
-                </div>
-            </div>
-             
-          
-
-
-         
-
-            
-
-        </div>
-    </div>
-</div> --}}
-
-<div class="about-area py-80">
+<div class="about-area py-80 section" id="section5">
+    <h2 class="site-title text-center" style="padding-bottom: 40px;">
+        Our Global <span>Presence</span>
+    </h2>
     <div class="container">
         <div class="row align-items-center">
-   <div class="col-lg-7">
-    <div class="about-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
-        <div class="about-img">
-            <div class="about-img-1">
-                <img src="{{ asset('assets/img/gallery/photo_5940468038916752252_y.jpg') }}" alt>
+            <div class="col-lg-12">
+                <div class="about-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
+                    <div class="about-img">
+                        <div class="about-img-1 col-10">
+                            <video autoplay muted loop class="video-background">
+                                <source src="{{ asset('assets/img/video/presence.mp4') }}" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
             </div>
-           
         </div>
-        
     </div>
 </div>
-<div class="col-lg-5 cta-area3 section" id="section5" style="background-image: url('{{ asset('assets/img/cta/world.jpg') }}');">
-    <div class="about-right wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
-        <div class="site-heading ">
-            <div class="site-heading">
-                <h2 class="site-title">
-                    Our Global <span>Presence</span>
-                </h2>
-                <p class="about-text">
-                    FARIS Technologies operates globally, driving innovation and transformation in key regions:
-                </p>
-                <ul>
-                    <li><strong>America:</strong> Headquartered in San Francisco, USA, advancing AI and digital transformation.</li>
-                    <li><strong>Asia:</strong> Based in Dubai, UAE, leveraging strategic partnerships in emerging markets.</li>
-                    <li><strong>Africa:</strong> Operating from Addis Ababa, Ethiopia, leading projects in AI and satellite technology.</li>
-                </ul>
-            </div>            
-    </div>
-</div>
-``</div>
+
+
 <div class="container" style="margin-top: 60px;">
 <h3 class="text-center">Our Partners and Clients</h3>
 
 <div class="wrapper">
-    <img class="item item1" src="{{asset('assets/img/our_partners/aastu-01.png')}}" style="width: 90px" alt="thumb">
-    <img class="item item2" src="{{asset('assets/img/our_clients/wasasa-29.png')}}" style="width: 100px" alt="thumb">
-    <img class="item item3" src="{{asset('assets/img/our_partners/ibm-17.png')}}" style="width: 90px" alt="thumb">
-    <img class="item item4" src="{{asset('assets/img/our_partners/Hawasa-08.png')}}" style="width: 90px" alt="thumb">
+    <img class="item item1" src="{{asset('assets/img/our_partners/aau-02.png')}}" style="width: 80px" alt="thumb">
+    <img class="item item2" src="{{asset('assets/img/our_partners/aastu-01.png')}}" style="width: 80px" alt="thumb">
+    <img class="item item3" src="{{asset('assets/img/our_partners/bdu-05.png')}}" style="width: 80px" alt="thumb">
+    <img class="item item4" src="{{asset('assets/img/our_partners/Hawasa-08.png')}}" style="width: 80px"  alt="thumb">
+    <img class="item item5" src="{{asset('assets/img/our_partners/Insa-09.png')}}" style="width: 80px" alt="thumb">
+    <img class="item item6" src="{{asset('assets/img/our_clients/wasasa-29.png')}}" style="width: 80px" alt="thumb">
+    <img class="item item7" src="{{asset('assets/img/our_partners/ibm-17.png')}}" style="width: 80px" alt="thumb">
+    <img class="item item8" src="{{asset('assets/img/our_partners/Hawasa-08.png')}}" style="width: 80px" alt="thumb">
+    <img class="item item9" src="{{asset('assets/img/our_partners/Ambo.png')}}" style="width: 80px" alt="thumb">
   
-    <img class="item item5" src="{{asset('assets/img/our_partners/bdu-05.png')}}" style="width: 90px" alt="thumb">
-    <img class="item item6" src="{{asset('assets/img/our_partners/nvidia-28.png')}}" style="width: 90px" alt="thumb">
+    
+    <img class="item item10" src="{{asset('assets/img/our_partners/nvidia-28.png')}}" style="width: 80px" alt="thumb">
    
-    <img class="item item7" src="{{asset('assets/img/our_partners/wollega unv-16.png')}}" style="width: 100px" alt="thumb">
-    <img class="item item7" src="{{asset('assets/img/our_partners/Insa-09.png')}}" style="width: 100px" alt="thumb">
-    <img class="item item8" src="{{asset('assets/img/our_clients/italy-embassy.png')}}" style="width: 100px" alt="thumb">
-    <img class="item item9" src="{{asset('assets/img/our_clients/koica-33.png')}}" style="width: 100px" alt="thumb">
+    <img class="item item11" src="{{asset('assets/img/our_partners/wollega unv-16.png')}}" style="width: 80px" alt="thumb">
+
    
     
-    <img class="item item10" src="{{asset('assets/img/our_partners/Hawasa-08.png')}}" style="width: 90px"  alt="thumb">
-    <img class="item item11" src="{{asset('assets/img/our_partners/aau-02.png')}}" style="width: 90px" alt="thumb">
-    <img class="item item12" src="{{asset('assets/img/our_partners/Ambo.png')}}" style="width: 90px" alt="thumb">
-    <img class="item item13" src="{{asset('assets/img/our_partners/esss-07.png')}}" style="width: 90px" alt="thumb">
-    <img class="item item14" src="{{asset('assets/img/our_partners/hp-22.png')}}" style="width: 90px" alt="thumb">
+   
+   
 
-    <img class="item item15" src="{{asset('assets/img/our_partners/Insa-09.png')}}" style="width: 90px" alt="thumb">
+    <img class="item item12" src="{{asset('assets/img/our_partners/esss-07.png')}}" style="width: 80px" alt="thumb">
+    <img class="item item13" src="{{asset('assets/img/our_partners/hp-22.png')}}" style="width: 80px" alt="thumb">
+
   </div>
+  
 </div>
 </div>
 

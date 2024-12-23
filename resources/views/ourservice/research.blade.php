@@ -8,7 +8,7 @@
         <div class="hero-slider owl-carousel owl-theme">
             <!-- Slide 1 -->
             <div class="hero-single">
-                <img src="{{ asset('assets/img/office/A20I2667.JPG') }}" alt="Capacity Animation" class="video-background" style="filter: brightness(0.5); ">
+                <img src="{{ asset('assets/img/office/A20I2667.JPG') }}" alt="Capacity Animation" class="video-background" style="filter: brightness(0.5);">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-lg-8">
@@ -24,10 +24,8 @@
                     </div>
                 </div>
             </div>
-            
         </div>
     </div>
-
 
     <div class="service-single-area py-80">
         <div class="container">
@@ -36,52 +34,62 @@
                     <div class="col-xl-2 col-lg-2"></div>
                     <div class="col-xl-12 col-lg-8">
                         <div class="service-details">
-                           
-                            <div class="service-details">
-                                <h3 class="mb-20 mt-20">Research and Re-Engineering</h3>
-                                <p class="mb-20">
-                                    At FARIS technologies, we empower our clients by identifying, developing, and implementing best-fit services and engineering solutions that adapt to their evolving needs. Our commitment lies in exploring and advancing future and emerging technologies to drive innovation and shape the next generation of solutions.
-                                </p>
-                                <p class="mb-30">
-                                    Our dedication to research and re-engineering is reflected in our strategic participation in groundbreaking projects. A key highlight of this effort is our contribution to Ethiopia’s first remote sensing satellite, ETRSS-1. Below are some areas where we excel:
-                                </p>
-                                <h4 class="mb-30 mt-20">1. Advanced Technology Development:</h4>
-                                <ul>
-                                    <li><i class="far fa-check"></i> Collaborated on satellite payload systems for environmental monitoring and agricultural applications.</li>
-                                    <li><i class="far fa-check"></i> Contributed to the development of real-time data transmission systems for remote sensing.</li>
-                                    <li><i class="far fa-check"></i> Integrated innovative technologies for optimized navigation and sensing capabilities.</li>
-                                </ul>
-                                <h4 class="mb-30 mt-20">2. Engineering Solutions:</h4>
-                                <ul>
-                                    <li><i class="far fa-check"></i> Delivered custom-designed systems tailored to complex requirements.</li>
-                                    <li><i class="far fa-check"></i> Provided scalable solutions to meet environmental and socio-economic challenges.</li>
-                                    <li><i class="far fa-check"></i> Supported operations through training programs and technical expertise.</li>
-                                </ul>
-                                <h4 class="mb-30 mt-20">3. Capacity Building and Impact:</h4>
-                                <ul>
-                                    <li><i class="far fa-check"></i> Trained a new generation of engineers and scientists for sustained development in aerospace technology.</li>
-                                    <li><i class="far fa-check"></i> Fostered international collaborations to bring advanced skills and insights to local projects.</li>
-                                    <li><i class="far fa-check"></i> Enabled the transfer of critical technology to modernize local industries.</li>
-                                </ul>
-                                <h3 class="mb-30 mt-20">Participation in ETRSS-1: A Landmark Achievement</h3>
-                                <ul>
-                                    <li><i class="far fa-check"></i> Designed systems to monitor climate, disasters, and agricultural needs with precision.</li>
-                                    <li><i class="far fa-check"></i> Enhanced Ethiopia’s ability to collect and process satellite data efficiently.</li>
-                                    <li><i class="far fa-check"></i> Contributed to a project that paves the way for future aerospace endeavors.</li>
-                                </ul>
-                                <div class="service-details-img mb-30 mt-30">
-                                    <img src="assets/img/office/etress.jpg" style="width: 800px; height:400px;" alt="thumb">
-                                </div>
-                                <h3 class="mb-30 mt-20">Benefits of Research and Re-Engineering:</h3>
-                                <ul>
-                                    <li><i class="far fa-check"></i> Drives innovation through the adoption of cutting-edge technologies.</li>
-                                    <li><i class="far fa-check"></i> Supports economic growth by enhancing industry capabilities and workforce expertise.</li>
-                                    <li><i class="far fa-check"></i> Contributes to sustainable development with solutions tailored to societal needs.</li>
-                                    <li><i class="far fa-check"></i> Positions Ethiopia as a hub for advanced research and engineering projects.</li>
-                                </ul>
-                                <div class="text-center mt-20">
-                                    <a href="{{ url('/contact') }}" class="theme-btn theme-btn2">Get in Touch</a>
-                                </div>
+                            <h3 class="mb-20 mt-20">Research and Re-Engineering</h3>
+                            <p class="mb-20">
+                                FARIS Technology is a leading institution in Ethiopia, dedicated to pushing the boundaries of space science, robotics, rocketry, AI, and emerging technologies. Founded in 2018, we've collaborated with esteemed academic and governmental organizations to provide world-class tech education.
+                            </p>
+                            <p class="mb-30">
+                                We've played a pivotal role in Ethiopia's space exploration journey, contributing to the development and commercialization of ETRSS-1 and ETRSS-2 satellite imagery. Our participation in NASA's rover challenge highlights our commitment to international collaboration and innovation.
+                            </p>
+                            <div class="service-details-img mb-30 mt-30">
+                                <img src="assets/img/office/etress.jpg" style="width: 800px; height:400px;" alt="thumb">
+                            </div>
+
+                            <!-- Space Science and Technology -->
+                            <h4 class="mb-30 mt-20">Space Science and Technology:</h4>
+                            <p>&bull; Design, development, and launch of satellites for various applications such as communication, remote sensing, and navigation.</p>
+                            <p>&bull; Utilization of satellite and aerial imagery to monitor environmental changes, natural disasters, and urban development.</p>
+                            <p>&bull; Development of Geographic Information Systems (GIS) for spatial data analysis, mapping, and decision-making.</p>
+                            <p>&bull; Research and development of technologies for space exploration, including mission planning, spacecraft design, and planetary exploration.</p>
+
+                            <!-- Robotics and Automation -->
+                            <h4 class="mb-30 mt-20">Robotics and Automation:</h4>
+                            <p>&bull; Design and development of industrial robots for automation in manufacturing, assembly, and logistics.</p>
+                            <p>&bull; Creation of robots for tasks such as cleaning, delivery, and elderly care.</p>
+                            <p>&bull; Development of robotic systems for precision agriculture, including automated planting, harvesting, and weed control.</p>
+                            <p>&bull; Fundamental research in robotics, including kinematics, dynamics, control systems, and artificial intelligence.</p>
+
+                            <!-- Artificial Intelligence and Machine Learning -->
+                            <h4 class="mb-30 mt-20">Artificial Intelligence and Machine Learning:</h4>
+                            <p>&bull; Development and application of machine learning algorithms for data analysis, pattern recognition, and predictive modeling.</p>
+                            <p>&bull; Development of systems for understanding and generating human language.</p>
+                            <p>&bull; Development of computer vision systems for image and video analysis.</p>
+                            <p>&bull; Development of AI-powered applications for various domains, including healthcare, finance, and education.</p>
+                            <p>&bull; Research and development of ethical guidelines and safety measures for AI systems.</p>
+
+                            <!-- Rocketry and Aerospace -->
+                            <h3 class="mb-30 mt-20">Rocketry and Aerospace:</h3>
+                            <p>&bull; Design and development of various types of rockets, including sounding rockets, suborbital rockets, and orbital launch vehicles.</p>
+                            <p>&bull; Research and development of advanced propulsion systems for rockets.</p>
+                            <p>&bull; Design and analysis of aerospace structures, such as aircraft and spacecraft.</p>
+                            <p>&bull; Development of spacecraft subsystems, including communication, power, and attitude control systems.</p>
+
+                            <!-- Drone Technology -->
+                            <h3 class="mb-30 mt-20">Drone Technology:</h3>
+                            <p>&bull; Use of drones for precision agriculture, crop monitoring, and spraying.</p>
+                            <p>&bull; Utilization of drones for monitoring air quality, water pollution, and deforestation.</p>
+                            <p>&bull; Deployment of drones for search and rescue operations, damage assessment, and delivery of supplies.</p>
+                            <p>&bull; Inspection of bridges, power lines, and other infrastructure using drones.</p>
+
+                            <!-- Benefits of Research and Re-Engineering -->
+                            <h3 class="mb-30 mt-20">Benefits of Research and Re-Engineering:</h3>
+                            <p>&bull; Drives innovation through the adoption of cutting-edge technologies.</p>
+                            <p>&bull; Supports economic growth by enhancing industry capabilities and workforce expertise.</p>
+                            <p>&bull; Contributes to sustainable development with solutions tailored to societal needs.</p>
+                            <p>&bull; Positions Ethiopia as a hub for advanced research and engineering projects.</p>
+
+                            <div class="text-center mt-20">
+                                <a href="{{ url('/contact') }}" class="theme-btn theme-btn2">Get in Touch</a>
                             </div>
                         </div>
                     </div>
@@ -89,7 +97,6 @@
             </div>
         </div>
     </div>
-    
 
 </main>
 

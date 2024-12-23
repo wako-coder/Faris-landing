@@ -26,7 +26,10 @@
      :root {
     --body-font: 'Roboto', sans-serif;
     --heading-font: 'Montserrat', sans-serif; /* Clean and structured, similar to Europa Grotesk */
-}      
+} 
+.choose-item:nth-child(2) {
+    margin-left: 0px;
+}     
 .cta-area2 {
     padding-top: 80px;
     padding-bottom: 180px;
@@ -167,47 +170,81 @@
   position: absolute;
   left: max(calc(200px * 8), 100%);
   animation-name: scrollLeft;
-  animation-duration: 30s;
+  animation-duration: 45s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 
 .item1 {
-  animation-delay: calc(30s / 8 * (8 - 1) * -1);
+  animation-delay: calc(45s / 13 * (13 - 1) * -1);
 }
 
 .item2 {
-  animation-delay: calc(30s / 8 * (8 - 2) * -1);
+  animation-delay: calc(45s / 13 * (13 - 2) * -1);
 }
 
 .item3 {
-  animation-delay: calc(30s / 8 * (8 - 3) * -1);
+  animation-delay: calc(45s / 13 * (13 - 3) * -1);
 }
 
 .item4 {
-  animation-delay: calc(30s / 8 * (8 - 4) * -1);
+  animation-delay: calc(45s / 13 * (13 - 4) * -1);
 }
 
 .item5 {
-  animation-delay: calc(30s / 8 * (8 - 5) * -1);
+  animation-delay: calc(45s / 13 * (13 - 5) * -1);
 }
 
 .item6 {
-  animation-delay: calc(30s / 8 * (8 - 6) * -1);
+  animation-delay: calc(45s / 13 * (13 - 6) * -1);
 }
 
 .item7 {
-  animation-delay: calc(30s / 8 * (8 - 7) * -1);
+  animation-delay: calc(45s / 13 * (13 - 7) * -1);
 }
 
 .item8 {
-  animation-delay: calc(30s / 8 * (8 - 8) * -1);
+  animation-delay: calc(45s / 13 * (13 - 8) * -1);
 }
+.item9 {
+  animation-delay: calc(45s / 13 * (13 - 9) * -1);
+}
+.item10 {
+  animation-delay: calc(45s / 13 * (13 - 10) * -1);
+}
+.item11 {
+  animation-delay: calc(45s / 13 * (13 - 11) * -1);
+}
+.item12 {
+  animation-delay: calc(45s / 13 * (13 - 12) * -1);
+}
+.item13 {
+  animation-delay: calc(45s / 13 * (13 - 13) * -1);
+}
+
+
 
 .choose-item:nth-child(2) {
     margin-left: 0px;
 }
  
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensures the video stays in the background */
+}
+
+.about-img {
+    position: relative;
+    height: 500px; /* Adjust height as needed */
+    overflow: hidden;
+}
+
+
 
     </style>
 </head>
