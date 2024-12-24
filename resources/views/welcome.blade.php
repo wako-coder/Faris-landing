@@ -12,6 +12,7 @@
     }
     
     .card > img {
+      border-radius: 5px;
       width: 100%;
       height: 100%;
       filter: brightness(0.6);
@@ -531,26 +532,34 @@
     </div>
 </div>
 
-
-
-
-
 <div class="about-area py-80 section" id="section5">
     <h2 class="site-title text-center" style="padding-bottom: 40px;">
         Our Global <span>Presence</span>
     </h2>
-    <div class="hero-section">
-        <div class="hero-slider owl-carousel owl-theme">
-            <div class="hero-single">
-                <!-- Video background -->
-                <video autoplay muted loop class="video-background">
-                    <source src="{{ asset('assets/img/video/presence2.mp4') }}" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-              
-            </div>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-12">
+                <div class="about-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
+                    <div class="about-img">
+                        <div class="about-img-1 col-10">
+                            <video autoplay muted loop class="video-background">
+                                <source src="{{ asset('assets/img/video/presence.mp4') }}" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+
         </div>
     </div>
+    
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+
+    
+    
 </div>
 
 
@@ -558,28 +567,39 @@
 <h3 class="text-center">Our Partners and Clients</h3>
 
 <div class="wrapper">
-    <img class="item item1" src="{{asset('assets/img/our_partners/aau-02.png')}}" style="width: 90px" alt="thumb">
-    <img class="item item2" src="{{asset('assets/img/our_partners/aastu-01.png')}}" style="width: 90px" alt="thumb">
-    <img class="item item3" src="{{asset('assets/img/our_partners/bdu-05.png')}}" style="width: 90px" alt="thumb">
-    <img class="item item4" src="{{asset('assets/img/our_partners/Hawasa-08.png')}}" style="width: 90px"  alt="thumb">
-    <img class="item item5" src="{{asset('assets/img/our_partners/Insa-09.png')}}" style="width: 90px" alt="thumb">
-    <img class="item item6" src="{{asset('assets/img/our_clients/wasasa-29.png')}}" style="width: 90px" alt="thumb">
-    <img class="item item7" src="{{asset('assets/img/our_partners/ibm-17.png')}}" style="width: 90px" alt="thumb">
-    <img class="item item8" src="{{asset('assets/img/our_partners/Hawasa-08.png')}}" style="width: 90px" alt="thumb">
-    <img class="item item9" src="{{asset('assets/img/our_partners/Ambo.png')}}" style="width: 90px" alt="thumb">
+    <img class="item item1" src="{{asset('assets/img/our_partners/aau-02.png')}}" style="width: 50px; height:50px;" alt="thumb">
+    <img class="item item2" src="{{asset('assets/img/our_partners/aastu-01.png')}}" style="width: 50px; height:50px;" alt="thumb">
+    <img class="item item3" src="{{asset('assets/img/our_partners/bdu-05.png')}}" style="width: 50px; height:50px;" alt="thumb">
+    <img class="item item4" src="{{asset('assets/img/our_partners/Hawasa-08.png')}}" style="width: 50px; height:50px;"  alt="thumb">
+    <img class="item item5" src="{{asset('assets/img/our_partners/Insa-09.png')}}" style="width: 50px; height:50px;" alt="thumb">
+    <img class="item item6" src="{{asset('assets/img/our_clients/wasasa-29.png')}}" style="width: 50px; height:50px;" alt="thumb">
+    <img class="item item7" src="{{asset('assets/img/our_partners/ibm-17.png')}}" style="width: 50px; height:50px;" alt="thumb">
+    <img class="item item8" src="{{asset('assets/img/our_partners/Hawasa-08.png')}}" style="width: 50px; height:50px;" alt="thumb">
+    <img class="item item9" src="{{asset('assets/img/our_partners/xtranet-18.png')}}" style="width: 50px; height:50px;" alt="thumb">
+    <img class="item item10" src="{{asset('assets/img/our_partners/urbi-20.png')}}" style="width: 50px; height:50px;" alt="thumb">
+    <img class="item item11" src="{{asset('assets/img/our_partners/undp-34.png')}}" style="width: 50px; height:50px;" alt="thumb">
+    <img class="item item12" src="{{asset('assets/img/our_partners/ssgi-15.png')}}" style="width: 50px; height:50px;" alt="thumb">
+    <img class="item item13" src="{{asset('assets/img/our_partners/Nasa Human exploration rover challenge-11.png')}}" style="width: 50px; height:50px;" alt="thumb">
+    <img class="item item14" src="{{asset('assets/img/our_partners/oracle-21.png')}}" style="width: 50px; height:50px;" alt="thumb">
+    <img class="item item15" src="{{asset('assets/img/our_partners/oromia tech-12.png')}}" style="width: 50px; height:50px;" alt="thumb">
+    <img class="item item16" src="{{asset('assets/img/our_partners/plus id-23.png')}}" style="width: 50px; height:50px;" alt="thumb">
+    <img class="item item17" src="{{asset('assets/img/our_partners/sam labs-24.png')}}" style="width: 50px; height:50px;" alt="thumb">
+    <img class="item item18" src="{{asset('assets/img/our_partners/aws-25.png')}}" style="width: 50px; height:50px;" alt="thumb">
+    <img class="item item19" src="{{asset('assets/img/our_partners/boeing-26.png')}}" style="width: 50px; height:50px;" alt="thumb">
+    <img class="item item20" src="{{asset('assets/img/our_partners/microsoft-19.png')}}" style="width: 50px; height:50px;" alt="thumb">
   
     
-    <img class="item item10" src="{{asset('assets/img/our_partners/nvidia-28.png')}}" style="width: 90px" alt="thumb">
+    <img class="item item21" src="{{asset('assets/img/our_partners/nvidia-28.png')}}" style="width: 50px; height:50px;" alt="thumb">
    
-    <img class="item item11" src="{{asset('assets/img/our_partners/wollega unv-16.png')}}" style="width: 90px" alt="thumb">
+    <img class="item item22" src="{{asset('assets/img/our_partners/wollega unv-16.png')}}" style="width: 50px; height:50px;" alt="thumb">
 
    
     
    
    
 
-    <img class="item item12" src="{{asset('assets/img/our_partners/esss-07.png')}}" style="width: 90px" alt="thumb">
-    <img class="item item13" src="{{asset('assets/img/our_partners/hp-22.png')}}" style="width: 90px" alt="thumb">
+    <img class="item item23" src="{{asset('assets/img/our_partners/esss-07.png')}}" style="width: 50px; height:50px;" alt="thumb">
+    <img class="item item24" src="{{asset('assets/img/our_partners/hp-22.png')}}" style="width: 50px; height:50px;" alt="thumb">
 
   </div>
   

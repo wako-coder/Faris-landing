@@ -190,56 +190,89 @@
   position: absolute;
   left: max(calc(200px * 8), 100%);
   animation-name: scrollLeft;
-  animation-duration: 45s;
+  animation-duration: 65s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 
 .item1 {
-  animation-delay: calc(45s / 13 * (13 - 1) * -1);
+  animation-delay: calc(65s / 24 * (24 - 1) * -1);
 }
 
 .item2 {
-  animation-delay: calc(45s / 13 * (13 - 2) * -1);
+  animation-delay: calc(65s / 24 * (24 - 2) * -1);
 }
 
 .item3 {
-  animation-delay: calc(45s / 13 * (13 - 3) * -1);
+  animation-delay: calc(65s / 24 * (24 - 3) * -1);
 }
 
 .item4 {
-  animation-delay: calc(45s / 13 * (13 - 4) * -1);
+  animation-delay: calc(65s / 24 * (24 - 4) * -1);
 }
 
 .item5 {
-  animation-delay: calc(45s / 13 * (13 - 5) * -1);
+  animation-delay: calc(65s / 24 * (24 - 5) * -1);
 }
 
 .item6 {
-  animation-delay: calc(45s / 13 * (13 - 6) * -1);
+  animation-delay: calc(65s / 24 * (24 - 6) * -1);
 }
 
 .item7 {
-  animation-delay: calc(45s / 13 * (13 - 7) * -1);
+  animation-delay: calc(65s / 24 * (24 - 7) * -1);
 }
 
 .item8 {
-  animation-delay: calc(45s / 13 * (13 - 8) * -1);
+  animation-delay: calc(65s / 24 * (24 - 8) * -1);
 }
 .item9 {
-  animation-delay: calc(45s / 13 * (13 - 9) * -1);
+  animation-delay: calc(65s / 24 * (24 - 9) * -1);
 }
 .item10 {
-  animation-delay: calc(45s / 13 * (13 - 10) * -1);
+  animation-delay: calc(65s / 24 * (24 - 10) * -1);
 }
 .item11 {
-  animation-delay: calc(45s / 13 * (13 - 11) * -1);
+  animation-delay: calc(65s / 24 * (24 - 11) * -1);
 }
 .item12 {
-  animation-delay: calc(45s / 13 * (13 - 12) * -1);
+  animation-delay: calc(65s / 24 * (24 - 12) * -1);
 }
 .item13 {
-  animation-delay: calc(45s / 13 * (13 - 13) * -1);
+  animation-delay: calc(65s / 24 * (24 - 13) * -1);
+}
+.item14 {
+  animation-delay: calc(65s / 24 * (24 - 14) * -1);
+}
+.item15 {
+  animation-delay: calc(65s / 24 * (24 - 15) * -1);
+}
+.item16 {
+  animation-delay: calc(65s / 24 * (24 - 16) * -1);
+}
+.item17 {
+  animation-delay: calc(65s / 24 * (24 - 17) * -1);
+}
+.item18 {
+  animation-delay: calc(65s / 24 * (24 - 18) * -1);
+}
+.item19 {
+  animation-delay: calc(65s / 24 * (24 - 19) * -1);
+}
+.item20 {
+  animation-delay: calc(65s / 24 * (24 - 20) * -1);
+}
+.item21 {
+  animation-delay: calc(65s / 24 * (24 - 21) * -1);
+}
+.item22 {
+  animation-delay: calc(65s / 24 * (24 - 22) * -1);
+}
+.item23 {
+  animation-delay: calc(65s / 24 * (24 - 23) * -1);
+}
+.item24 {
+  animation-delay: calc(65s / 24 * (24 - 24) * -1);
 }
 
 
@@ -353,15 +386,6 @@
                                 At Faris Technologies, we innovate and develop cutting-edge solutions in web and app
                                 development, AI, and space science.
                             </p>
-                            <div class="mb-4 "><p class="pb-2 flex items-center"><span class="font-bold pr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g id="Location_On"><g><path d="M12,21.933a1.715,1.715,0,0,1-1.384-.691L5.555,14.5a7.894,7.894,0,1,1,12.885-.009L13.385,21.24A1.717,1.717,0,0,1,12,21.933ZM11.992,3.066A6.81,6.81,0,0,0,7.414,4.815a6.891,6.891,0,0,0-1.05,9.1l5.051,6.727a.725.725,0,0,0,.584.292h0a.732.732,0,0,0,.586-.292l5.044-6.734A6.874,6.874,0,0,0,12.81,3.113,7.277,7.277,0,0,0,11.992,3.066Z"></path><path d="M12,12.5A2.5,2.5,0,1,1,14.5,10,2.5,2.5,0,0,1,12,12.5Zm0-4A1.5,1.5,0,1,0,13.5,10,1.5,1.5,0,0,0,12,8.5Z"></path></g></g></svg></span><span class="flex-1">Head office 6th Floor, Sur Construction, Bole</span></p><p class="pb-[5px] pl-6"><span class="font-bold">XQXC+W3Q, Addis Ababa</span></p><p class="pb-2 flex items-center pl-1"><span class="font-bold pr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z"></path></svg></span><a href="tel:+251-902122222">+251-902122222</a></p></div>
-                            <div class="mb-4 "><p class="pb-2 flex items-center"><span class="font-bold pr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g id="Location_On"><g><path d="M12,21.933a1.715,1.715,0,0,1-1.384-.691L5.555,14.5a7.894,7.894,0,1,1,12.885-.009L13.385,21.24A1.717,1.717,0,0,1,12,21.933ZM11.992,3.066A6.81,6.81,0,0,0,7.414,4.815a6.891,6.891,0,0,0-1.05,9.1l5.051,6.727a.725.725,0,0,0,.584.292h0a.732.732,0,0,0,.586-.292l5.044-6.734A6.874,6.874,0,0,0,12.81,3.113,7.277,7.277,0,0,0,11.992,3.066Z"></path><path d="M12,12.5A2.5,2.5,0,1,1,14.5,10,2.5,2.5,0,0,1,12,12.5Zm0-4A1.5,1.5,0,1,0,13.5,10,1.5,1.5,0,0,0,12,8.5Z"></path></g></g></svg></span><span class="flex-1">UAE, Dubai , Business Bay Area</span></p><p class="pb-[5px] pl-6"><span class="font-bold">XR8R+C5H, Addis Ababa</span></p><p class="pb-2 flex items-center pl-1"><span class="font-bold pr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z"></path></svg></span><a href="+971 508515282">+971 508515282</a></p></div>
-                            <div class="mb-4 "><p class="pb-2 flex items-center"><span class="font-bold pr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g id="Location_On"><g><path d="M12,21.933a1.715,1.715,0,0,1-1.384-.691L5.555,14.5a7.894,7.894,0,1,1,12.885-.009L13.385,21.24A1.717,1.717,0,0,1,12,21.933ZM11.992,3.066A6.81,6.81,0,0,0,7.414,4.815a6.891,6.891,0,0,0-1.05,9.1l5.051,6.727a.725.725,0,0,0,.584.292h0a.732.732,0,0,0,.586-.292l5.044-6.734A6.874,6.874,0,0,0,12.81,3.113,7.277,7.277,0,0,0,11.992,3.066Z"></path><path d="M12,12.5A2.5,2.5,0,1,1,14.5,10,2.5,2.5,0,0,1,12,12.5Zm0-4A1.5,1.5,0,1,0,13.5,10,1.5,1.5,0,0,0,12,8.5Z"></path></g></g></svg></span><span class="flex-1">USA California, San Francisco</span></p><p class="pb-[5px] pl-6"><span class="font-bold">30 N Gould St, Ste R, Sheridan, WY 82801</span></p><p class="pb-2 flex items-center pl-1"><span class="font-bold pr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z"></path></svg></span><a href="tel:+1(415)-8604855">+1(415)-8604855</a></p></div>
-                            
-                            
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-2">
-                        <div class="footer-widget-box list">
                             <h4 class="footer-widget-title">Quick Links</h4>
                             <ul class="footer-list">
                                 <li><a href="#"><i class="fas fa-dot-circle"></i> About Us</a></li>
@@ -373,17 +397,16 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="footer-widget-box list">
-                            <h4 class="footer-widget-title">Our Services</h4>
-                            <ul class="footer-list">
-                                <li><a href="#"><i class="fas fa-dot-circle"></i> Web Development</a></li>
-                                <li><a href="#"><i class="fas fa-dot-circle"></i> App Development</a></li>
-                                <li><a href="#"><i class="fas fa-dot-circle"></i> AI Solutions</a></li>
-                                <li><a href="#"><i class="fas fa-dot-circle"></i> Data Analysis</a></li>
-                                <li><a href="#"><i class="fas fa-dot-circle"></i> IT Consulting</a></li>
-                                <li><a href="#"><i class="fas fa-dot-circle"></i> Space Science Research</a></li>
-                            </ul>
+                
+                    <div class="col-md-6 col-lg-5">
+                        <div class="footer-widget-box about-us">
+                            <h4 class="footer-widget-title">Our Locations</h4>
+                         
+                            <div class="mb-4 "><p class="pb-2 flex items-center"><span class="font-bold pr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g id="Location_On"><g><path d="M12,21.933a1.715,1.715,0,0,1-1.384-.691L5.555,14.5a7.894,7.894,0,1,1,12.885-.009L13.385,21.24A1.717,1.717,0,0,1,12,21.933ZM11.992,3.066A6.81,6.81,0,0,0,7.414,4.815a6.891,6.891,0,0,0-1.05,9.1l5.051,6.727a.725.725,0,0,0,.584.292h0a.732.732,0,0,0,.586-.292l5.044-6.734A6.874,6.874,0,0,0,12.81,3.113,7.277,7.277,0,0,0,11.992,3.066Z"></path><path d="M12,12.5A2.5,2.5,0,1,1,14.5,10,2.5,2.5,0,0,1,12,12.5Zm0-4A1.5,1.5,0,1,0,13.5,10,1.5,1.5,0,0,0,12,8.5Z"></path></g></g></svg></span><span class="flex-1">Head office 6th Floor, Sur Construction, Bole</span></p><p class="pb-[5px] pl-6"><span class="font-bold">XQXC+W3Q, Addis Ababa</span></p><p class="pb-2 flex items-center pl-1"><span class="font-bold pr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z"></path></svg></span><a href="tel:+251-902122222">+251-902122222</a></p></div>
+                            <div class="mb-4 "><p class="pb-2 flex items-center"><span class="font-bold pr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g id="Location_On"><g><path d="M12,21.933a1.715,1.715,0,0,1-1.384-.691L5.555,14.5a7.894,7.894,0,1,1,12.885-.009L13.385,21.24A1.717,1.717,0,0,1,12,21.933ZM11.992,3.066A6.81,6.81,0,0,0,7.414,4.815a6.891,6.891,0,0,0-1.05,9.1l5.051,6.727a.725.725,0,0,0,.584.292h0a.732.732,0,0,0,.586-.292l5.044-6.734A6.874,6.874,0,0,0,12.81,3.113,7.277,7.277,0,0,0,11.992,3.066Z"></path><path d="M12,12.5A2.5,2.5,0,1,1,14.5,10,2.5,2.5,0,0,1,12,12.5Zm0-4A1.5,1.5,0,1,0,13.5,10,1.5,1.5,0,0,0,12,8.5Z"></path></g></g></svg></span><span class="flex-1">UAE, Dubai , Business Bay Area</span></p><p class="pb-[5px] pl-6"><span class="font-bold">XR8R+C5H, Addis Ababa</span></p><p class="pb-2 flex items-center pl-1"><span class="font-bold pr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z"></path></svg></span><a href="+971 508515282">+971 508515282</a></p></div>
+                            <div class="mb-4 "><p class="pb-2 flex items-center"><span class="font-bold pr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g id="Location_On"><g><path d="M12,21.933a1.715,1.715,0,0,1-1.384-.691L5.555,14.5a7.894,7.894,0,1,1,12.885-.009L13.385,21.24A1.717,1.717,0,0,1,12,21.933ZM11.992,3.066A6.81,6.81,0,0,0,7.414,4.815a6.891,6.891,0,0,0-1.05,9.1l5.051,6.727a.725.725,0,0,0,.584.292h0a.732.732,0,0,0,.586-.292l5.044-6.734A6.874,6.874,0,0,0,12.81,3.113,7.277,7.277,0,0,0,11.992,3.066Z"></path><path d="M12,12.5A2.5,2.5,0,1,1,14.5,10,2.5,2.5,0,0,1,12,12.5Zm0-4A1.5,1.5,0,1,0,13.5,10,1.5,1.5,0,0,0,12,8.5Z"></path></g></g></svg></span><span class="flex-1">USA California, San Francisco</span></p><p class="pb-[5px] pl-6"><span class="font-bold">30 N Gould St, Ste R, Sheridan, WY 82801</span></p><p class="pb-2 flex items-center pl-1"><span class="font-bold pr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z"></path></svg></span><a href="tel:+1(415)-8604855">+1(415)-8604855</a></p></div>
+                            
+                            
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">

@@ -30,9 +30,7 @@
                     <img src="{{ asset('assets/img/logo/FARISLogoheader.png') }}"  alt="logo">
                 </a>
                 <div class="mobile-menu-right">
-                    <div class="mobile-menu-btn">
-                        <a href="#" class="nav-right-link search-box-outer"><i class="far fa-search"></i></a>
-                    </div>
+                   
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
                         aria-label="Toggle navigation">
@@ -63,6 +61,7 @@
                                     <li><a class="dropdown-item" href="{{ url('/buisness') }}">Business Process Outsourcing</li>
                                     <li><a class="dropdown-item" href="{{ url('/research') }}">Research & Re Engineering</li>
                                     <li><a class="dropdown-item" href="{{ url('/knowledge') }}">knowledge and Capacity Building</a></li>
+                                    
                                     
                                 </ul>
                             </li>
