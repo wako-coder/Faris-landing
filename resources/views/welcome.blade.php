@@ -219,8 +219,7 @@
                             <span class="site-title-tagline"><i class="fas fa-bring-forward"></i> About Us</span>
                         </div>
                         <p class="about-text" style="color: white; font-family: 'Arial', sans-serif; font-weight: 300; font-size: 1.125rem; line-height: 1.6;">
-                            At FARIS Technologies, we embody the principle "Think Big, Start Small, Scale Fast." Since 2018, this mindset has driven our evolution into one of Ethiopia's most dynamic holding companies, impacting industries across Africa and beyond.
-                            AI is at the core of our innovation. We excel in this field, developing cutting-edge solutions for diverse sectors. Our expertise extends to Space Science, encompassing satellite technology, remote sensing, and GIS solutions. We leverage Drone Technology for applications in agriculture and environmental monitoring. We also actively engage in Rocketry and Aerospace research, pushing the boundaries of space exploration.
+                            At FARIS Technologies, we embody the principle "Think Big, Start Small, Scale Fast." Since 2018, this mindset has driven our evolution into one of Ethiopia's most dynamic holding companies, impacting industries across Africa and beyond. 
                         </p>
                         <div class="about-list-wrap">
                             <ul class="about-list list-unstyled">
@@ -231,7 +230,7 @@
                                     <div class="content" style="color: white;">
                                         <h4>Our Vision</h4>
                                         <p style="font-family: 'Arial', sans-serif; font-weight: 300; font-size: 1rem; line-height: 1.5;">
-                                            To be the most diversified and reputable company in Africa, in 2030!
+                                            By 2030, we envision a future where we are the most diversified and reputable company in Africa, known for our integrity, innovation, and positive impact on the communities we serve.
                                         </p>
                                     </div>
                                 </li>
@@ -432,11 +431,12 @@
             <div class="col-lg-4">
                 <div class="site-heading mb-0 wow fadeInLeft" data-wow-delay=".25s">
                     
+                    {{-- <h4 class="footer-widget-title"><span style="color:#27a9dd; font-size:1.9rem;">Empowering the future</span> with innovation in action!</h4> --}}
                     <h2 class="site-title text-white"><span>Empowering the future  with</span> innovation in action!</h2>
                     <p>
-                        Driving tomorrow's advancements through cutting-edge AI and Space Science solutions.AI is at the core of our innovations. We excel in Space Science, leveraging satellite technology, remote sensing, and GIS solutions for impactful applications. 
+                        Driving tomorrow's advancements through cutting-edge AI and Space Science solutions.
                     </p>
-                    {{-- <a href="{{ url('/contact') }}" class="theme-btn mt-20">Learn More <i class="fas fa-arrow-right"></i></a> --}}
+                    <a href="{{ url('/contact') }}" class="theme-btn mt-20">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-8">
@@ -475,7 +475,8 @@
                             </h3>
                         </div>
                         <p class="text-white">
-                            Our team specializes in cutting-edge web and app development, AI solutions, and advancements in space science technology. We are dedicated to delivering reliable and transformative services.
+                            Our team specializes in cutting-edge web and app development, AI solutions, and advancements in space science technology. We are dedicated to delivering reliable and transformative services. AI is at the core of our innovations. We excel in Space Science, leveraging satellite technology, remote sensing, and GIS solutions for impactful applications.
+
                         </p>
                         <div class="choose-wrapper mt-4">
                             <div class="choose-item">

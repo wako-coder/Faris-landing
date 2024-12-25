@@ -8,7 +8,7 @@
         <div class="hero-slider owl-carousel owl-theme">
             <!-- Slide 1 -->
             <div class="hero-single">
-                <img src="{{ asset('assets/img/about/A20I2701.JPG') }}" style="filter: brightness(0.5);" alt="Capacity Animation" class="video-background">
+                <img src="{{ asset('assets/img/gallery/work-station.png') }}" style="filter: brightness(0.5);" alt="Capacity Animation" class="video-background">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-lg-8">
@@ -68,7 +68,7 @@
                             <p>&bull; Government Support: The Ethiopian government has implemented various policies and incentives to promote the BPO industry, including tax breaks, streamlined regulations, and infrastructure development.</p>
 
                             <div class="service-details-img mb-30 mt-30">
-                                <img src="assets/img/about/transformed.jpeg" style="width: 800px; height:400px;" alt="thumb">
+                                <img src="assets/img/gallery/BPOfaris.png" style="width: 800px; height:400px;" alt="thumb">
                             </div>
 
                             <!-- How Ethiopia benefits from BPO -->
