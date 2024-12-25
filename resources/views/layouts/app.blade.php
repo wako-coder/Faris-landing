@@ -29,7 +29,27 @@
 } 
 .choose-item:nth-child(2) {
     margin-left: 0px;
-}     
+}  
+.cta-area {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1
+}
+
+.cta-area2::before {
+    content: "";
+    position: absolute;
+    background: rgba(9, 15, 39, 0.6);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1
+}   
 .cta-area2 {
     padding-top: 80px;
     padding-bottom: 180px;
@@ -72,7 +92,7 @@
 }
 .cta-area4 {
     padding-top: 80px;
-    padding-bottom: 180px;
+    padding-bottom: 20px;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -85,7 +105,7 @@
     position: absolute;
     background: rgba(0, 40, 58, .6);
     width: 100%;
-    height: 100%;
+    height: 90%;
     left: 0;
     top: 0;
     z-index: -1
@@ -401,14 +421,110 @@
                     <div class="col-md-6 col-lg-5">
                         <div class="footer-widget-box about-us">
                             <h4 class="footer-widget-title">Our Locations</h4>
-                         
-                            <div class="mb-4 "><p class="pb-2 flex items-center"><span class="font-bold pr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g id="Location_On"><g><path d="M12,21.933a1.715,1.715,0,0,1-1.384-.691L5.555,14.5a7.894,7.894,0,1,1,12.885-.009L13.385,21.24A1.717,1.717,0,0,1,12,21.933ZM11.992,3.066A6.81,6.81,0,0,0,7.414,4.815a6.891,6.891,0,0,0-1.05,9.1l5.051,6.727a.725.725,0,0,0,.584.292h0a.732.732,0,0,0,.586-.292l5.044-6.734A6.874,6.874,0,0,0,12.81,3.113,7.277,7.277,0,0,0,11.992,3.066Z"></path><path d="M12,12.5A2.5,2.5,0,1,1,14.5,10,2.5,2.5,0,0,1,12,12.5Zm0-4A1.5,1.5,0,1,0,13.5,10,1.5,1.5,0,0,0,12,8.5Z"></path></g></g></svg></span><span class="flex-1">Head office 6th Floor, Sur Construction, Bole</span></p><p class="pb-[5px] pl-6"><span class="font-bold">XQXC+W3Q, Addis Ababa</span></p><p class="pb-2 flex items-center pl-1"><span class="font-bold pr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z"></path></svg></span><a href="tel:+251-902122222">+251-902122222</a></p></div>
-                            <div class="mb-4 "><p class="pb-2 flex items-center"><span class="font-bold pr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g id="Location_On"><g><path d="M12,21.933a1.715,1.715,0,0,1-1.384-.691L5.555,14.5a7.894,7.894,0,1,1,12.885-.009L13.385,21.24A1.717,1.717,0,0,1,12,21.933ZM11.992,3.066A6.81,6.81,0,0,0,7.414,4.815a6.891,6.891,0,0,0-1.05,9.1l5.051,6.727a.725.725,0,0,0,.584.292h0a.732.732,0,0,0,.586-.292l5.044-6.734A6.874,6.874,0,0,0,12.81,3.113,7.277,7.277,0,0,0,11.992,3.066Z"></path><path d="M12,12.5A2.5,2.5,0,1,1,14.5,10,2.5,2.5,0,0,1,12,12.5Zm0-4A1.5,1.5,0,1,0,13.5,10,1.5,1.5,0,0,0,12,8.5Z"></path></g></g></svg></span><span class="flex-1">UAE, Dubai , Business Bay Area</span></p><p class="pb-[5px] pl-6"><span class="font-bold">XR8R+C5H, Addis Ababa</span></p><p class="pb-2 flex items-center pl-1"><span class="font-bold pr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z"></path></svg></span><a href="+971 508515282">+971 508515282</a></p></div>
-                            <div class="mb-4 "><p class="pb-2 flex items-center"><span class="font-bold pr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g id="Location_On"><g><path d="M12,21.933a1.715,1.715,0,0,1-1.384-.691L5.555,14.5a7.894,7.894,0,1,1,12.885-.009L13.385,21.24A1.717,1.717,0,0,1,12,21.933ZM11.992,3.066A6.81,6.81,0,0,0,7.414,4.815a6.891,6.891,0,0,0-1.05,9.1l5.051,6.727a.725.725,0,0,0,.584.292h0a.732.732,0,0,0,.586-.292l5.044-6.734A6.874,6.874,0,0,0,12.81,3.113,7.277,7.277,0,0,0,11.992,3.066Z"></path><path d="M12,12.5A2.5,2.5,0,1,1,14.5,10,2.5,2.5,0,0,1,12,12.5Zm0-4A1.5,1.5,0,1,0,13.5,10,1.5,1.5,0,0,0,12,8.5Z"></path></g></g></svg></span><span class="flex-1">USA California, San Francisco</span></p><p class="pb-[5px] pl-6"><span class="font-bold">30 N Gould St, Ste R, Sheridan, WY 82801</span></p><p class="pb-2 flex items-center pl-1"><span class="font-bold pr-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z"></path></svg></span><a href="tel:+1(415)-8604855">+1(415)-8604855</a></p></div>
-                            
-                            
+                    
+                            <!-- Location 1 -->
+                            <div class="mb-4">
+                                <p class="pb-2 flex items-center">
+                                    <span class="font-bold pr-2">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <g id="Location_On">
+                                                <g>
+                                                    <path d="M12,21.933a1.715,1.715,0,0,1-1.384-.691L5.555,14.5a7.894,7.894,0,1,1,12.885-.009L13.385,21.24A1.717,1.717,0,0,1,12,21.933ZM11.992,3.066A6.81,6.81,0,0,0,7.414,4.815a6.891,6.891,0,0,0-1.05,9.1l5.051,6.727a.725.725,0,0,0,.584.292h0a.732.732,0,0,0,.586-.292l5.044-6.734A6.874,6.874,0,0,0,12.81,3.113,7.277,7.277,0,0,0,11.992,3.066Z"></path>
+                                                    <path d="M12,12.5A2.5,2.5,0,1,1,14.5,10,2.5,2.5,0,0,1,12,12.5Zm0-4A1.5,1.5,0,1,0,13.5,10,1.5,1.5,0,0,0,12,8.5Z"></path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                    <span class="flex-1">
+                                        <a href="https://www.google.com/maps?q=6th+Floor,+Sur+Construction,+Bole,+Addis+Ababa" target="_blank" class="text-blue-500 hover:underline">
+                                            Head office 6th Floor, Sur Construction, Bole
+                                        </a>
+                                    </span>
+                                </p>
+                                <p class="pb-[5px] pl-6">
+                                    <a href="https://www.google.com/maps?q=XQXC+W3Q,+Addis+Ababa" target="_blank" class="font-bold text-blue-500 hover:underline">
+                                        XQXC+W3Q, Addis Ababa
+                                    </a>
+                                </p>
+                                <p class="pb-2 flex items-center pl-1">
+                                    <span class="font-bold pr-2">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0,0,0 122.6.61l-104 24A24 24,0 0,0,0,48c0,256.5,207.9,464,464,464a24 24,0 0,0 23.4-18.6l24-104a24.29 24.29 0 0,0-14.01-27.6z"></path>
+                                        </svg>
+                                    </span>
+                                    <a href="tel:+251-902122222" class="text-blue-500 hover:underline">+251-902122222</a>
+                                </p>
+                            </div>
+                    
+                            <!-- Location 2 -->
+                            <div class="mb-4">
+                                <p class="pb-2 flex items-center">
+                                    <span class="font-bold pr-2">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <g id="Location_On">
+                                                <g>
+                                                    <path d="M12,21.933a1.715,1.715,0,0,1-1.384-.691L5.555,14.5a7.894,7.894,0,1,1,12.885-.009L13.385,21.24A1.717,1.717,0,0,1,12,21.933ZM11.992,3.066A6.81,6.81,0,0,0,7.414,4.815a6.891,6.891,0,0,0-1.05,9.1l5.051,6.727a.725.725,0,0,0,.584.292h0a.732.732,0,0,0,.586-.292l5.044-6.734A6.874,6.874,0,0,0,12.81,3.113,7.277,7.277,0,0,0,11.992,3.066Z"></path>
+                                                    <path d="M12,12.5A2.5,2.5,0,1,1,14.5,10,2.5,2.5,0,0,1,12,12.5Zm0-4A1.5,1.5,0,1,0,13.5,10,1.5,1.5,0,0,0,12,8.5Z"></path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                    <span class="flex-1">
+                                        <a href="https://www.google.com/maps?q=Business+Bay+Area,+Dubai,+UAE" target="_blank" class="text-blue-500 hover:underline">
+                                            UAE, Dubai, Business Bay Area
+                                        </a>
+                                    </span>
+                                </p>
+                                <p class="pb-[5px] pl-6">
+                                    <a href="https://www.google.com/maps?q=XR8R+C5H,+Addis+Ababa" target="_blank" class="font-bold text-blue-500 hover:underline">
+                                        XR8R+C5H, Addis Ababa
+                                    </a>
+                                </p>
+                                <p class="pb-2 flex items-center pl-1">
+                                    <span class="font-bold pr-2">
+                                        <span class="font-bold pr-2">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0,0,0 122.6.61l-104 24A24 24,0 0,0,0,48c0,256.5,207.9,464,464,464a24 24,0 0,0 23.4-18.6l24-104a24.29 24.29 0 0,0-14.01-27.6z"></path>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                    <a href="tel:+971-508515282" class="text-blue-500 hover:underline">+971 508515282</a>
+                                </p>
+                            </div>
+                    
+                            <!-- Location 3 -->
+                            <div class="mb-4">
+                                <p class="pb-2 flex items-center">
+                                    <span class="font-bold pr-2">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <g id="Location_On">
+                                                <g>
+                                                    <path d="M12,21.933a1.715,1.715,0,0,1-1.384-.691L5.555,14.5a7.894,7.894,0,1,1,12.885-.009L13.385,21.24A1.717,1.717,0,0,1,12,21.933ZM11.992,3.066A6.81,6.81,0,0,0,7.414,4.815a6.891,6.891,0,0,0-1.05,9.1l5.051,6.727a.725.725,0,0,0,.584.292h0a.732.732,0,0,0,.586-.292l5.044-6.734A6.874,6.874,0,0,0,12.81,3.113,7.277,7.277,0,0,0,11.992,3.066Z"></path>
+                                                    <path d="M12,12.5A2.5,2.5,0,1,1,14.5,10,2.5,2.5,0,0,1,12,12.5Zm0-4A1.5,1.5,0,1,0,13.5,10,1.5,1.5,0,0,0,12,8.5Z"></path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                    <span class="flex-1">
+                                        <a href="https://www.google.com/maps?q=USA,+California,+San+Francisco" target="_blank" class="text-blue-500 hover:underline">
+                                            USA California, San Francisco
+                                        </a>
+                                    </span>
+                                </p>
+                               
+                                <p class="pb-2 flex items-center pl-1">
+                                    <span class="font-bold pr-2">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0,0,0 122.6.61l-104 24A24 24,0 0,0,0,48c0,256.5,207.9,464,464,464a24 24,0 0,0 23.4-18.6l24-104a24.29 24.29 0 0,0-14.01-27.6z"></path>
+                                        </svg>
+                                    </span>
+                                    <a href="tel:+1(415)-8604855" class="text-blue-500 hover:underline">+1(415)-8604855</a>
+                                </p>
+                            </div>
+                    
                         </div>
                     </div>
+                                      
                     <div class="col-md-6 col-lg-3">
                         <div class="footer-widget-box list">
                             <h4 class="footer-widget-title">Newsletter</h4>
@@ -448,19 +564,6 @@
                 </div>
             </div>
         </div>
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/6761383a49e2fd8dfef955e7/1if9s796l';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
 
     </footer>
     
@@ -591,7 +694,17 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initial threshold setup
     updateThreshold();
 });
-       
+
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6761383a49e2fd8dfef955e7/1if9s796l';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+
       </script>
 </body>
 </html>

@@ -194,7 +194,7 @@
     <div class="col-lg-8">
     </div>
 </div>
-<div class="cta-area section"  id="section1" style="position: relative; top:100px; margin-bottom:50px;">
+<div class="cta-area section"  id="section1" style="position: relative; top:100px;">
     <div class="about-area">
         <div class="container">
             <div class="row align-items-center">
@@ -202,10 +202,10 @@
                     <div class="about-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
                         <div class="about-img">
                             <div class="about-img-1">
-                                <img src="{{ asset('assets/img/about/portfolio_04.jpeg') }}" alt>
+                                <img src="{{ asset('assets/img/about/portfolio_04.jpg') }}" alt>
                             </div>
                             <div class="about-img-2">
-                                <img src="{{ asset('assets/img/about/emile-perron-xrVDYZRGdw4-unsplash-scaled-e1654596346828.jpg.webp') }}" alt>
+                                <img src="{{ asset('assets/img/about/emile-perron-xrVDYZRGdw4-unsplas (1).webp') }}" alt>
                             </div>
                         </div>
                         <div class="about-shape">
@@ -220,14 +220,7 @@
                         </div>
                         <p class="about-text" style="color: white; font-family: 'Arial', sans-serif; font-weight: 300; font-size: 1.125rem; line-height: 1.6;">
                             At FARIS Technologies, we embody the principle "Think Big, Start Small, Scale Fast." Since 2018, this mindset has driven our evolution into one of Ethiopia's most dynamic holding companies, impacting industries across Africa and beyond.
-                        </p>
-                        <p class="about-text" style="color: white; font-family: 'Arial', sans-serif; font-weight: 300; font-size: 1.125rem; line-height: 1.6;">
-                            <strong style="color: #27a9dd">Our Vision</strong><br>
-                            To be the most diversified and reputable company in Africa, in 2030!
-                        </p>
-                        <p class="about-text" style="color: white; font-family: 'Arial', sans-serif; font-weight: 300; font-size: 1.125rem; line-height: 1.6;">
-                            <strong style="color: #27a9dd">Our Mission</strong><br>
-                            By cultivating talent, embracing digital transformation, delivering BPO services, and solving complex challenges, we empower humanity through AI, space, and emerging technologies.
+                            AI is at the core of our innovation. We excel in this field, developing cutting-edge solutions for diverse sectors. Our expertise extends to Space Science, encompassing satellite technology, remote sensing, and GIS solutions. We leverage Drone Technology for applications in agriculture and environmental monitoring. We also actively engage in Rocketry and Aerospace research, pushing the boundaries of space exploration.
                         </p>
                         <div class="about-list-wrap">
                             <ul class="about-list list-unstyled">
@@ -236,9 +229,9 @@
                                         <img src="{{ asset('assets/img/icon/money.svg') }}" alt>
                                     </div>
                                     <div class="content" style="color: white;">
-                                        <h4>Cost-Effective Solutions</h4>
+                                        <h4>Our Vision</h4>
                                         <p style="font-family: 'Arial', sans-serif; font-weight: 300; font-size: 1rem; line-height: 1.5;">
-                                            Our services are designed to provide maximum value, combining innovation with affordability.
+                                            To be the most diversified and reputable company in Africa, in 2030!
                                         </p>
                                     </div>
                                 </li>
@@ -247,9 +240,9 @@
                                         <img src="{{ asset('assets/img/icon/trusted.svg') }}" alt>
                                     </div>
                                     <div class="content" style="color: white;">
-                                        <h4>Trusted by Innovators</h4>
+                                        <h4>Our Mission</h4>
                                         <p style="font-family: 'Arial', sans-serif; font-weight: 300; font-size: 1rem; line-height: 1.5;">
-                                            We are the trusted partner of forward-thinking businesses ready to embrace the future.
+                                            By cultivating talent, embracing digital transformation, delivering BPO services, and solving complex challenges, we empower humanity through AI, space, and emerging technologies.
                                         </p>
                                     </div>
                                 </li>
@@ -433,17 +426,17 @@
 
 
 
-<div class="video-area py-100 cta-area2 section" style="background-image: url('{{ asset('assets/img/video/01.jpg') }}');" id="section3">
+<div class="video-area py-60 cta-area2 section" style="background-image: url('{{ asset('assets/img/video/01.jpg') }}');" id="section3">
     <div class="container">
         <div class="row g-4 align-items-center">
             <div class="col-lg-4">
                 <div class="site-heading mb-0 wow fadeInLeft" data-wow-delay=".25s">
                     
-                    <h2 class="site-title text-white"><span>Discover</span> Our Insights on AI & Space</h2>
+                    <h2 class="site-title text-white"><span>Empowering the future  with</span> innovation in action!</h2>
                     <p>
-                        Join our CEO as they share insights on the transformative power of AI technology and its impact on space science. This engaging discussion explores the future of innovation and exploration.
+                        Driving tomorrow's advancements through cutting-edge AI and Space Science solutions.AI is at the core of our innovations. We excel in Space Science, leveraging satellite technology, remote sensing, and GIS solutions for impactful applications. 
                     </p>
-                    <a href="{{ url('/contact') }}" class="theme-btn mt-20">Learn More <i class="fas fa-arrow-right"></i></a>
+                    {{-- <a href="{{ url('/contact') }}" class="theme-btn mt-20">Learn More <i class="fas fa-arrow-right"></i></a> --}}
                 </div>
             </div>
             <div class="col-lg-8">
@@ -476,7 +469,7 @@
                 <div class="col-lg-6">
                     <div class="choose-content wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
                         <div class="site-heading mb-3">
-                            <span class="site-title-tagline"><i class="fas fa-bring-forward"></i> Why Choose Us</span>
+                            <span class="site-title" style="color:#27a9dd;"><i class="fas fa-bring-forward"></i> Why Choose Us</span>
                             <h3 class="header-title text-white">
                                 When You Need Innovation, <span>We Are</span> Always Here
                             </h3>
@@ -490,8 +483,8 @@
                                     <img src="{{ asset('assets/img/icon/team-2.svg') }}" alt>
                                 </div>
                                 <div class="choose-item-content">
-                                    <h4 class="text-white">Expert Developers</h4>
-                                    <p class="text-white">Our skilled developers are committed to crafting innovative solutions that meet your unique needs.</p>
+                                    <h4 class="text-white">AI-Powered Innovation</h4>
+                                    <p class="text-white">We are at the forefront of AI, driving cutting-edge solutions across diverse sectors.</p>
                                 </div>
                             </div>
                             <div class="choose-item">
@@ -499,8 +492,8 @@
                                     <img src="{{ asset('assets/img/icon/quality.svg') }}" alt>
                                 </div>
                                 <div class="choose-item-content">
-                                    <h4 class="text-white">Quality Assurance</h4>
-                                    <p class="text-white">We implement rigorous testing protocols to ensure that our products are of the highest quality and reliability.</p>
+                                    <h4 class="text-white">Space Science Expertise</h4>
+                                    <p class="text-white">We specialize in Space Science, leveraging satellite technology, remote sensing, and GIS solutions for impactful applications.</p>
                                 </div>
                             </div>
                             <div class="choose-item">
@@ -508,8 +501,44 @@
                                     <img src="{{ asset('assets/img/icon/trusted.svg') }}" alt>
                                 </div>
                                 <div class="choose-item-content">
-                                    <h4 class="text-white">Your Trusted Technology Partner</h4>
-                                    <p class="text-white">We build lasting relationships with our clients, offering support and guidance every step of the way.</p>
+                                    <h4 class="text-white">Drone Technology Leadership</h4>
+                                    <p class="text-white">We are pioneers in Drone Technology, utilizing it for advancements in agriculture, environmental monitoring, and disaster response.</p>
+                                </div>
+                            </div>
+                            <div class="choose-item">
+                                <div class="choose-icon">
+                                    <img src="{{ asset('assets/img/icon/trusted.svg') }}" alt>
+                                </div>
+                                <div class="choose-item-content">
+                                    <h4 class="text-white">Rocketry and Aerospace Pioneers</h4>
+                                    <p class="text-white">We actively engage in Rocketry and Aerospace research, pushing the boundaries of space exploration.</p>
+                                </div>
+                            </div>
+                            <div class="choose-item">
+                                <div class="choose-icon">
+                                    <img src="{{ asset('assets/img/icon/trusted.svg') }}" alt>
+                                </div>
+                                <div class="choose-item-content">
+                                    <h4 class="text-white">Commitment to Quality</h4>
+                                    <p class="text-white">We deliver high-quality, innovative solutions with integrity and a focus on client satisfaction.</p>
+                                </div>
+                            </div>
+                            <div class="choose-item">
+                                <div class="choose-icon">
+                                    <img src="{{ asset('assets/img/icon/trusted.svg') }}" alt>
+                                </div>
+                                <div class="choose-item-content">
+                                    <h4 class="text-white">Customer-Centric Approach</h4>
+                                    <p class="text-white">We prioritize understanding your unique needs and tailoring our solutions to meet your specific requirements.</p>
+                                </div>
+                            </div>
+                            <div class="choose-item">
+                                <div class="choose-icon">
+                                    <img src="{{ asset('assets/img/icon/trusted.svg') }}" alt>
+                                </div>
+                                <div class="choose-item-content">
+                                    <h4 class="text-white">A Team of Experts</h4>
+                                    <p class="text-white">We are comprised of a highly skilled and experienced team of professionals passionate about pushing the boundaries of technology.</p>
                                 </div>
                             </div>
                         </div>
@@ -539,11 +568,11 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12">
-                <div class="about-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
+                <div class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
                     <div class="about-img">
                         <div class="about-img-1 col-10">
                             <video autoplay muted loop class="video-background">
-                                <source src="{{ asset('assets/img/video/presence.mp4') }}" type="video/mp4">
+                                <source src="{{ asset('assets/img/video/presence2.mp4') }}" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
 

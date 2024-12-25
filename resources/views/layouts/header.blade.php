@@ -27,7 +27,7 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container position-relative">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <img src="{{ asset('assets/img/logo/FARISLogoheader.png') }}"  alt="logo">
+                    <img src="{{ asset('assets/img/logo/FARIS-LOGO.png') }}"  alt="logo">
                 </a>
                 <div class="mobile-menu-right">
                    
