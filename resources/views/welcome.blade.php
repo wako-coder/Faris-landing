@@ -475,8 +475,7 @@
                             </h3>
                         </div>
                         <p class="text-white">
-                            Our team specializes in cutting-edge web and app development, AI solutions, and advancements in space science technology. We are dedicated to delivering reliable and transformative services. AI is at the core of our innovations. We excel in Space Science, leveraging satellite technology, remote sensing, and GIS solutions for impactful applications.
-
+                            AI is at the core of our innovation. We excel in this field, developing cutting-edge solutions for diverse sectors. Our expertise extends to Space Science, encompassing satellite technology, remote sensing, and GIS solutions. We leverage Drone Technology for applications in agriculture and environmental monitoring. We also actively engage in Rocketry and Aerospace research, pushing the boundaries of space exploration.
                         </p>
                         <div class="choose-wrapper mt-4">
                             <div class="choose-item">
