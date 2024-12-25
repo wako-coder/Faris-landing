@@ -158,7 +158,7 @@
                 <!-- Content container -->
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="col-md-6">
+                        <div class="col-12 col-md-6">
                             <div class="hero-content" style="position: relative; top:150px;">
                                 <h6 class="site-title" data-animation="fadeInUp" data-delay=".25s" style="color: white;">Think out of Earth !!</h6> 
                                 <h4 class="pt-4" data-animation="fadeInUp" data-delay=".50s">
@@ -225,7 +225,7 @@
                             <ul class="about-list list-unstyled">
                                 <li>
                                     <div class="icon">
-                                        <img src="{{ asset('assets/img/icon/money.svg') }}" alt>
+                                        <img src="{{ asset('assets/img/icon/Vision-02.svg') }}" alt>
                                     </div>
                                     <div class="content" style="color: white;">
                                         <h4>Our Vision</h4>
@@ -236,7 +236,7 @@
                                 </li>
                                 <li>
                                     <div class="icon">
-                                        <img src="{{ asset('assets/img/icon/trusted.svg') }}" alt>
+                                        <img src="{{ asset('assets/img/icon/Mission-01.svg') }}" alt>
                                     </div>
                                     <div class="content" style="color: white;">
                                         <h4>Our Mission</h4>
@@ -480,7 +480,7 @@
                         <div class="choose-wrapper mt-4">
                             <div class="choose-item">
                                 <div class="choose-icon">
-                                    <img src="{{ asset('assets/img/icon/team-2.svg') }}" alt>
+                                    <img src="{{ asset('assets/img/icon/Ai.svg') }}" alt>
                                 </div>
                                 <div class="choose-item-content">
                                     <h4 class="text-white">AI-Powered Innovation</h4>
@@ -489,7 +489,7 @@
                             </div>
                             <div class="choose-item">
                                 <div class="choose-icon">
-                                    <img src="{{ asset('assets/img/icon/quality.svg') }}" alt>
+                                    <img src="{{ asset('assets/img/icon/Space Science Expertise-04.svg') }}" alt>
                                 </div>
                                 <div class="choose-item-content">
                                     <h4 class="text-white">Space Science Expertise</h4>
@@ -498,7 +498,7 @@
                             </div>
                             <div class="choose-item">
                                 <div class="choose-icon">
-                                    <img src="{{ asset('assets/img/icon/trusted.svg') }}" alt>
+                                    <img src="{{ asset('assets/img/icon/Drone Technology Leadership-05.svg') }}" alt>
                                 </div>
                                 <div class="choose-item-content">
                                     <h4 class="text-white">Drone Technology Leadership</h4>
@@ -507,7 +507,7 @@
                             </div>
                             <div class="choose-item">
                                 <div class="choose-icon">
-                                    <img src="{{ asset('assets/img/icon/trusted.svg') }}" alt>
+                                    <img src="{{ asset('assets/img/icon/Rocketry and Aerospace-06.svg') }}" alt>
                                 </div>
                                 <div class="choose-item-content">
                                     <h4 class="text-white">Rocketry and Aerospace Pioneers</h4>
@@ -516,7 +516,7 @@
                             </div>
                             <div class="choose-item">
                                 <div class="choose-icon">
-                                    <img src="{{ asset('assets/img/icon/trusted.svg') }}" alt>
+                                    <img src="{{ asset('assets/img/icon/Commitment to Quality-07.svg') }}" alt>
                                 </div>
                                 <div class="choose-item-content">
                                     <h4 class="text-white">Commitment to Quality</h4>
@@ -525,7 +525,7 @@
                             </div>
                             <div class="choose-item">
                                 <div class="choose-icon">
-                                    <img src="{{ asset('assets/img/icon/trusted.svg') }}" alt>
+                                    <img src="{{ asset('assets/img/icon/Customer-Centric Approach-08.svg') }}" alt>
                                 </div>
                                 <div class="choose-item-content">
                                     <h4 class="text-white">Customer-Centric Approach</h4>
@@ -534,7 +534,7 @@
                             </div>
                             <div class="choose-item">
                                 <div class="choose-icon">
-                                    <img src="{{ asset('assets/img/icon/trusted.svg') }}" alt>
+                                    <img src="{{ asset('assets/img/icon/A Team of Experts-09.svg') }}" alt>
                                 </div>
                                 <div class="choose-item-content">
                                     <h4 class="text-white">A Team of Experts</h4>

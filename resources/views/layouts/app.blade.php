@@ -317,7 +317,14 @@
     overflow: hidden;
 }
 
-
+.about-list li .icon img {
+    width: 42px;
+    filter: brightness(1);
+}
+.choose-icon img {
+    width: 50px;
+    filter: brightness(1);
+}
 
     </style>
 </head>

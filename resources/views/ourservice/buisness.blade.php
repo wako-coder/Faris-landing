@@ -29,64 +29,117 @@
 
     <div class="service-single-area mb-20">
         <div class="container">
-            <div class="service-single-wrapper">
-                <div class="row">
-                    <div class="col-xl-2 col-lg-2">
-                    </div>
-                    <div class="col-xl-12 col-lg-8">
-                        <div class="service-details">
-                            <h3 class="mb-20 mt-20">Business Process Outsourcing (BPO)</h3>
-                            <p class="mb-20">
-                                At FARIS technologies, we elevate your business with our comprehensive BPO solutions, from providing exceptional customer service and support to delivering innovative IT services and captivating content creation and management. Our dedicated team is committed to optimizing your operations, enhancing customer satisfaction, and driving business growth.
-                            </p>
-                            <p class="mb-30">
-                                Ethiopia, with its growing pool of skilled talent and favorable economic climate, is well positioned to offer a range of BPO services. Here are some key areas where we excel:
-                            </p>
-
-                            <!-- Key Areas (Customer Service, IT, Content) -->
-                            <h4 class="mb-30 mt-20">1. Customer Service and Support:</h4>
-                            <p>&bull; Call Centers: Handling inbound and outbound calls for customer inquiries, technical support, and sales.</p>
-                            <p>&bull; Email Support: Responding to customer emails and resolving queries.</p>
-                            <p>&bull; Live Chat Support: Providing real-time customer support through online chat.</p>
-
-                            <h4 class="mb-30 mt-20">2. IT Services:</h4>
-                            <p>&bull; Software Development: Developing custom software solutions for various industries.</p>
-                            <p>&bull; IT Support: Providing technical support to clients, including troubleshooting and network maintenance.</p>
-                            <p>&bull; Data Entry and Processing: Inputting and processing large volumes of data accurately and efficiently.</p>
-
-                            <h4 class="mb-30 mt-20">3. Content Creation and Management:</h4>
-                            <p>&bull; Content Writing: Creating high-quality content for websites, blogs, and social media.</p>
-                            <p>&bull; Translation and Localization: Translating content into different languages and adapting it to local cultures.</p>
-                            <p>&bull; SEO and Digital Marketing: Optimizing websites for search engines and implementing digital marketing campaigns.</p>
-
-                            <!-- Why BPO is attractive to foreign companies -->
-                            <h3 class="mb-30 mt-20">Why BPO is attractive to foreign companies?</h3>
-                            <p>&bull; Cost-Effective Labor: Ethiopia offers a relatively low cost of labor compared to other outsourcing destinations, making it an attractive option for cost-conscious businesses.</p>
-                            <p>&bull; Linguistic Advantage: Many Ethiopians, especially the younger generation, are fluent in English, facilitating effective communication with international clients.</p>
-                            <p>&bull; Dedicated Workforce: Ethiopian workers are known for their strong work ethic, discipline, and willingness to learn.</p>
-                            <p>&bull; Time Zone Advantage: Ethiopia's time zone is favorable for businesses operating in Europe and the Middle East, enabling seamless 24/7 operations.</p>
-                            <p>&bull; Government Support: The Ethiopian government has implemented various policies and incentives to promote the BPO industry, including tax breaks, streamlined regulations, and infrastructure development.</p>
-
-                            <div class="service-details-img mb-30 mt-30">
-                                <img src="assets/img/gallery/BPOfaris.png" style="width: 800px; height:400px;" alt="thumb">
+            <div class="service-single-wrapper py-80">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="service-details wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
+                            <div class="site-heading mb-3">
+                                <span class="site-title-tagline"><i class="fas fa-briefcase"></i> BPO Services</span>
+                                <h2 class="site-title my-3">Business Process Outsourcing <span>Services</span></h2>
                             </div>
+                            <p class="about-text mb-20">
+                                FARIS Technologies offers efficient BPO solutions in customer service, IT services, and content creation to help optimize your business operations.
+                            </p>
+                    
+                            <h4 class="mb-20 mt-20">Key Services:</h4>
+                            <ul class="ms-4 mb-10">
+                                <li>&bull; Customer Service: Call centers, email, and chat support.</li>
+                                <li>&bull; IT Services: Software development and technical support.</li>
+                                <li>&bull; Content Creation: Writing, translation, and digital marketing.</li>
+                            </ul>
+                    
+                            <h4 class="mb-20 mt-20">Why Ethiopia?</h4>
+                            <ul class="ms-4 mb-10">
+                                <li>&bull; Cost-Effective Labor.</li>
+                                <li>&bull; Skilled Workforce with English fluency.</li>
+                                <li>&bull; Time Zone Advantage with Europe and the Middle East.</li>
+                            </ul>
+                    
+                            <p class="mt-20">Partner with FARIS Technologies for tailored BPO services that drive growth.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Image Section on Right -->
+                    <div class="col-lg-6">
+                        <div class="service-details-img text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
+                            <img src="{{ asset('assets/img/gallery/BPOfaris.png') }}" alt="BPO Services" class="img-fluid">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
 
-                            <!-- How Ethiopia benefits from BPO -->
-                            <h3 class="mb-30 mt-20">How Ethiopia benefits from BPO:</h3>
-                            <p>&bull; Job Creation: We at FARIS technologies create numerous jobs, particularly in customer service, Software Development, IT support, and data entry. This can help reduce unemployment rates and boost economic growth.</p>
-                            <p>&bull; Skill Development: Provide extensive training to our employees, leading to skill enhancement in areas like communication, problem-solving, and technical expertise. This can benefit the overall workforce.</p>
-                            <p>&bull; Foreign Exchange Earnings: Bring in foreign currency, which can contribute to the country's economic stability.</p>
-                            <p>&bull; Technology Transfer: Introduce advanced technologies and best practices, which can help modernize the local IT sector.</p>
-
-                            <div class="text-center mt-20">
-                                <a href="{{ url('/contact') }}" class="theme-btn theme-btn2">Get in Touch</a>
+            
+                <!-- Insights Section -->
+               
+    
+                <!-- FAQ Section -->
+                <div class="faq-area py-60">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="faq-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
+                                    <div class="faq-img">
+                                        <img src="assets/img/about/15022851879.png" alt="BPO Insights">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="faq-right wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
+                                    <div class="site-heading mb-3">
+                                        <span class="site-title-tagline"><i class="fas fa-lightbulb"></i> Insights</span>
+                                        <h2 class="site-title my-3">Frequently Asked <span>Questions</span></h2>
+                                    </div>
+                                    <p class="about-text">Find answers to the most common questions about our Business Process Outsourcing (BPO) services.</p>
+                                    <div class="mt-4">
+                                        <div class="accordion" id="accordionExample">
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingOne">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                        <span><i class="far fa-lightbulb"></i></span> What is Business Process Outsourcing (BPO)?
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        BPO refers to contracting a business function to an external provider. It can involve customer service, IT support, or content creation, helping businesses reduce costs and enhance efficiency.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingTwo">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                        <span><i class="far fa-lightbulb"></i></span> Why Should We Outsource to Ethiopia?
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        Ethiopia offers cost-effective labor, a skilled workforce, and a strategic time zone that aligns with Europe and the Middle East. This makes it an ideal outsourcing destination for high-quality services at competitive rates.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingThree">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                        <span><i class="far fa-lightbulb"></i></span> How Can BPO Benefit My Business?
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        BPO can help reduce costs, improve service quality, enhance customer satisfaction, and allow you to focus on core business operations, all while scaling your business operations seamlessly.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
     </div>
+    
+    
 
 </main>
 @endsection

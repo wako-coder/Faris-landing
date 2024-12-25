@@ -28,49 +28,112 @@
     </div>
 
     <!-- Service Section -->
-    <div class="service-single-area py-80">
+    <div class="service-single-area py-120">
         <div class="container">
             <div class="service-single-wrapper">
-                <div class="row">
-                    <div class="col-xl-2 col-lg-2"></div>
-                    <div class="col-xl-12 col-lg-8">
-                        <div class="service-details">
-                            <h3 class="mb-20 mt-20">Digital Transformation Services</h3>
-                            <p class="mb-20">
-                                At FARIS Technologies, we offer a future-proof approach - Digital Ascendancy Services. We leverage cutting-edge technologies to propel your business to the next level. This comprehensive suite of services seamlessly integrates digital solutions across your entire organization, fundamentally disrupting your current operations and unlocking exponential improvements in performance and customer experience.
-                            </p>
-
-                            <h4 class="mb-30 mt-20">Key Ascendancy Pillars:</h4>
-                            <!-- Bullet List -->
-                            <ul class="ms-4">
-                                <li>&bull; AI-Powered Solution: Harness the power of Artificial Intelligence to glean actionable insights from your data, driving data-driven decision-making and unlocking hidden opportunities.</li>
-                                <li>&bull; Hyper-Connected Ecosystem: Forge a seamlessly integrated ecosystem of interconnected devices, applications, and platforms through the Internet of Things (IoT) for real-time visibility and automation.</li>
-                                <li>&bull; Next-Gen Customer Engagement: Craft immersive customer experiences through cutting-edge technologies like augmented reality and virtual reality, fostering brand loyalty and advocacy.</li>
-                                <li>&bull; Cybersecurity Fortress: Implement a robust and constantly evolving cybersecurity architecture to safeguard your data and assets in the ever-evolving digital landscape.</li>
-                                <li>&bull; Cloud Supremacy: Migrate your infrastructure to the cloud, achieving unparalleled scalability, agility, and cost optimization.</li>
-                                <li>&bull; Internet of Things (IoT): Connecting devices and systems to gather and analyze data for better decision-making.</li>
-                                <li>&bull; Mobile App Development: Creating mobile applications to enhance customer engagement and business operations.</li>
-                                <li>&bull; Web Development and Design: Designing and developing user-friendly websites and web applications.</li>
-                                <li>&bull; E-commerce: Setting up online stores and implementing digital marketing strategies.</li>
-                            </ul>
-
-                            <h3 class="mb-30 mt-20">Embrace the Digital Ascendancy.</h3>
-                            <p>Collaborate with FARIS Technologies and future-proof your business today!</p>
-                            <div class="service-details-img mb-30">
-                                <img src="{{ asset('assets/img/about/15022851879.png') }}" alt="thumb">
+                <div class="row align-items-center">
+                    <!-- Text Section on Left -->
+                    <div class="col-lg-6">
+                        <div class="service-details wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
+                            <div class="site-heading mb-3">
+                                <span class="site-title-tagline"><i class="fas fa-bring-forward"></i> Digital Services</span>
+                                <h2 class="site-title my-3">Digital Transformation <span>Services</span></h2>
                             </div>
-                            <h3 class="mb-30 mt-20">By embracing digital transformation services, your business can:</h3>
-                            <!-- Another List -->
-                            <ul class="ms-4">
-                                <li>&bull; Improve efficiency: Automate tasks, streamline processes, and reduce costs.</li>
-                                <li>&bull; Enhance customer experience: Deliver personalized experiences and improve customer satisfaction.</li>
-                                <li>&bull; Innovate products and services: Create new products and services to stay ahead of the competition.</li>
-                                <li>&bull; Make data-driven decisions: Utilize data analytics to identify trends and opportunities.</li>
-                                <li>&bull; Increase revenue: Expand market reach and generate new revenue streams.</li>
+                            <p class="about-text mb-20">
+                                At FARIS Technologies, we offer Digital Ascendancy Services that leverage cutting-edge technologies to propel your business forward. Our services integrate digital solutions across your organization, enhancing performance, efficiency, and customer experience.
+                            </p>
+    
+                            <h4 class="mb-20 mt-20">Key Services:</h4>
+                            <ul class="ms-4 mb-10">
+                                <li>&bull; AI-Powered Solutions for data-driven decision-making.</li>
+                                <li>&bull; Seamless IoT integration for real-time visibility and automation.</li>
+                                <li>&bull; Next-Gen customer engagement with AR and VR technologies.</li>
+                                <li>&bull; Robust cybersecurity to protect your data.</li>
+                                <li>&bull; Cloud migration for scalability and cost efficiency.</li>
                             </ul>
-
-                            <div class="text-center mt-20">
-                                <a href="{{ url('/contact') }}" class="theme-btn theme-btn2">Get in Touch</a>
+    
+                            <h4 class="mb-20 mt-20">How You Benefit:</h4>
+                            <ul class="ms-4 mb-10">
+                                <li>&bull; Improved operational efficiency.</li>
+                                <li>&bull; Enhanced customer experience and satisfaction.</li>
+                                <li>&bull; Increased revenue through data-driven decisions and innovation.</li>
+                            </ul>
+    
+                            <p class="mt-20">
+                                Partner with FARIS Technologies and embrace digital transformation to future-proof your business today.
+                            </p>
+                        </div>
+                    </div>
+    
+                    <!-- Image Section on Right -->
+                    <div class="col-lg-6">
+                        <div class="service-details-img text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
+                            <img src="{{ asset('assets/img/about/15022851879.png') }}" alt="Digital Transformation" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    <div class="faq-area py-60">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="faq-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.25s; animation-name: fadeInLeft;">
+                        <div class="faq-img">
+                            <img src="{{ asset('assets/img/about/15022851879.png') }}" alt="Digital Insights">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="faq-right wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.25s; animation-name: fadeInUp;">
+                        <div class="site-heading mb-3">
+                            <span class="site-title-tagline"><i class="fas fa-lightbulb"></i> Insights</span>
+                            <h2 class="site-title my-3">Key <span>Insights</span> for Digital Growth</h2>
+                        </div>
+                        <p class="about-text">Discover the transformative power of digital solutions and how they can propel your business to new heights.</p>
+                        <div class="mt-4">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <span><i class="far fa-lightbulb"></i></span> What is Digital Transformation?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Digital transformation integrates advanced technologies like AI, IoT, and cloud computing to revolutionize business operations and enhance customer experiences.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <span><i class="far fa-lightbulb"></i></span> What Are the Core Pillars?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            The core pillars include AI-driven insights, IoT-powered connectivity, immersive customer experiences, cybersecurity resilience, and cloud optimization.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            <span><i class="far fa-lightbulb"></i></span> What Are the Benefits?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Benefits include improved efficiency, enhanced customer experiences, data-driven decision-making, innovation, and increased revenue.
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -78,6 +141,8 @@
             </div>
         </div>
     </div>
-
+    
+    
+    
 </main>
 @endsection
