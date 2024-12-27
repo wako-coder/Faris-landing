@@ -51,7 +51,7 @@
                     <!-- Image Section -->
                     <div class="col-lg-6">
                         <div class="service-details-img text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
-                            <img src="assets/img/office/etress.jpg" alt="Research and Re-Engineering" class="img-fluid" style="width: 100%; height: auto;">
+                            <img src="{{ asset('assets/img/gallery/Drone technology crop.png') }}" alt="Research and Re-Engineering" class="img-fluid" style="width: 100%; height: auto;">
                         </div>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                 <div class="col-lg-6">
                     <div class="faq-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
                         <div class="faq-img">
-                            <img src="{{ asset('assets/img/about/Kid-and-robot.jpeg') }}" alt="Research Insights">
+                            <img src="{{ asset('assets/img/gallery/GIS.png') }}" alt="Research Insights">
                         </div>
                     </div>
                 </div>

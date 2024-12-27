@@ -59,7 +59,7 @@
                     <!-- Image Section -->
                     <div class="col-lg-6">
                         <div class="service-details-img text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
-                            <img src="{{ asset('assets/img/gallery/BPOfaris.png') }}" alt="BPO Services" class="img-fluid">
+                            <img src="{{ asset('assets/img/gallery/A20I3036.JPG') }}" alt="BPO Services" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                 <div class="col-lg-6">
                     <div class="faq-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
                         <div class="faq-img">
-                            <img src="{{ asset('assets/img/gallery/BPO (7).jpeg') }}" alt="Digital Insights">
+                            <img src="{{ asset('assets/img/gallery/A20I2568.JPG') }}" alt="Digital Insights">
                         </div>
                     </div>
                 </div>

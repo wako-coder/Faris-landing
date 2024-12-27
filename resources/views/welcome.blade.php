@@ -8,7 +8,7 @@
       overflow: hidden;
       transition: background 0.5s ease, transform 0.5s ease;
       min-height: 300px; /* Minimum height */
-      max-height: 350px;
+      max-height: 340px;
     }
     
     .card > img {
@@ -22,7 +22,8 @@
     }
     .card > h4{
         position:relative;
-        top:50px;
+
+        top:55px;
         font: bold;
         color:white;
         z-index: 2;
@@ -267,13 +268,13 @@
             
             <div class="col-12 col-lg-5">
                 <a href="{{ url('/knowledge') }}" class="card text-decoration-none text-dark">
-                  <h4 class="pb-2 mx-auto d-none d-sm-block">Knowledge and Capacity Building</h4>
+                  <h4 class="text-center">Knowledge and Capacity Building</h4>
                   <img class="img-1" id="card-img" src="{{ asset('assets/img/gallery/Knowledge capacity division.jpg') }}" alt>
                   <div class="card-body text-center">
                     <div class="feature-icon">
                       <img src="{{ asset('assets/img/icon/Knowldege.svg') }}" alt>
                     </div>
-                    <h4 class="pb-2">Knowledge and Capacity Building</h4>
+                    <h4 class="pb-2 text-center">Knowledge and Capacity Building</h4>
                     <p>With our vision to be the center of emerging technologies, we started to raise a generation of scientists of tomorrow for our country and continent!</p>
                   </div>
                 </a>
@@ -282,13 +283,13 @@
                <!-- Card 2 -->
             <div class="col-12 col-lg-5">
                 <a href="{{ url('/software') }}" class="card text-decoration-none text-dark">
-                  <h4 class="pb-2 mx-auto d-none d-sm-block">Digital Transformation Services</h4>
+                  <h4 class="text-center">Digital Transformation Services</h4>
                   <img id="card-img" src="{{ asset('assets/img/gallery/pexels-kevin-ku-92347-577585 (1) (1).jpg') }}" alt>
                   <div class="card-body text-center">
                     <div class="feature-icon">
                       <img src="{{ asset('assets/img/icon/Digital.svg') }}" alt>
                     </div>
-                    <h4 class="pb-2">Digital Transformation Services</h4>
+                    <h4 class="pb-2 text-center">Digital Transformation Services</h4>
                     <p>At FARIS Technologies, we offer a future-proof approach - Digital Ascendancy Services.</p>
                   </div>
                 </a>
@@ -297,13 +298,13 @@
             <!-- Card 1 -->
             <div class="col-12 col-lg-5">
               <a href="{{ url('/buisness') }}" class="card text-decoration-none text-dark">
-                <h4 class="pb-2 mx-auto d-none d-sm-block">Business Process Outsourcing</h4>
+                <h4 class="text-center">Business Process Outsourcing</h4>
                 <img id="card-img" src="{{ asset('assets/img/gallery/A20I3015.JPG') }}" alt="thumb">
                 <div class="card-body text-center">
                   <div class="feature-icon">
                     <img src="{{ asset('assets/img/icon/BPO-01.svg') }}" alt>
                   </div>
-                  <h4 class="pb-2 d-none d-sm-block">Business Process Outsourcing</h4>
+                  <h4 class="pb-2 text-center">Business Process Outsourcing</h4>
                   <p>We provide exceptional Business Process Outsourcing services that empower businesses to streamline their operations and focus on core competencies.</p>
                 </div>
               </a>
@@ -317,13 +318,13 @@
             <!-- Card 4 -->
             <div class="col-12 col-lg-5">
               <a href="{{ url('/research') }}" class="card text-decoration-none text-dark">
-                <h4 class="pb-2 mx-auto d-none d-sm-block">Research and Re-Engineering</h4>
+                <h4 class=" text-center">Research and Re-Engineering</h4>
                 <img class="img-1" id="card-img" src="{{ asset('assets/img/gallery/Research n re  (2).jpg') }}" alt>
                 <div class="card-body text-center">
                   <div class="feature-icon">
                     <img src="{{ asset('assets/img/icon/Research.svg') }}" alt>
                   </div>
-                  <h4 class="pb-2 mx-auto">Research and Re-Engineering</h4>
+                  <h4 class="pb-2 text-center">Research and Re-Engineering</h4>
                   <p>Advance your business with our cutting-edge research and development services.</p>
                 </div>
               </a>
@@ -474,7 +475,7 @@
                                 When You Need Innovation, <span>We Are</span> Always Here
                             </h3>
                         </div>
-                        <p class="text-white">
+                        <p class="text-white" style="text-align: justify;">
                             AI is at the core of our innovation. We excel in this field, developing cutting-edge solutions for diverse sectors. Our expertise extends to Space Science, encompassing satellite technology, remote sensing, and GIS solutions. We leverage Drone Technology for applications in agriculture and environmental monitoring. We also actively engage in Rocketry and Aerospace research, pushing the boundaries of space exploration.
                         </p>
                         <div class="choose-wrapper mt-4">

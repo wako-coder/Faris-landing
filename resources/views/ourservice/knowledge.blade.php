@@ -7,7 +7,7 @@
         <div class="hero-slider owl-carousel owl-theme">
             <!-- Slide 1 -->
             <div class="hero-single">
-                <img src="{{ asset('assets/img/gallery/Knowledge capacity division.jpg') }}" alt="Capacity Animation" class="video-background" style="filter: brightness(0.5);">
+                <img src="{{ asset('assets/img/gallery/photo_2024-11-19_09-02-28.jpg') }}" alt="Capacity Animation" class="video-background" style="filter: brightness(0.5);">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-lg-8">
@@ -39,7 +39,7 @@
                                 <h2 class="site-title my-3">Empowering Minds Through Knowledge & Capacity Building</h2>
                             </div>
                             <p class="about-text mb-20">
-                                Welcome to FARIS Technology Knowledge & Capacity Building Division, where we are committed to shaping Ethiopia's future through cutting-edge fields in digital emerging technologies. Space Science, Robotics, Rocketry, Artificial Intelligence (AI), Data Science and Analytics, the Internet of Things (IoT), Blockchain Technology, Virtual Reality (VR) and Augmented Reality (AR), Cloud Computing, Cybersecurity, 5G Technology, Quantum Computing, Edge Computing, Biotechnology, and Automation and Robotics are key fields driving innovation and transformation across various industries. As a trailblazer in these transformative fields, we believe that empowering individuals and communities is vital for creating a brighter tomorrow. With over six years of industry expertise, we have positioned ourselves as a leading force in redefining Ethiopia's technological landscape.
+                                Welcome to FARIS Technology Knowledge & Capacity Building Division, where we are committed to shaping Ethiopia's future through cutting-edge fields in digital emerging technologies. Space Science, Robotics, Rocketry, Artificial Intelligence (AI), Data Science and Analytics, the Internet of Things (IoT), Blockchain Technology, Virtual Reality (VR) and Augmented Reality (AR), Cloud Computing, Cybersecurity, 5G Technology, Quantum Computing, Edge Computing, Biotechnology, and Automation and Robotics are key fields driving innovation and transformation across various industries. </p><p> As a trailblazer in these transformative fields, we believe that empowering individuals and communities is vital for creating a brighter tomorrow. With over six years of industry expertise, we have positioned ourselves as a leading force in redefining Ethiopia's technological landscape.
                             </p>
                         </div>
                     </div>
@@ -47,7 +47,7 @@
                     <!-- Image Section on Right -->
                     <div class="col-lg-6 ">
                         <div class="service-details-img text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
-                            <img src="{{ asset('assets/img/office/kids.jpg') }}" alt="Knowledge & Capacity Building" class="img-fluid">
+                            <img src="{{ asset('assets/img/gallery/students 2.JPG') }}" alt="Knowledge & Capacity Building" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
                         <div class="col-lg-6">
                             <div class="faq-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
                                 <div class="faq-img">
-                                    <img src="{{ asset('assets/img/about/Kid-and-robot.jpeg') }}" alt="Research Insights">
+                                    <img src="{{ asset('assets/img/gallery/WhatsApp Image 2024-11-11 at 12.14.40_f0e14c25.jpg') }}" alt="Research Insights">
                                 </div>
                             </div>
                         </div>

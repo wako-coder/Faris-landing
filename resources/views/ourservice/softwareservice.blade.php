@@ -58,7 +58,7 @@
                     <!-- Image Section on Right -->
                     <div class="col-lg-6">
                         <div class="service-details-img text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
-                            <img src="{{ asset('assets/img/about/15022851879.png') }}" alt="Digital Transformation" class="img-fluid">
+                            <img src="{{ asset('assets/img/gallery/DTS (39).jpg') }}" alt="Digital Transformation" class="img-fluid" style="height: 400px;">
                         </div>
                     </div>
                 </div>
