@@ -58,7 +58,7 @@
                     <!-- Image Section on Right -->
                     <div class="col-lg-6">
                         <div class="service-details-img text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
-                            <img src="{{ asset('assets/img/gallery/DTS (39).jpg') }}" alt="Digital Transformation" class="img-fluid" style="height: 400px;">
+                            <img src="{{ asset('assets/img/gallery/DTS (39).jpg') }}" alt="Digital Transformation" class="img-fluid" style="height: 450px;">
                         </div>
                     </div>
                 </div>
@@ -73,7 +73,7 @@
                 <div class="col-lg-6">
                     <div class="faq-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
                         <div class="faq-img">
-                            <img src="{{ asset('assets/img/about/Kid-and-robot.jpeg') }}" alt="Digital Insights">
+                            <img src="{{ asset('assets/img/about/15022851879.png') }}" alt="Digital Insights">
                         </div>
                     </div>
                 </div>
