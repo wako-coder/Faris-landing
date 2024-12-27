@@ -4,10 +4,18 @@
 <main class="main">
 
     <!-- Breadcrumb Section -->
-   
+    <div class="site-breadcrumb py-60" style="background: url({{ asset('assets/img/breadcrumb/01.jpg') }})">
+        <div class="container">
+            <h2 class="breadcrumb-title">Contact Us</h2>
+            <ul class="breadcrumb-menu">
+                <li><a href="{{ route('home') }}">Home</a></li>
+                <li class="active">Contact Us</li>
+            </ul>
+        </div>
+    </div>
 
     <!-- Contact Information Section -->
-    <div class="contact-area py-120" style="position: relative; top:100px;">
+    <div class="contact-area py-80 ">
         <div class="container">
             <div class="contact-wrap">
                 <div class="row">
@@ -94,7 +102,7 @@
 
 
     <!-- Google Map Embed Section -->
-    <div class="contact-map">
+     <div class="contact-map">
         <iframe src="https://maps.google.com/maps?q=Gurd%20Shola,%20Addis%20Ababa,%20Ethiopia&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="width: 100%; height: 400px; border:0;" allowfullscreen loading="lazy"></iframe>
     </div>
 

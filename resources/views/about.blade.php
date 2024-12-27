@@ -4,11 +4,19 @@
   
 
 
+    <div class="site-breadcrumb py-60" style="background: url({{ asset('assets/img/breadcrumb/01.jpg') }})">
+        <div class="container">
+            <h2 class="breadcrumb-title">About Us</h2>
+            <ul class="breadcrumb-menu">
+                <li><a href="{{ route('home') }}">Home</a></li>
+                <li class="active">Contact Us</li>
+            </ul>
+        </div>
+    </div>
 
 
 
-
-    <div class="about-area py-120">
+    <div class="about-area py-80">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">

@@ -2,17 +2,18 @@
 
 @section('content')
 <main class="main">
-    <div class="hero-section" >
+    <!-- Hero Section with Video Background -->
+    <div class="hero-section">
         <div class="hero-slider owl-carousel owl-theme">
             <!-- Slide 1 -->
             <div class="hero-single">
-                <img src="{{ asset('assets/img/office/A20I3252.JPG') }}" style="filter: brightness(0.5); alt="Capacity Animation" class="video-background">
+                <img src="{{ asset('assets/img/gallery/Knowledge capacity division.jpg') }}" alt="Capacity Animation" class="video-background" style="filter: brightness(0.5);">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-lg-8">
                             <div class="hero-content" style="position: relative; top:80px;">
                                 <h1 class="hero-title" data-animation="fadeInUp" data-delay=".50s">
-                                    Knowledge and<span>Capacity Building</span>
+                                    Knowledge and <span>Capacity Building</span>
                                 </h1>
                                 <p data-animation="fadeInUp" data-delay=".75s">
                                     Unlock the Future with FARIS Technologies' Digital Ascendancy Services
@@ -22,59 +23,100 @@
                     </div>
                 </div>
             </div>
-            
         </div>
     </div>
-    <!-- Breadcrumb Section with Video Background -->
+
+    <!-- Service Section with Content and Image -->
     <div class="service-single-area mb-20">
         <div class="container">
-            <div class="service-single-wrapper">
-                <div class="row">
-                    <div class="col-xl-2 col-lg-2">
+            <div class="service-single-wrapper py-80">
+                <div class="row align-items-center">
+                    <!-- Text Section on Left -->
+                    <div class="col-lg-6">
+                        <div class="service-details wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
+                            <div class="site-heading mb-3">
+                                <span class="site-title-tagline"><i class="fas fa-bring-forward"></i> Knowledge & Capacity Building</span>
+                                <h2 class="site-title my-3">Empowering Minds Through Knowledge & Capacity Building</h2>
+                            </div>
+                            <p class="about-text mb-20">
+                                Welcome to FARIS Technology Knowledge & Capacity Building Division, where we are committed to shaping Ethiopia's future through cutting-edge fields in digital emerging technologies. Space Science, Robotics, Rocketry, Artificial Intelligence (AI), Data Science and Analytics, the Internet of Things (IoT), Blockchain Technology, Virtual Reality (VR) and Augmented Reality (AR), Cloud Computing, Cybersecurity, 5G Technology, Quantum Computing, Edge Computing, Biotechnology, and Automation and Robotics are key fields driving innovation and transformation across various industries. As a trailblazer in these transformative fields, we believe that empowering individuals and communities is vital for creating a brighter tomorrow. With over six years of industry expertise, we have positioned ourselves as a leading force in redefining Ethiopia's technological landscape.
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-xl-12 col-lg-8">
-                        <div class="service-details">
-                          
-                            <div class="service-details">
-                                <h3 class="mb-20 mt-20">Empowering Minds Through Knowledge & Capacity Building:  
-                                Bridging Opportunities Across Ethiopia & Africa</h3>
-                                <p class="mb-20">
-                                    Welcome to FARIS Technology Knowledge & Capacity Building Division, where we are committed to shaping Ethiopia's future through cutting-edge fields in digital emerging technologies. Space Science, Robotics, Rocketry, Artificial Intelligence (AI), Data Science and Analytics, the Internet of Things (IoT), Blockchain Technology, Virtual Reality (VR) and Augmented Reality (AR), Cloud Computing, Cybersecurity, 5G Technology, Quantum Computing, Edge Computing, Biotechnology, and Automation and Robotics are key fields driving innovation and transformation across various industries. As a trailblazer in these transformative fields, we believe that empowering individuals and communities is vital for creating a brighter tomorrow. With over six years of industry expertise, we have positioned ourselves as a leading force in redefining Ethiopia's technological landscape.
-                                </p>
-                                <h3 class="mb-30 mt-20">Our Mission: Capacity Building at the Core</h3>
-                                <p class="mb-30">
-                                    At FARIS, capacity building is not merely a goal; it is the essence of our mission. We are passionate about raising awareness and promoting digital and innovative technologies throughout Ethiopia and Africa. By collaborating with over 20 public universities, we have empowered thousands to unlock their potential in technology, fostering a vibrant culture of creativity and collaboration.
-                                </p>
-                                <h3 class="mb-30 mt-20">Innovation Labs: Cultivating Future Leaders</h3>
-                                <p>We have established nine state-of-the-art innovation labs across Ethiopia—three in Addis Ababa and six in other regions—designed to cater to learners at every stage of their educational journey:</p>
-                                <ul>
-                                    <li><strong>Beginners:</strong> We ignite curiosity in young minds from an early age, helping them cultivate a growth mindset that will shape the future of technology in Africa. Our engaging programs are crafted to inspire and empower the next generation of innovators.</li>
-                                    <li><strong>Intermediate:</strong> For talented students in schools and universities, we offer comprehensive training and mentorship in Robotics, AI, Space Science, Rocketry, and Software Development. By providing hands-on experiences and expert guidance, we prepare these learners for advanced challenges and opportunities.</li>
-                                    <li><strong>Advanced:</strong> Our advanced programs focus on experiential learning and innovation, enabling students to transform their ideas into tangible solutions. Through real-world projects, they acquire invaluable skills that are directly applicable in the tech industry.</li>
-                                </ul>
-                                
-                                <div class="service-details-img mb-30 mt-30">
-                                    <img src="assets/img/about/transformed.jpeg" style="width: 800px; height:400px;" alt="thumb">
+            
+                    <!-- Image Section on Right -->
+                    <div class="col-lg-6 ">
+                        <div class="service-details-img text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
+                            <img src="{{ asset('assets/img/office/kids.jpg') }}" alt="Knowledge & Capacity Building" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-area py-80">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <!-- Image Section -->
+                        <div class="col-lg-6">
+                            <div class="faq-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
+                                <div class="faq-img">
+                                    <img src="{{ asset('assets/img/about/Kid-and-robot.jpeg') }}" alt="Research Insights">
                                 </div>
+                            </div>
+                        </div>
+                        <!-- Accordion Section -->
+                        <div class="col-lg-6">
+                            <div class="faq-right wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
+                                <div class="site-heading mb-3">
+                                    <span class="site-title-tagline"><i class="fas fa-lightbulb"></i> Research Insights</span>
+                                </div>
+                                <div class="accordion" id="accordionExample">
+                                    <!-- FAQ 1 -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                <span><i class="far fa-lightbulb"></i></span> What is the mission of FARIS Technology in Capacity Building?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                At FARIS, capacity building is at the core of our mission. We aim to raise awareness and promote digital and innovative technologies throughout Ethiopia and Africa. By collaborating with over 20 public universities, we have empowered thousands to unlock their potential in technology, fostering a vibrant culture of creativity and collaboration.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- FAQ 2 -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <span><i class="far fa-lightbulb"></i></span> What are the different levels of innovation labs at FARIS?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                We have established nine state-of-the-art innovation labs across Ethiopia, designed for learners at various stages:
+                                                <ul>
+                                                    <li><strong>Beginners:</strong> Programs to ignite curiosity in young minds and cultivate a growth mindset in technology.</li>
+                                                    <li><strong>Intermediate:</strong> For students in schools and universities, we offer mentorship and training in Robotics, AI, Space Science, Rocketry, and Software Development.</li>
+                                                    <li><strong>Advanced:</strong> Focused on experiential learning and innovation, preparing students for real-world challenges in the tech industry.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                                <h3 class="mb-30 mt-20">Manufacturing Ethiopian Solutions</h3>
-                                <p>Our motto, "Manufacturing Ethiopian Solutions," reflects our dedication to practical, impactful education. We encourage our students to think creatively and push the limits of what is possible, equipping them to tackle the unique challenges faced by our communities.</p>
-                                <p>Through initiatives like Startup Fabrica, we facilitate the incubation, scaling, and commercialization of groundbreaking ideas. We connect startups with world-class venture capitalists, angel investors, and growth opportunities. Our resources—including office space, mentorship, and networking—empower entrepreneurs with the tools they need to thrive. By nurturing local startups, we contribute to job creation, economic growth, and the enhancement of lives across Ethiopia.</p>
-
-                                <h3 class="mb-30 mt-20">Unlocking Global Opportunities</h3>
-                                <p>Our commitment to support extends beyond technology training. We actively create pathways for our trainees in the realm of business process outsourcing (BPO), linking them with exciting global opportunities. This exposure not only enriches their knowledge but also broadens their perspectives, preparing them to excel in a competitive international job market.</p>
-
-                                <h3 class="mb-30 mt-20">Practical Steps for Engagement</h3>
-                                <ul>
-                                    <li><strong>Discover Our Offerings:</strong> Visit our website to explore the diverse courses and training sessions tailored for various age groups and skill levels.</li>
-                                    <li><strong>Enroll Today:</strong> Consider enrolling yourself or your child in our programs. Whether you’re just starting out or looking to advance your skills, FARIS has something for everyone.</li>
-                                    <li><strong>Stay Connected:</strong> Follow us on social media and subscribe to our newsletter to stay updated on new offerings, workshops, and events.</li>
-                                    <li><strong>Network and Collaborate:</strong> Engage with our community by attending workshops, webinars, and events, connecting with fellow learners and industry leaders.</li>
-                                    <li><strong>Support Local Innovation:</strong> If you’re an entrepreneur or investor, explore collaboration opportunities with the dynamic startups in our ecosystem.</li>
-                                </ul>
-
-                                <div class="text-center mt-20">
-                                    <a href="{{ url('/contact') }}" class="theme-btn theme-btn2">Get in Touch</a>
+                                    <!-- FAQ 3 -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <span><i class="far fa-lightbulb"></i></span> How does FARIS help students advance in their careers?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                Our advanced programs focus on experiential learning, enabling students to transform their ideas into tangible solutions through real-world projects. This helps them acquire invaluable skills directly applicable in the tech industry.
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

@@ -3,21 +3,20 @@
 @section('content')
 <main class="main">
 
-    <!-- Breadcrumb Section with Video Background -->
+    <!-- Hero Section -->
     <div class="hero-section">
         <div class="hero-slider owl-carousel owl-theme">
-            <!-- Slide 1 -->
             <div class="hero-single">
-                <img src="{{ asset('assets/img/gallery/work-station.png') }}" style="filter: brightness(0.5);" alt="Capacity Animation" class="video-background">
+                <img src="{{ asset('assets/img/gallery/work-station.png') }}" alt="BPO Services" class="video-background" style="filter: brightness(0.5);">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-lg-8">
-                            <div class="hero-content" style="position: relative; top:80px;">
+                            <div class="hero-content" style="position: relative; top: 80px;">
                                 <h1 class="hero-title" data-animation="fadeInUp" data-delay=".50s">
                                     Business Process <span>Outsourcing</span>
                                 </h1>
                                 <p data-animation="fadeInUp" data-delay=".75s">
-                                    Unlock the Future with FARIS Technologies' Digital Ascendancy Services
+                                    Unlock operational efficiency with FARIS Technologies' comprehensive BPO solutions.
                                 </p>
                             </div>
                         </div>
@@ -27,10 +26,12 @@
         </div>
     </div>
 
-    <div class="service-single-area mb-20">
+    <!-- BPO Service Section -->
+    <div class="service-single-area py-80">
         <div class="container">
-            <div class="service-single-wrapper py-80">
+            <div class="service-single-wrapper">
                 <div class="row align-items-center">
+                    <!-- Text Section -->
                     <div class="col-lg-6">
                         <div class="service-details wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
                             <div class="site-heading mb-3">
@@ -38,108 +39,123 @@
                                 <h2 class="site-title my-3">Business Process Outsourcing <span>Services</span></h2>
                             </div>
                             <p class="about-text mb-20">
-                                FARIS Technologies offers efficient BPO solutions in customer service, IT services, and content creation to help optimize your business operations.
+                                At FARIS Technologies, we offer a full suite of BPO services designed to streamline your operations, from customer service and IT support to content creation and management.
                             </p>
-                    
-                            <h4 class="mb-20 mt-20">Key Services:</h4>
+    
+                            <!-- Key Areas -->
+                          
+
+                            <!-- Why Choose Ethiopia -->
+                            <h4 class="mb-20 mt-20">Why Choose Ethiopia?</h4>
                             <ul class="ms-4 mb-10">
-                                <li>&bull; Customer Service: Call centers, email, and chat support.</li>
-                                <li>&bull; IT Services: Software development and technical support.</li>
-                                <li>&bull; Content Creation: Writing, translation, and digital marketing.</li>
+                                <li>&bull; Cost-Effective Labor: Lower operational costs.</li>
+                                <li>&bull; Skilled Workforce: English fluency and strong work ethics.</li>
+                                <li>&bull; Time Zone Advantage: Alignment with Europe and the Middle East.</li>
                             </ul>
-                    
-                            <h4 class="mb-20 mt-20">Why Ethiopia?</h4>
-                            <ul class="ms-4 mb-10">
-                                <li>&bull; Cost-Effective Labor.</li>
-                                <li>&bull; Skilled Workforce with English fluency.</li>
-                                <li>&bull; Time Zone Advantage with Europe and the Middle East.</li>
-                            </ul>
-                    
-                            <p class="mt-20">Partner with FARIS Technologies for tailored BPO services that drive growth.</p>
+
                         </div>
                     </div>
-                    
-                    <!-- Image Section on Right -->
+
+                    <!-- Image Section -->
                     <div class="col-lg-6">
                         <div class="service-details-img text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
                             <img src="{{ asset('assets/img/gallery/BPOfaris.png') }}" alt="BPO Services" class="img-fluid">
                         </div>
                     </div>
-                    
                 </div>
             </div>
+        </div>
+    </div>
 
-            
-                <!-- Insights Section -->
-               
-    
-                <!-- FAQ Section -->
-                <div class="faq-area py-60">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6">
-                                <div class="faq-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
-                                    <div class="faq-img">
-                                        <img src="assets/img/about/15022851879.png" alt="BPO Insights">
+    <!-- FAQ Section -->
+    <div class="faq-area py-80">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Image Section -->
+                <div class="col-lg-6">
+                    <div class="faq-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
+                        <div class="faq-img">
+                            <img src="{{ asset('assets/img/gallery/BPO (7).jpeg') }}" alt="Digital Insights">
+                        </div>
+                    </div>
+                </div>
+                <!-- Accordion Section -->
+                <div class="col-lg-6">
+                    <div class="faq-right wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
+                        <div class="site-heading mb-3">
+                            <span class="site-title-tagline"><i class="fas fa-lightbulb"></i> Benefits</span>
+                            <h2 class="site-title my-3">The Benefits of Outsourcing <span> to FARIS Technologies</span></h2>
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <!-- Key Services Accordion -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <span><i class="far fa-lightbulb"></i></span> Customer Service: Call Centers, Email, and Live Chat Support
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Our customer service team offers comprehensive support through multiple channels, ensuring a seamless experience for your clients.
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="faq-right wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
-                                    <div class="site-heading mb-3">
-                                        <span class="site-title-tagline"><i class="fas fa-lightbulb"></i> Insights</span>
-                                        <h2 class="site-title my-3">Frequently Asked <span>Questions</span></h2>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <span><i class="far fa-lightbulb"></i></span> IT Services: Software Development, Technical Support, and Data Entry
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        FARIS offers robust IT solutions, from custom software development to efficient technical support and accurate data entry.
                                     </div>
-                                    <p class="about-text">Find answers to the most common questions about our Business Process Outsourcing (BPO) services.</p>
-                                    <div class="mt-4">
-                                        <div class="accordion" id="accordionExample">
-                                            <div class="accordion-item">
-                                                <h2 class="accordion-header" id="headingOne">
-                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                        <span><i class="far fa-lightbulb"></i></span> What is Business Process Outsourcing (BPO)?
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body">
-                                                        BPO refers to contracting a business function to an external provider. It can involve customer service, IT support, or content creation, helping businesses reduce costs and enhance efficiency.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="accordion-item">
-                                                <h2 class="accordion-header" id="headingTwo">
-                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                        <span><i class="far fa-lightbulb"></i></span> Why Should We Outsource to Ethiopia?
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body">
-                                                        Ethiopia offers cost-effective labor, a skilled workforce, and a strategic time zone that aligns with Europe and the Middle East. This makes it an ideal outsourcing destination for high-quality services at competitive rates.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="accordion-item">
-                                                <h2 class="accordion-header" id="headingThree">
-                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                        <span><i class="far fa-lightbulb"></i></span> How Can BPO Benefit My Business?
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body">
-                                                        BPO can help reduce costs, improve service quality, enhance customer satisfaction, and allow you to focus on core business operations, all while scaling your business operations seamlessly.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <span><i class="far fa-lightbulb"></i></span> Content Creation: Writing, Translation, SEO, and Digital Marketing
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Our content creation team specializes in writing, translation, SEO, and digital marketing, driving engagement and visibility for your brand.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Benefits Accordion -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        <span><i class="far fa-lightbulb"></i></span> Cost-Effective Labor
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Ethiopia offers a relatively low cost of labor compared to other outsourcing destinations, making it an attractive option for cost-conscious businesses.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        <span><i class="far fa-lightbulb"></i></span> Skilled Workforce
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Many Ethiopians, especially the younger generation, are fluent in English, facilitating effective communication with international clients.
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
     </div>
-    
-    
 
 </main>
 @endsection

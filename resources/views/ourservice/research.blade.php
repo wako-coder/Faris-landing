@@ -30,66 +30,116 @@
     <div class="service-single-area py-80">
         <div class="container">
             <div class="service-single-wrapper">
-                <div class="row">
-                    <div class="col-xl-2 col-lg-2"></div>
-                    <div class="col-xl-12 col-lg-8">
-                        <div class="service-details">
-                            <h3 class="mb-20 mt-20">Research and Re-Engineering</h3>
-                            <p class="mb-20">
+                <div class="row align-items-center">
+                    <!-- Text Section -->
+                    <div class="col-lg-6">
+                        <div class="service-details wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
+                            <div class="site-heading mb-3">
+                                <span class="site-title-tagline"><i class="fas fa-briefcase"></i> Research and Re-Engineering</span>
+                                <h2 class="site-title my-3">Research and Re-Engineering <span>at FARIS Technologies</span></h2>
+                            </div>
+                            <p class="about-text mb-20">
                                 FARIS Technology is a leading institution in Ethiopia, dedicated to pushing the boundaries of space science, robotics, rocketry, AI, and emerging technologies. Founded in 2018, we've collaborated with esteemed academic and governmental organizations to provide world-class tech education.
                             </p>
-                            <p class="mb-30">
+    
+                            <p class="about-text mb-20">
                                 We've played a pivotal role in Ethiopia's space exploration journey, contributing to the development and commercialization of ETRSS-1 and ETRSS-2 satellite imagery. Our participation in NASA's rover challenge highlights our commitment to international collaboration and innovation.
                             </p>
-                            <div class="service-details-img mb-30 mt-30">
-                                <img src="assets/img/office/etress.jpg" style="width: 800px; height:400px;" alt="thumb">
+                        </div>
+                    </div>
+    
+                    <!-- Image Section -->
+                    <div class="col-lg-6">
+                        <div class="service-details-img text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
+                            <img src="assets/img/office/etress.jpg" alt="Research and Re-Engineering" class="img-fluid" style="width: 100%; height: auto;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- FAQ Section -->
+    <div class="faq-area py-80">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Image Section -->
+                <div class="col-lg-6">
+                    <div class="faq-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
+                        <div class="faq-img">
+                            <img src="{{ asset('assets/img/about/Kid-and-robot.jpeg') }}" alt="Research Insights">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Accordion Section -->
+                <div class="col-lg-6">
+                    <div class="faq-right wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
+                        <div class="site-heading mb-3">
+                       
+                            <h2 class="site-title my-3">FARIS Technology</h2>
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <!-- Cutting-Edge Technology -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <span><i class="far fa-lightbulb"></i></span> Cutting-Edge Technology
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        FARIS Technologies is at the forefront of emerging technologies, including AI, robotics, and space science, pushing the boundaries of innovation.
+                                    </div>
+                                </div>
                             </div>
 
-                            <!-- Space Science and Technology -->
-                            <h4 class="mb-30 mt-20">Space Science and Technology:</h4>
-                            <p>&bull; Design, development, and launch of satellites for various applications such as communication, remote sensing, and navigation.</p>
-                            <p>&bull; Utilization of satellite and aerial imagery to monitor environmental changes, natural disasters, and urban development.</p>
-                            <p>&bull; Development of Geographic Information Systems (GIS) for spatial data analysis, mapping, and decision-making.</p>
-                            <p>&bull; Research and development of technologies for space exploration, including mission planning, spacecraft design, and planetary exploration.</p>
+                            <!-- International Collaboration -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <span><i class="far fa-lightbulb"></i></span> International Collaboration
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        FARIS Technologies has partnered with leading international organizations, including NASA, to enhance Ethiopia’s position in the global research community.
+                                    </div>
+                                </div>
+                            </div>
 
-                            <!-- Robotics and Automation -->
-                            <h4 class="mb-30 mt-20">Robotics and Automation:</h4>
-                            <p>&bull; Design and development of industrial robots for automation in manufacturing, assembly, and logistics.</p>
-                            <p>&bull; Creation of robots for tasks such as cleaning, delivery, and elderly care.</p>
-                            <p>&bull; Development of robotic systems for precision agriculture, including automated planting, harvesting, and weed control.</p>
-                            <p>&bull; Fundamental research in robotics, including kinematics, dynamics, control systems, and artificial intelligence.</p>
+                            <!-- Sustainable Solutions -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <span><i class="far fa-lightbulb"></i></span> Sustainable Solutions
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Our research and engineering solutions focus on sustainability, ensuring that technological advancements have a positive impact on society and the environment.
+                                    </div>
+                                </div>
+                            </div>
 
-                            <!-- Artificial Intelligence and Machine Learning -->
-                            <h4 class="mb-30 mt-20">Artificial Intelligence and Machine Learning:</h4>
-                            <p>&bull; Development and application of machine learning algorithms for data analysis, pattern recognition, and predictive modeling.</p>
-                            <p>&bull; Development of systems for understanding and generating human language.</p>
-                            <p>&bull; Development of computer vision systems for image and video analysis.</p>
-                            <p>&bull; Development of AI-powered applications for various domains, including healthcare, finance, and education.</p>
-                            <p>&bull; Research and development of ethical guidelines and safety measures for AI systems.</p>
-
-                            <!-- Rocketry and Aerospace -->
-                            <h3 class="mb-30 mt-20">Rocketry and Aerospace:</h3>
-                            <p>&bull; Design and development of various types of rockets, including sounding rockets, suborbital rockets, and orbital launch vehicles.</p>
-                            <p>&bull; Research and development of advanced propulsion systems for rockets.</p>
-                            <p>&bull; Design and analysis of aerospace structures, such as aircraft and spacecraft.</p>
-                            <p>&bull; Development of spacecraft subsystems, including communication, power, and attitude control systems.</p>
-
-                            <!-- Drone Technology -->
-                            <h3 class="mb-30 mt-20">Drone Technology:</h3>
-                            <p>&bull; Use of drones for precision agriculture, crop monitoring, and spraying.</p>
-                            <p>&bull; Utilization of drones for monitoring air quality, water pollution, and deforestation.</p>
-                            <p>&bull; Deployment of drones for search and rescue operations, damage assessment, and delivery of supplies.</p>
-                            <p>&bull; Inspection of bridges, power lines, and other infrastructure using drones.</p>
-
-                            <!-- Benefits of Research and Re-Engineering -->
-                            <h3 class="mb-30 mt-20">Benefits of Research and Re-Engineering:</h3>
-                            <p>&bull; Drives innovation through the adoption of cutting-edge technologies.</p>
-                            <p>&bull; Supports economic growth by enhancing industry capabilities and workforce expertise.</p>
-                            <p>&bull; Contributes to sustainable development with solutions tailored to societal needs.</p>
-                            <p>&bull; Positions Ethiopia as a hub for advanced research and engineering projects.</p>
-
-                            <div class="text-center mt-20">
-                                <a href="{{ url('/contact') }}" class="theme-btn theme-btn2">Get in Touch</a>
+                            <!-- Key Services -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        <span><i class="fas fa-cogs"></i></span> Key Services
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>&bull; Design, development, and launch of satellites for communication, remote sensing, and navigation.</li>
+                                            <li>&bull; Creation of robots for industrial automation, precision agriculture, and various applications.</li>
+                                            <li>&bull; AI-powered solutions for healthcare, education, finance, and more.</li>
+                                            <li>&bull; Development of rocketry and aerospace systems, including launch vehicles and propulsion systems.</li>
+                                            <li>&bull; Utilization of drone technology for agriculture, environmental monitoring, and infrastructure inspection.</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

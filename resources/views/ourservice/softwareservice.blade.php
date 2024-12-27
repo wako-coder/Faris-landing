@@ -28,7 +28,7 @@
     </div>
 
     <!-- Service Section -->
-    <div class="service-single-area py-120">
+    <div class="service-single-area py-80">
         <div class="container">
             <div class="service-single-wrapper">
                 <div class="row align-items-center">
@@ -42,16 +42,6 @@
                             <p class="about-text mb-20">
                                 At FARIS Technologies, we offer Digital Ascendancy Services that leverage cutting-edge technologies to propel your business forward. Our services integrate digital solutions across your organization, enhancing performance, efficiency, and customer experience.
                             </p>
-    
-                            <h4 class="mb-20 mt-20">Key Services:</h4>
-                            <ul class="ms-4 mb-10">
-                                <li>&bull; AI-Powered Solutions for data-driven decision-making.</li>
-                                <li>&bull; Seamless IoT integration for real-time visibility and automation.</li>
-                                <li>&bull; Next-Gen customer engagement with AR and VR technologies.</li>
-                                <li>&bull; Robust cybersecurity to protect your data.</li>
-                                <li>&bull; Cloud migration for scalability and cost efficiency.</li>
-                            </ul>
-    
                             <h4 class="mb-20 mt-20">How You Benefit:</h4>
                             <ul class="ms-4 mb-10">
                                 <li>&bull; Improved operational efficiency.</li>
@@ -75,22 +65,20 @@
             </div>
         </div>
     </div>
-    
-    
-    
-    
-    <div class="faq-area py-60">
+
+    <!-- FAQ Section -->
+    <div class="faq-area py-80">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <div class="faq-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.25s; animation-name: fadeInLeft;">
+                    <div class="faq-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
                         <div class="faq-img">
-                            <img src="{{ asset('assets/img/about/15022851879.png') }}" alt="Digital Insights">
+                            <img src="{{ asset('assets/img/about/Kid-and-robot.jpeg') }}" alt="Digital Insights">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="faq-right wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.25s; animation-name: fadeInUp;">
+                    <div class="faq-right wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
                         <div class="site-heading mb-3">
                             <span class="site-title-tagline"><i class="fas fa-lightbulb"></i> Insights</span>
                             <h2 class="site-title my-3">Key <span>Insights</span> for Digital Growth</h2>
@@ -98,6 +86,7 @@
                         <p class="about-text">Discover the transformative power of digital solutions and how they can propel your business to new heights.</p>
                         <div class="mt-4">
                             <div class="accordion" id="accordionExample">
+                                <!-- Accordion Item 1 -->
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -110,6 +99,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!-- Accordion Item 2 -->
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingTwo">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -122,13 +112,33 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!-- Accordion Item 3 -->
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingThree">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            <span><i class="far fa-lightbulb"></i></span> What Are the Benefits?
+                                            <span><i class="far fa-lightbulb"></i></span> Key Services Offered
                                         </button>
                                     </h2>
                                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul class="ms-4">
+                                                <li>&bull; AI-Powered Solutions for data-driven decision-making.</li>
+                                                <li>&bull; Seamless IoT integration for real-time visibility and automation.</li>
+                                                <li>&bull; Next-Gen customer engagement with AR and VR technologies.</li>
+                                                <li>&bull; Robust cybersecurity to protect your data.</li>
+                                                <li>&bull; Cloud migration for scalability and cost efficiency.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Accordion Item 4 -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            <span><i class="far fa-lightbulb"></i></span> What Are the Benefits?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             Benefits include improved efficiency, enhanced customer experiences, data-driven decision-making, innovation, and increased revenue.
                                         </div>
@@ -136,13 +146,12 @@
                                 </div>
                             </div>
                         </div>
+                       
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
-    
-    
+
 </main>
 @endsection
