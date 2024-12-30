@@ -448,31 +448,28 @@
                             <!-- Location 1 -->
                             <div class="mb-4">
                                 <p class="pb-2 flex items-center">
-                                    <span class="font-bold pr-2">
-                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                            <g id="Location_On">
-                                                <g>
-                                                    <path d="M12,21.933a1.715,1.715,0,0,1-1.384-.691L5.555,14.5a7.894,7.894,0,1,1,12.885-.009L13.385,21.24A1.717,1.717,0,0,1,12,21.933ZM11.992,3.066A6.81,6.81,0,0,0,7.414,4.815a6.891,6.891,0,0,0-1.05,9.1l5.051,6.727a.725.725,0,0,0,.584.292h0a.732.732,0,0,0,.586-.292l5.044-6.734A6.874,6.874,0,0,0,12.81,3.113,7.277,7.277,0,0,0,11.992,3.066Z"></path>
-                                                    <path d="M12,12.5A2.5,2.5,0,1,1,14.5,10,2.5,2.5,0,0,1,12,12.5Zm0-4A1.5,1.5,0,1,0,13.5,10,1.5,1.5,0,0,0,12,8.5Z"></path>
-                                                </g>
+                                    <span class="pr-2">
+                                        <!-- Location Icon -->
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1.2em" width="1.2em" xmlns="http://www.w3.org/2000/svg">
+                                            <g>
+                                                <path d="M12,21.933a1.715,1.715,0,0,1-1.384-.691L5.555,14.5a7.894,7.894,0,1,1,12.885-.009L13.385,21.24A1.717,1.717,0,0,1,12,21.933ZM11.992,3.066A6.81,6.81,0,0,0,7.414,4.815a6.891,6.891,0,0,0-1.05,9.1l5.051,6.727a.725.725,0,0,0,.584.292h0a.732.732,0,0,0,.586-.292l5.044-6.734A6.874,6.874,0,0,0,12.81,3.113,7.277,7.277,0,0,0,11.992,3.066Z"></path>
                                             </g>
                                         </svg>
                                     </span>
-                                    <span class="flex-1">
-                                        <a href="https://www.google.com/maps?q=6th+Floor,+Sur+Construction,+Bole,+Addis+Ababa" target="_blank" class="text-blue-500 hover:underline">
-                                            Head office 6th Floor, Sur Construction, Bole
-                                        </a>
-                                    </span>
+                                    <a href="https://www.google.com/maps?q=6th+Floor,+Sur+Construction,+Bole,+Addis+Ababa" target="_blank" class="text-blue-500 hover:underline">
+                                        Head office 6th Floor, Sur Construction, Bole
+                                    </a>
                                 </p>
-                                <p class="pb-[5px] pl-6">
+                                <p class="pb-2 pl-6">
                                     <a href="https://www.google.com/maps?q=XQXC+W3Q,+Addis+Ababa" target="_blank" class="font-bold text-blue-500 hover:underline">
                                         XQXC+W3Q, Addis Ababa
                                     </a>
                                 </p>
                                 <p class="pb-2 flex items-center pl-1">
-                                    <span class="font-bold pr-2">
-                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0,0,0 122.6.61l-104 24A24 24,0 0,0,0,48c0,256.5,207.9,464,464,464a24 24,0 0,0 23.4-18.6l24-104a24.29 24.29 0 0,0-14.01-27.6z"></path>
+                                    <span class="pr-2">
+                                        <!-- Phone Icon -->
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1.2em" width="1.2em" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0,0,0 122.6.61l-104 24A24 24,0 0,0,0,48c0,256.5,207.9,464,464,464a24 24 0 0,0 23.4-18.6l24-104a24.29 24.29 0 0,0-14.01-27.6z"></path>
                                         </svg>
                                     </span>
                                     <a href="tel:+251-902122222" class="text-blue-500 hover:underline">+251-902122222</a>
@@ -482,34 +479,29 @@
                             <!-- Location 2 -->
                             <div class="mb-4">
                                 <p class="pb-2 flex items-center">
-                                    <span class="font-bold pr-2">
-                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                            <g id="Location_On">
-                                                <g>
-                                                    <path d="M12,21.933a1.715,1.715,0,0,1-1.384-.691L5.555,14.5a7.894,7.894,0,1,1,12.885-.009L13.385,21.24A1.717,1.717,0,0,1,12,21.933ZM11.992,3.066A6.81,6.81,0,0,0,7.414,4.815a6.891,6.891,0,0,0-1.05,9.1l5.051,6.727a.725.725,0,0,0,.584.292h0a.732.732,0,0,0,.586-.292l5.044-6.734A6.874,6.874,0,0,0,12.81,3.113,7.277,7.277,0,0,0,11.992,3.066Z"></path>
-                                                    <path d="M12,12.5A2.5,2.5,0,1,1,14.5,10,2.5,2.5,0,0,1,12,12.5Zm0-4A1.5,1.5,0,1,0,13.5,10,1.5,1.5,0,0,0,12,8.5Z"></path>
-                                                </g>
+                                    <span class="pr-2">
+                                        <!-- Location Icon -->
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1.2em" width="1.2em" xmlns="http://www.w3.org/2000/svg">
+                                            <g>
+                                                <path d="M12,21.933a1.715,1.715,0,0,1-1.384-.691L5.555,14.5a7.894,7.894,0,1,1,12.885-.009L13.385,21.24A1.717,1.717,0,0,1,12,21.933ZM11.992,3.066A6.81,6.81,0,0,0,7.414,4.815a6.891,6.891,0,0,0-1.05,9.1l5.051,6.727a.725.725,0,0,0,.584.292h0a.732.732,0,0,0,.586-.292l5.044-6.734A6.874,6.874,0,0,0,12.81,3.113,7.277,7.277,0,0,0,11.992,3.066Z"></path>
                                             </g>
                                         </svg>
                                     </span>
-                                    <span class="flex-1">
-                                        <a href="https://www.google.com/maps?q=Business+Bay+Area,+Dubai,+UAE" target="_blank" class="text-blue-500 hover:underline">
-                                            UAE, Dubai, Business Bay Area
-                                        </a>
-                                    </span>
+                                    <a href="https://www.google.com/maps?q=Business+Bay+Area,+Dubai,+UAE" target="_blank" class="text-blue-500 hover:underline">
+                                        UAE, Dubai, Business Bay Area
+                                    </a>
                                 </p>
-                                <p class="pb-[5px] pl-6">
+                                <p class="pb-2 pl-6">
                                     <a href="https://www.google.com/maps?q=XR8R+C5H,+Addis+Ababa" target="_blank" class="font-bold text-blue-500 hover:underline">
                                         XR8R+C5H, Addis Ababa
                                     </a>
                                 </p>
                                 <p class="pb-2 flex items-center pl-1">
-                                    <span class="font-bold pr-2">
-                                        <span class="font-bold pr-2">
-                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0,0,0 122.6.61l-104 24A24 24,0 0,0,0,48c0,256.5,207.9,464,464,464a24 24,0 0,0 23.4-18.6l24-104a24.29 24.29 0 0,0-14.01-27.6z"></path>
-                                            </svg>
-                                        </span>
+                                    <span class="pr-2">
+                                        <!-- Phone Icon -->
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1.2em" width="1.2em" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0,0,0 122.6.61l-104 24A24 24,0 0,0,0,48c0,256.5,207.9,464,464,464a24 24 0 0,0 23.4-18.6l24-104a24.29 24.29 0 0,0-14.01-27.6z"></path>
+                                        </svg>
                                     </span>
                                     <a href="tel:+971-508515282" class="text-blue-500 hover:underline">+971 508515282</a>
                                 </p>
@@ -518,35 +510,32 @@
                             <!-- Location 3 -->
                             <div class="mb-4">
                                 <p class="pb-2 flex items-center">
-                                    <span class="font-bold pr-2">
-                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                            <g id="Location_On">
-                                                <g>
-                                                    <path d="M12,21.933a1.715,1.715,0,0,1-1.384-.691L5.555,14.5a7.894,7.894,0,1,1,12.885-.009L13.385,21.24A1.717,1.717,0,0,1,12,21.933ZM11.992,3.066A6.81,6.81,0,0,0,7.414,4.815a6.891,6.891,0,0,0-1.05,9.1l5.051,6.727a.725.725,0,0,0,.584.292h0a.732.732,0,0,0,.586-.292l5.044-6.734A6.874,6.874,0,0,0,12.81,3.113,7.277,7.277,0,0,0,11.992,3.066Z"></path>
-                                                    <path d="M12,12.5A2.5,2.5,0,1,1,14.5,10,2.5,2.5,0,0,1,12,12.5Zm0-4A1.5,1.5,0,1,0,13.5,10,1.5,1.5,0,0,0,12,8.5Z"></path>
-                                                </g>
+                                    <span class="pr-2">
+                                        <!-- Location Icon -->
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1.2em" width="1.2em" xmlns="http://www.w3.org/2000/svg">
+                                            <g>
+                                                <path d="M12,21.933a1.715,1.715,0,0,1-1.384-.691L5.555,14.5a7.894,7.894,0,1,1,12.885-.009L13.385,21.24A1.717,1.717,0,0,1,12,21.933ZM11.992,3.066A6.81,6.81,0,0,0,7.414,4.815a6.891,6.891,0,0,0-1.05,9.1l5.051,6.727a.725.725,0,0,0,.584.292h0a.732.732,0,0,0,.586-.292l5.044-6.734A6.874,6.874,0,0,0,12.81,3.113,7.277,7.277,0,0,0,11.992,3.066Z"></path>
                                             </g>
                                         </svg>
                                     </span>
-                                    <span class="flex-1">
-                                        <a href="https://www.google.com/maps?q=USA,+California,+San+Francisco" target="_blank" class="text-blue-500 hover:underline">
-                                            USA California, San Francisco
-                                        </a>
-                                    </span>
+                                    <a href="https://www.google.com/maps?q=USA,+California,+San+Francisco" target="_blank" class="text-blue-500 hover:underline">
+                                        USA California, San Francisco
+                                    </a>
                                 </p>
-                               
                                 <p class="pb-2 flex items-center pl-1">
-                                    <span class="font-bold pr-2">
-                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0,0,0 122.6.61l-104 24A24 24,0 0,0,0,48c0,256.5,207.9,464,464,464a24 24,0 0,0 23.4-18.6l24-104a24.29 24.29 0 0,0-14.01-27.6z"></path>
+                                    <span class="pr-2">
+                                        <!-- Phone Icon -->
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1.2em" width="1.2em" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0,0,0 122.6.61l-104 24A24 24,0 0,0,0,48c0,256.5,207.9,464,464,464a24 24 0 0,0 23.4-18.6l24-104a24.29 24.29 0 0,0-14.01-27.6z"></path>
                                         </svg>
                                     </span>
-                                    <a href="tel:+1(415)-8604855" class="text-blue-500 hover:underline">+1(415)-8604855</a>
+                                    <a href="tel:+1-4151234567" class="text-blue-500 hover:underline">+1 4151234567</a>
                                 </p>
                             </div>
-                    
                         </div>
                     </div>
+                    
+                    
                                       
                     <div class="col-md-6 col-lg-3">
                         <div class="footer-widget-box list">
