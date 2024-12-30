@@ -66,10 +66,10 @@
                                     
                                 </ul>
                             </li>
-                              <li class="nav-item"><a class="nav-link" href="{{ url('/gallery') }}">Gallery</a></li>
+                              {{-- <li class="nav-item"><a class="nav-link" href="{{ url('/gallery') }}">Gallery</a></li> --}}
                               <li class="nav-item"><a class="nav-link" href="{{ url('/blogs') }}">News</a></li>
                               <li class="nav-item "><a class="nav-link" href="{{ url('/contact') }}">Contact Us</a></li>
-                              <li class="nav-item"><a class="nav-link" href="{{ url('/vacancy') }}">Vacancy</a></li>
+                              {{-- <li class="nav-item"><a class="nav-link" href="{{ url('/vacancy') }}">Vacancy</a></li> --}}
                           </ul>
   
                       </div>
