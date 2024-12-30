@@ -8,7 +8,7 @@
         <div class="hero-slider owl-carousel owl-theme">
             <!-- Slide 1 -->
             <div class="hero-single">
-                <img src="{{ asset('assets/img/office/A20I2667.JPG') }}" alt="Capacity Animation" class="video-background" style="filter: brightness(0.5);">
+                <img src="{{ asset('assets/img/gallery/Research n re  (2).jpg') }}" alt="Capacity Animation" class="video-background" style="filter: brightness(0.5);">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-lg-8">

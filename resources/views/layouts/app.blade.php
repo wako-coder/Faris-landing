@@ -301,22 +301,26 @@
     margin-left: 0px;
 }
  
-.video-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1; /* Ensures the video stays in the background */
-}
+.global-video-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures the video covers the entire background */
+            z-index: -1; /* Places the video behind the content */
+        }
 
 .about-img {
     position: relative;
     height: 500px; /* Adjust height as needed */
     overflow: hidden;
 }
-
+.about-img-global{
+    position: relative;
+    height: 500px; /* Adjust height as needed */
+    overflow: hidden;
+}
 .about-list li .icon img {
     width: 42px;
     filter: brightness(1);
@@ -326,6 +330,18 @@
     filter: brightness(1);
 }
 
+@media (max-width: 767.98px) {
+    .global-video-background {
+        position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit:unset; /* Ensures the video covers the entire background */
+            z-index: -1; /* Places the video behind the content */
+    }
+   
+}
     </style>
 </head>
 
@@ -562,10 +578,10 @@
                     </div>
                     <div class="col-md-6 align-self-center">
                         <ul class="footer-social">
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="https://web.facebook.com/faristechnologies"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://x.com/faris_techn"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://et.linkedin.com/company/faris-technology"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UC75Q2-lgaH6XnczWrMJd1rw"><i class="fab fa-youtube"></i></a></li>
                         </ul>
                     </div>
                 </div>

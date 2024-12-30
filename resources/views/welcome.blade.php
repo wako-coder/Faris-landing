@@ -570,9 +570,9 @@
         <div class="row align-items-center">
             <div class="col-lg-12">
                 <div class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
-                    <div class="about-img">
+                    <div class="about-img-global">
                         <div class="about-img-1 col-10">
-                            <video autoplay muted loop class="video-background">
+                            <video autoplay muted loop class="global-video-background">
                                 <source src="{{ asset('assets/img/video/presence2.mp4') }}" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
