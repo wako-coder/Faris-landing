@@ -74,7 +74,7 @@
                 <!-- Image Section -->
                 <div class="col-lg-6">
                     <div class="faq-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
-                        <div class="faq-img">
+                        <div class="img" style="padding-right: 50px" >
                             <img src="{{ asset('assets/img/gallery/A20I2568.JPG') }}" alt="Digital Insights">
                         </div>
                     </div>

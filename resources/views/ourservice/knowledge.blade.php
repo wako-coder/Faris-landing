@@ -59,7 +59,7 @@
                         <!-- Image Section -->
                         <div class="col-lg-6">
                             <div class="faq-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
-                                <div class="faq-img">
+                                <div class="img" style="padding-right: 50px" >
                                     <img src="{{ asset('assets/img/gallery/WhatsApp Image 2024-11-11 at 12.14.40_f0e14c25.jpg') }}" alt="Research Insights">
                                 </div>
                             </div>

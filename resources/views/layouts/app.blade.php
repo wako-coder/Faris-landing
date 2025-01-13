@@ -343,6 +343,7 @@
    
 }
     </style>
+    <script src="https://cdn.ckeditor.com/ckeditor5/23.0.0/classic/ckeditor.js"></script>
 </head>
 
 <body>
@@ -716,6 +717,11 @@ s1.charset='UTF-8';
 s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
+
+    ClassicEditor.create( document.querySelector( '#content' ) )
+        .catch( error => {
+            console.error( error );
+        } );
 
       </script>
 </body>

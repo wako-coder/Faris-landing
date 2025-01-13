@@ -72,7 +72,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="faq-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
-                        <div class="faq-img">
+                        <div class="img" style="padding-right: 50px" >
                             <img src="{{ asset('assets/img/about/15022851879.png') }}" alt="Digital Insights">
                         </div>
                     </div>

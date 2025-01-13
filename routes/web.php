@@ -9,6 +9,8 @@ Route::get('/', function () {
 
 Auth::routes();
 
+
+
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/gallery', function () {
     return view('gallery');
@@ -50,7 +52,7 @@ Route::get('/research', function () {
 
 
     Route::get('/blogs', [BlogController::class, 'index'])->name('blogs.index');
-    Route::get('/blogs/create', [BlogController::class, 'create'])->name('blogs.create');
+    Route::get('/blogs/create', [BlogController::class, 'create'])->name('blogs.create')->middleware('auth');
     Route::post('/blogs', [BlogController::class, 'store'])->name('blogs.store');
     Route::get('/blogs/{id}/edit', [BlogController::class, 'edit'])->name('blogs.edit');
     Route::put('/blogs/{id}', [BlogController::class, 'update'])->name('blogs.update');
