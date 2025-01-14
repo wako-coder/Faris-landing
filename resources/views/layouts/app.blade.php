@@ -342,6 +342,9 @@
     }
    
 }
+.ck-rounded-corners .ck.ck-editor__main>.ck-editor__editable, .ck.ck-editor__main>.ck-editor__editable.ck-rounded-corners {
+    height: 300px;
+}
     </style>
     <script src="https://cdn.ckeditor.com/ckeditor5/23.0.0/classic/ckeditor.js"></script>
 </head>
@@ -718,10 +721,13 @@ s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
 
-    ClassicEditor.create( document.querySelector( '#content' ) )
-        .catch( error => {
-            console.error( error );
-        } );
+        ClassicEditor  .create(document.querySelector('#content'), {
+            height: 500,
+        })
+            .catch( error => {
+                console.error( error );
+            } );
+
 
       </script>
 </body>

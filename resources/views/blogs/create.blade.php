@@ -53,7 +53,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="content">Content</label>
-                                <textarea name="content" class="form-control" id="content" rows="6" placeholder="Write your blog content here" required></textarea>
+                                <textarea name="content" class="form-control" id="content" placeholder="Write your blog content here" required ></textarea>
                             </div>
                             <div class="form-group">
                                 <label for="image">Upload an Image</label>
@@ -65,10 +65,15 @@
                             </div>
                         </form>
                     </div>
+
+                    <!-- Logout Button -->
+                    <form method="POST" action="{{ route('logout') }}">
+                        @csrf
+                        <button type="submit" class="btn btn-danger mt-3">Logout</button>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
 </div>
 @endsection
-
