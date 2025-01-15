@@ -24,8 +24,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $blogs = Blog::all();
-        return view('blogs.index', compact('blogs'));
+      
+        return view('blogs.create');
     }
   
 }
