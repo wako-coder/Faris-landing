@@ -16,7 +16,7 @@
                                     Knowledge and <span>Capacity Building</span>
                                 </h1>
                                 <p data-animation="fadeInUp" data-delay=".75s">
-                                    Unlock the Future with FARIS Technologies' Digital Ascendancy Services
+                                    Advancing expertise and fostering growth through strategic learning initiatives.
                                 </p>
                             </div>
                         </div>

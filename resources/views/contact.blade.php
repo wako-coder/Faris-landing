@@ -55,7 +55,7 @@
                                 </div>
                                 <div class="contact-info-content">
                                     <h5>Open Time</h5>
-                                    <p>Mon - Sat (10.00AM - 05.30PM)</p>
+                                    <p>Mon - Sat (08.00AM - 05.30PM)</p>
                                 </div>
                             </div>
                         </div>

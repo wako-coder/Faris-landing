@@ -161,7 +161,7 @@
                     <div class="row align-items-center">
                         <div class="col-12 col-md-6">
                             <div class="hero-content" style="position: relative; top:150px;">
-                                <h6 class="site-title" data-animation="fadeInUp" data-delay=".25s" style="color: white;">Think out of Earth !!</h6> 
+                                <h6 class="site-title" data-animation="fadeInUp" data-delay=".25s" style="color: white;">Think out of Earth !</h6> 
                                 <h4 class="pt-4" data-animation="fadeInUp" data-delay=".50s">
                                     The Hub of <span style="color: white">Emerging</span> Technology in Africa 
                                 </h4>

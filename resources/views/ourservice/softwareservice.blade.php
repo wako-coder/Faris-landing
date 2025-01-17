@@ -8,7 +8,7 @@
         <div class="hero-slider owl-carousel owl-theme">
             <!-- Slide 1 -->
             <div class="hero-single">
-                <img src="{{ asset('assets/img/about/20241119_103910.jpg') }}" alt="Capacity Animation" class="video-background" style="filter: brightness(0.5);">
+                <img src="{{ asset('assets/img/gallery/work-station.png') }}" alt="Capacity Animation" class="video-background" style="filter: brightness(0.5);">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-lg-8">
@@ -58,7 +58,7 @@
                     <!-- Image Section on Right -->
                     <div class="col-lg-6">
                         <div class="service-details-img text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
-                            <img src="{{ asset('assets/img/gallery/DTS (39).jpg') }}" alt="Digital Transformation" class="img-fluid" style="height: 450px;">
+                            <img src="{{ asset('assets/img/about/20241119_103910.jpg') }}" alt="Digital Transformation" class="img-fluid" style="height: 450px;">
                         </div>
                     </div>
                 </div>
