@@ -342,6 +342,17 @@
     }
    
 }
+@media (max-width: 767.98px) {
+    .video-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: fill; /* Ensures the video covers the entire background */
+            z-index: -1; /* Places the video behind the content */
+        } 
+}
 .ck-rounded-corners .ck.ck-editor__main>.ck-editor__editable, .ck.ck-editor__main>.ck-editor__editable.ck-rounded-corners {
     height: 300px;
 }
