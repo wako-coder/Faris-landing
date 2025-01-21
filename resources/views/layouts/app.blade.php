@@ -311,6 +311,19 @@
             z-index: -1; /* Places the video behind the content */
         }
 
+ @media (max-width: 768px) {
+    .video-background {
+        display: none;
+    }
+
+    /* Fallback to the poster image on small screens */
+    .hero-single {
+        background: url('{{asset('assets/img/office/A20I3269-1-1-scaled-e1697205751873.jpg')}}') no-repeat center center;
+        background-size: cover;
+        background:brightness(0.5);
+    }
+}
+
 .about-img {
     position: relative;
     height: 500px; /* Adjust height as needed */
@@ -344,6 +357,9 @@
 }
 .ck-rounded-corners .ck.ck-editor__main>.ck-editor__editable, .ck.ck-editor__main>.ck-editor__editable.ck-rounded-corners {
     height: 300px;
+}
+.blog-item-img {
+    max-height: 180px;
 }
     </style>
     <script src="https://cdn.ckeditor.com/ckeditor5/23.0.0/classic/ckeditor.js"></script>
@@ -721,12 +737,19 @@ s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
 
-        ClassicEditor  .create(document.querySelector('#content'), {
+        ClassicEditor.create(document.querySelector('#content'), {
             height: 500,
         })
             .catch( error => {
                 console.error( error );
             } );
+            
+document.getElementById('blog-posting-form').addEventListener('submit', function(e) {
+    const content = editorInstance.getData();
+
+    
+    document.getElementById('#content').value = content;
+})
 
 
       </script>

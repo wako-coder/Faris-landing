@@ -20,7 +20,7 @@
             @endphp
             <img src="{{ asset('storage/' . $images[0]) }}" alt="Thumb">
         @endif
-    </div>
+    </div>    
     <div class="blog-item-info">
     <h4 class="blog-title">
     <a href="{{ url('/blogsingle') }}">{{$blog->title}}</a>
@@ -34,7 +34,17 @@
     <p>
     {{$blog->content}}
     </p>
-    <a class="theme-btn" href="{{ route('blogs.show', $blog->id) }}">Read more<i class="fas fa-arrow-right"></i></a>
+    <a href="{{ route('blogs.edit', $blog->id) }}" class="btn btn-primary">
+        <i class="fas fa-edit"></i> Edit
+    </a>
+      <!-- Delete Button -->
+      <form action="{{ route('blogs.destroy', $blog->id) }}" method="POST" style="display: inline;">
+        @csrf
+        @method('DELETE')
+        <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this blog?');">
+            <i class="far fa-trash-alt"></i> Delete
+        </button>
+    </form>
     </div>
     </div>
     </div>

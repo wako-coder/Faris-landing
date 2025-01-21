@@ -45,7 +45,7 @@
                             <h2>Create a New Blog Post</h2>
                             <p>Craft an engaging blog post to inspire and connect with your audience.</p>
                         </div>
-                        <form method="POST" action="" enctype="multipart/form-data" id="blog-posting-form">
+                        <form method="POST" action="{{route('blogs.store')}}" enctype="multipart/form-data" id="blog-posting-form">
                             @csrf
                             <div class="form-group">
                                 <label for="title">Blog Title</label>
@@ -53,11 +53,11 @@
                             </div>
                             <div class="form-group">
                                 <label for="content">Content</label>
-                                <textarea name="content" class="form-control" id="content" placeholder="Write your blog content here" required ></textarea>
+                                <textarea name="content" class="form-control" id="content" placeholder="Write your blog content here" ></textarea>
                             </div>
                             <div class="form-group">
                                 <label for="image">Upload an Image</label>
-                                <input type="file" class="form-control" name="image" accept="image/*" required>
+                                <input type="file" class="form-control" name="images[]" accept="image/*" multiple>
                             </div>
                             <button type="submit" class="theme-btn">Publish Blog <i class="far fa-paper-plane"></i></button>
                             <div class="col-md-12 mt-3">

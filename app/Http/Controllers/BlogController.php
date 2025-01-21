@@ -14,6 +14,17 @@ class BlogController extends Controller
         return view('blogs.index', compact('blogs'));
     }
 
+    public function showblogs(){
+        $blogs = Blog::all();
+        return view('blogs.showblogs', compact('blogs'));
+    }
+
+    public function show($id)
+    {
+        $blog = Blog::findOrFail($id);
+
+        return view('blogs.blogsingle', compact('blog'));
+    }
     // Show the form for creating a new blog
     public function create()
     {
@@ -26,22 +37,29 @@ class BlogController extends Controller
         $request->validate([
             'title' => 'required|max:255',
             'content' => 'required',
-            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            'images' =>'nullable|array',
+            'images.*' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
 
         $blog = new Blog();
         $blog->title = $request->title;
-        $blog->content = $request->content;
+        $content= strip_tags($request->content);
+        $blog->content = $content;
 
-        // Handle image upload
-        if ($request->hasFile('image')) {
-            $imagePath = $request->file('image')->store('blogs', 'public');
-            $blog->image = $imagePath;
+        if( $request->hasFile('images')){
+            $imagepaths = [];
+
+            foreach($request->file('images') as $image){
+                $imagepaths[] = $image->store('blogs', 'public');
+            }
+                
+            $blog->images = json_encode($imagepaths);
+
         }
 
         $blog->save();
 
-        return redirect()->route('blogs.index')->with('success', 'Blog created successfully!');
+        return redirect()->route('blogs.showblogs')->with('success', 'Blog created successfully!');
     }
 
     // Show the form for editing the specified blog
@@ -57,23 +75,33 @@ class BlogController extends Controller
         $request->validate([
             'title' => 'required|max:255',
             'content' => 'required',
-            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            'images' =>'nullable|array',
+            'images.*' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
 
-        $blog = Blog::findOrFail($id);
+     
+        $blog = new Blog();
         $blog->title = $request->title;
-        $blog->content = $request->content;
+        $content= strip_tags($request->content);
+        $blog->content = $content;
 
-        // Handle image upload if provided
-        if ($request->hasFile('image')) {
-            $imagePath = $request->file('image')->store('blogs', 'public');
-            $blog->image = $imagePath;
+        if( $request->hasFile('images')){
+            $imagepaths = [];
+
+            foreach($request->file('images') as $image){
+                $imagepaths[] = $image->store('blogs', 'public');
+            }
+                
+            $blog->images = json_encode($imagepaths);
+
         }
 
         $blog->save();
 
-        return redirect()->route('blogs.index')->with('success', 'Blog updated successfully!');
+        return redirect()->route('blogs.showblogs')->with('success', 'Blog created successfully!');
     }
+
+
     
 
     // Remove the specified blog from storage

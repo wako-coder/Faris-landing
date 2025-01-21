@@ -12,8 +12,8 @@
     </ul>
     </div>
     </div>
-    
-    
+
+
     <div class="blog-single-area pt-120 pb-120">
     <div class="container">
     <div class="row">
@@ -21,7 +21,14 @@
     <div class="blog-single-wrap">
     <div class="blog-single-content">
     <div class="blog-thumb-img">
-    <img src="assets/img/blog/single.jpg" alt="thumb">
+        <div class="blog-item-img">
+            @if($blog->images)
+                @php
+                    $images = json_decode($blog->images); // Decode the JSON string into an array
+                @endphp
+                <img src="{{ asset('storage/' . $images[0]) }}" alt="Thumb">
+            @endif
+        </div>
     </div>
     <div class="blog-info">
     <div class="blog-meta">
@@ -52,13 +59,15 @@
     In a free hour when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection.
     </p>
     <div class="row">
-    <div class="col-md-6 mb-20">
-    <img src="assets/img/blog/01.jpg" alt>
+        @if($blog->images)
+            @foreach(json_decode($blog->images) as $image)
+                <div class="col-md-6 mb-20">
+                    <img src="{{ asset('storage/' . $image) }}" alt="Blog Image" class="img-fluid" style="width: 100%; height: auto;">
+                </div>
+            @endforeach
+        @endif
     </div>
-    <div class="col-md-6 mb-20">
-    <img src="assets/img/blog/02.jpg" alt>
-    </div>
-    </div>
+    
     <p class="mb-20">
     Power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection.
     </p>
@@ -72,77 +81,7 @@
     </ul>
     </div>
     </div>
-    <div class="blog-author">
-    <div class="blog-author-img">
-    <img src="assets/img/blog/author.jpg" alt>
-    </div>
-    <div class="author-info">
-    <h6>Author</h6>
-    <h3 class="author-name">Roger D Duque</h3>
-    <p>It is a long established fact that a reader will be distracted by the abcd readable content of a page when looking at its layout that more less.</p>
-    <div class="author-social">
-    <a href="#"><i class="fab fa-facebook-f"></i></a>
-    <a href="#"><i class="fab fa-x-twitter"></i></a>
-    <a href="#"><i class="fab fa-instagram"></i></a>
-    <a href="#"><i class="fab fa-whatsapp"></i></a>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="blog-comments">
-    <h3>Comments (20)</h3>
-    <div class="blog-comments-wrap">
-    <div class="blog-comments-single">
-    <div class="blog-comments-img"><img src="assets/img/blog/com-1.jpg" alt="thumb"></div>
-    <div class="blog-comments-content">
-    <h5>Jesse Sinkler</h5>
-    <span><i class="far fa-clock"></i> 16 Aug, 2024</span>
-    <p>There are many variations of passages the majority have suffered in some injected humour or randomised words which don't look even slightly believable.</p>
-    <a href="#"><i class="far fa-reply"></i> Reply</a>
-    </div>
-    </div>
-    <div class="blog-comments-single blog-comments-reply">
-    <div class="blog-comments-img"><img src="assets/img/blog/com-2.jpg" alt="thumb"></div>
-    <div class="blog-comments-content">
-    <h5>Daniel Wellman</h5>
-    <span><i class="far fa-clock"></i> 16 Aug, 2024</span>
-    <p>There are many variations of passages the majority have suffered in some injected humour or randomised words which don't look even slightly believable.</p>
-    <a href="#"><i class="far fa-reply"></i> Reply</a>
-    </div>
-    </div>
-    <div class="blog-comments-single">
-    <div class="blog-comments-img"><img src="assets/img/blog/com-3.jpg" alt="thumb"></div>
-    <div class="blog-comments-content">
-    <h5>Kenneth Evans</h5>
-    <span><i class="far fa-clock"></i> 16 Aug, 2024</span>
-    <p>There are many variations of passages the majority have suffered in some injected humour or randomised words which don't look even slightly believable.</p>
-    <a href="#"><i class="far fa-reply"></i> Reply</a>
-    </div>
-    </div>
-    </div>
-    <div class="blog-comments-form">
-    <h3>Leave A Comment</h3>
-    <form action="#">
-    <div class="row">
-    <div class="col-md-6">
-    <div class="form-group">
-    <input type="text" class="form-control" placeholder="Your Name*">
-    </div>
-    </div>
-    <div class="col-md-6">
-    <div class="form-group">
-    <input type="email" class="form-control" placeholder="Your Email*">
-    </div>
-    </div>
-    <div class="col-md-12">
-    <div class="form-group">
-    <textarea class="form-control" rows="5" placeholder="Your Comment*"></textarea>
-    </div>
-    <button type="submit" class="theme-btn">Post Comment <i class="far fa-paper-plane"></i></button>
-    </div>
-    </div>
-    </form>
-    </div>
+
     </div>
     </div>
     </div>
