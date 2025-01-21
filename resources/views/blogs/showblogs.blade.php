@@ -21,31 +21,34 @@
             <img src="{{ asset('storage/' . $images[0]) }}" alt="Thumb">
         @endif
     </div>    
-    <div class="blog-item-info">
-    <h4 class="blog-title">
-    <a href="{{ url('/blogsingle') }}">{{$blog->title}}</a>
-    </h4>
-    <div class="blog-item-meta">
-    <ul>
-    <li><a href="#"><i class="far fa-user-circle"></i> By Alicia Davis</a></li>
-    <li><a href="#"><i class="far fa-comments"></i> 2.5k Comments</a></li>
-    </ul>
-    </div>
-    <p>
-    {{$blog->content}}
-    </p>
+    <a href="{{ route('blogs.show', $blog->id) }}" style="text-decoration: none; color: inherit;">
+        <div class="blog-item-info" style="cursor: pointer;">
+            <h4 class="blog-title">
+                {{$blog->title}}
+            </h4>
+            <div class="blog-item-meta">
+                <ul>
+                    <li><i class="far fa-user-circle"></i> By Faris-technology</li>
+                    {{-- <li><i class="far fa-comments"></i> 2.5k Comments</li> --}}
+                </ul>
+            </div>
+            <p>
+                {{ \Illuminate\Support\Str::limit($blog->content, 536) }}
+            </p>
+        </div>
+    </a>
     <a href="{{ route('blogs.edit', $blog->id) }}" class="btn btn-primary">
         <i class="fas fa-edit"></i> Edit
     </a>
-      <!-- Delete Button -->
-      <form action="{{ route('blogs.destroy', $blog->id) }}" method="POST" style="display: inline;">
+    <!-- Delete Button -->
+    <form action="{{ route('blogs.destroy', $blog->id) }}" method="POST" style="display: inline;">
         @csrf
         @method('DELETE')
         <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this blog?');">
             <i class="far fa-trash-alt"></i> Delete
         </button>
     </form>
-    </div>
+    
     </div>
     </div>
     @endforeach

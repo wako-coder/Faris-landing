@@ -27,8 +27,8 @@
     </h4>
     <div class="blog-item-meta">
     <ul>
-    <li><a href="#"><i class="far fa-user-circle"></i> By Alicia Davis</a></li>
-    <li><a href="#"><i class="far fa-comments"></i> 2.5k Comments</a></li>
+    <li><a href="#"><i class="far fa-user-circle"></i> By Faris technology</a></li>
+
     </ul>
     </div>
     <p>

@@ -80,7 +80,7 @@ class BlogController extends Controller
         ]);
 
      
-        $blog = new Blog();
+        $blog = Blog::findOrFail($id);
         $blog->title = $request->title;
         $content= strip_tags($request->content);
         $blog->content = $content;
