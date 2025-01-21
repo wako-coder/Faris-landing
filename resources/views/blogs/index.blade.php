@@ -21,9 +21,10 @@
             <img src="{{ asset('storage/' . $images[0]) }}" alt="Thumb">
         @endif
     </div>
+    <a href="{{ route('blogs.show', $blog->id) }}" style="text-decoration: none; color: inherit;">
     <div class="blog-item-info">
     <h4 class="blog-title">
-    <a href="{{ url('/blogsingle') }}">{{$blog->title}}</a>
+    {{$blog->title}}
     </h4>
     <div class="blog-item-meta">
     <ul>
@@ -32,10 +33,11 @@
     </ul>
     </div>
     <p>
-    {{$blog->content}}
+        {{ \Illuminate\Support\Str::limit($blog->content, 536, '') }}
     </p>
     <a class="theme-btn" href="{{ route('blogs.show', $blog->id) }}">Read more<i class="fas fa-arrow-right"></i></a>
     </div>
+    </a>
     </div>
     </div>
     @endforeach
