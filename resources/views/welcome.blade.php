@@ -220,7 +220,7 @@
                             <span class="site-title-tagline"><i class="fas fa-bring-forward"></i> About Us</span>
                         </div>
                         <p class="about-text" style="color: white; font-family: 'Arial', sans-serif; font-weight: 300; font-size: 1.125rem; line-height: 1.6;">
-                            At FARIS Technologies, we embody the principle "Think Big, Start Small, Scale Fast." Since 2018, this mindset has driven our evolution into one of Ethiopia's most dynamic holding companies, impacting industries across Africa and beyond. 
+                            At FARIS Technologies, we embody the principle "Think Big, Start Small, Scale Fast."  this mindset has driven our evolution into one of Ethiopia's most dynamic holding companies, impacting industries across Africa and beyond. 
                         </p>
                         <div class="about-list-wrap">
                             <ul class="about-list list-unstyled">
