@@ -39,7 +39,7 @@
                                 <h2 class="site-title my-3">Research and Re-Engineering <span>at FARIS Technologies</span></h2>
                             </div>
                             <p class="about-text mb-20">
-                                FARIS Technology is a leading institution in Ethiopia, dedicated to pushing the boundaries of space science, robotics, rocketry, AI, and emerging technologies. Founded in 2018, we've collaborated with esteemed academic and governmental organizations to provide world-class tech education.
+                                FARIS Technology is at the forefront of research and innovation in AI, emerging technologies like Machine Learning, Deep Learning, Blockchain, IoT, Robotics, Quantum Computing, Biotechnology, Nanotechnology, Aerospace, and Drone Technology. We partner with esteemed academic and governmental organizations to empower individuals and organizations with cutting-edge knowledge and drive impactful research in these areas.
                             </p>
     
                             <p class="about-text mb-20">

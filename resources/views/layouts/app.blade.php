@@ -446,8 +446,7 @@
                                 <img src="{{ asset('assets/img/logo/WhiteMinilogo.png.webp') }}" alt="Farist Technologies Logo">
                             </a>
                             <p class="mb-4">
-                                At Faris Technologies, we innovate and develop cutting-edge solutions in web and app
-                                development, AI, and space science.
+                                At Faris Technologies, we drive innovation through cutting-edge web and app development, AI, and space science solutions.
                             </p>
                             <h4 class="footer-widget-title">Quick Links</h4>
                             <ul class="footer-list">

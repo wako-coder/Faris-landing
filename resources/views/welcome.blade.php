@@ -493,8 +493,8 @@
                                     <img src="{{ asset('assets/img/icon/Space Science Expertise-04.svg') }}" alt>
                                 </div>
                                 <div class="choose-item-content">
-                                    <h4 class="text-white">Space Science Expertise</h4>
-                                    <p class="text-white">We specialize in Space Science, leveraging satellite technology, remote sensing, and GIS solutions for impactful applications.</p>
+                                    <h4 class="text-white">Space Science and Satellite Technology</h4>
+                                    <p class="text-white">We focus on impactful applications in Space Science by leveraging satellite technology, remote sensing, and GIS solutions.</p>
                                 </div>
                             </div>
                             <div class="choose-item">
