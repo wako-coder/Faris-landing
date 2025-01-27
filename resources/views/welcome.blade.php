@@ -447,20 +447,19 @@
                         <div class="col-lg-12">
                             <div class="video-wrap"
                                 style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
-                                <!-- Updated iframe with autoplay, mute, and no controls -->
-                                <iframe 
-                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-                                src="https://www.youtube.com/embed/GSYtvsf95EI?mute=0&rel=0&controls=0"
-                                frameborder="0" 
-                                allow="encrypted-media" 
-                                allowfullscreen
-                                loading="lazy">
-                            </iframe>                                                       
+                                <!-- Placeholder image for video -->
+                                <img src="{{ asset('assets/img/video/01.jpg') }}" alt="Video Placeholder" 
+                                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 15px;">
+                                <!-- Play Button or Image Overlay (optional) -->
+                                <div class="play-button" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 3rem; color: #fff;">
+                                    <i class="fas fa-play"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            
                        
             
         </div>

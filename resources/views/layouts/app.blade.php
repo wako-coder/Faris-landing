@@ -616,6 +616,32 @@
     <script src="{{ asset('assets/js/wow.min.js') }}"></script>
     <script src="{{ asset('assets/js/main.js') }}"></script>
     <script>
+
+window.addEventListener('load', function() {
+        const videoWrap = document.querySelector('.video-wrap');
+        const playButton = videoWrap.querySelector('.play-button');
+
+        playButton.addEventListener('click', function() {
+            // Create the iframe dynamically
+            const iframe = document.createElement('iframe');
+            iframe.src = "https://www.youtube.com/embed/GSYtvsf95EI?mute=0&rel=0&controls=0";
+            iframe.style.position = "absolute";
+            iframe.style.top = "0";
+            iframe.style.left = "0";
+            iframe.style.width = "100%";
+            iframe.style.height = "100%";
+            iframe.frameBorder = "0";
+            iframe.allow = "encrypted-media";
+            iframe.allowFullscreen = true;
+
+            // Clear the placeholder and add the iframe
+            videoWrap.innerHTML = ""; // Remove placeholder content
+            videoWrap.appendChild(iframe); // Add the iframe
+
+            // Optionally remove the play button after the video starts
+            playButton.style.display = 'none';
+        });
+    });
    
       // JavaScript for Intersection Observer
 // JavaScript for Intersection Observer
@@ -749,6 +775,7 @@ document.getElementById('blog-posting-form').addEventListener('submit', function
     
     document.getElementById('#content').value = content;
 })
+
 
 
       </script>
