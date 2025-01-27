@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+
 @section('content')
 <div class="blog-posting-area py-120">
     <div class="container">
@@ -76,4 +77,8 @@
         </div>
     </div>
 </div>
-@endsection
+
+
+@push('scripts')
+ <script src="https://cdn.ckeditor.com/ckeditor5/23.0.0/classic/ckeditor.js"></script>  
+@endpush

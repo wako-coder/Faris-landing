@@ -362,7 +362,7 @@
     max-height: 180px;
 }
     </style>
-    <script src="https://cdn.ckeditor.com/ckeditor5/23.0.0/classic/ckeditor.js"></script>
+
 </head>
 
 <body>
@@ -617,7 +617,7 @@
     <script src="{{ asset('assets/js/main.js') }}"></script>
     <script>
 
-window.addEventListener('load', function() {
+  window.addEventListener('load', function() {
         const videoWrap = document.querySelector('.video-wrap');
         const playButton = videoWrap.querySelector('.play-button');
 
@@ -642,7 +642,7 @@ window.addEventListener('load', function() {
             playButton.style.display = 'none';
         });
     });
-   
+    @stack('scripts')
       // JavaScript for Intersection Observer
 // JavaScript for Intersection Observer
 document.addEventListener('DOMContentLoaded', () => {
