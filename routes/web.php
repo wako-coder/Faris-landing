@@ -5,7 +5,7 @@ use App\Http\Controllers\BlogController;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->middleware('track');
 
 Auth::routes();
 

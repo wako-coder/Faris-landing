@@ -566,6 +566,59 @@
     </div>
 </div>
 
+<div class="counter-area">
+    <div class="container">
+        <div class="counter-wrap">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="counter-box">
+                        <div class="icon">
+                            <img src="assets/img/icon/repair-2.svg" alt="">
+                        </div>
+                        <div>
+                            <span class="counter" data-count="+" data-to="50" data-speed="3000">50</span>
+                            <h6 class="title">+ Projects Done </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="counter-box">
+                        <div class="icon">
+                            <img src="assets/img/icon/happy.svg" alt="">
+                        </div>
+                        <div>
+                            <span class="counter" data-count="+" data-to="{{ number_format($visitorCount ?? 0) }}" data-speed="3000">{{ number_format($visitorCount ?? 0) }}</span>
+                            <h6 class="title">+ Visitors</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="counter-box">
+                        <div class="icon">
+                            <img src="assets/img/icon/team-2.svg" alt="">
+                        </div>
+                        <div>
+                            <span class="counter" data-count="+" data-to="65" data-speed="3000">65</span>
+                            <h6 class="title">+ Experts Staffs</h6>
+                        </div>
+                    </div>
+                </div>
+                {{-- <div class="col-lg-3 col-sm-6">
+                    <div class="counter-box">
+                        <div class="icon">
+                            <img src="assets/img/icon/award.svg" alt="">
+                        </div>
+                        <div>
+                            <span class="counter" data-count="+" data-to="50" data-speed="3000">50</span>
+                            <h6 class="title">+ Win Awards</h6>
+                        </div>
+                    </div>
+                </div> --}}
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="about-area py-80 section" id="section5">
     <h2 class="site-title text-center" style="padding-bottom: 40px;">
         Our Global <span>Presence</span>
@@ -638,7 +691,7 @@
   </div>
   
 </div>
-</div>
 
+</div>
 </main>
         @endsection
