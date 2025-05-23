@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Cache;
 
 class TrackUniqueVisitors
 {
@@ -17,22 +18,20 @@ class TrackUniqueVisitors
      */
     public function handle(Request $request, Closure $next): Response
     {
-        
-        $file = storage_path('app/visitors.json');
-
-        if (!File::exists($file)) {
-            File::put($file, json_encode([]));
-        }
-
-        $visitors = json_decode(File::get($file), true);
         $ip = $request->ip();
+        
+        // Get the current list of IPs from the cache, or default to empty array
+        $visitors = Cache::get('unique_visitors', []);
 
+        // If IP not already tracked, add it
         if (!in_array($ip, $visitors)) {
             $visitors[] = $ip;
-            File::put($file, json_encode($visitors));
+
+            // Store updated list back in cache
+            Cache::forever('unique_visitors', $visitors);
         }
 
-        // Share visitor count with all views
+        // Share the count with all views
         view()->share('visitorCount', count($visitors));
 
         return $next($request);
