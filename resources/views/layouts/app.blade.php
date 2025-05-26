@@ -21,6 +21,18 @@
     <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+
+     <!-- Google Analytics -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XDRD54W20K"></script>
+     <script>
+       window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+ 
+       gtag('config', 'G-XDRD54W20K');
+     </script>
+
+     
     
     <style>
      :root {
