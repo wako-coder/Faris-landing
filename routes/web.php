@@ -2,12 +2,26 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogController;
+use Analytics;
+use Spatie\Analytics\Period as Period;
 
 Route::get('/', function () {
-    return view('welcome');
-})->middleware('track');
+    $data = Analytics::fetchVisitorsAndPageViews(Period::days(3));
+    return view('welcome', compact('data'));
+});
 
 Auth::routes();
+
+
+
+
+
+
+// Route::get('/test-analytics', function () {
+//     $analyticsData = Analytics::fetchVisitorsAndPageViews(Period::days(7));
+
+//     return $analyticsData;
+// });
 
 
 
