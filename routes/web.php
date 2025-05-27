@@ -2,10 +2,15 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogController;
-
+use Spatie\Analytics\Facades\Analytics;
+use Spatie\Analytics\Period;
 
 Route::get('/', function () {
-    return view('welcome');
+
+    $analytics=Analytics::fetchVisitorsAndPageViews(Period::days(7));
+
+  
+    return view('welcome', compact('analytics'));
 });
 
 Auth::routes();
