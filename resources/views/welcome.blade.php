@@ -587,7 +587,7 @@
                             <img src="assets/img/icon/happy.svg" alt="">
                         </div>
                         <div>
-                            <span class="counter" data-count="+" data-to="{{ number_format($visitorCount ?? 8) }}" data-speed="3000">{{ number_format($visitorCount ?? 8) }}</span>
+                            <span class="counter" data-count="+" data-to="{{  8 }}" data-speed="3000">{{  8 }}</span>
                             <h6 class="title">+ Visitors</h6>
                         </div>
                     </div>
