@@ -9,7 +9,6 @@ Route::get('/', function () {
 
     $analytics=Analytics::fetchVisitorsAndPageViews(Period::days(7));
 
-  
     return view('welcome', compact('analytics'));
 });
 
