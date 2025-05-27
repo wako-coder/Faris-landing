@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogController;
 use Spatie\Analytics\Facades\Analytics;
 use Spatie\Analytics\Period;
+use Illuminate\Support\Facades\Log;
 
 
 
@@ -11,8 +12,8 @@ Route::get('/', function () {
     try {
         $data = Analytics::fetchVisitorsAndPageViews(Period::days(3));
     } catch (\Exception $e) {
-        logger('Analytics failed: ' . $e->getMessage());
-        $data = collect([]);
+        Log::error('Analytics error: ' . $e->getMessage());
+        $data = collect(); // avoids Blade error
     }
 
     return view('welcome', compact('data'));
