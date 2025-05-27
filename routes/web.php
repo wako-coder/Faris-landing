@@ -2,11 +2,14 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogController;
+use Spatie\Analytics\Facades\Analytics;
+use Spatie\Analytics\Period;
 
-use Spatie\Analytics\Period as Period;
 
 Route::get('/', function () {
     $data = Analytics::fetchVisitorsAndPageViews(Period::days(3));
+    
+
     return view('welcome', compact('data'));
 });
 

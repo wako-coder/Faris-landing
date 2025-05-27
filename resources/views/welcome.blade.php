@@ -576,8 +576,8 @@
                             <img src="assets/img/icon/repair-2.svg" alt="">
                         </div>
                         <div>
-                            <span class="counter" data-count="+" data-to="50" data-speed="3000">50</span>
-                            <h6 class="title">+ Projects Done </h6>
+                            <span class="counter" data-count="+" data-to="{{ $data->first()['screenPageViews'] }}" data-speed="3000">{{ $data->first()['screenPageViews'] }}</span>
+                            <h6 class="title">+ page Views </h6>
                         </div>
                     </div>
                 </div>
