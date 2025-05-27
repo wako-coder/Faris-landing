@@ -2,21 +2,11 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogController;
-use Spatie\Analytics\Facades\Analytics;
-use Spatie\Analytics\Period;
-use Illuminate\Support\Facades\Log;
-
-
+use Analytics;
+use Spatie\Analytics\Period as Period;
 
 Route::get('/', function () {
-    try {
-        $data = Analytics::fetchVisitorsAndPageViews(Period::days(3));
-    } catch (\Exception $e) {
-        Log::error('Analytics error: ' . $e->getMessage());
-        $data = collect(); // avoids Blade error
-    }
-
-    return view('welcome', compact('data'));
+    return view('welcome');
 });
 
 Auth::routes();

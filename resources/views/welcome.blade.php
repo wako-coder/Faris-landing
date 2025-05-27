@@ -576,29 +576,22 @@
                             <img src="assets/img/icon/repair-2.svg" alt="">
                         </div>
                         <div>
-                            <span class="counter" data-count="+" data-to="{{ $data->first()['screenPageViews'] ?? 23 }}" data-speed="3000">
-                                {{ $data->first()['screenPageViews'] ?? 23 }}
-                            </span>
-                            <h6 class="title">+ Page Views</h6>
+                            <span class="counter" data-count="+" data-to="50" data-speed="3000">50</span>
+                            <h6 class="title">+ Projects Done </h6>
                         </div>
                     </div>
                 </div>
-                
                 <div class="col-lg-4 col-sm-6">
                     <div class="counter-box">
                         <div class="icon">
                             <img src="assets/img/icon/happy.svg" alt="">
                         </div>
                         <div>
-                            <span class="counter" data-count="+" data-to="{{ $data->first()['activeUsers'] ?? 8 }}" data-speed="3000">
-                                {{ $data->first()['activeUsers'] ?? 8 }}
-                            </span>
-                            <h6 class="title">+ Active Users</h6>
+                            <span class="counter" data-count="+" data-to="{{ number_format($visitorCount ?? 8) }}" data-speed="3000">{{ number_format($visitorCount ?? 8) }}</span>
+                            <h6 class="title">+ Visitors</h6>
                         </div>
                     </div>
                 </div>
-                
-            
                 <div class="col-lg-4 col-sm-6">
                     <div class="counter-box">
                         <div class="icon">
