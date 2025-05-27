@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogController;
-use Analytics;
+
 use Spatie\Analytics\Period as Period;
 
 Route::get('/', function () {
