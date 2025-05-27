@@ -7,7 +7,7 @@ use Spatie\Analytics\Period;
 
 Route::get('/', function () {
 
-    $analytics=Analytics::fetchVisitorsAndPageViews(Period::days(7));
+    $analytics=Analytics::fetchVisitorsAndPageViews(Period::days(3));
 
     return view('welcome', compact('analytics'));
 });
