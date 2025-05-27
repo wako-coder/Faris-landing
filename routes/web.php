@@ -6,9 +6,14 @@ use Spatie\Analytics\Facades\Analytics;
 use Spatie\Analytics\Period;
 
 
+
 Route::get('/', function () {
-    $data = Analytics::fetchVisitorsAndPageViews(Period::days(3));
-    
+    try {
+        $data = Analytics::fetchVisitorsAndPageViews(Period::days(3));
+    } catch (\Exception $e) {
+        logger('Analytics failed: ' . $e->getMessage());
+        $data = collect([]);
+    }
 
     return view('welcome', compact('data'));
 });
