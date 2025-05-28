@@ -7,7 +7,11 @@
     <div class="hero-section">
         <div class="hero-slider owl-carousel owl-theme">
             <div class="hero-single">
-                <img src="{{ asset('assets/img/gallery/work-station.png') }}" alt="BPO Services" class="video-background" style="filter: brightness(0.5);">
+                {{-- <img src="{{ asset('assets/img/newcontents/work-station.png') }}" alt="BPO Services" class="video-background" style="filter: brightness(0.5);"> --}}
+                <video autoplay poster="{{ asset('assets/img/newcontents/work-station.png') }}" loading="lazy" loop muted playsinline class="video-background"  style="filter: brightness(0.5);" >
+                    <source src="{{ asset('assets/img/newcontents/lidya.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-8 col-lg-8">
