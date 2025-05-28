@@ -9,7 +9,8 @@ Route::get('/', function () {
 
     $analytics=Analytics::fetchVisitorsAndPageViews(Period::days(3));
 
-    return view('welcome', compact('analytics'));
+    $pageperview = optional($analytics->first())['screenPageViews'] ?? 8;
+    return view('welcome', compact('pageperview'));
 });
 
 Auth::routes();
