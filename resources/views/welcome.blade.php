@@ -594,7 +594,7 @@
                             <img src="assets/img/icon/happy.svg" alt="">
                         </div>
                         <div>
-                            <span class="counter" data-count="+" data-to="{{8 }}" data-speed="3000">{{ 8 }}</span>
+                            <span class="counter" data-count="+" data-to="{{300 }}" data-speed="3000">{{ 300 }}</span>
                             <h6 class="title">+ Visitors</h6>
                         </div>
                     </div>
