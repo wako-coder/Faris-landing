@@ -605,7 +605,7 @@
                             <img src="assets/img/icon/team-2.svg" alt="">
                         </div>
                         <div>
-                            <span class="counter" data-count="+" data-to="65" data-speed="3000">65</span>
+                            <span class="counter" data-count="+" data-to="123" data-speed="3000">123</span>
                             <h6 class="title">+ Experts Staffs</h6>
                         </div>
                     </div>
