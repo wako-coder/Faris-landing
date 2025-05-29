@@ -5,29 +5,13 @@
 
 
      <!-- Hero Section -->
-     <div class="hero-section">
-        <div class="hero-slider owl-carousel owl-theme">
-            <div class="hero-single">
-                {{-- <img src="{{ asset('assets/img/newcontents/work-station.png') }}" alt="BPO Services" class="video-background" style="filter: brightness(0.5);"> --}}
-                <video autoplay poster="{{ asset('assets/img/newcontents/work-station.png') }}" loading="lazy" loop muted playsinline class="video-background"  style="filter: brightness(0.5);" >
-                    <source src="{{ asset('assets/img/newcontents/0528.mp4') }}" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-8 col-lg-8">
-                            <div class="hero-content" style="position: relative; top: 80px;">
-                                <h1 class="hero-title" data-animation="fadeInUp" data-delay=".50s">
-                                   About us
-                                </h1>
-                                <p data-animation="fadeInUp" data-delay=".75s">
-                                    Unlock operational efficiency with FARIS Technologies.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+     <div class="site-breadcrumb py-60" style="background: url({{ asset('assets/img/breadcrumb/01.jpg') }})">
+        <div class="container">
+            <h2 class="breadcrumb-title">About Us</h2>
+            <ul class="breadcrumb-menu">
+                <li><a href="{{ route('home') }}">Home</a></li>
+                <li class="active">Contact Us</li>
+            </ul>
         </div>
     </div>
 

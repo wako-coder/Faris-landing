@@ -203,15 +203,22 @@
                     <div class="about-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".25s">
                         <div class="about-img">
                             <div class="about-img-1">
-                                <img src="{{ asset('assets/img/about/portfolio_04.jpg') }}" alt>
+                                <video autoplay poster="{{ asset('assets/img/office/A20I3269-1-1-scaled-e1697205751873.jpg') }}" 
+       loading="lazy" loop muted playsinline 
+       class="video-background"  
+       style="filter: brightness(0.5); border-radius: 20px; width: 75%;">
+    <source src="{{ asset('assets/img/newcontents/0528.mp4') }}" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
                             </div>
-                            <div class="about-img-2">
+                            {{-- <div class="about-img-2">
                                 <img src="{{ asset('assets/img/about/emile-perron-xrVDYZRGdw4-unsplas (1).webp') }}" alt>
-                            </div>
+                            </div> --}}
                         </div>
-                        <div class="about-shape">
+                        {{-- <div class="about-shape">
                             <img src="{{ asset('assets/img/shape/01.png') }}" alt>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-lg-6 cta-area4">
