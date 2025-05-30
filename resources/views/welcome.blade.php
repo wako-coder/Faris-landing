@@ -306,7 +306,7 @@
             <div class="col-12 col-lg-5">
               <a href="{{ url('/buisness') }}" class="card text-decoration-none text-dark">
                 <h4 class="text-center">Business Process Outsourcing</h4>
-                <img id="card-img" src="{{ asset('assets/img/gallery/A20I3015.JPG') }}" alt="thumb">
+                <img id="card-img" src="{{ asset('assets/img/newcontents/bpo.png') }}" alt="thumb">
                 <div class="card-body text-center">
                   <div class="feature-icon">
                     <img src="{{ asset('assets/img/icon/BPO-01.svg') }}" alt>
@@ -594,7 +594,7 @@
                             <img src="assets/img/icon/happy.svg" alt="">
                         </div>
                         <div>
-                            <span class="counter" data-count="+" data-to="{{300 }}" data-speed="3000">{{ 300 }}</span>
+                            <span class="counter" data-count="+" data-to="{{  $pageperview}}" data-speed="3000">{{ $pageperview }}</span>
                             <h6 class="title">+ Visitors</h6>
                         </div>
                     </div>
