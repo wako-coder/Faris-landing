@@ -583,8 +583,8 @@
                             <img src="assets/img/icon/repair-2.svg" alt="">
                         </div>
                         <div>
-                            <span class="counter" data-count="+" data-to="50" data-speed="3000">50</span>
-                            <h6 class="title">+ Projects Done </h6>
+                            <span class="counter" data-count="+" data-to="{{ $activeUsers }}" data-speed="3000">{{$activeUsers}}</span>
+                            <h6 class="title"> Active Users</h6>
                         </div>
                     </div>
                 </div>

@@ -9,12 +9,13 @@ Route::get('/', function () {
 
     $analytics=Analytics::fetchVisitorsAndPageViews(Period::months(6));
 
+
     $pageperview = optional($analytics->first())['screenPageViews'] ?? 8;
-    return view('welcome', compact('pageperview'));
+    $activeUsers = optional($analytics->first())['activeUsers'] ?? 12;
+    return view('welcome', compact('pageperview', 'activeUsers'));
 });
 
 Auth::routes();
-
 
 
 
