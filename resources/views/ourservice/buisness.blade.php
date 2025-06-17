@@ -63,7 +63,7 @@
                     <!-- Image Section -->
                     <div class="col-lg-6">
                         <div class="service-details-img text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
-                            <img src="{{ asset('assets/img/gallery/A20I3036.JPG') }}" alt="BPO Services" class="img-fluid">
+                            <img src="{{ asset('assets/img/newcontents/IMG000.jpg') }}" alt="BPO Services" class="img-fluid">
                         </div>
                     </div>
                 </div>

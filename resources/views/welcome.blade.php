@@ -584,7 +584,7 @@
                         </div>
                         <div>
                             <span class="counter" data-count="+" data-to="{{ $activeUsers }}" data-speed="3000">{{$activeUsers}}</span>
-                            <h6 class="title"> Active Users</h6>
+                            <h6 class="title"> + Active Users</h6>
                         </div>
                     </div>
                 </div>
