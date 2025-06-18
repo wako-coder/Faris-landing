@@ -593,7 +593,7 @@
                 <div class="row">
                     <div class="col-md-6 align-self-center">
                         <p class="copyright-text">
-                            &copy; Copyright <span id="date"></span> <a href="#"> Faris Technology</a>. All Rights
+                            &copy; Copyright <span id="date"></span> <a href="#"> Faris Technologies</a>. All Rights
                             Reserved.
                         </p>
                     </div>
