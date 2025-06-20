@@ -59,10 +59,10 @@
                                 </a>                                
                                 <ul class="dropdown-menu" aria-labelledby="servicesDropdown" style="width: 300px;">
                                     
-                                    <li><a class="dropdown-item" href="{{ url('/software') }}">Digital Transformation Services</li>
-                                    <li><a class="dropdown-item" href="{{ url('/buisness') }}">Business Process Outsourcing</li>
-                                    <li><a class="dropdown-item" href="{{ url('/research') }}">Research & Re Engineering</li>
-                                    <li><a class="dropdown-item" href="{{ url('/knowledge') }}">knowledge and Capacity Building</a></li>
+                                    <li><a class="dropdown-item" href="{{ url('/knowledge') }}">knowledge and Capacity Building</li>
+                                        <li><a class="dropdown-item" href="{{ url('/buisness') }}">Business Process Outsourcing</li>
+                                        <li><a class="dropdown-item" href="{{ url('/software') }}">Digital Transformation Services</li>
+                                        <li><a class="dropdown-item" href="{{ url('/research') }}">Research and Re-Engineering</a></li>
                                     
                                 </ul>
                             </li>
