@@ -144,14 +144,11 @@ return [
      *
      * Note: Please ensure your website had set up ssl/tls before enable hsts.
      */
-    'hsts' => [
-        'enable' => false,
-
+      'hsts' => [
+        'enable' => true,
         'max-age' => 31536000,
-
-        'include-sub-domains' => false,
-
-        'preload' => false,
+        'include-sub-domains' => true,
+        'preload' => true,
     ],
 
     /**
@@ -650,9 +647,7 @@ return [
         ],
 
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/default-src
-        'default-src' => [
-            //
-        ],
+         'default-src' => ['self'],
 
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/fenced-frame-src
         'fenced-frame-src' => [
@@ -665,9 +660,8 @@ return [
         ],
 
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/form-action
-        'form-action' => [
-            //
-        ],
+          'object-src' => ['none'],
+        'form-action' => ['self'],
 
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors
         'frame-ancestors' => [
@@ -695,9 +689,7 @@ return [
         ],
 
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/object-src
-        'object-src' => [
-            //
-        ],
+   
 
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/prefetch-src
         'prefetch-src' => [
