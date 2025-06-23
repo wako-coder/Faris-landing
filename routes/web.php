@@ -7,14 +7,14 @@ use Spatie\Analytics\Period;
 
 
 
-use App\Http\Middleware\HstsMiddleware;
+// use App\Http\Middleware\HstsMiddleware;
 
-Route::middleware([
-    HstsMiddleware::class,
-    // Add other middlewares like 'web' if needed
-])->group(function () {
-    require base_path('routes/web.php');
-});
+// Route::middleware([
+//     HstsMiddleware::class,
+//     // Add other middlewares like 'web' if needed
+// ])->group(function () {
+//     require base_path('routes/web.php');
+// });
 
 
 
