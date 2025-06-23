@@ -17,15 +17,17 @@ use Spatie\Analytics\Period;
 // });
 
 
-
-Route::get('/', function () {
-
-    $analytics=Analytics::fetchVisitorsAndPageViews(Period::months(6));
-
-
-    $pageperview = optional($analytics->first())['screenPageViews'] ?? 8;
-    $activeUsers = optional($analytics->first())['activeUsers'] ?? 12;
-    return view('welcome', compact('pageperview', 'activeUsers'));
+Route::middleware(['hsts'])->group(function () {
+    
+    Route::get('/', function () {
+    
+        $analytics=Analytics::fetchVisitorsAndPageViews(Period::months(6));
+    
+    
+        $pageperview = optional($analytics->first())['screenPageViews'] ?? 8;
+        $activeUsers = optional($analytics->first())['activeUsers'] ?? 12;
+        return view('welcome', compact('pageperview', 'activeUsers'));
+    });
 });
 
 Auth::routes();
