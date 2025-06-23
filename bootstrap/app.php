@@ -16,7 +16,7 @@ return Application::configure(basePath: dirname(__DIR__))
         $middleware->alias(['admin' => IsAdmin::class]);
         $middleware->alias(['track' => TrackUniqueVisitors::class]);
         $middleware->alias(['hsts' =>  \App\Http\Middleware\HstsMiddleware::class]);
-
+         $middleware->append(\Bepsvpt\SecureHeaders\SecureHeadersMiddleware::class);
 
     })
     ->withExceptions(function (Exceptions $exceptions) {
