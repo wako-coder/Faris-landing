@@ -5,6 +5,19 @@ use App\Http\Controllers\BlogController;
 use Spatie\Analytics\Facades\Analytics;
 use Spatie\Analytics\Period;
 
+
+
+use App\Http\Middleware\HstsMiddleware;
+
+Route::middleware([
+    HstsMiddleware::class,
+    // Add other middlewares like 'web' if needed
+])->group(function () {
+    require base_path('routes/web.php');
+});
+
+
+
 Route::get('/', function () {
 
     $analytics=Analytics::fetchVisitorsAndPageViews(Period::months(6));
