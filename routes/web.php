@@ -18,6 +18,7 @@ use Spatie\Analytics\Period;
 
 
 Route::middleware(['hsts'])->group(function () {
+    Auth::routes();
     
     Route::get('/', function () {
     
@@ -28,9 +29,8 @@ Route::middleware(['hsts'])->group(function () {
         $activeUsers = optional($analytics->first())['activeUsers'] ?? 12;
         return view('welcome', compact('pageperview', 'activeUsers'));
     });
-});
 
-Auth::routes();
+
 
 
 
@@ -90,3 +90,4 @@ Route::get('/research', function () {
     Route::put('/blogs/{id}', [BlogController::class, 'update'])->name('blogs.update')->middleware('auth');
     Route::delete('/blogs/{id}', [BlogController::class, 'destroy'])->name('blogs.destroy')->middleware('auth');
 
+});
