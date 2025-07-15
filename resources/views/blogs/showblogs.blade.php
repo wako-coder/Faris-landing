@@ -14,12 +14,13 @@
     <div class="blog-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".25s">
     <span class="blog-date"><i class="far fa-calendar-alt"></i> {{$blog->created_at->format('M d, Y')}}</span>
     <div class="blog-item-img">
-        @if($blog->images)
+        {{-- @if($blog->images)
             @php
                 $images = json_decode($blog->images); // Decode the JSON string into an array
             @endphp
             <img src="{{ asset('storage/' . $images[0]) }}" alt="Thumb">
-        @endif
+        @endif --}}
+        <img src="{{ asset('assets/img/summer.jpg') }}" alt="Thumb">
     </div>    
     <a href="{{ route('blogs.show', $blog->id) }}" style="text-decoration: none; color: inherit;">
         <div class="blog-item-info" style="cursor: pointer;">
